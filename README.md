@@ -1,4 +1,4 @@
-># CreateVC
+# CreateVC
 >## CreateVC Minecraft server official repository 
 >### this document is intended to provide all of the information required to join the server after installing the modpack.
 >--------------------------------------------------
