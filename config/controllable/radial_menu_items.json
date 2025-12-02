@@ -1,0 +1,46 @@
+[
+  {
+    "key": "key.playerlist",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.chat",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.screenshot",
+    "color": "YELLOW"
+  },
+  {
+    "key": "ntgl.button.ammo_select",
+    "color": "YELLOW"
+  },
+  {
+    "key": "ntgl.button.fire_select",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.firstperson.toggle.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.mute_microphone.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.push_to_talk.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.voice_chat.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "keybind.sophisticatedbackpacks.open_backpack.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "keybind.sophisticatedbackpacks.sort.custom",
+    "color": "YELLOW"
+  }
+]
