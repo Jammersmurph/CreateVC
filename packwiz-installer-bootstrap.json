@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "bootstrap": "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar",
+  "metaurl": "https://jammersmurph.github.io/CreateVC/pack.toml"
+}
