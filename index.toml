@@ -1,0 +1,177 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/fml.toml"
+hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
+
+[[files]]
+file = "config/neoforge-client.toml"
+hash = "a5f0eb38f8daf8574f7672a8393a0ab5c668d6ec6e7ae43fc8669e928786929d"
+
+[[files]]
+file = "config/neoforge-common.toml"
+hash = "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399"
+
+[[files]]
+file = "downloads/log.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "logs/debug.log"
+hash = "ed9309637b9d15da8c2b943852949c9fc7db7a6dbf47d70178c38b28fbcd908e"
+
+[[files]]
+file = "logs/latest.log"
+hash = "be7ffc2252f47a2260c49fb3798a8cbfd699d563edd2369938dffd7a7bf79c08"
+
+[[files]]
+file = "logs/telemetry/20251202-1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "options.txt"
+hash = "18c33e71e0bb5fccd230fddb3dfa7cc79e2167667fd36464b778ce8db344bbbc"
+
+[[files]]
+file = "packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
+file = "packwiz.md"
+hash = "2337f4234fb1fea936b24a73f6519c742093f03fa71071c901e77655276afe48"
+
+[[files]]
+file = "packwiz_completion.md"
+hash = "670af49a3db324969c6af1a575caaaebac7f36d8ff27cdb1285646ac0577f9cf"
+
+[[files]]
+file = "packwiz_completion_bash.md"
+hash = "01d66e19679d1bec17cfd41aa581b154c2befc9b5f18b93039a44c452863e8b5"
+
+[[files]]
+file = "packwiz_completion_fish.md"
+hash = "5809e7d8d7863f6a8465052d423f3a6b4af6f65b57b3ca7fe8ffda35b963b54f"
+
+[[files]]
+file = "packwiz_completion_powershell.md"
+hash = "bd89629a5f26fc9fcf5f518dfc7c7345cc39c0a79a6fc4597c876a6cf11f433e"
+
+[[files]]
+file = "packwiz_completion_zsh.md"
+hash = "1e9ac6ebc56f90969f93f8317c70420eedbe71489ec82cb0a25a86cf00763c0c"
+
+[[files]]
+file = "packwiz_curseforge.md"
+hash = "bfc25f1904f7c11f40e31520c8db326285405da1bacf6c573e9fd3c8c9011774"
+
+[[files]]
+file = "packwiz_curseforge_add.md"
+hash = "8e8b89bb3fd3a746bd2611cd436dd1fd9b076500e3ae754db18489729a359d60"
+
+[[files]]
+file = "packwiz_curseforge_detect.md"
+hash = "ca26b5cde3559c315e6a89648a4b6a3542e67dc395e26b67a66ddee6f856aabf"
+
+[[files]]
+file = "packwiz_curseforge_export.md"
+hash = "a5e36256291035d376168e7db2d93466dc075545efa52aa24edfab4fd5288cbd"
+
+[[files]]
+file = "packwiz_curseforge_import.md"
+hash = "0408b6ba59ae80ab87cd4e21974632b164c72e8a14e12bc2d0c750543594b098"
+
+[[files]]
+file = "packwiz_curseforge_open.md"
+hash = "47c6b640e38d499692693832861a470da1621af1729bda3079961b0a8e87ded9"
+
+[[files]]
+file = "packwiz_github.md"
+hash = "e7a64556c1fb55968fc85df6f05b99331a4ac2046f347ad07919153701bbd274"
+
+[[files]]
+file = "packwiz_github_add.md"
+hash = "48d8ec8a00491d608f9abf42b3624e37c2594840ef1e7a5968abcbd75de186c4"
+
+[[files]]
+file = "packwiz_init.md"
+hash = "f3356a1bf6ab4e85ca8a4e6fb51deba1f31147e44ea9f498d9d780218e0d4cf0"
+
+[[files]]
+file = "packwiz_list.md"
+hash = "d72939961033e04856677740da77bd7b3c6f67dc0fa7b65b3de6fec00be2131f"
+
+[[files]]
+file = "packwiz_migrate.md"
+hash = "6e9b0d1db6af5eb51c1f6b24359aee239aafdb45e96d6c026fec28a0282a6acd"
+
+[[files]]
+file = "packwiz_migrate_loader.md"
+hash = "dd4fe5a56520a26b544185446e1365e10b62eb2a36f5040a61f3661eafaecd3c"
+
+[[files]]
+file = "packwiz_migrate_minecraft.md"
+hash = "ce81bae5185344cf4384bfd03f821cab5ae10e65fd4cf11d0a52d54c3dd98f0c"
+
+[[files]]
+file = "packwiz_modrinth.md"
+hash = "ea327d84114d1f12d37d099b11972c829399a0af3105a098f0e3a09f0f7dc202"
+
+[[files]]
+file = "packwiz_modrinth_add.md"
+hash = "1c1b7f949df8d48877d4f98ff2d0f83a7e00c2318e7656894d82664a0399e25b"
+
+[[files]]
+file = "packwiz_modrinth_export.md"
+hash = "773ed573e3993786ace06da872ce3faeb9261844c4178c7411d859dfba3ac3ec"
+
+[[files]]
+file = "packwiz_pin.md"
+hash = "baca13458d1aea4405f0ac24b610719aa9279f144da97b2b49b851bd802f400b"
+
+[[files]]
+file = "packwiz_refresh.md"
+hash = "75b7f2b1411593bc211c22c2bbc0874ccb427008b1fc75e8a28433e9535b2d62"
+
+[[files]]
+file = "packwiz_rehash.md"
+hash = "acf9bc47f4503028e581ec4ff03c9a004f987006f14df9637a9adb762834c8e7"
+
+[[files]]
+file = "packwiz_remove.md"
+hash = "77d21a8aa35521390be723ddb9a5a4c60cc7b27285973113ad7af92d2dee1bfd"
+
+[[files]]
+file = "packwiz_serve.md"
+hash = "b4d22486d64373e5f50c8c67d4c08f24e3f74eb669cd01cc502b899f74a59540"
+
+[[files]]
+file = "packwiz_settings.md"
+hash = "062daa9e480660af2bbf291640be24577066bdccfe96d483e5e76a63a594d6c2"
+
+[[files]]
+file = "packwiz_settings_acceptable-versions.md"
+hash = "d0fb361f6ede15ecf6845ec5eb18a38b42c3368f3985a60e1d836ebbf7b1eec6"
+
+[[files]]
+file = "packwiz_unpin.md"
+hash = "f78c19aa3d2c72b5f424abe8b818f6b3f5810ff9555896d607ad9d65d1165fc7"
+
+[[files]]
+file = "packwiz_update.md"
+hash = "218b377499a5701dc3a9e5c80a43e6ff9a37a6324c0bf3255f1de1e3f71af24f"
+
+[[files]]
+file = "packwiz_url.md"
+hash = "fb9bd68e789286b348e6626e0a9a628f105ad5e7b68572e9185eef6f4f01716e"
+
+[[files]]
+file = "packwiz_url_add.md"
+hash = "6b5f725c315331efc47f938994df860d8ed032e77f5a437c0a2f6dd4948484d7"
+
+[[files]]
+file = "packwiz_utils.md"
+hash = "3685b02aebfcb3beb019a10afa1a2a4fcd55828e29cdb16866c4ebdea06d95ba"
+
+[[files]]
+file = "packwiz_utils_markdown.md"
+hash = "572b26761281a240e729ca3785c75c350bfafe2bfb864ba0bf789e6b1c64c27b"
