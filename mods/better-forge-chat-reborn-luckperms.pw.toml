@@ -1,0 +1,13 @@
+name = "Better Forge Chat Reborn (LuckPerms)"
+filename = "bfcrmod-1.21.1-4.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3f34f461451a0bacde7cfae4cfc27ab58ab40a14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6094982
+project-id = 1152077
