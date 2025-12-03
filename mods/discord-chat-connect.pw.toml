@@ -1,0 +1,13 @@
+name = "Discord & Chat Images"
+filename = "discord_chat_mod-neoforge-1.21.1-2.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d36bb2e24af0f2148b4e4ddeff5bfce60f75a22c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7249392
+project-id = 1198238

@@ -1,0 +1,13 @@
+name = "ReForgedPlay [replay mod on (neo)forge]"
+filename = "reforgedplaymod-1.21.1-0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0e7d8794fb81756e58d8559fc3ab88abc9b6d511"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6942967
+project-id = 1018692
