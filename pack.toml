@@ -1,0 +1,13 @@
+name = "Create VC"
+author = "Jammersmurph"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5376041ad5f9fc03f0822c7f26e5ac0e77915105f4fedbd0efa27d5dc8418bcf"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.209"
