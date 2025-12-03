@@ -1,0 +1,12 @@
+#Range: -9223372036854775808 ~ 9223372036854775807
+discordClientId = 1111111111111111111
+discordClientSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+discordBotToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#Range: 0 ~ 999999
+discordRedirectUriPort = 8000
+checkForGuildsOnJoin = []
+syncDiscordRolesOnJoin = []
+mandatoryVCChannels = []
+allowMultipleMinecraftAccountsPerDiscordAccount = false
+banDiscordAccount = true
+
