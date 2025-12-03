@@ -1,0 +1,13 @@
+name = "NeOculus"
+filename = "neoculus-mc1.21.1-1.8.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "561550dd5a4ca05bb31b90e50bc7194c263065ff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6787071
+project-id = 1200907

@@ -1,0 +1,32 @@
+
+#Sound groups configuration
+#Define reusable sound groups for mobs.
+#Format: group_name=sound1,sound2,sound3[,speedMultiplier,rangeMultiplier]
+#or: group_name=speed=VAL,range=VAL,sound1,sound2,...
+[sound_groups]
+	groups = ["wood_sounds=block.wood.break,block.wood.hit,block.wood.place,1.0,1.0", "animal_hurts=entity.cow.hurt,entity.pig.hurt"]
+
+#Mob sound reactions configuration
+#Define sound reaction settings for each mob.
+#Format: mob_id=speed=VALUE,range=VALUE,groups=group1,group2
+[mob_sound_reactions]
+	reactions = ["minecraft:zombie=speed=1.5,range=20,groups=wood_sounds", "minecraft:cow=speed=1.8,range=16,groups=animal_hurts"]
+
+[weather]
+	#Range multiplier applied when it is raining or thundering.
+	#Value between 0 and 1. A lower value will reduce the effective sound range.
+	#Range: 0.0 ~ 1.0
+	thunder_range_multiplier = 0.8
+
+#Gun type modifiers configuration (TACZ)
+#Define multipliers for mob reaction speed and range by gun type.
+#Format: gunType=speedMultiplier,rangeMultiplier
+[tacz_gun_type_modifiers]
+	modifiers = ["pistol=1.0,3.8", "sniper=1.0,8.0", "rifle=1.0,6.5", "shotgun=1.0,4.8", "smg=1.0,3.0", "rpg=1.0,10.0", "mg=1.0,4.0"]
+
+#PointBlank gun type modifiers configuration
+#Define multipliers for pointblank reaction adjustments by gun type.
+#Format: gunType=speedMultiplier,rangeMultiplier
+[pointblank_gun_type_modifiers]
+	modifiers = ["pistol=1.0,4.0", "sniper=1.0,5.0", "rifle=1.0,6.5", "shotgun=1.0,4.8", "smg=1.0,3.0", "rpg=1.0,10.0", "mg=1.0,8.0"]
+
