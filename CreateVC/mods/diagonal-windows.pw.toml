@@ -1,0 +1,13 @@
+name = "Diagonal Windows"
+filename = "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2d28a50756a297d77f0a0fb9a015f4c2c501700"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5918192
+project-id = 891328
