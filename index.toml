@@ -96,11 +96,6 @@ hash = "e8ed8e243655cb6d2026fa62280217ad0cba128d352386b53b397b1175d3d3cb"
 metafile = true
 
 [[files]]
-file = "mods/better-forge-chat-reborn-luckperms.pw.toml"
-hash = "169eb0b0ed002c75253952991aaf73b248436d7c7c1a3cf9a2adfe2865bead51"
-metafile = true
-
-[[files]]
 file = "mods/caelus.pw.toml"
 hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
@@ -451,11 +446,6 @@ hash = "47bf43b1382c3df649c7c7db0c43ffdf61fb80b642d59e98743db61fab11961d"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "682c0d78b4656d0db0a7fc83c97fc8d6a6fb67d7e55d77b2d90924c1096a80f5"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "32b9515e4f9a0ccbf91f88e67ef33319aab272e12e09e0c6b227d7be8238bfee"
 metafile = true
@@ -468,11 +458,6 @@ metafile = true
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "36a7e297b2831318190137b0fc73a8a9855f70d2f14cb8a5f6dc27360986a869"
-metafile = true
-
-[[files]]
-file = "mods/player-animation-library.pw.toml"
-hash = "8194f1c1906ecb01c08eda84a94afc5f8a99f88179569d0ebb754a423d06e775"
 metafile = true
 
 [[files]]
