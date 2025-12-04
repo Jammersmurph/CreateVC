@@ -1,6 +1,74 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "7b8d93425296e83b850216de0219d256e13bebe18b3a8f88359d28362e7b6178"
+
+[[files]]
+file = "config/fancymenu/assets/banner1-removebg-preview.png"
+hash = "1b689d77e6fbaf966fbbe5d010a967ece35158e283eb6dc6f049b574f7b4d08b"
+
+[[files]]
+file = "config/fancymenu/assets/banner1.png"
+hash = "3685a9dfe9abe7cea9c092dc0e4de9c6339ff67c8bdedb34ede272a452cb26d9"
+
+[[files]]
+file = "config/fancymenu/assets/fullbanner1.png"
+hash = "d9258bad6db693c8239b77d0d2f1f7534512449123db4945f21b17fdfbcc634b"
+
+[[files]]
+file = "config/fancymenu/assets/logo1.png"
+hash = "f4c052798ecf4c0c18c59b814b61f0233ad831365eac2e4f8aa9b3cbabdf81e0"
+
+[[files]]
+file = "config/fancymenu/assets/server-icon.png"
+hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "f6b511a2917fc2c34311a25be130ca4da815d65ac59cd203d66f7cd60f241669"
+
+[[files]]
+file = "config/fancymenu/customization/CreateVC-Layout.txt"
+hash = "d06ac52685494b5f4423a5d062c89af67ae49bfc14c7a6b897192800d9931f94"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "4f78e50cea6282a4ee3e5a84a190ce7e150c843f8e22734ce5047e3d1c63d960"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/info.txt"
+hash = "806eb0596a43a1d8deec50fbd0a1711a52c2bc5dc5982170b6fd08772828cf59"
+
+[[files]]
+file = "icon.png"
+hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
 file = "instance.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
@@ -502,6 +570,10 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "feb67f4e3a254fafda303ccdb989354524aaa29bd26f1cc0013764b9f93040d9"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "1b34706988b2413b9260ce3e1ae49d5fc37051fc7686517d1c98ddc3dbde8e89"
 
 [[files]]
 file = "servers.dat"
