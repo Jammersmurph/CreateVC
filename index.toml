@@ -403,11 +403,6 @@ hash = "680d268128db6813ccccd5ca946c35e74c5591b366ba45314f64a827b87c0bd3"
 metafile = true
 
 [[files]]
-file = "mods/mafglib.pw.toml"
-hash = "ca2e61df06471d67a45ece6990d474f114a8d4b900335b690ecdeb2af38efba5"
-metafile = true
-
-[[files]]
 file = "mods/maintenance-mode-forge-fabric-quilt.pw.toml"
 hash = "421ae73f3d143681f4b527256020513f021e37616ff6eb1aa731ae2ad7f6842a"
 metafile = true
@@ -455,11 +450,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "804736be3ded2a6f89f44522b88d82636209ed203c234ea34b6d6ffdd9ecee54"
-metafile = true
-
-[[files]]
-file = "mods/reforgedplay-mod.pw.toml"
-hash = "99b7b21225001039f903262df1571060468fad4d3994c017559586c751e314f4"
 metafile = true
 
 [[files]]
