@@ -403,6 +403,11 @@ hash = "680d268128db6813ccccd5ca946c35e74c5591b366ba45314f64a827b87c0bd3"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "0b0b8ec73c689824125ed9c568deff51b0adca52aee27e49a114b04ff3f73abe"
+metafile = true
+
+[[files]]
 file = "mods/maintenance-mode-forge-fabric-quilt.pw.toml"
 hash = "421ae73f3d143681f4b527256020513f021e37616ff6eb1aa731ae2ad7f6842a"
 metafile = true
