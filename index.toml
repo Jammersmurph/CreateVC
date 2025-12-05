@@ -5,6 +5,10 @@ file = "README.md"
 hash = "7b8d93425296e83b850216de0219d256e13bebe18b3a8f88359d28362e7b6178"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
+
+[[files]]
 file = "config/fancymenu/assets/banner1-removebg-preview.png"
 hash = "1b689d77e6fbaf966fbbe5d010a967ece35158e283eb6dc6f049b574f7b4d08b"
 
