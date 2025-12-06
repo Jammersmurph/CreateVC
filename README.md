@@ -7,7 +7,7 @@
 - 2. Once imported, open the **instance specific** settings.
 - 3. Navigate to the `<> Launch hooks` section of the settings pop-up.
 - 4. Check the `custom` box.
-- 5. In the `pre-launch` text box, enter:
+- 5. In the `Pre-launch Command` text box, enter:
 
 `java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml`
 - 6. Close the settings window.
