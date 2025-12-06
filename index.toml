@@ -25,6 +25,10 @@ file = "config/fancymenu/assets/logo1.png"
 hash = "f4c052798ecf4c0c18c59b814b61f0233ad831365eac2e4f8aa9b3cbabdf81e0"
 
 [[files]]
+file = "config/fancymenu/assets/mcbg1.png"
+hash = "1a2de784bed1b993f48c6134da5c936550a8d54f2947e00a30339cda1f0469ea"
+
+[[files]]
 file = "config/fancymenu/assets/server-icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
@@ -34,11 +38,19 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "f6b511a2917fc2c34311a25be130ca4da815d65ac59cd203d66f7cd60f241669"
+hash = "d00cb033aaf8cee4e560bef3a1c46c52aaa445c2ad47a1cdb801c9e488d7a53d"
 
 [[files]]
 file = "config/fancymenu/customization/CreateVC-Layout.txt"
-hash = "d06ac52685494b5f4423a5d062c89af67ae49bfc14c7a6b897192800d9931f94"
+hash = "1f17b597d2c20543ee3161f811ed6b808ee715eb8ae12886a1995dc4787f2f41"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "da8945b7c25dcf5300e7279c7b2a35be9225b558b925764b7a65d4dc72a62b1a"
+
+[[files]]
+file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+hash = "eadcfd110d2b7f8d7d7489b789624fad095bd8347942cc5c0e5db10bfcc7e85d"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
