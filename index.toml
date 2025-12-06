@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "7b8d93425296e83b850216de0219d256e13bebe18b3a8f88359d28362e7b6178"
+hash = "530ca1c1f2755188939ae401b12c0aa7045e7aa40013e7ebbbee3a6e2c048e1b"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
