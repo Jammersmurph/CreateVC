@@ -5,8 +5,12 @@ file = "README.md"
 hash = "7b8d93425296e83b850216de0219d256e13bebe18b3a8f88359d28362e7b6178"
 
 [[files]]
+file = "config/drippyloadingscreen/early_window_reference.properties"
+hash = "d30c9b1946a4b060da59a7184348779078fc9c41e8e2a70ce9478f40633c2197"
+
+[[files]]
 file = "config/drippyloadingscreen/options.txt"
-hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
+hash = "c78f6fd50d3b0440993961585a5b59be1f8dbe035611d1843f96ff7056ffcc04"
 
 [[files]]
 file = "config/fancymenu/assets/banner1-removebg-preview.png"
@@ -46,7 +50,7 @@ hash = "1f17b597d2c20543ee3161f811ed6b808ee715eb8ae12886a1995dc4787f2f41"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "da8945b7c25dcf5300e7279c7b2a35be9225b558b925764b7a65d4dc72a62b1a"
+hash = "b8f72f2df6e0444ffb6329a0f88b352158b207a34ef493301090f8d5ea1f9230"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
