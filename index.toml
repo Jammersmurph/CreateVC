@@ -252,6 +252,11 @@ hash = "2875724e5b15aac10acf6af0f0c111cefe64f7dbfed580ea285ef90dbde9b1ec"
 metafile = true
 
 [[files]]
+file = "mods/drippy-early-loading-module.pw.toml"
+hash = "368fe4fde8eeb1e3de62b0172bdfd8bba278793c7a46d4da8e64a7074e6dda4c"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "98e02478bc3be30b8eb4e62b8fb116a5805caea3cf557f17d36c633d840fe223"
 metafile = true
