@@ -6,3 +6,9 @@ net.minecraft.client.gui.screens.TitleScreen {
 fudge.notenoughcrashes.gui.CrashScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
