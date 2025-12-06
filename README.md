@@ -3,7 +3,7 @@
 ### Packs Located in `Releases`
 
 ## Modrinth auto-updater tutorial:
->>> - 1. Import the .mcpack file.
+- 1. Import the .mcpack file.
 - 2. Once imported, open the **instance specific** settings.
 - 3. Navigate to the `` section of the settings pop-up.
 - 4. Check the `custom` box.
