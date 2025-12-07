@@ -538,11 +538,6 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
-file = "mods/tab.pw.toml"
-hash = "e86017f12cdde4207b496067ed015641b0e2fd66724c899e1292a4686d3c917a"
-metafile = true
-
-[[files]]
 file = "mods/tacz-1-21-1.pw.toml"
 hash = "5975c1e12690d3d959e25e88728dabbd49f6f093ea31377648114fd9843f364c"
 metafile = true
