@@ -458,6 +458,11 @@ hash = "32b9515e4f9a0ccbf91f88e67ef33319aab272e12e09e0c6b227d7be8238bfee"
 metafile = true
 
 [[files]]
+file = "mods/numismatics.pw.toml"
+hash = "803cee33e53713a18f631ec6255c322815988ef4b590ee5a1187f1402111d1f9"
+metafile = true
+
+[[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "32f8d722b8e90a4ded120d3cbc7d6718d7bc2ea57a292af725978117710a6490"
 metafile = true
@@ -470,6 +475,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
+metafile = true
+
+[[files]]
+file = "mods/projecte.pw.toml"
+hash = "bdca798ffe4124bf43ea13f1fa5f0593a7539762240edb56c47b1976b413ebc4"
 metafile = true
 
 [[files]]
