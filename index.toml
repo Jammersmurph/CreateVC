@@ -93,6 +93,38 @@ file = "instance.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
 [[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/openpartiesandclaims-server.toml"
+hash = "f11457c96d3773bb3aafab138130946bd38b9597bd4b29cbb53fd6b804b0dfdd"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "b1a77bd219c205b05bce31e5837f6c505db0b1cc72b69efabfc3ed27dc1dd59d"
+
+[[files]]
+file = "kubejs/server_scripts/Scripts/claim.js"
+hash = "d0e4d57b346f6e0fc11d2d04cf9b97bf430683fd9739c85cd8e11db5643f3cb8"
+
+[[files]]
+file = "kubejs/server_scripts/Scripts/serverClaimBuy.js"
+hash = "a92b7c339a16ae7b29be5455010a3f09a58a178acba3a28620dd85be79005aca"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
