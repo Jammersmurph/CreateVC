@@ -49,12 +49,20 @@ file = "config/fancymenu/customization/CreateVC-Layout.txt"
 hash = "1f17b597d2c20543ee3161f811ed6b808ee715eb8ae12886a1995dc4787f2f41"
 
 [[files]]
+file = "config/fancymenu/customization/claim_layout.txt"
+hash = "be4d5945812f4da93c1aad853f769d1340055547a0a1341aef3859144a788e93"
+
+[[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "3452ed95afca11e6b917be3e39f2e8ff9609ba4e5cd2be6a088d93ea4da00260"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
 hash = "eadcfd110d2b7f8d7d7489b789624fad095bd8347942cc5c0e5db10bfcc7e85d"
+
+[[files]]
+file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
+hash = "059b05e0c46fe042446c28a5b1ddb94d72fa22d5832ea9982818b2f3026fb4ea"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
