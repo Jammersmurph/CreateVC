@@ -518,6 +518,11 @@ hash = "32f8d722b8e90a4ded120d3cbc7d6718d7bc2ea57a292af725978117710a6490"
 metafile = true
 
 [[files]]
+file = "mods/opac-bonus-claims.pw.toml"
+hash = "ebf498efc7d46c761dbef61bf69af37500c962fbf7d8aa8cd86f153ccb77e2b7"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "36a7e297b2831318190137b0fc73a8a9855f70d2f14cb8a5f6dc27360986a869"
 metafile = true
