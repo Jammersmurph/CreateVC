@@ -148,6 +148,10 @@ hash = "e8ed8e243655cb6d2026fa62280217ad0cba128d352386b53b397b1175d3d3cb"
 metafile = true
 
 [[files]]
+file = "mods/brassworkscore-1.9.jar"
+hash = "7491cc89a90d5572a18274b4e00cbbb13811c3608d79f8d061ff5505e2d4b0b9"
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
