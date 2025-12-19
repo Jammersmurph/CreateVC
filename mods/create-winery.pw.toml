@@ -1,13 +1,13 @@
 name = "Create: Winery"
-filename = "create_winery-1.8.0-neoforge-1.21.1.jar"
+filename = "create_winery-1.9.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "525266af351e0627d8ca7b3bb17c1558f212a3d1"
+hash = "5a0d42b8c434ca4840bc63a22374ba840e299100"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7175330
+file-id = 7330076
 project-id = 1161283
