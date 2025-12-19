@@ -628,10 +628,6 @@ hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
 metafile = true
 
 [[files]]
-file = "mods/voicechat-neoforge-1.21.1-2.6.6.jar"
-hash = "d6b030f5e217d904aaca29c6e6f1a6b7365be6931db0bd7632e6385805b498b1"
-
-[[files]]
 file = "mods/voiceless-survival.pw.toml"
 hash = "6e4805e2c0f894d829ef9c252e80bcb7ee71adaaf8cec27e403088c37e807efe"
 metafile = true
