@@ -1,0 +1,13 @@
+name = "Waddles"
+filename = "Waddles-neoforge-1.21-0.11.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LlRoNRWC/versions/OCeZdJ2x/Waddles-neoforge-1.21-0.11.1.jar"
+hash-format = "sha512"
+hash = "32aa1fc71937cf718f3db56f6821ff01e96328dfea01f465e25b6b488acf3581c3fdb9c2223c4edfbae4e61d2f68038f14815191375e966d9fd3eaaad9247d31"
+
+[update]
+[update.modrinth]
+mod-id = "LlRoNRWC"
+version = "OCeZdJ2x"
