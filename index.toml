@@ -628,6 +628,11 @@ hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
 metafile = true
 
 [[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "3e2708aea2f7537c089dd27a03dcf1f36eb52ff57a2937e809cafe179b6ffe94"
+metafile = true
+
+[[files]]
 file = "mods/voiceless-survival.pw.toml"
 hash = "6e4805e2c0f894d829ef9c252e80bcb7ee71adaaf8cec27e403088c37e807efe"
 metafile = true
