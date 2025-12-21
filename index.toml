@@ -832,6 +832,10 @@ file = "options.txt"
 hash = "1b34706988b2413b9260ce3e1ae49d5fc37051fc7686517d1c98ddc3dbde8e89"
 
 [[files]]
+file = "resourcepacks/FreshAnimations_v1.10.3.zip"
+hash = "999fbdfe9cddcbadeaaa02827f0583dc3d38d8f264146301cb88395d18df85a9"
+
+[[files]]
 file = "servers.dat"
 hash = "385b84f1aaa3257c27fa21cefaf8fec1c80f815fd46a6973fcd123df4dccfe86"
 
