@@ -528,6 +528,16 @@ hash = "41da9deeec5e9e6f3369f890a9f459d3dae3edf59c7072cb7c5dd26b953bf7d7"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "774831f9dc9f530416b2d71ed08d52502dd6ccacbe4bd0d16adbf23701ce12bc"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "c67d73440c55cc47a47ac8987da9cd01de3ad2a8f1480a304355c3e21092d2e4"
+metafile = true
+
+[[files]]
 file = "mods/etched.pw.toml"
 hash = "f2be475fad96949ff8e26e8a03046b1732935b1dbd9b8824e505e7413ec08622"
 metafile = true
