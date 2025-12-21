@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CreateVC-Updater.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
 file = "README.md"
 hash = "b674c6de401a80e4177b925ba5d4a4acb30060274d23fa7677a12b28e88d7aac"
 
@@ -93,8 +97,164 @@ file = "config/info.txt"
 hash = "806eb0596a43a1d8deec50fbd0a1711a52c2bc5dc5982170b6fd08772828cf59"
 
 [[files]]
+file = "emotes/Nyan Cat.nbs"
+hash = "2f917b54650570d195a7541a3c0c4aa7da8c1264dcc2fd5fddfe45699ef2ff37"
+
+[[files]]
+file = "emotes/kiss.json"
+hash = "3e1e615e8d7ce2118d64bd8d5273ede171c1deee67e2ac8515d868d9ae048278"
+
+[[files]]
+file = "emotes/mario jump.json"
+hash = "77e665211dbd98ba08b181a13b57734bf54c7343152245e549b1e9a1b146c988"
+
+[[files]]
+file = "emotes/northern punch stand.json"
+hash = "d76f2adb0dc1879c6a9a70b79dc4005c600590a455e5588bb0596371dcfea8c9"
+
+[[files]]
+file = "emotes/northern punch.json"
+hash = "5ea86e916e2105f1139d3b65bf4cc9bb8a863da7f98f191646e60993645d97ca"
+
+[[files]]
+file = "emotes/panic.json"
+hash = "b67049914abe491b69cbfcf98be1dab4e8fa09a2c806f3dbd54230dc80fbeb58"
+
+[[files]]
+file = "emotes/peaking.json"
+hash = "5a5eafe65e48cb702a803dc1f4904dbec55e466b9b2ed9bccd6d15dd1e002175"
+
+[[files]]
+file = "emotes/pray.json"
+hash = "d0e9e4f839733882a77676d29314fe7df37a248217eda5ad52d860d9aaf3598c"
+
+[[files]]
+file = "emotes/run.json"
+hash = "13124a217622b564baf397c18a3ee90a6ecb7269b4cdba0aa97a9bfce66ec7cc"
+
+[[files]]
+file = "emotes/sit.json"
+hash = "73314619c8b98ad68f780e6ed851024c45736944d4197fe22299b2614024e930"
+
+[[files]]
 file = "icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "immersive_paintings_cache/a3df4741-d1d3-4100-a7b9-efcaf0902208/9d55f99f1dcdbc22d373553c02599c6d.png"
+hash = "68d8ad3893a402babc68e168fa25921b11c2935902063b9fd91e12b8a767731d"
+
+[[files]]
+file = "immersive_paintings_cache/a3df4741-d1d3-4100-a7b9-efcaf0902208/9d55f99f1dcdbc22d373553c02599c6d_eighth.png"
+hash = "a065e16aec66aa3bff184ea0a0b3ff5ce2f1e55e17f327b93b69cdbac145540c"
+
+[[files]]
+file = "immersive_paintings_cache/a3df4741-d1d3-4100-a7b9-efcaf0902208/9d55f99f1dcdbc22d373553c02599c6d_half.png"
+hash = "6c5845908f4be05896607ac9e7660772e776c54930c73b5dad4c602081d0d0c4"
+
+[[files]]
+file = "immersive_paintings_cache/a3df4741-d1d3-4100-a7b9-efcaf0902208/9d55f99f1dcdbc22d373553c02599c6d_quarter.png"
+hash = "a065e16aec66aa3bff184ea0a0b3ff5ce2f1e55e17f327b93b69cdbac145540c"
+
+[[files]]
+file = "immersive_paintings_cache/a3df4741-d1d3-4100-a7b9-efcaf0902208/9d55f99f1dcdbc22d373553c02599c6d_thumbnail.png"
+hash = "f28d414a590cea1708ef86236496fd59944257b2c0d22d288a46121ce9842d52"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsairshipsalexruizart32pxpng_thumbnail.png"
+hash = "43a597eea34dce9ff3caebc768af2ac39474619678c5ff454d45d65d261e6fbe"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsautumnnostalgiatree32pxpng_thumbnail.png"
+hash = "11b2860f0cad14dbb7b9ad42134653a2840dc67f9ece2eda3c9557b2725f6b7f"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsbeyondhillanddalealenaaenami32pxpng_thumbnail.png"
+hash = "4f9a37ade6d9dddec9b1df1b3bb4bf5d9473c9c950a6cdae5e47bc2fe3561b8e"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingscalmdaysbythelakescilex32pxpng_thumbnail.png"
+hash = "a2f5bcd6c2020c2dc5e90b10e994cff436137879a256ccb60388ae20bdb83002"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingscavernsennin1332pxpng_thumbnail.png"
+hash = "d9688420c0fedaa03be80da79e374b015dd426457ac172d403a2e4cfae8e70e2"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingscthulhuandreewallin32pxpng_thumbnail.png"
+hash = "f5f946dd900b2cc18a8d937ea2e9556bceb10673cd7f4c47594c322d2779760b"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsdarkphoenixstarkiteckt32pxpng_thumbnail.png"
+hash = "9dce3a7e80542e65ad71b1d7ad01d69525f5e96f6090b50aea8e2ec669e1f296"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsdeerlandscapebyzwadher32pxpng_thumbnail.png"
+hash = "b87672a15169e0e501d802ed94d38e0d52ef3ad7d3d82cbd0cc2e23f53ceac51"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsfrostvalleyjorgejacinto32pxpng_thumbnail.png"
+hash = "3ead04e94737024fe26052481f96f137aeafb97e8e1a3e1bd72a37d508b18278"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsgothiclandscapesorokaalexej32pxpng_thumbnail.png"
+hash = "6a2ba4090f082b7b7c54bc86fb6bde7342f172acc9c6a4ec5b89c1aad8f64e5b"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingshazycastledavidfrasheski32pxpng_thumbnail.png"
+hash = "d232f457d8876eb51ed060f70d4dd1f252ed6b323b84932eac3c41534ccd87a6"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsikrannebulastarkiteckt32pxpng_thumbnail.png"
+hash = "620ba2f5f4219839d3efae53b1112fbb4a6d20b8ea5a1644d87d37116684eed7"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingslakesareltheron32pxpng_thumbnail.png"
+hash = "e64693fefd0816efff4ed04b7d94b9c2c1740915802f409a29cbb96a227d8428"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingslifeintheskyvladimirkostuchek32pxpng_thumbnail.png"
+hash = "8a24b91b57f06a5b3dee64261e311c29e7d9fae44e75fb7c070595ba944d89f2"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsnevermorejosefbarton32pxpng_thumbnail.png"
+hash = "30c036ca33c2a8177ae2a5e931c2eec94f1e16a3dfabbc3a08a81696d1407ef1"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingssmallmemorymikaelgustafsson32pxpng_thumbnail.png"
+hash = "17cf0ed94a032267d3a24b5a230910df5bdd030fb55d5228bc2448f8006791f4"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingstheancientonesjessicawoulfe32pxpng_thumbnail.png"
+hash = "377167ec221e8d760f04b7c6c3c9825141f08aa7c708b48b854ac4d492458b34"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingstheesteemedpalacechrisostrowski32pxpng_thumbnail.png"
+hash = "39461c0a517d30a055c0dae434b8c41368d7d9ecbc33ffd0157b6c44265f2f7d"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsthelostlegendxutianhua32pxpng_thumbnail.png"
+hash = "39da8262d5117542ac41aaef7813f446ab3f9e6afbbfc0151453233204211a3c"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsthetorchstarkiteckt32pxpng_thumbnail.png"
+hash = "178b05ed8143d3154c6023e048765b050dc462c72932f19e0790dcd3db11044e"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingstranquilsundaywalkscilex32pxpng_thumbnail.png"
+hash = "239bf8a973cef0711404981a2fe9e8168a4f3855239315359295d4211e9fe0ea"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsunderwatertox500032pxpng_thumbnail.png"
+hash = "4d9bd11955429929e11f6b565f5c81024811636ea6d6f48006501dafc378e748"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingsvenedigverena32pxpng_thumbnail.png"
+hash = "70e009d0aa0a4f038a21f68dc4a740a8b8190173778e695f81e27ebe72239988"
+
+[[files]]
+file = "immersive_paintings_cache/datapack/immersivepaintingspaintingswindmilltowndarekzabrocki32pxpng_thumbnail.png"
+hash = "db3821a3051a43d2e27e44f611e42872accbc49409350da625d8595c53a37a66"
 
 [[files]]
 file = "instance.png"
@@ -658,8 +818,16 @@ hash = "1b34706988b2413b9260ce3e1ae49d5fc37051fc7686517d1c98ddc3dbde8e89"
 
 [[files]]
 file = "servers.dat"
-hash = "ee632068fe3b73aeee150b7176b4da451c58eaf6579307ea7df91d327991cdc0"
+hash = "385b84f1aaa3257c27fa21cefaf8fec1c80f815fd46a6973fcd123df4dccfe86"
 
 [[files]]
 file = "servers.dat_old"
-hash = "ee632068fe3b73aeee150b7176b4da451c58eaf6579307ea7df91d327991cdc0"
+hash = "385b84f1aaa3257c27fa21cefaf8fec1c80f815fd46a6973fcd123df4dccfe86"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+hash = "33153747d25fbee470acb42ccf4f26b03cc551bb900d4c6d3389b5500dd84839"
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.3h.zip"
+hash = "b6d43bfb5ef7c26fe5727722355bf675a26eff0f2f0ffc7ad843fcf01ae80763"
