@@ -648,6 +648,11 @@ hash = "421ae73f3d143681f4b527256020513f021e37616ff6eb1aa731ae2ad7f6842a"
 metafile = true
 
 [[files]]
+file = "mods/mc-vr-api.pw.toml"
+hash = "f0e281e1e2dadfc65e6d8d3189d143120f86ec75a0cb27077e55216847df729b"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
 metafile = true
