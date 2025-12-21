@@ -563,11 +563,6 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
-file = "mods/security-craft.pw.toml"
-hash = "3fff32e2c932ccb3ed59021caf9bce518582e6bec5c623373e3bd031c73639d2"
-metafile = true
-
-[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "78e3dde88f8a9b30ab337d824238df20c54f1cd283b2c5db8511f827bb9f8e9b"
 metafile = true
