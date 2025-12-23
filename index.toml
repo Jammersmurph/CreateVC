@@ -603,11 +603,6 @@ hash = "a17d2ad6bc1592564a6bdda0c17ceb641bfe3d0842d96cd8aa3f4fbc2d1ebafe"
 metafile = true
 
 [[files]]
-file = "mods/immersivemc.pw.toml"
-hash = "767808a646774f88a4a265e78c8278c7c5aa69e2479b3dbd00ec3df14e7c01fa"
-metafile = true
-
-[[files]]
 file = "mods/jade-addons.pw.toml"
 hash = "89420f657cec1038646f75531ae388e92d27c51c84b1f121e935ae5aecf995be"
 metafile = true
