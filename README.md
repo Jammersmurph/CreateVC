@@ -2,7 +2,7 @@
 ## CreateVC server official repository
 ### Packs Located in `Releases`
 
-## Modrinth auto-updater tutorial:
+## [Modrinth auto-updater tutorial:](https://youtu.be/IV3JY-Sz39o?si=_MLi1bK--ECsRurw)
 - 1. Import the .mcpack file.
 - 2. Once imported, open the **instance specific** settings.
 - 3. Navigate to the `<> Launch hooks` section of the settings pop-up.
