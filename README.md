@@ -1,8 +1,8 @@
 # CreateVC Official Modpacks
 ## Official CreateVC server repository
-### Packs located in `Releases`
+### Packs located in [`Releases`](https://github.com/Jammersmurph/CreateVC/releases)
 
-## Modrinth auto-updater tutorial:
+## Modrinth auto-updater tutorial: [Video](https://youtu.be/IV3JY-Sz39o?si=_MLi1bK--ECsRurw)
 1. Import the .mcpack file.
 2. Once imported, open the **instance-specific** settings.
 3. Navigate to the `<> Launch hooks` section of the settings pop-up.
@@ -19,4 +19,9 @@ java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 
 ## Thank you!
 
-# [World Folders](https://github.com/Jammersmurph/CreateVC-Worlds/releases) for anyone who needs them :)
+### *[World Folders](https://github.com/Jammersmurph/CreateVC-Worlds/releases) for anyone who needs them :)*
+
+
+## Thank you!
+
+### *[World Folders](https://github.com/Jammersmurph/CreateVC-Worlds/releases) for anyone who needs them :)*
