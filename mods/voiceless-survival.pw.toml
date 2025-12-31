@@ -1,13 +1,13 @@
 name = "Voiceless Survival"
-filename = "ezvcsurvival-neoforge-1.21.1-2.0.0-beta.jar"
+filename = "Voiceless Survival-1.21.1-neoforge-2.0.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a817c0ead2a5feffe2eeeee41cf9b0a533ac1c1c"
+hash = "47c1a2b5c62c585ae1689c10fc0bfee700314d19"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7250544
+file-id = 7398255
 project-id = 1173633
