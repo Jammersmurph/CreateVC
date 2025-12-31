@@ -314,7 +314,7 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "2b4c244aa7a303dead0a1b659c25b9b9bce2ced2758ea55aca347556f7348189"
+hash = "11fa4cee80d5456e1681f8229c756d8c4aaa3ce6fcd8ab0bef62f408c95441e6"
 metafile = true
 
 [[files]]
@@ -334,7 +334,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "ccf9e64814aea3a7c29689a9f2509002976428bdb798119cb32cdbd655456a07"
+hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
 metafile = true
 
 [[files]]
@@ -409,12 +409,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "2259e97a3de21e9d29e4a351288f92334092f17d782b2e079fb8733babcad646"
+hash = "a9dad68061b69b23ba00cd93d31dc8b5622f1426b4e684aaf6022e1bd492ae56"
 metafile = true
 
 [[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "3a37f452485e16f15a044572da46c48891015ae86c78d8268cb77078e6ca4f4f"
+metafile = true
+
+[[files]]
+file = "mods/create-tfmg.pw.toml"
+hash = "232047cbbfb70ee4bb800492ba0fd4ad369b3ab4d76d179d48e6d9b0bb82b0e8"
 metafile = true
 
 [[files]]
@@ -424,7 +429,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "eb7b4a7b28d4806c7bb7a0cf84f4dca90fc5d62317573e9100542bc484a48750"
+hash = "d6043c928c34ce1f4ada544a49193f95c281665cf88d4931e73370ea02870bed"
 metafile = true
 
 [[files]]
@@ -459,7 +464,7 @@ metafile = true
 
 [[files]]
 file = "mods/discord-chat-connect.pw.toml"
-hash = "2875724e5b15aac10acf6af0f0c111cefe64f7dbfed580ea285ef90dbde9b1ec"
+hash = "1c51e249cbe3d59ec318031b6dfde95ffb3a7b6486f6b946ad9ff7acf070f425"
 metafile = true
 
 [[files]]
@@ -529,12 +534,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "774831f9dc9f530416b2d71ed08d52502dd6ccacbe4bd0d16adbf23701ce12bc"
+hash = "500bcac8f6a8b0886720e2d7b56c38282fe4ee3d1c4e33cb9c183b87f12c7dd8"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "c67d73440c55cc47a47ac8987da9cd01de3ad2a8f1480a304355c3e21092d2e4"
+hash = "73a8d2c9acc370851795fb46dae3b3cc25ffdbd045cfd793cbb7700fa78f7630"
 metafile = true
 
 [[files]]
@@ -614,7 +619,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "540706ab9db0907199fcc08ac62c8f0b291f7ce5b01a90e426f0b6c76c76b51c"
+hash = "2adc7a51ce009ed3e7c1e0d22fd71ad2c152796d8e0ab6cda1447bf89d6404bb"
 metafile = true
 
 [[files]]
@@ -644,7 +649,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "e569c2679310179fdd1cf1e4af72117c620f7d5d6776fdb9def8d60d1263d99d"
+hash = "76eb9bf27dfc86977a8c46d0c1752b39b4dea19c827c0d68faf0c28bed0768eb"
 metafile = true
 
 [[files]]
@@ -734,7 +739,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "78e3dde88f8a9b30ab337d824238df20c54f1cd283b2c5db8511f827bb9f8e9b"
+hash = "97b2aef4e58e020a28122feea6dfcef731581cb12094047aae8c1e6077c54e75"
+metafile = true
+
+[[files]]
+file = "mods/smarter-contraption-storage.pw.toml"
+hash = "6377bc86d63cb67f1608af2c8b36f8a76b2c40710a0c68a3146a457754675fac"
 metafile = true
 
 [[files]]
@@ -754,12 +764,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ec485dec0a45ec2b1865487f4f704a9c3eb05be54e67db1309a27d4f4fbe839c"
+hash = "08ae2f34e6c0c1e27717ae13cbffe3e0f8efb1dd6b7480abf8cd75f87bde145c"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9a51a08d9f91b14ac0fd2039df616ae82dbd92dcb518347e8a5d2ab8ed5e2390"
+hash = "6d755450264fa4a2afcaea38daa7be2a3f2fb3d0edad588ba7ed0cb4228b0f08"
 metafile = true
 
 [[files]]
@@ -769,7 +779,7 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-1-21-1.pw.toml"
-hash = "c4aa01a3ea8c931ae903a51a3b6808a42d48e8ef73fe1681116f9aeaecd82bd6"
+hash = "cde686a8825b60b1cf73d1847bad7b8bae498f86c0e46ee0bb23850e5dfd1ab7"
 metafile = true
 
 [[files]]
@@ -799,7 +809,7 @@ metafile = true
 
 [[files]]
 file = "mods/voiceless-survival.pw.toml"
-hash = "6e4805e2c0f894d829ef9c252e80bcb7ee71adaaf8cec27e403088c37e807efe"
+hash = "5ca5074d7db18d287f739cc73563362cbbd93b8505726b04ede01b109a1c2d6f"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Smarter Contraption Storage"
+filename = "smartercontraptionstorage-1.21.1-6.0.0-1.4.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W4wCIxSA/versions/jnehKaB7/smartercontraptionstorage-1.21.1-6.0.0-1.4.5.jar"
+hash-format = "sha512"
+hash = "a067dfeec8c5e16b91e440700839d430e8f129f3d3a24fea8c7ca59b409c9f9a8c26ac1a7765ee56fcdfaca455a0e8eba71680f1db6ce1a2cf4f8350514076ff"
+
+[update]
+[update.modrinth]
+mod-id = "W4wCIxSA"
+version = "jnehKaB7"
