@@ -202,7 +202,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 938708f7-624d-4d8a-b2bf-368fa9d925ea-1766472496828
-  [executable_action_instance:09c47fb9-8d1e-4bc3-9566-57daea756fb8-1766472561442][action_type:joinserver] = createvc.org:25565
+  [executable_action_instance:09c47fb9-8d1e-4bc3-9566-57daea756fb8-1766472561442][action_type:joinserver] = createvc.playit.plus
   [executable_block:938708f7-624d-4d8a-b2bf-368fa9d925ea-1766472496828][type:generic] = [executables:09c47fb9-8d1e-4bc3-9566-57daea756fb8-1766472561442;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
