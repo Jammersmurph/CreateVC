@@ -823,11 +823,6 @@ hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
 metafile = true
 
 [[files]]
-file = "mods/vanishmod.pw.toml"
-hash = "08b22ddf3f634e34ab38470ef3039ad521463236d6a5c6f90e8637aa5cba7c7e"
-metafile = true
-
-[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
 metafile = true
