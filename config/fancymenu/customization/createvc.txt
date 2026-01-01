@@ -44,7 +44,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = 767a8fc2-5c5b-42de-be4c-155e9fda6508-1766468006190
-  [executable_action_instance:8cab476f-c67e-4359-93cd-967e5f75e919-1766472459187][action_type:openlink] = https://discord.gg/bME7pnDkrm
+  [executable_action_instance:8cab476f-c67e-4359-93cd-967e5f75e919-1766472459187][action_type:openlink] = https://discord.gg/dQR6fJUxAM
   [executable_block:767a8fc2-5c5b-42de-be4c-155e9fda6508-1766468006190][type:generic] = [executables:8cab476f-c67e-4359-93cd-967e5f75e919-1766472459187;]
   backgroundnormal = [source:local]/config/fancymenu/assets/discord-button.png
   backgroundhovered = [source:local]/config/fancymenu/assets/discord-button-hover.png
