@@ -6,7 +6,7 @@ hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "README.md"
-hash = "a865d9b444bb7adb95958513b51e22d5758b3973def8033d1f5bc26fb3bec343"
+hash = "c67f7817e28588863ffdbbf4abb62fc00aa5c0a2fd876dd3dd14e09edbee22db"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
@@ -308,6 +308,11 @@ hash = "e8ed8e243655cb6d2026fa62280217ad0cba128d352386b53b397b1175d3d3cb"
 metafile = true
 
 [[files]]
+file = "mods/beltborne-lanterns.pw.toml"
+hash = "d3d70e5da4db57ce81b069f7b70ec241c88b2ce6e0eed2c8c3daa8d542a565a8"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
@@ -320,6 +325,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
