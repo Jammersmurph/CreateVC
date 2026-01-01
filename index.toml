@@ -877,11 +877,11 @@ hash = "999fbdfe9cddcbadeaaa02827f0583dc3d38d8f264146301cb88395d18df85a9"
 
 [[files]]
 file = "servers.dat"
-hash = "385b84f1aaa3257c27fa21cefaf8fec1c80f815fd46a6973fcd123df4dccfe86"
+hash = "056bec138a8a1a9379ef011435d3449accc200db77d814925682b6937a52ac44"
 
 [[files]]
 file = "servers.dat_old"
-hash = "385b84f1aaa3257c27fa21cefaf8fec1c80f815fd46a6973fcd123df4dccfe86"
+hash = "056bec138a8a1a9379ef011435d3449accc200db77d814925682b6937a52ac44"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
