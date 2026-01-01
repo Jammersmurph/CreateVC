@@ -25,8 +25,36 @@ file = "config/fancymenu/assets/banner1.png"
 hash = "3685a9dfe9abe7cea9c092dc0e4de9c6339ff67c8bdedb34ede272a452cb26d9"
 
 [[files]]
+file = "config/fancymenu/assets/create-vc-logo.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "config/fancymenu/assets/create-vc-smp.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/assets/createvc-smp-logo.png"
+hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
+
+[[files]]
+file = "config/fancymenu/assets/discord-button-hover.png"
+hash = "084946a11d574d7d2eeb4e3f1d89331dc844da6f690e2386dfe1bed3c8d92a86"
+
+[[files]]
+file = "config/fancymenu/assets/discord-button.png"
+hash = "6b86fe9696d45599262e5b771a94ee949dda56730a0375ae5e8aa789d7781b33"
+
+[[files]]
+file = "config/fancymenu/assets/discord-logo.png"
+hash = "15ed2ad0b3063b1146354fa900ff5d01a4122ba21016516553f83396b46b6658"
+
+[[files]]
 file = "config/fancymenu/assets/fullbanner1.png"
 hash = "d9258bad6db693c8239b77d0d2f1f7534512449123db4945f21b17fdfbcc634b"
+
+[[files]]
+file = "config/fancymenu/assets/image.png"
+hash = "8cc73efc9f90d6895511ef364c4d7991dfa817bba0ac72f362197584522f6644"
 
 [[files]]
 file = "config/fancymenu/assets/logo1.png"
@@ -37,8 +65,20 @@ file = "config/fancymenu/assets/mcbg1.png"
 hash = "1a2de784bed1b993f48c6134da5c936550a8d54f2947e00a30339cda1f0469ea"
 
 [[files]]
+file = "config/fancymenu/assets/railroads.png"
+hash = "3fe2850514890fbae6ece087868c81eb5eb945a7f3af07f83d2664ead49066e6"
+
+[[files]]
 file = "config/fancymenu/assets/server-icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "config/fancymenu/assets/train.png"
+hash = "e2d23bdeaa34e17ad9161e3ce30668b7431066355ba3fde3114840c84e6963c9"
+
+[[files]]
+file = "config/fancymenu/assets/train1.png"
+hash = "3a8683274d05d4c2bef28f2b4ec219f69b6fb40d9e7ec700d1a80bc07f0cc83d"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -50,19 +90,23 @@ hash = "d00cb033aaf8cee4e560bef3a1c46c52aaa445c2ad47a1cdb801c9e488d7a53d"
 
 [[files]]
 file = "config/fancymenu/customization/CreateVC-Layout.txt"
-hash = "1f17b597d2c20543ee3161f811ed6b808ee715eb8ae12886a1995dc4787f2f41"
+hash = "c1fefc79f9d4d387eac76910e5b853f9366c4ba5d3b00b894f8ab4a139914296"
 
 [[files]]
 file = "config/fancymenu/customization/claim_layout.txt"
 hash = "be4d5945812f4da93c1aad853f769d1340055547a0a1341aef3859144a788e93"
 
 [[files]]
+file = "config/fancymenu/customization/createvc.txt"
+hash = "9971b3cd06471b2407cad3826be1cbf31a4e8816ec7d1e23b978141a9b371e35"
+
+[[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "3452ed95afca11e6b917be3e39f2e8ff9609ba4e5cd2be6a088d93ea4da00260"
+hash = "719d9993f1829e18d9a38a698ff4ffb7c73853ff66b492d4b6d26752d58d5589"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
-hash = "eadcfd110d2b7f8d7d7489b789624fad095bd8347942cc5c0e5db10bfcc7e85d"
+hash = "b6516c615a93dd1bcaf8947891af5eeaba9aeb108a5ab958d7eee273301366a1"
 
 [[files]]
 file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
@@ -79,6 +123,38 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 [[files]]
 file = "config/fancymenu/options.txt"
 hash = "4f78e50cea6282a4ee3e5a84a190ce7e150c843f8e22734ce5047e3d1c63d960"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/overlay.png"
+hash = "e991ea23d6184f0c50ed15b73949632665a1b259974736910f10e8b54bbd4ad3"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/panorama/panorama_0.png"
+hash = "c0456f13177921c86f46b01debea0e46b501771f6be40f64a83ceddbfda4ced1"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/panorama/panorama_1.png"
+hash = "e991ea23d6184f0c50ed15b73949632665a1b259974736910f10e8b54bbd4ad3"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/panorama/panorama_2.png"
+hash = "a5d96b48d12b576830dc0632eb9e0232ab7e3c4686a666bb3bae7fa3aff13aae"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/panorama/panorama_3.png"
+hash = "9ed9a1f23cd3be8a53bfd878f19eddcb60f4269b89cac71defc355798c8a17d6"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/panorama/panorama_4.png"
+hash = "6fcdb6a3f60f1b94f2afad0fac15bb3828a26af491a43589becc3914571a0cd3"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/panorama/panorama_5.png"
+hash = "488efcb0ab4375be087c422bc53d007fd564bc2d598cacd287a2fb38c0b3724e"
+
+[[files]]
+file = "config/fancymenu/panoramas/createbackground/properties.txt"
+hash = "b0d3ffb2ed2a9d13d6fd82db5ccbb3fc8235be608d21ac4d157d8a029337a850"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
