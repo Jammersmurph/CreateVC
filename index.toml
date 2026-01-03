@@ -369,6 +369,11 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "5b786ab7a57e37ec4b8f888157f79608e871653fc4b6a8cba0296690fe863704"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
@@ -381,6 +386,11 @@ metafile = true
 [[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "e8ed8e243655cb6d2026fa62280217ad0cba128d352386b53b397b1175d3d3cb"
+metafile = true
+
+[[files]]
+file = "mods/beltborne-lanterns-accessories-layer.pw.toml"
+hash = "e1c586e8c60e89e948ef128eb87df29e863ebfbb034846c926adbe5e65eb814a"
 metafile = true
 
 [[files]]
@@ -436,6 +446,11 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "e2edf339c98dbdcf04f46a15276e9b1b5bbdeee0f1ac8b7d9bddb1ee8e54b9a1"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
 
 [[files]]
@@ -504,13 +519,18 @@ hash = "232047cbbfb70ee4bb800492ba0fd4ad369b3ab4d76d179d48e6d9b0bb82b0e8"
 metafile = true
 
 [[files]]
+file = "mods/create-threaded-trains.pw.toml"
+hash = "5b38747d6ac0f9b216885a6a1d45508354a0ab6077d72510c73b65e147210ca5"
+metafile = true
+
+[[files]]
 file = "mods/create-winery.pw.toml"
 hash = "196733aacff77babcd3c6c79a27a5ca300dd12061bb121deed56c614fa8a7723"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "d6043c928c34ce1f4ada544a49193f95c281665cf88d4931e73370ea02870bed"
+hash = "779974fc6c7b273a38bd93a26c21c2b8f5e06384516ad8ba29b6bf5fe18514cd"
 metafile = true
 
 [[files]]
@@ -556,6 +576,11 @@ metafile = true
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "98e02478bc3be30b8eb4e62b8fb116a5805caea3cf557f17d36c633d840fe223"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-lights.pw.toml"
+hash = "70f6427507c7fdac05bfaba2fabbf415c6be754d23cf02085cbb68311a82d57f"
 metafile = true
 
 [[files]]
@@ -615,7 +640,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "500bcac8f6a8b0886720e2d7b56c38282fe4ee3d1c4e33cb9c183b87f12c7dd8"
+hash = "18c768f362a1c6ab369b1bfe850927339a6fa4c3e0fb55a0bab8530eb3f949a2"
 metafile = true
 
 [[files]]
@@ -730,7 +755,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "76eb9bf27dfc86977a8c46d0c1752b39b4dea19c827c0d68faf0c28bed0768eb"
+hash = "695140fe35eab6ff221d83eb37a8dd182501db316f15a55310418e908b760cfd"
 metafile = true
 
 [[files]]
@@ -814,6 +839,11 @@ hash = "36a7e297b2831318190137b0fc73a8a9855f70d2f14cb8a5f6dc27360986a869"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
 metafile = true
@@ -849,6 +879,11 @@ hash = "97b2aef4e58e020a28122feea6dfcef731581cb12094047aae8c1e6077c54e75"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "97658372a06b324c2121668e350cd27b02428db882f7f4943182aeef3f4cca75"
+metafile = true
+
+[[files]]
 file = "mods/smarter-contraption-storage.pw.toml"
 hash = "6377bc86d63cb67f1608af2c8b36f8a76b2c40710a0c68a3146a457754675fac"
 metafile = true
@@ -875,7 +910,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "6d755450264fa4a2afcaea38daa7be2a3f2fb3d0edad588ba7ed0cb4228b0f08"
+hash = "b9e6e0aa32a969b94e98abcb6c553985a1c5235461d3b7564345b6ee3c14ffc0"
 metafile = true
 
 [[files]]
@@ -925,12 +960,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "3c9d3c4a6cf4016aebd324fd4cdf6332da89c7f41912e41f56f08c6947d66e2d"
+hash = "82cf1c80f06412c02f7a26111a91fbd82767cc8f0d0953435cb1517d86859b6a"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "feb67f4e3a254fafda303ccdb989354524aaa29bd26f1cc0013764b9f93040d9"
+hash = "255918ca6ac01843f5e2d225bfc87ede63d584290faf9f4b7c0bc2d4fc58b293"
 metafile = true
 
 [[files]]
