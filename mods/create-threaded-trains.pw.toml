@@ -1,0 +1,13 @@
+name = "Create: Threaded Trains"
+filename = "createthreadedtrains-neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1dec765e324bf968a1685a173aff5a13c11d0856"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7208558
+project-id = 1381890
