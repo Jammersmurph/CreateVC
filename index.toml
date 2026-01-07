@@ -514,16 +514,6 @@ hash = "3a37f452485e16f15a044572da46c48891015ae86c78d8268cb77078e6ca4f4f"
 metafile = true
 
 [[files]]
-file = "mods/create-tfmg.pw.toml"
-hash = "232047cbbfb70ee4bb800492ba0fd4ad369b3ab4d76d179d48e6d9b0bb82b0e8"
-metafile = true
-
-[[files]]
-file = "mods/create-threaded-trains.pw.toml"
-hash = "5b38747d6ac0f9b216885a6a1d45508354a0ab6077d72510c73b65e147210ca5"
-metafile = true
-
-[[files]]
 file = "mods/create-winery.pw.toml"
 hash = "196733aacff77babcd3c6c79a27a5ca300dd12061bb121deed56c614fa8a7723"
 metafile = true
