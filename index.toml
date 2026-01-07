@@ -485,7 +485,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-escalated.pw.toml"
-hash = "427fc2d73e185e6c1d653c87f014eaf7e009019524ba3a32602bf052e33553ec"
+hash = "453e009587d1dc000d03bd5087ecd4e4d0f1f6fa7b49768ef1ee031a4ad624a9"
 metafile = true
 
 [[files]]
@@ -506,6 +506,11 @@ metafile = true
 [[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "a9dad68061b69b23ba00cd93d31dc8b5622f1426b4e684aaf6022e1bd492ae56"
+metafile = true
+
+[[files]]
+file = "mods/create-renewable-brass.pw.toml"
+hash = "bc6106bbe89560b654a1de86c4ddac229c919f27d058eb2cf669a2a0b82ae24e"
 metafile = true
 
 [[files]]
@@ -605,7 +610,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-loot.pw.toml"
-hash = "eeccd885575c012a8d0a34fc7e8926f2e46da0e0f7389b1ed6c4904991603675"
+hash = "2bfe1523d89098c72c7072531f60eb24c6b41fea2ee294bfcb86c3c385464c08"
 metafile = true
 
 [[files]]
@@ -665,7 +670,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "689c52c2efefe8cd4489fbcee01d557d45ad339dfb02f872e1097889928eef71"
+hash = "de12d66aca2d481ce0ffe4d47d37afb5ecb0c5444ffe7dc86a79dc9ce159dc92"
 metafile = true
 
 [[files]]
@@ -675,7 +680,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "e3ae8c4681615395d7fb3373e8eb1d99d6e3f4c66703c9f18bb4a8f6cbfcd215"
+hash = "3da1b263129f79811a2e675861cf3d13573e4d6bd4fe7f114b1db27bc499503e"
 metafile = true
 
 [[files]]
@@ -690,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "402ca5410076adcf4bff4211d5d734572e0549955d3613ea0942309ec29a409b"
+hash = "e448ed8448354d972dcd3ef7c46833e58de16147fe947a969538bf80efad6de9"
 metafile = true
 
 [[files]]
@@ -710,12 +715,12 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "6b3f722168fa57e23fca5441d9b74a11194d9252625d6bf0898c4d212f99380a"
+hash = "a930b919e6edc62681559da1ebfcdf4873568ad58a0f5d9f73da0093e92ade7b"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "2adc7a51ce009ed3e7c1e0d22fd71ad2c152796d8e0ab6cda1447bf89d6404bb"
+hash = "d068154533d9a999acbb4008f7c33d307b583d2e6db7122a69fc02921ffdb411"
 metafile = true
 
 [[files]]
@@ -745,7 +750,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "695140fe35eab6ff221d83eb37a8dd182501db316f15a55310418e908b760cfd"
+hash = "f8eda13db38679d458c4906a58e8ab9fc92445f49b1b3a7ed546a5aa84bcefdf"
 metafile = true
 
 [[files]]
@@ -865,7 +870,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "97b2aef4e58e020a28122feea6dfcef731581cb12094047aae8c1e6077c54e75"
+hash = "09248b2991edcad1048358a25ca198e15d2d7cfccd4f2bfc1d1c3b0c5b8fd6ff"
 metafile = true
 
 [[files]]
@@ -895,7 +900,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "08ae2f34e6c0c1e27717ae13cbffe3e0f8efb1dd6b7480abf8cd75f87bde145c"
+hash = "05daaa140564e755b8051838665271ddb9396f11ef3a756769148332247a536b"
 metafile = true
 
 [[files]]
@@ -950,12 +955,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "82cf1c80f06412c02f7a26111a91fbd82767cc8f0d0953435cb1517d86859b6a"
+hash = "6ece72c173c16cab39e3e30429d49d19f1f88762cd0a351c4ff414d5a3f55891"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "255918ca6ac01843f5e2d225bfc87ede63d584290faf9f4b7c0bc2d4fc58b293"
+hash = "f1665e4f5c0a42d6757bfc7bbbf2d4a23a232302cc78a4ca73f1fc1504ed6441"
 metafile = true
 
 [[files]]

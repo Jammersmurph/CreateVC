@@ -1,0 +1,13 @@
+name = "Create: Renewable Brass"
+filename = "create-renewable-brass-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5d081b3d143c8162c3e72b5081b4de336b06846"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7060769
+project-id = 1357886
