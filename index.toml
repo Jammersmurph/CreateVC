@@ -919,11 +919,6 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
-file = "mods/tacz-1-21-1.pw.toml"
-hash = "cde686a8825b60b1cf73d1847bad7b8bae498f86c0e46ee0bb23850e5dfd1ab7"
-metafile = true
-
-[[files]]
 file = "mods/titanium.pw.toml"
 hash = "de4e42a8d1496f13ddd6c54f291e87e0e802c0deb08ef37daf8d2887c8657ee3"
 metafile = true
