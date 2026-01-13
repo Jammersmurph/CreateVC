@@ -475,7 +475,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "5c0f5c8f654d1c35bd36ed86e75216b84076f0a093e04bb4bd25e22a8de4fb82"
+hash = "bbdc400ecf704c24c4291a2eea9dcb95330bb9f34802237cc8238a2396974aca"
 metafile = true
 
 [[files]]
@@ -524,13 +524,18 @@ hash = "3a37f452485e16f15a044572da46c48891015ae86c78d8268cb77078e6ca4f4f"
 metafile = true
 
 [[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "19e09f411c463afb3b7d39678f33b52f718f87923832b697e16676df35c09496"
+metafile = true
+
+[[files]]
 file = "mods/create-winery.pw.toml"
 hash = "196733aacff77babcd3c6c79a27a5ca300dd12061bb121deed56c614fa8a7723"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9da22561c3a5e45beb91121518a49f2e8a62bedb332574ce43a9d9b287ebc705"
+hash = "779974fc6c7b273a38bd93a26c21c2b8f5e06384516ad8ba29b6bf5fe18514cd"
 metafile = true
 
 [[files]]
@@ -905,12 +910,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "05daaa140564e755b8051838665271ddb9396f11ef3a756769148332247a536b"
+hash = "d885c5a1e2c68ce68522ba95e6ddff9fd4ef76d16b3012374be0574081914690"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b9e6e0aa32a969b94e98abcb6c553985a1c5235461d3b7564345b6ee3c14ffc0"
+hash = "e83668eaf3adcbe4f867353b6e800805e2adc3e0f0733e9b43c991c22946359b"
 metafile = true
 
 [[files]]
@@ -935,7 +940,7 @@ metafile = true
 
 [[files]]
 file = "mods/vivecraft.pw.toml"
-hash = "3e2708aea2f7537c089dd27a03dcf1f36eb52ff57a2937e809cafe179b6ffe94"
+hash = "b4ab6c6f9fcf77250b4090d54933ea3295c574fe4d0ad639b67a02bd9eb06d9a"
 metafile = true
 
 [[files]]
