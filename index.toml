@@ -93,6 +93,18 @@ file = "config/fancymenu/customization/CreateVC-Layout.txt"
 hash = "c1fefc79f9d4d387eac76910e5b853f9366c4ba5d3b00b894f8ab4a139914296"
 
 [[files]]
+file = "config/fancymenu/customization/CreateVC-v1.txt"
+hash = "ccdd1258760a998d907b86a231d480cb95f4bd9aa8272185f48cb9bd48a5b986"
+
+[[files]]
+file = "config/fancymenu/customization/CreateVC-v2.txt"
+hash = "59731329af3a891fc3b99b03c504b5f9e0059b9af317876f299167fcbe463221"
+
+[[files]]
+file = "config/fancymenu/customization/CreateVC-v3.txt"
+hash = "57a57850081271eda60e0ce18848095c560b07a25cb269c8a48eeb9597fcc6ee"
+
+[[files]]
 file = "config/fancymenu/customization/claim_layout.txt"
 hash = "be4d5945812f4da93c1aad853f769d1340055547a0a1341aef3859144a788e93"
 
