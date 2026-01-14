@@ -89,10 +89,6 @@ file = "config/fancymenu/customizablemenus.txt"
 hash = "d00cb033aaf8cee4e560bef3a1c46c52aaa445c2ad47a1cdb801c9e488d7a53d"
 
 [[files]]
-file = "config/fancymenu/customization/CreateVC-Layout.txt"
-hash = "c1fefc79f9d4d387eac76910e5b853f9366c4ba5d3b00b894f8ab4a139914296"
-
-[[files]]
 file = "config/fancymenu/customization/CreateVC-v1.txt"
 hash = "ccdd1258760a998d907b86a231d480cb95f4bd9aa8272185f48cb9bd48a5b986"
 
@@ -107,10 +103,6 @@ hash = "57a57850081271eda60e0ce18848095c560b07a25cb269c8a48eeb9597fcc6ee"
 [[files]]
 file = "config/fancymenu/customization/claim_layout.txt"
 hash = "be4d5945812f4da93c1aad853f769d1340055547a0a1341aef3859144a788e93"
-
-[[files]]
-file = "config/fancymenu/customization/createvc.txt"
-hash = "60eb16d1f988537353bccf596088708990050b7f0b036b2f6cbdfbe7fdc86615"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -483,11 +475,6 @@ metafile = true
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "6a5638b1888c9c882ea5cd45bc93aab958a50fd302cb7e9af3c807a2b46c9497"
-metafile = true
-
-[[files]]
-file = "mods/create-encased.pw.toml"
-hash = "bbdc400ecf704c24c4291a2eea9dcb95330bb9f34802237cc8238a2396974aca"
 metafile = true
 
 [[files]]
