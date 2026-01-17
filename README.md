@@ -1,5 +1,5 @@
 # CreateVC Official Modpacks here.
-## CreateVC server official repository
+## CreateVC [Discord Server](https://discord.gg/dQR6fJUxAM)
 ### Packs Located in [`Releases`](https://github.com/Jammersmurph/CreateVC/releases)
 
 ## [Modrinth auto-updater tutorial:](https://youtu.be/IV3JY-Sz39o?si=_MLi1bK--ECsRurw)
