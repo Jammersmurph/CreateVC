@@ -89,14 +89,6 @@ file = "config/fancymenu/customizablemenus.txt"
 hash = "d00cb033aaf8cee4e560bef3a1c46c52aaa445c2ad47a1cdb801c9e488d7a53d"
 
 [[files]]
-file = "config/fancymenu/customization/CreateVC-v1.txt"
-hash = "ccdd1258760a998d907b86a231d480cb95f4bd9aa8272185f48cb9bd48a5b986"
-
-[[files]]
-file = "config/fancymenu/customization/CreateVC-v2.txt"
-hash = "59731329af3a891fc3b99b03c504b5f9e0059b9af317876f299167fcbe463221"
-
-[[files]]
 file = "config/fancymenu/customization/CreateVC-v3.txt"
 hash = "57a57850081271eda60e0ce18848095c560b07a25cb269c8a48eeb9597fcc6ee"
 
