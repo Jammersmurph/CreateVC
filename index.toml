@@ -93,20 +93,8 @@ file = "config/fancymenu/customization/CreateVC-v3.txt"
 hash = "57a57850081271eda60e0ce18848095c560b07a25cb269c8a48eeb9597fcc6ee"
 
 [[files]]
-file = "config/fancymenu/customization/claim_layout.txt"
-hash = "be4d5945812f4da93c1aad853f769d1340055547a0a1341aef3859144a788e93"
-
-[[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "719d9993f1829e18d9a38a698ff4ffb7c73853ff66b492d4b6d26752d58d5589"
-
-[[files]]
-file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
-hash = "b6516c615a93dd1bcaf8947891af5eeaba9aeb108a5ab958d7eee273301366a1"
-
-[[files]]
-file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
-hash = "059b05e0c46fe042446c28a5b1ddb94d72fa22d5832ea9982818b2f3026fb4ea"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -466,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "6a5638b1888c9c882ea5cd45bc93aab958a50fd302cb7e9af3c807a2b46c9497"
+hash = "b4cb9f000ce5f219a468cbc3062314acf6c72c82999720d08a5422d051c617d2"
 metafile = true
 
 [[files]]
@@ -505,11 +493,6 @@ hash = "a9dad68061b69b23ba00cd93d31dc8b5622f1426b4e684aaf6022e1bd492ae56"
 metafile = true
 
 [[files]]
-file = "mods/create-renewable-brass.pw.toml"
-hash = "bc6106bbe89560b654a1de86c4ddac229c919f27d058eb2cf669a2a0b82ae24e"
-metafile = true
-
-[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "3a37f452485e16f15a044572da46c48891015ae86c78d8268cb77078e6ca4f4f"
 metafile = true
@@ -521,7 +504,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-winery.pw.toml"
-hash = "196733aacff77babcd3c6c79a27a5ca300dd12061bb121deed56c614fa8a7723"
+hash = "63c101615edb2411ac5fbaf98ddf3fb673061f107e08ae21e505fb62c666c3a8"
 metafile = true
 
 [[files]]
@@ -671,7 +654,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "de12d66aca2d481ce0ffe4d47d37afb5ecb0c5444ffe7dc86a79dc9ce159dc92"
+hash = "996d66fb572b0cb3f26783d5ad352278276ccfde81670c03a91a0545216bd748"
 metafile = true
 
 [[files]]
@@ -691,7 +674,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "c595b64a055d987de9d4ce6156c88eec58cf1b1ade849ff11731307f64a60941"
+hash = "93baed73221d6a93950cbdc080a2dc53cb07ec2de9bcd8478071e4644068739d"
 metafile = true
 
 [[files]]
@@ -731,7 +714,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "7fbe3225c134e823a07f3aecedace39fe866f327671ecca928f134399b94008d"
+hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
 metafile = true
 
 [[files]]
@@ -751,7 +734,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "f8eda13db38679d458c4906a58e8ab9fc92445f49b1b3a7ed546a5aa84bcefdf"
+hash = "a81a038a91f8106f5f9289edbbe5ac4fa6c128267800fa52f301961c2b3ec379"
 metafile = true
 
 [[files]]
@@ -796,7 +779,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "97521b85e74dfbc642b9102a46be0cdda07b9cfe36aba027a3878054f93ccfcb"
+hash = "161318b6de204d2528485fe7e401ce522f0be1d62eb5e15b9ac2ba10caf0771a"
+metafile = true
+
+[[files]]
+file = "mods/modflared.pw.toml"
+hash = "112c4664762b3a07df2c24c7fad06b6cd64f535d82746b2e17eeb4dc1c95fc69"
 metafile = true
 
 [[files]]
@@ -851,7 +839,7 @@ metafile = true
 
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
-hash = "b1e0e7bf562eb6a1eb939835c19bbc56c46d209eeba8f2b766c0ad39676a389a"
+hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
 metafile = true
 
 [[files]]
@@ -906,7 +894,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e83668eaf3adcbe4f867353b6e800805e2adc3e0f0733e9b43c991c22946359b"
+hash = "2459c0c16e25260ea522cab5ff989ed848e4b985c04fcccb88bc48043d23c544"
 metafile = true
 
 [[files]]
