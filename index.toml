@@ -197,6 +197,10 @@ file = "emotes/sit.json"
 hash = "73314619c8b98ad68f780e6ed851024c45736944d4197fe22299b2614024e930"
 
 [[files]]
+file = "fancymenu_data/last_world.fmdata"
+hash = "489d3cb9d45b3b44085788f974ffbd56695e49a8af177401be4dfb35952fd3f8"
+
+[[files]]
 file = "icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
