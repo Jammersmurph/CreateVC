@@ -361,14 +361,6 @@ file = "merge.sh"
 hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
 
 [[files]]
-file = "modflared/bin/cloudflared-linux-amd64"
-hash = "0c3de409287cc60264cd59a285c434a243ec6d1d79ff39dc8d36b716f9dda7ef"
-
-[[files]]
-file = "modflared/bin/version.json"
-hash = "1fedc6f34490719dc01259fc3249e6458330fc21fbdb451f146973ac1cb625cc"
-
-[[files]]
 file = "mods/accessories.pw.toml"
 hash = "5b786ab7a57e37ec4b8f888157f79608e871653fc4b6a8cba0296690fe863704"
 metafile = true
