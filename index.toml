@@ -6,7 +6,7 @@ hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "README.md"
-hash = "c67f7817e28588863ffdbbf4abb62fc00aa5c0a2fd876dd3dd14e09edbee22db"
+hash = "d7c7b798ca4af968f55852a54d691bdbce5c7b8c659622ac48b8a77180d8b4be"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
@@ -353,6 +353,10 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
+file = "merge.sh"
+hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "5b786ab7a57e37ec4b8f888157f79608e871653fc4b6a8cba0296690fe863704"
 metafile = true
@@ -404,7 +408,7 @@ metafile = true
 
 [[files]]
 file = "mods/comforts.pw.toml"
-hash = "531d3dd3deb7479e3fd1496a7c2db8606bc7affa33fc57eccddc9904c0ac559e"
+hash = "b66c76dd9148686b0bccc5166839892b2442197504510bd9cca1306755a18ad1"
 metafile = true
 
 [[files]]
@@ -957,11 +961,11 @@ hash = "999fbdfe9cddcbadeaaa02827f0583dc3d38d8f264146301cb88395d18df85a9"
 
 [[files]]
 file = "servers.dat"
-hash = "056bec138a8a1a9379ef011435d3449accc200db77d814925682b6937a52ac44"
+hash = "f331c8e2d321ce6e3c47fb97e5f5f4efcc0766d050a1ce2c24c5f7d145e50079"
 
 [[files]]
 file = "servers.dat_old"
-hash = "056bec138a8a1a9379ef011435d3449accc200db77d814925682b6937a52ac44"
+hash = "1f4d800ff82ed09e4b52f0a820042332b40dd228eb57386ff7eaa60e33c80e7d"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
