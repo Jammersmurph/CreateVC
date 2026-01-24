@@ -1,0 +1,8 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:Latest Death:D:1390:63:-394:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Woodland Mansion:W:-677:189:-3104:1:false:0:gui.xaero_default:false:0:1:false
+waypoint:gui.xaero_deathpoint:D:-1474:72:-902:0:false:1:gui.xaero_default:false:0:1:true
+waypoint:gui.xaero_deathpoint_old:D:-1582:37:-924:0:false:2:gui.xaero_default:false:0:1:true
+waypoint:gui.xaero_deathpoint_old:D:-486:69:-3598:0:false:2:gui.xaero_default:false:0:1:true
