@@ -367,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
+hash = "9cba3cb68a8d5b671364681dc6f66551fe5f1cb7daa16e74201557d7604b19ee"
 metafile = true
 
 [[files]]
@@ -377,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "e8ed8e243655cb6d2026fa62280217ad0cba128d352386b53b397b1175d3d3cb"
+hash = "12f240d6dde74a5daf9b970eaf3df32c7e76731fd3eb43622effc43df9a7cf18"
 metafile = true
 
 [[files]]
@@ -387,7 +387,7 @@ metafile = true
 
 [[files]]
 file = "mods/beltborne-lanterns.pw.toml"
-hash = "d3d70e5da4db57ce81b069f7b70ec241c88b2ce6e0eed2c8c3daa8d542a565a8"
+hash = "090b3fa8ad84512e946384cc7aabaf84b0aa0e7c30a350b2f8d6312fb8714b66"
 metafile = true
 
 [[files]]
@@ -418,6 +418,16 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
+metafile = true
+
+[[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "aa242da373359065cb62d8e1094e2f17b456f3ea300db145896cf6c6aae43101"
 metafile = true
 
 [[files]]
@@ -452,7 +462,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "64f8e839da919268f5ecdf1df17f466c08befa6048f8b2cadf8897b126fb0976"
+hash = "f83128225aba20188ce3e68aa5985d97c9f9be402546d6220886e3b97047d000"
 metafile = true
 
 [[files]]
@@ -512,7 +522,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-winery.pw.toml"
-hash = "63c101615edb2411ac5fbaf98ddf3fb673061f107e08ae21e505fb62c666c3a8"
+hash = "5db0a7a9a4e73fd06be846d1bdbc3aeee59805faa1d7abea0a0d3c18311dfce2"
 metafile = true
 
 [[files]]
@@ -522,7 +532,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "90bf9f547b4c3c76873d51f13c355f769e5043691f56d3a8744bad10ab0fd70c"
+hash = "7aa0060e5df8631d27a789d73eb57d67c611b95be5bce4175810351e9479ae60"
 metafile = true
 
 [[files]]
@@ -627,7 +637,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "18c768f362a1c6ab369b1bfe850927339a6fa4c3e0fb55a0bab8530eb3f949a2"
+hash = "985b74e451dce434d27da73f711e365a874e7451220d574223555e888c518b1c"
 metafile = true
 
 [[files]]
@@ -657,12 +667,17 @@ metafile = true
 
 [[files]]
 file = "mods/ferritecore.pw.toml"
-hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
+hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "b5d7571bff8454770fcbba30a4c90d8f020e84d626c731f92d46dc9ecea34d85"
 metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "996d66fb572b0cb3f26783d5ad352278276ccfde81670c03a91a0545216bd748"
+hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
 metafile = true
 
 [[files]]
@@ -707,7 +722,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a930b919e6edc62681559da1ebfcdf4873568ad58a0f5d9f73da0093e92ade7b"
+hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
 metafile = true
 
 [[files]]
@@ -742,7 +757,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "a81a038a91f8106f5f9289edbbe5ac4fa6c128267800fa52f301961c2b3ec379"
+hash = "6c8c188ec9cd847b4ce13aa6cde0b38bbf29476d9eaaf4b6bbebc1f22416ddce"
 metafile = true
 
 [[files]]
@@ -902,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "2459c0c16e25260ea522cab5ff989ed848e4b985c04fcccb88bc48043d23c544"
+hash = "9f52eb8154d0309ad03f3e7ee4730ddc325938b64edd018a0f0633d3b62197c1"
 metafile = true
 
 [[files]]
