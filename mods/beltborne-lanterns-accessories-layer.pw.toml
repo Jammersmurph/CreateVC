@@ -1,13 +1,13 @@
 name = "Beltborne Lanterns: Accessories Layer"
-filename = "bl_accessories_layer-1.0.4-neoforge+1.21.1.jar"
+filename = "bl_accessories_layer-1.2.0-neoforge+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/geZ7ilkE/versions/FULpaZE0/bl_accessories_layer-1.0.4-neoforge%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/geZ7ilkE/versions/r6AMuYa2/bl_accessories_layer-1.2.0-neoforge%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "eb035404a0ab03bc05483af96d7fbe24c08eaefce5c80932a52a0c73b8155b5227b2953c229b78e8c6d8b527d808d34699267b789dddbb8107bd971263b18a6d"
+hash = "e3e445c24700e087f31528c85fdc0ff0191270a252302c30f5b5c9671e48b791e0ecc350f5fd0e901bf345192ffc016190e6aeed0afd728ff33a56a1c74b8382"
 
 [update]
 [update.modrinth]
 mod-id = "geZ7ilkE"
-version = "FULpaZE0"
+version = "r6AMuYa2"
