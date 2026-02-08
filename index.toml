@@ -362,7 +362,7 @@ hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "5b786ab7a57e37ec4b8f888157f79608e871653fc4b6a8cba0296690fe863704"
+hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
@@ -427,7 +427,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "aa242da373359065cb62d8e1094e2f17b456f3ea300db145896cf6c6aae43101"
+hash = "c2886290bb5b8fbfd2378434ca850141d93f609b39e47fe9b557ef64a869f861"
 metafile = true
 
 [[files]]
@@ -462,7 +462,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "f83128225aba20188ce3e68aa5985d97c9f9be402546d6220886e3b97047d000"
+hash = "3193eadd1b5129f83987593b5abc03a301b962e7da217a15d5e575646711db46"
 metafile = true
 
 [[files]]
@@ -676,7 +676,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "b5d7571bff8454770fcbba30a4c90d8f020e84d626c731f92d46dc9ecea34d85"
+hash = "e7d3ceeeace4ddfb8c2e3912609170e22999824d899167b9f224afd0655fdfb8"
 metafile = true
 
 [[files]]
@@ -701,7 +701,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "93baed73221d6a93950cbdc080a2dc53cb07ec2de9bcd8478071e4644068739d"
+hash = "0b7687a29b0dd4400e6c2db295a81b9543c7275674f8b357f57dc64b9d5f49be"
 metafile = true
 
 [[files]]
@@ -716,7 +716,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
-hash = "a17d2ad6bc1592564a6bdda0c17ceb641bfe3d0842d96cd8aa3f4fbc2d1ebafe"
+hash = "d480787d9c86b5abe27284195ace63101ac1ccea7f2cb39649b4dcd172932e7e"
+metafile = true
+
+[[files]]
+file = "mods/immersive-portals-neoforge.pw.toml"
+hash = "ac0f4ecde3f081c4b951981b3d2ea8c08b49e61399b13a91e23d84c59306cac1"
 metafile = true
 
 [[files]]
@@ -916,12 +921,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d885c5a1e2c68ce68522ba95e6ddff9fd4ef76d16b3012374be0574081914690"
+hash = "4e9b701c61c6c7d7f4b68218e4a2343ec4995d8f3f48218ed59e6929110881e2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9f52eb8154d0309ad03f3e7ee4730ddc325938b64edd018a0f0633d3b62197c1"
+hash = "2a874f7b31836c3d8480a79653d4a8f03056e5cbb9a2272bbf92800425cc237b"
 metafile = true
 
 [[files]]
@@ -966,12 +971,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "6ece72c173c16cab39e3e30429d49d19f1f88762cd0a351c4ff414d5a3f55891"
+hash = "8427c7b5bcb17f1af56baf95ee64753b5c1e300940202e4992717c526a912ba6"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "f1665e4f5c0a42d6757bfc7bbbf2d4a23a232302cc78a4ca73f1fc1504ed6441"
+hash = "2907faf8203252027068577211316b5776181ab9ac87fb772c24caf08c677aa7"
 metafile = true
 
 [[files]]
