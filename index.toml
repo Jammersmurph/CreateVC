@@ -661,7 +661,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "f407238ae37effcd669f828b80a7246e805bc099b4848cd550b1d2d428fea78b"
+hash = "caa3b01c9062f619f8f07ad73c853f574c0652bb95bf68f1e22e771f951fa01a"
 metafile = true
 
 [[files]]
@@ -686,7 +686,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "2e8d41553147e5470a9f31303cb440f106cefde0dfc13c30cf69b8248b70644c"
+hash = "aaa5d15a2ebf6ae368561fc49d7994ffa5084138942095cb4ded4c8921189437"
 metafile = true
 
 [[files]]
@@ -711,7 +711,7 @@ metafile = true
 
 [[files]]
 file = "mods/hypertubes.pw.toml"
-hash = "372eb20ef958e81c0741a1c76654d55389ce6702cc38adb8bc9804c2da489386"
+hash = "288c37b7acf5a32bd60901c411acf9ef2fffebb3f46c3f607415256ce91d653c"
 metafile = true
 
 [[files]]
@@ -886,7 +886,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "09248b2991edcad1048358a25ca198e15d2d7cfccd4f2bfc1d1c3b0c5b8fd6ff"
+hash = "15c145ff1f48e22759871c48775951ade48bc1875b2acc9f88c23b78537c596a"
 metafile = true
 
 [[files]]
@@ -916,12 +916,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "4e9b701c61c6c7d7f4b68218e4a2343ec4995d8f3f48218ed59e6929110881e2"
+hash = "e178f3f4b0127ef4e9b3e14767ddfb473117c6df72eb8042c995ad232d97558f"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "2a874f7b31836c3d8480a79653d4a8f03056e5cbb9a2272bbf92800425cc237b"
+hash = "859f2071566cbe1cda43dd80839667a7f3a6b927c1b06029100f3e35183c74fd"
 metafile = true
 
 [[files]]
@@ -946,7 +946,7 @@ metafile = true
 
 [[files]]
 file = "mods/vivecraft.pw.toml"
-hash = "b4ab6c6f9fcf77250b4090d54933ea3295c574fe4d0ad639b67a02bd9eb06d9a"
+hash = "77a2b77a161dc6f794ac5efb0358dab8b8bb41bea24a9304a93a1d92669fed5d"
 metafile = true
 
 [[files]]
@@ -966,12 +966,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "8427c7b5bcb17f1af56baf95ee64753b5c1e300940202e4992717c526a912ba6"
+hash = "85d6b116578d44c074435499759f7be6090f1b2c131f129ae3127939591c1b78"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "2907faf8203252027068577211316b5776181ab9ac87fb772c24caf08c677aa7"
+hash = "01562e27f0c92ebf98eb6aaaace3c14fef18c734a6c65bda8101b8d3c640e12f"
 metafile = true
 
 [[files]]
