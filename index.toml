@@ -426,11 +426,6 @@ hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
-hash = "c2886290bb5b8fbfd2378434ca850141d93f609b39e47fe9b557ef64a869f861"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
 metafile = true
@@ -651,10 +646,6 @@ hash = "f2be475fad96949ff8e26e8a03046b1732935b1dbd9b8824e505e7413ec08622"
 metafile = true
 
 [[files]]
-file = "mods/fairylights-1.1.2+1.21.1_fabric.jar"
-hash = "3455d4ee0c338157b97d0ec0a506559d46584dc3364878ec899442dd6cb2608d"
-
-[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "2d7e927b0efdc5e79a50505151975605b355d14d7da2a475aa8a767697911651"
 metafile = true
@@ -673,10 +664,6 @@ metafile = true
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar"
-hash = "c98b7d44a64348311b9be1a6a5565c0027590dbdb08a21817cb2347393b14c4e"
 
 [[files]]
 file = "mods/framework.pw.toml"
