@@ -836,9 +836,8 @@ hash = "804736be3ded2a6f89f44522b88d82636209ed203c234ea34b6d6ffdd9ecee54"
 metafile = true
 
 [[files]]
-file = "mods/refurbished-furniture.pw.toml"
-hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
-metafile = true
+file = "mods/refurbished_furniture-neoforge-1.21.1-1.0.20.jar"
+hash = "d2fad0e9f710de93c247cdc79e6eb486ccb4b6cdc55e29a2373f54cb6900f0ac"
 
 [[files]]
 file = "mods/rhino.pw.toml"
