@@ -556,16 +556,6 @@ hash = "1c51e249cbe3d59ec318031b6dfde95ffb3a7b6486f6b946ad9ff7acf070f425"
 metafile = true
 
 [[files]]
-file = "mods/drippy-early-loading-module.pw.toml"
-hash = "368fe4fde8eeb1e3de62b0172bdfd8bba278793c7a46d4da8e64a7074e6dda4c"
-metafile = true
-
-[[files]]
-file = "mods/drippy-loading-screen.pw.toml"
-hash = "98e02478bc3be30b8eb4e62b8fb116a5805caea3cf557f17d36c633d840fe223"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-lights.pw.toml"
 hash = "70f6427507c7fdac05bfaba2fabbf415c6be754d23cf02085cbb68311a82d57f"
 metafile = true
