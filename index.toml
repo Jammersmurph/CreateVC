@@ -396,6 +396,11 @@ hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "47e9b46467cef24a838b55407bb7e7679d7c70574a0ac992bc9d31609e833458"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
@@ -487,7 +492,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-mobile-packages.pw.toml"
-hash = "693fa0a7818255f6bd0f64dac46bd3f306d4f180f3c201ce6bbf58692e7b9b3e"
+hash = "99f56a5bcf5920d290422ca9bfcdd6d210f6e65f2dc47788af52b6816f701d33"
 metafile = true
 
 [[files]]
@@ -507,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ultimate-factory.pw.toml"
-hash = "19e09f411c463afb3b7d39678f33b52f718f87923832b697e16676df35c09496"
+hash = "0ad37c7e88d98bb14dda3b148c0c263ea807ebecd729dcdb7f2c307a5e6cd3fa"
 metafile = true
 
 [[files]]
@@ -622,7 +627,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "73a8d2c9acc370851795fb46dae3b3cc25ffdbd045cfd793cbb7700fa78f7630"
+hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
 metafile = true
 
 [[files]]
@@ -737,7 +742,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
-hash = "964a932d5ea6c63b79b89693438a37d729e205e015500289e272f4d5aba38bde"
+hash = "de4007e4d9e63f4470c442bc9b568c2c5b6d93970ac881068cccde432ca0058c"
 metafile = true
 
 [[files]]
@@ -891,7 +896,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "859f2071566cbe1cda43dd80839667a7f3a6b927c1b06029100f3e35183c74fd"
+hash = "07d8dfc0cb0629f19531584d071c781c0185087efcd738c9190a9690a317d94d"
 metafile = true
 
 [[files]]
@@ -916,7 +921,7 @@ metafile = true
 
 [[files]]
 file = "mods/vivecraft.pw.toml"
-hash = "77a2b77a161dc6f794ac5efb0358dab8b8bb41bea24a9304a93a1d92669fed5d"
+hash = "4c29cc5413defed719ada54337138d4cbc19e16e5e4d85bc702a66e3f496344a"
 metafile = true
 
 [[files]]
