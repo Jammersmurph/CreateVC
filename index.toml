@@ -506,6 +506,11 @@ hash = "a9dad68061b69b23ba00cd93d31dc8b5622f1426b4e684aaf6022e1bd492ae56"
 metafile = true
 
 [[files]]
+file = "mods/create-oxidized.pw.toml"
+hash = "cde568a867601aaf6b779b6565bf2ed19f127fa1415f8d68f30b25b2dc70de42"
+metafile = true
+
+[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "3a37f452485e16f15a044572da46c48891015ae86c78d8268cb77078e6ca4f4f"
 metafile = true
@@ -633,6 +638,11 @@ metafile = true
 [[files]]
 file = "mods/etched.pw.toml"
 hash = "f2be475fad96949ff8e26e8a03046b1732935b1dbd9b8824e505e7413ec08622"
+metafile = true
+
+[[files]]
+file = "mods/fairy-lights-neoforge.pw.toml"
+hash = "66c06bc29b7512631024f9d1c0d7219b907ab6ef983e7dace405e0a52c3135b7"
 metafile = true
 
 [[files]]
