@@ -841,6 +841,11 @@ hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
 
 [[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
 metafile = true
@@ -958,6 +963,10 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "01562e27f0c92ebf98eb6aaaace3c14fef18c734a6c65bda8101b8d3c640e12f"
 metafile = true
+
+[[files]]
+file = "mods/xlpackets-1.0.5-1.21.jar"
+hash = "abb16ebdb2f23ea24294751e890e22604599b6b2c86a83c7a0a2a41d44773c37"
 
 [[files]]
 file = "options.txt"
