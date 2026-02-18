@@ -965,10 +965,6 @@ hash = "01562e27f0c92ebf98eb6aaaace3c14fef18c734a6c65bda8101b8d3c640e12f"
 metafile = true
 
 [[files]]
-file = "mods/xlpackets-1.0.5-1.21.jar"
-hash = "abb16ebdb2f23ea24294751e890e22604599b6b2c86a83c7a0a2a41d44773c37"
-
-[[files]]
 file = "options.txt"
 hash = "1b34706988b2413b9260ce3e1ae49d5fc37051fc7686517d1c98ddc3dbde8e89"
 
