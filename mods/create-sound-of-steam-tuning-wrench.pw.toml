@@ -1,0 +1,13 @@
+name = "Create: Sound of Steam: Tuning Wrench"
+filename = "tuningwrench-1.1.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Nz9jiNeA/versions/eSBB1Bvs/tuningwrench-1.1.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "5382a293f06c6b1501000c43e41d949d2fd078812a1a3523d2b06e1c94749c57b5fe7a798a0060a3478c96d420820fb11f25d4f3f3b8380823e310e41216e99e"
+
+[update]
+[update.modrinth]
+mod-id = "Nz9jiNeA"
+version = "eSBB1Bvs"
