@@ -1,13 +1,13 @@
 name = "Fairy Lights (Neoforge)"
-filename = "fairylights-8.0.7-neoforge-1.21.1.jar"
+filename = "fairylights-8.0.8-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "06baf17759faa8bbedc301ab60d47c360d1f5fa2"
+hash = "aabc928992f4cdb73d5de94093e003f63d0db468"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7589646
+file-id = 7700191
 project-id = 1429552
