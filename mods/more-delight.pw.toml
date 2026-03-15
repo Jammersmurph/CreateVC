@@ -1,0 +1,13 @@
+name = "More Delight (for Farmer's Delight)"
+filename = "moredelight-25.07.28a-1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/znHQQtuU/versions/Fe9UVuq7/moredelight-25.07.28a-1.21-neoforge.jar"
+hash-format = "sha512"
+hash = "ff06be5cfc5503551de99b9d85dffa8068d0a303d110c894d081c2fefa1ef550d9faae2adea5902accd78f52ba0d07562bc716f798f83465f0bd267d32fb1acc"
+
+[update]
+[update.modrinth]
+mod-id = "znHQQtuU"
+version = "Fe9UVuq7"

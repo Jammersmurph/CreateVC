@@ -1,0 +1,13 @@
+name = "Create: Unlimited Logistics"
+filename = "createunlimitedlogistics-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6J6KHZBf/versions/VUopkqc0/createunlimitedlogistics-1.2.1.jar"
+hash-format = "sha512"
+hash = "7060355f011f752cc14eb574b43eabb2b4fc3f272805eadfdae7767a9d23ce9cc11aaba21c667a0cf548ea3d770ae44aefdb71b25891b9e6b8fc30d55fd32bca"
+
+[update]
+[update.modrinth]
+mod-id = "6J6KHZBf"
+version = "VUopkqc0"

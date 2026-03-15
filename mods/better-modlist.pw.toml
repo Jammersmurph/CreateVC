@@ -1,0 +1,13 @@
+name = "Better ModList"
+filename = "better_modlist-1.1.22.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sbpqhzIG/versions/XlCN7NWa/better_modlist-1.1.22.jar"
+hash-format = "sha512"
+hash = "99b39ffaaa04c0332602174c4b65445b3defdc6db1dc0a881b7c4bcd477734994d41d9a74bc5dc7066f8feeddc5075f62f926eb3ecabad135c7d381181ada1a9"
+
+[update]
+[update.modrinth]
+mod-id = "sbpqhzIG"
+version = "XlCN7NWa"

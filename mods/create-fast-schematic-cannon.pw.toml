@@ -1,0 +1,13 @@
+name = "Create: Fast Schematic Cannon"
+filename = "CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DebMSCVn/versions/e70DdjWe/CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "87f7522b54b8cfaf0c1c5b2265b796d05ddc4234e1143bbc1c7c1e853e6c0a5183e077a5d929b4b4b0db40468d6b0149a46be9ef9b0d02827e6025fd448a1fb6"
+
+[update]
+[update.modrinth]
+mod-id = "DebMSCVn"
+version = "e70DdjWe"

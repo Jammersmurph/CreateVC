@@ -1,0 +1,13 @@
+name = "Create Configured"
+filename = "create_configured-1.3.2a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TFEgPM26/versions/LxQ24guq/create_configured-1.3.2a.jar"
+hash-format = "sha512"
+hash = "ce80d06f230ed93590be96b9f1c7b6b6e54fcd1b5d3aa417fab3d5fb1ace304f89fef3a254a8c7e9947ed81593a05410d29668bdb6da06220eff0d7bce80194d"
+
+[update]
+[update.modrinth]
+mod-id = "TFEgPM26"
+version = "LxQ24guq"
