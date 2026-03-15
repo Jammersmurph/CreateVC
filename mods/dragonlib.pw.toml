@@ -1,0 +1,13 @@
+name = "DragonLib"
+filename = "dragonlib-neoforge-1.21.1-beta-3.0.23.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sbIsGaOV/versions/SgbO14PV/dragonlib-neoforge-1.21.1-beta-3.0.23.jar"
+hash-format = "sha512"
+hash = "65b045854cba122ed8042994bc61eb4705b931dee4d1cf3a46a8348c851db83a4702409ee661e313875c449a4fb5a9dedd4b397fff620a12c0081d50c396fb66"
+
+[update]
+[update.modrinth]
+mod-id = "sbIsGaOV"
+version = "SgbO14PV"
