@@ -1078,11 +1078,6 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/neoculus.pw.toml"
-hash = "47bf43b1382c3df649c7c7db0c43ffdf61fb80b642d59e98743db61fab11961d"
-metafile = true
-
-[[files]]
 file = "mods/no-chat-restrictions.pw.toml"
 hash = "bbaa5acb4a63efb00b03a674e3c4490a67da1c24ca9b8d6c43f74a1dee905049"
 metafile = true
@@ -1154,11 +1149,6 @@ hash = "d2fad0e9f710de93c247cdc79e6eb486ccb4b6cdc55e29a2373f54cb6900f0ac"
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "75ff68dd0bfb30f2ff97f170ffbb74d5b6aaa791416c4a0559d09ac8778561ba"
-metafile = true
-
-[[files]]
-file = "mods/rubidium-extra.pw.toml"
-hash = "b4ea87bc5953a1a0eec5207bb3182285e3301e87afa64fb1c8a4a8e993e915ea"
 metafile = true
 
 [[files]]
