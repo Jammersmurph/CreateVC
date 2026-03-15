@@ -1202,6 +1202,11 @@ hash = "ff6934dbf3203c63dbdab3b2b3a89e82c047ad22db63d8511d737a489aac743c"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
 hash = "c966ea02eb59f31dcaeaebe9d96c9b232a2fb16d2fe971729350e567a4ff1bd7"
 metafile = true
@@ -1279,6 +1284,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "01562e27f0c92ebf98eb6aaaace3c14fef18c734a6c65bda8101b8d3c640e12f"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]
