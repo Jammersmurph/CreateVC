@@ -415,11 +415,6 @@ hash = "090b3fa8ad84512e946384cc7aabaf84b0aa0e7c30a350b2f8d6312fb8714b66"
 metafile = true
 
 [[files]]
-file = "mods/better-modlist.pw.toml"
-hash = "b841dbd591775e39c4c04361bf56cefabbb954dc709608f0ea812a7e4db00530"
-metafile = true
-
-[[files]]
 file = "mods/blocks-bogies.pw.toml"
 hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
