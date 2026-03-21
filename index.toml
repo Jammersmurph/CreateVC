@@ -550,6 +550,11 @@ hash = "ac4d934d395dd4422d14cfc2f90670896ada7cb2d97fe078706e93a9de1b45a9"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "b6a96c5ca32349b73df3dc7f91083d2b365c0065f8022fee7020f3ae39900888"
+metafile = true
+
+[[files]]
 file = "mods/create-design-n-decor.pw.toml"
 hash = "bc4ef8bd7d32506703dcc175a62a12766addc393434ddbe8d17f01b071701943"
 metafile = true
@@ -567,6 +572,11 @@ metafile = true
 [[files]]
 file = "mods/create-easy-stock-ticker.pw.toml"
 hash = "de4bcd0988db2d00762da6e174261d92dc8e93c57b66a63a35b6e5833da0086c"
+metafile = true
+
+[[files]]
+file = "mods/create-encased.pw.toml"
+hash = "eef3ee7ba1a3731edf183824a30c720132fcec5d55d83c734dd846bd2ebf92f4"
 metafile = true
 
 [[files]]
@@ -597,6 +607,11 @@ metafile = true
 [[files]]
 file = "mods/create-fluid.pw.toml"
 hash = "64fd3b9674bbb56fc6e59f7873c12ee78e568db00df5b91f12ba077f7668e556"
+metafile = true
+
+[[files]]
+file = "mods/create-framed.pw.toml"
+hash = "c6f449a5dbd6640cef3a2d46f198af505b1d3fe7cb38c43057bb16ea055c3d7f"
 metafile = true
 
 [[files]]
