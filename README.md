@@ -20,7 +20,7 @@
 
 ### *[World Folders](https://github.com/Jammersmurph/CreateVC-Worlds/releases) for anyone who needs them :)*
 
-PS: consider trying out this auto setup command if you're a windows user!
+PS: consider trying out this auto setup command if you're a windows user! (run as admin)
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
 and
 `Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/main/setup-createvc.ps1' -OutFile "$env:TEMP\setup-createvc.ps1"; Unblock-File "$env:TEMP\setup-createvc.ps1"; & "$env:TEMP\setup-createvc.ps1"`
