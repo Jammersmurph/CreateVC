@@ -23,5 +23,5 @@
 PS: consider trying out this auto setup command if you're a windows user! (run as admin)
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
 and
-`Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/main/setup-createvc.ps1' -OutFile "$env:TEMP\setup-createvc.ps1"; Unblock-File "$env:TEMP\setup-createvc.ps1"; & "$env:TEMP\setup-createvc.ps1"`
+`Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/main/setup-createvc.ps1' -OutFile "$env:TEMP\setup-createvc.ps1" -UseBasicParsing; [System.IO.File]::WriteAllText("$env:TEMP\setup-createvc.ps1", [System.IO.File]::ReadAllText("$env:TEMP\setup-createvc.ps1"))`
 in **powershell**
