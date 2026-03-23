@@ -22,3 +22,5 @@
 
 PS: consider trying out this auto setup command if you're a windows user!
 `powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/main/setup-createvc.ps1' -OutFile \"$env:TEMP\setup-createvc.ps1\"; Unblock-File \"$env:TEMP\setup-createvc.ps1\"; & \"$env:TEMP\setup-createvc.ps1\""`
+Can't run scripts error? Run this as admin:
+`powershell -Command "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -ScopeCurrentUser  -Force"`
