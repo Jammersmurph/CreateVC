@@ -1,6 +1,6 @@
 name = "Create Smart Bounds"
 filename = "smart_bounds-1.0.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/kSok4DxT/versions/HXviiJ3I/smart_bounds-1.0.0.jar"
