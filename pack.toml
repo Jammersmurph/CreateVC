@@ -1,5 +1,4 @@
 name = "Create VC"
-author = "Jammersmurph"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
@@ -10,4 +9,4 @@ hash = "79c58bdf8778403f2cc217eeaec4aa865f029d223d1bdf62c87fddd75ee84faa"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.219"
+neoforge = "21.1.221"
