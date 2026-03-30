@@ -1,13 +1,13 @@
 name = "Maintenance Mode"
-filename = "MaintenanceMode-Universal-1.3.3.jar"
+filename = "MaintenanceMode-Universal-1.3.3+hotfix.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c940f41af1780a6938026f8b39f7109c5265ee86"
+hash = "39494456512be136deae9e676c34ed5c8c7a044c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7810923
+file-id = 7817801
 project-id = 630716

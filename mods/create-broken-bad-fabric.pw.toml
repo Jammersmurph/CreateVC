@@ -1,0 +1,13 @@
+name = "Create: Broken Bad ReBroken"
+filename = "createbb-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uIfluo9C/versions/3miIhOJG/createbb-1.1.3.jar"
+hash-format = "sha512"
+hash = "729fe9028692c421fe56f3ba9507ca0ce888d71f9e01078c94e5e3128ef3d85e87417599f0846fd35704bf64dd129870df284f6f6dd55de9f9ed23f4147f12ac"
+
+[update]
+[update.modrinth]
+mod-id = "uIfluo9C"
+version = "3miIhOJG"
