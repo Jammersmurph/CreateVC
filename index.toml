@@ -774,11 +774,6 @@ hash = "7aa0060e5df8631d27a789d73eb57d67c611b95be5bce4175810351e9479ae60"
 metafile = true
 
 [[files]]
-file = "mods/createlazytick-3.0.0-neo.pw.toml"
-hash = "7ea43fd43bea185a02d277de0fbceb3719ce44d351b973d8be2d19a9636d22cd"
-metafile = true
-
-[[files]]
 file = "mods/createschematicchecker.pw.toml"
 hash = "de1834c0cb8dc26822dd3b8826767a92f0331a8a445c932ff2acd0989bdc0e0e"
 metafile = true

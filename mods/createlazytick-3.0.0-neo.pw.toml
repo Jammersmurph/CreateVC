@@ -1,8 +1,0 @@
-name = "Create Lazy Tick Neoforged"
-filename = "createlazytick-3.0.0-neo.jar"
-side = "both"
-
-[download]
-url = "https://github.com/Brassworks-smp/Create-LazyTick-Neoforged/releases/download/v3.0.0/createlazytick-3.0.0-neo.jar"
-hash-format = "sha512"
-hash = "e5520370b0a58ae61ae0bcc843739075275a882302e3c3e1d0bea461eb43d3d555d3a7b7dd0e519a6bc61829d2ad709fa57aec27d827f52fddeeec962d185845"
