@@ -570,11 +570,6 @@ hash = "ac4d934d395dd4422d14cfc2f90670896ada7cb2d97fe078706e93a9de1b45a9"
 metafile = true
 
 [[files]]
-file = "mods/create-cyber-goggles.pw.toml"
-hash = "a72d77a3eb52bc49a75db5e3e5a004b4ce6c06779293bad660815f7a262fd9b3"
-metafile = true
-
-[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "b6a96c5ca32349b73df3dc7f91083d2b365c0065f8022fee7020f3ae39900888"
 metafile = true
