@@ -530,6 +530,11 @@ hash = "458140f6cde00189438da7cbc36c373a0215166dc313813a48a7034bccb9bff0"
 metafile = true
 
 [[files]]
+file = "mods/create-broken-bad-fabric.pw.toml"
+hash = "5117f179779ec5be73a5d36dc5055e1aaafe97672e9b39d39b46b0d433cc27aa"
+metafile = true
+
+[[files]]
 file = "mods/create-cc-total-logistics.pw.toml"
 hash = "0e8eb610e3fa9fc7d7897dd24ac43872ead64ddea9e6b5da2a2730d21892f2fd"
 metafile = true
@@ -546,7 +551,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-compatible-storage.pw.toml"
-hash = "65d241e255bc449e6a1faa590d09aafcea3f65a15206edd1e5cfbb665d3d0993"
+hash = "43a78a31307b19f9fc97e9d906e015da587ff18eff0f4bd4852486423017fea0"
 metafile = true
 
 [[files]]
@@ -566,7 +571,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-cyber-goggles.pw.toml"
-hash = "3c6b1b71e162fe3f0ab10d5e909a7adbd824d131c666e50b96d7ea54b98b9c41"
+hash = "a72d77a3eb52bc49a75db5e3e5a004b4ce6c06779293bad660815f7a262fd9b3"
 metafile = true
 
 [[files]]
@@ -646,7 +651,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "40b56fa6a9a4ab3122c2176cc7c38376a9ed0a5a6ea22e6ebed8f0abc50a7d24"
+hash = "98374b2d02d578ceda870d794879dba0e712b2be2260e7cc63eb7e6e8999fb4b"
 metafile = true
 
 [[files]]
@@ -741,7 +746,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-winery.pw.toml"
-hash = "5db0a7a9a4e73fd06be846d1bdbc3aeee59805faa1d7abea0a0d3c18311dfce2"
+hash = "c990b9438612bb351c69c1cb2cc4cc91056918b58d750845d6d6d79e8dceed1c"
 metafile = true
 
 [[files]]
@@ -904,12 +909,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "68e0010a541dfab4ada1786114b5ac4cbd5b083519663757fcdad0a0fe186aab"
+hash = "345aafba9f5ae662ff82825aef1384aa5cfe2e952afd28c950b1553e6be464ef"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
+hash = "beef54d1aaca0017d151c54bef18db45d3911de0c1fdb089dda15cb50e45da30"
 metafile = true
 
 [[files]]
@@ -919,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "72fffb9b0d2143b2a479d2ccb7c0a257c739d23b356255da552010de04f26abb"
+hash = "4ee19ccd353a19fbdc59b9446934e9d3eba94bb02af59bb004299367ef77e29b"
 metafile = true
 
 [[files]]
@@ -1094,7 +1099,7 @@ metafile = true
 
 [[files]]
 file = "mods/maintenance-mode-forge-fabric-quilt.pw.toml"
-hash = "c328afd3578592546cc9936145d79702dd01b489d344ee2a1efc897eada36b33"
+hash = "a9eb99714c7c18fc6ef04c4f6dae9a1496aa46ee9c3f1f67a79c439b61687e29"
 metafile = true
 
 [[files]]
@@ -1119,7 +1124,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "30aefb6ea1f2095ac57ec53486ef636811503200eac90676716786af529ac03e"
+hash = "38eea2ca7a239251665b153faaa13fc6adff8abb4efa1f4c8ebdc43502023330"
 metafile = true
 
 [[files]]
@@ -1243,7 +1248,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "15c145ff1f48e22759871c48775951ade48bc1875b2acc9f88c23b78537c596a"
+hash = "ba94c56993a39c4a2db62d4d09a604b29d0ea64c404ab3172117dfa6b6747c23"
 metafile = true
 
 [[files]]
@@ -1283,7 +1288,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d870fff186a4451f8edfdd92851a0c91935854df999763daa99db78d8cac440e"
+hash = "9754a724839a2db8c13a56e121207626829cc78069308476c713a3587df7b1c5"
 metafile = true
 
 [[files]]
@@ -1318,12 +1323,12 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "91e8f698bf2024eda7169148642bcbf05c0eb3c7947c2c006612c627da5b0998"
+hash = "f016a7d796ee67a3a3cf8bff2f0fff40456a4fca65ab40bcc512521570f1ab45"
 metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "6f20f68fb6ca61a44dd1cf20868764065ba66e54c5d3c70e9d28b39585131246"
+hash = "224579c14da4bc2e00dfc568bb469a706844f0b9874e55f4e05790e021223ba7"
 metafile = true
 
 [[files]]
