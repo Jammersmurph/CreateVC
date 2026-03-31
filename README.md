@@ -11,7 +11,9 @@
 - 6. Check the `custom` box.
 - 7. In the `Pre-launch Command` text box, enter:
 
-`java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml`
+```bash
+"$INST_JAVA" -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
+```
 - 8. Close the settings window.
 - 9. Launch your game.
 - 10. Congratulations! your modpack will now update automatically from now on!
