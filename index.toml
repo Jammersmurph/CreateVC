@@ -349,6 +349,10 @@ file = "kubejs/server_scripts/Scripts/serverClaimBuy.js"
 hash = "a92b7c339a16ae7b29be5455010a3f09a58a178acba3a28620dd85be79005aca"
 
 [[files]]
+file = "kubejs/server_scripts/elytra_toggle.js"
+hash = "70794b8498552f5ba105464e7b95b279af8632d886dc3b9490a2b87ad67eb642"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
@@ -1135,6 +1139,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+metafile = true
+
+[[files]]
+file = "mods/movable-tracks.pw.toml"
+hash = "7c903281a078afd2440b682d5e0e08ec0ddc006c5e73a5f88e8d458a3d9d2d1a"
 metafile = true
 
 [[files]]
