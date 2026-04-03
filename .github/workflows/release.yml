@@ -25,10 +25,10 @@ jobs:
         run: packwiz modrinth export -o CreateVC-auto-update-must-README.mrpack
 
       - name: Build auto-update zip (Prism/ATLauncher)
-        run: packwiz export -o CreateVC-auto-update.zip
+        run: packwiz pack export -o CreateVC-auto-update.zip
 
       - name: Build manual-update zip
-        run: packwiz export -o CreateVC-man-update.zip
+        run: packwiz pack export -o CreateVC-man-update.zip
 
       - name: Upload to GitHub Release
         env:
