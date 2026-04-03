@@ -1,4 +1,4 @@
-name: Build and Release Modpacks
+name: Publish to Modrinth
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,21 +21,17 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Build mrpack (Modrinth)
-        run: packwiz modrinth export -o CreateVC-auto-update-must-README.mrpack
+      - name: Build mrpack
+        run: packwiz modrinth export -o CreateVC.mrpack
 
-      - name: Build auto-update zip (Prism/ATLauncher)
-        run: packwiz pack export -o CreateVC-auto-update.zip
-
-      - name: Build manual-update zip
-        run: packwiz pack export -o CreateVC-man-update.zip
-
-      - name: Upload to GitHub Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh release upload v2.7 \
-            CreateVC-auto-update-must-README.mrpack \
-            CreateVC-auto-update.zip \
-            CreateVC-man-update.zip \
-            --clobber -R Jammersmurph/CreateVC
+      - name: Publish to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: createvc-modpack
+          name: "CreateVC ${{ github.run_number }}"
+          version: "1.0.${{ github.run_number }}"
+          changelog: ${{ github.event.head_commit.message }}
+          files: CreateVC.mrpack
+          loaders: neoforge
+          game-versions: 1.21.1
