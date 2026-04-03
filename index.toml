@@ -6,7 +6,7 @@ hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "README.md"
-hash = "d7c7b798ca4af968f55852a54d691bdbce5c7b8c659622ac48b8a77180d8b4be"
+hash = "503649b96a6b1be934aa39abb0809e1ac437f5229fea9df488b2ecee6f487bac"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
