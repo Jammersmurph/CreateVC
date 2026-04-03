@@ -25,11 +25,11 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 - 6. Check the `custom` box.
 - 7. In the `Pre-launch Command` text box, enter:
 
-```bash
+```txt
 java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 ```
 (PS: If that launch hook doesn't work, maybe this one will!)
-```bash
+```txt
 "$INST_JAVA" -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 ```
 - 8. Close the settings window.
