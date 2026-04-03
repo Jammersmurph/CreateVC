@@ -28,6 +28,10 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 ```bash
 java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 ```
+(PS: If that launch hook doesn't work, maybe this one will!)
+```bash
+"$INST_JAVA" -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
+```
 - 8. Close the settings window.
 - 9. Launch your game.
 - 10. Congratulations! your modpack will now update automatically from now on!
