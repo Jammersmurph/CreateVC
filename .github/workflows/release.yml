@@ -31,7 +31,7 @@ jobs:
           project: createvc-modpack
           name: "CreateVC ${{ github.run_number }}"
           version: "1.0.${{ github.run_number }}"
-          changelog: ${{ github.event.head_commit.message }}
+          changelog: "Updated modpack"
           files: CreateVC.mrpack
           loaders: neoforge
           game-versions: 1.21.1
