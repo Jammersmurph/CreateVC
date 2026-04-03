@@ -1,7 +1,21 @@
 # CreateVC Official Modpacks here.
 ## CreateVC [Discord Server](https://discord.gg/dQR6fJUxAM)
 ### Packs Located in [`Releases`](https://github.com/Jammersmurph/CreateVC/releases)
-
+-----
+### Or just use a `curl` command for whichever pack you use:
+- `CreateVC-auto-update.zip`
+```bash
+curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-auto-update.zip"
+```
+- `CreateVC-man-update.zip`
+```bash
+curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-man-update.zip"
+```
+- `CreateVC-auto-update-must-README.mrpack`
+```bash
+curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-auto-update-must-README.mrpack"
+```
+-----
 ## [Modrinth auto-updater tutorial:](https://youtu.be/IV3JY-Sz39o?si=_MLi1bK--ECsRurw)
 - 1. Download and install [JDK 21](https://download.oracle.com/java/21/archive/jdk-21.0.8_windows-x64_bin.exe) (Windows ONLY)
 - 2. Open Modrinth
@@ -12,7 +26,7 @@
 - 7. In the `Pre-launch Command` text box, enter:
 
 ```bash
-"$INST_JAVA" -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
+java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 ```
 - 8. Close the settings window.
 - 9. Launch your game.
