@@ -25,13 +25,10 @@ jobs:
         run: packwiz modrinth export -o CreateVC.mrpack
 
       - name: Publish to Modrinth
-        uses: cloudnode-pro/modrinth-publish@v2
-        with:
-          token: ${{ secrets.MODRINTH_TOKEN }}
-          project: createvc-modpack
-          name: "CreateVC ${{ github.run_number }}"
-          version: "1.0.${{ github.run_number }}"
-          changelog: "Updated modpack"
-          files: CreateVC.mrpack
-          loaders: neoforge
-          game-versions: 1.21.1
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          curl -s -X POST "https://api.modrinth.com/v2/version" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -F 'data={"project_id":"createvc-modpack","name":"CreateVC ${{ github.run_number }}","version_number":"1.0.${{ github.run_number }}","changelog":"Updated modpack","dependencies":[],"game_versions":["1.21.1"],"version_type":"release","loaders":["neoforge"],"featured":true,"file_parts":["file"]}' \
+            -F "file=@CreateVC.mrpack;type=application/zip"
