@@ -1,5 +1,6 @@
 # CreateVC Official Modpacks here.
-## CreateVC [Discord Server](https://discord.gg/dQR6fJUxAM)
+## CreateVC [Discord Server (Communication/Verification/Two-Way Live Chat/Like-minded Community/Staff Support)](https://discord.gg/dQR6fJUxAM)
+## CreateVC [Website (Map/Live Stats/Live Chat)](https://www.createvc.org)
 ### Packs Located in [`Releases`](https://github.com/Jammersmurph/CreateVC/releases)
 -----
 ### Or just use a `curl` command for whichever pack you use:
