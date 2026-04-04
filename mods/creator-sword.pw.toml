@@ -1,13 +1,13 @@
 name = "Create: Creator Sword"
-filename = "creatorsword-0.2.5.jar"
+filename = "creatorsword-0.2.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/98tjHawH/versions/Q47z64GP/creatorsword-0.2.5.jar"
+url = "https://cdn.modrinth.com/data/98tjHawH/versions/oIYGbjZw/creatorsword-0.2.6.jar"
 hash-format = "sha512"
-hash = "0e2b02c1e02633f635583896366f707840d42852506445055f665379d97d058abd5ca66d771bffc496dbdfc27fd8073d568ca5bb5cae196366ce18fb8e35a2c3"
+hash = "8e8d074a22a87b33a41796081c8e2f7ae83dec3f39cad1bcd4e6c1c45f6df16f88b6c75b1ddabc227b1768e7fa074d9dc885b87000216adede04fadd9c5d48f6"
 
 [update]
 [update.modrinth]
 mod-id = "98tjHawH"
-version = "Q47z64GP"
+version = "oIYGbjZw"

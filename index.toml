@@ -5,6 +5,10 @@ file = "CreateVC-Updater.jar"
 hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
+file = "Launch-CreateVC.bat"
+hash = "805407d1a328b0b468d590f8aa94cebb0a565aee8dff3a6c25c59ec2fa926cc4"
+
+[[files]]
 file = "README.md"
 hash = "503649b96a6b1be934aa39abb0809e1ac437f5229fea9df488b2ecee6f487bac"
 
@@ -381,7 +385,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "9cba3cb68a8d5b671364681dc6f66551fe5f1cb7daa16e74201557d7604b19ee"
+hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
 metafile = true
 
 [[files]]
@@ -585,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "693cd91c93dd402b03efb5dfc76eee3ad01099b20b9a2cfdf72c26277bc7bba9"
+hash = "d31fbf89364ee8130adca0dfba3d6aa774d1771632aa60f3f13e1b4ed9e073e5"
 metafile = true
 
 [[files]]
@@ -624,18 +628,13 @@ hash = "6356091e0d33defaf3b81bf58cb3adc764305baf1a7b3699de3be8131d343270"
 metafile = true
 
 [[files]]
-file = "mods/create-escalated.pw.toml"
-hash = "453e009587d1dc000d03bd5087ecd4e4d0f1f6fa7b49768ef1ee031a4ad624a9"
-metafile = true
-
-[[files]]
 file = "mods/create-fast-schematic-cannon.pw.toml"
 hash = "105b1f8eb9f09418432e257df0c32db6e06a81751f6a1a8eb639f94136272672"
 metafile = true
 
 [[files]]
 file = "mods/create-fluid.pw.toml"
-hash = "64fd3b9674bbb56fc6e59f7873c12ee78e568db00df5b91f12ba077f7668e556"
+hash = "28e031d7db42c12d27cb891ba6d737d3e9b1eb022fd554c1cb318700997926c6"
 metafile = true
 
 [[files]]
@@ -665,7 +664,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-more-girder.pw.toml"
-hash = "da3a713b29ef81196fa0944dd29e966e43de89da74c74fad853d394679f893bd"
+hash = "59fa6cb619c468cad7dbae9aa021d8b2e5f1e15dad23a5739f71edcd04f52045"
 metafile = true
 
 [[files]]
@@ -783,7 +782,7 @@ hash = "b55f06ec5522bcb54e61e98b41670e829e12c09e1e9db11ab415bb61637a859c"
 
 [[files]]
 file = "mods/creator-sword.pw.toml"
-hash = "09a5a0f37b401b0982a8bdd8da58d64521e41904c1ae9887f4350a7e861114f6"
+hash = "d1cab276b7bb42d46a5440a767c09c797598034b5aaed364d80b5e7368e79fba"
 metafile = true
 
 [[files]]
@@ -918,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "4ee19ccd353a19fbdc59b9446934e9d3eba94bb02af59bb004299367ef77e29b"
+hash = "d1b7cd4a0396962f290677b5d63b02d8f20e79ef9fce5b1234644c9b2f1031ef"
 metafile = true
 
 [[files]]
@@ -1118,7 +1117,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "38eea2ca7a239251665b153faaa13fc6adff8abb4efa1f4c8ebdc43502023330"
+hash = "91cfdcee62cc8ef6f6269562b3da00f06a9789a5169765b5175c4d34c17d16dc"
 metafile = true
 
 [[files]]
@@ -1282,12 +1281,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "b6e962a2e6da4511bb2efdb2f9a91eeae909fa035fd9543af25d66aef6d2ce48"
+hash = "eb6eb39bdb81fe7e2d9fcee4975668c3cc44ebf3be7638e6a893c676543c73a8"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9754a724839a2db8c13a56e121207626829cc78069308476c713a3587df7b1c5"
+hash = "98f9707d9486ced144063851fe3e0aa41fac78f7a591470194448f53e01fe4e0"
 metafile = true
 
 [[files]]
