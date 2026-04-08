@@ -369,6 +369,10 @@ file = "merge.sh"
 hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
 
 [[files]]
+file = "mods/CreateVC-Core-1.0.0.jar"
+hash = "66f47d1f9f9edda5e669639c794a37520793e850e25f7a5625d05da3439582d8"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
