@@ -1303,11 +1303,6 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
-file = "mods/steam-n-rails-neoforge.pw.toml"
-hash = "dfb492d45561d15d97c8c10a56a9213dcac321c61a5a85a10deab41fe7af7fe5"
-metafile = true
-
-[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
 metafile = true
