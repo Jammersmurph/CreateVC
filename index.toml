@@ -1229,6 +1229,10 @@ hash = "804736be3ded2a6f89f44522b88d82636209ed203c234ea34b6d6ffdd9ecee54"
 metafile = true
 
 [[files]]
+file = "mods/railways-0.1.0+neoforge-mc1.21.1.jar"
+hash = "da0f0ba8d00252027914db7afce6a1115bac1244ef3ca4ff04c35f77ae9606ac"
+
+[[files]]
 file = "mods/refurbished_furniture-neoforge-1.21.1-1.0.20.jar"
 hash = "d2fad0e9f710de93c247cdc79e6eb486ccb4b6cdc55e29a2373f54cb6900f0ac"
 
