@@ -13,148 +13,148 @@ file = "README.md"
 hash = "503649b96a6b1be934aa39abb0809e1ac437f5229fea9df488b2ecee6f487bac"
 
 [[files]]
+file = "config/backups/fancymenu/assets/banner1-removebg-preview.png"
+hash = "1b689d77e6fbaf966fbbe5d010a967ece35158e283eb6dc6f049b574f7b4d08b"
+
+[[files]]
+file = "config/backups/fancymenu/assets/banner1.png"
+hash = "3685a9dfe9abe7cea9c092dc0e4de9c6339ff67c8bdedb34ede272a452cb26d9"
+
+[[files]]
+file = "config/backups/fancymenu/assets/create-vc-logo.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "config/backups/fancymenu/assets/create-vc-smp.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/backups/fancymenu/assets/createvc-smp-logo.png"
+hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
+
+[[files]]
+file = "config/backups/fancymenu/assets/discord-button-hover.png"
+hash = "084946a11d574d7d2eeb4e3f1d89331dc844da6f690e2386dfe1bed3c8d92a86"
+
+[[files]]
+file = "config/backups/fancymenu/assets/discord-button.png"
+hash = "6b86fe9696d45599262e5b771a94ee949dda56730a0375ae5e8aa789d7781b33"
+
+[[files]]
+file = "config/backups/fancymenu/assets/discord-logo.png"
+hash = "15ed2ad0b3063b1146354fa900ff5d01a4122ba21016516553f83396b46b6658"
+
+[[files]]
+file = "config/backups/fancymenu/assets/fullbanner1.png"
+hash = "d9258bad6db693c8239b77d0d2f1f7534512449123db4945f21b17fdfbcc634b"
+
+[[files]]
+file = "config/backups/fancymenu/assets/image.png"
+hash = "8cc73efc9f90d6895511ef364c4d7991dfa817bba0ac72f362197584522f6644"
+
+[[files]]
+file = "config/backups/fancymenu/assets/logo1.png"
+hash = "f4c052798ecf4c0c18c59b814b61f0233ad831365eac2e4f8aa9b3cbabdf81e0"
+
+[[files]]
+file = "config/backups/fancymenu/assets/mcbg1.png"
+hash = "1a2de784bed1b993f48c6134da5c936550a8d54f2947e00a30339cda1f0469ea"
+
+[[files]]
+file = "config/backups/fancymenu/assets/railroads.png"
+hash = "3fe2850514890fbae6ece087868c81eb5eb945a7f3af07f83d2664ead49066e6"
+
+[[files]]
+file = "config/backups/fancymenu/assets/server-icon.png"
+hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "config/backups/fancymenu/assets/train.png"
+hash = "e2d23bdeaa34e17ad9161e3ce30668b7431066355ba3fde3114840c84e6963c9"
+
+[[files]]
+file = "config/backups/fancymenu/assets/train1.png"
+hash = "3a8683274d05d4c2bef28f2b4ec219f69b6fb40d9e7ec700d1a80bc07f0cc83d"
+
+[[files]]
+file = "config/backups/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/backups/fancymenu/customizablemenus.txt"
+hash = "d00cb033aaf8cee4e560bef3a1c46c52aaa445c2ad47a1cdb801c9e488d7a53d"
+
+[[files]]
+file = "config/backups/fancymenu/customization/CreateVC-v3.txt"
+hash = "57a57850081271eda60e0ce18848095c560b07a25cb269c8a48eeb9597fcc6ee"
+
+[[files]]
+file = "config/backups/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "719d9993f1829e18d9a38a698ff4ffb7c73853ff66b492d4b6d26752d58d5589"
+
+[[files]]
+file = "config/backups/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/backups/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/backups/fancymenu/options.txt"
+hash = "4f78e50cea6282a4ee3e5a84a190ce7e150c843f8e22734ce5047e3d1c63d960"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/overlay.png"
+hash = "e991ea23d6184f0c50ed15b73949632665a1b259974736910f10e8b54bbd4ad3"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/panorama/panorama_0.png"
+hash = "c0456f13177921c86f46b01debea0e46b501771f6be40f64a83ceddbfda4ced1"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/panorama/panorama_1.png"
+hash = "e991ea23d6184f0c50ed15b73949632665a1b259974736910f10e8b54bbd4ad3"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/panorama/panorama_2.png"
+hash = "a5d96b48d12b576830dc0632eb9e0232ab7e3c4686a666bb3bae7fa3aff13aae"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/panorama/panorama_3.png"
+hash = "9ed9a1f23cd3be8a53bfd878f19eddcb60f4269b89cac71defc355798c8a17d6"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/panorama/panorama_4.png"
+hash = "6fcdb6a3f60f1b94f2afad0fac15bb3828a26af491a43589becc3914571a0cd3"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/panorama/panorama_5.png"
+hash = "488efcb0ab4375be087c422bc53d007fd564bc2d598cacd287a2fb38c0b3724e"
+
+[[files]]
+file = "config/backups/fancymenu/panoramas/createbackground/properties.txt"
+hash = "b0d3ffb2ed2a9d13d6fd82db5ccbb3fc8235be608d21ac4d157d8a029337a850"
+
+[[files]]
+file = "config/backups/fancymenu/ui_themes/dark.json"
+hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+
+[[files]]
+file = "config/backups/fancymenu/ui_themes/light.json"
+hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+
+[[files]]
+file = "config/backups/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
 hash = "d7c4eeb49268b2b828b16dddf7112911f91d08b275969654b44c878dc7693c18"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "c78f6fd50d3b0440993961585a5b59be1f8dbe035611d1843f96ff7056ffcc04"
-
-[[files]]
-file = "config/fancymenu/assets/banner1-removebg-preview.png"
-hash = "1b689d77e6fbaf966fbbe5d010a967ece35158e283eb6dc6f049b574f7b4d08b"
-
-[[files]]
-file = "config/fancymenu/assets/banner1.png"
-hash = "3685a9dfe9abe7cea9c092dc0e4de9c6339ff67c8bdedb34ede272a452cb26d9"
-
-[[files]]
-file = "config/fancymenu/assets/create-vc-logo.png"
-hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
-
-[[files]]
-file = "config/fancymenu/assets/create-vc-smp.png"
-hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
-
-[[files]]
-file = "config/fancymenu/assets/createvc-smp-logo.png"
-hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
-
-[[files]]
-file = "config/fancymenu/assets/discord-button-hover.png"
-hash = "084946a11d574d7d2eeb4e3f1d89331dc844da6f690e2386dfe1bed3c8d92a86"
-
-[[files]]
-file = "config/fancymenu/assets/discord-button.png"
-hash = "6b86fe9696d45599262e5b771a94ee949dda56730a0375ae5e8aa789d7781b33"
-
-[[files]]
-file = "config/fancymenu/assets/discord-logo.png"
-hash = "15ed2ad0b3063b1146354fa900ff5d01a4122ba21016516553f83396b46b6658"
-
-[[files]]
-file = "config/fancymenu/assets/fullbanner1.png"
-hash = "d9258bad6db693c8239b77d0d2f1f7534512449123db4945f21b17fdfbcc634b"
-
-[[files]]
-file = "config/fancymenu/assets/image.png"
-hash = "8cc73efc9f90d6895511ef364c4d7991dfa817bba0ac72f362197584522f6644"
-
-[[files]]
-file = "config/fancymenu/assets/logo1.png"
-hash = "f4c052798ecf4c0c18c59b814b61f0233ad831365eac2e4f8aa9b3cbabdf81e0"
-
-[[files]]
-file = "config/fancymenu/assets/mcbg1.png"
-hash = "1a2de784bed1b993f48c6134da5c936550a8d54f2947e00a30339cda1f0469ea"
-
-[[files]]
-file = "config/fancymenu/assets/railroads.png"
-hash = "3fe2850514890fbae6ece087868c81eb5eb945a7f3af07f83d2664ead49066e6"
-
-[[files]]
-file = "config/fancymenu/assets/server-icon.png"
-hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
-
-[[files]]
-file = "config/fancymenu/assets/train.png"
-hash = "e2d23bdeaa34e17ad9161e3ce30668b7431066355ba3fde3114840c84e6963c9"
-
-[[files]]
-file = "config/fancymenu/assets/train1.png"
-hash = "3a8683274d05d4c2bef28f2b4ec219f69b6fb40d9e7ec700d1a80bc07f0cc83d"
-
-[[files]]
-file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
-
-[[files]]
-file = "config/fancymenu/customizablemenus.txt"
-hash = "d00cb033aaf8cee4e560bef3a1c46c52aaa445c2ad47a1cdb801c9e488d7a53d"
-
-[[files]]
-file = "config/fancymenu/customization/CreateVC-v3.txt"
-hash = "57a57850081271eda60e0ce18848095c560b07a25cb269c8a48eeb9597fcc6ee"
-
-[[files]]
-file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "719d9993f1829e18d9a38a698ff4ffb7c73853ff66b492d4b6d26752d58d5589"
-
-[[files]]
-file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
-
-[[files]]
-file = "config/fancymenu/legacy_checklist.txt"
-hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
-
-[[files]]
-file = "config/fancymenu/options.txt"
-hash = "4f78e50cea6282a4ee3e5a84a190ce7e150c843f8e22734ce5047e3d1c63d960"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/overlay.png"
-hash = "e991ea23d6184f0c50ed15b73949632665a1b259974736910f10e8b54bbd4ad3"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/panorama/panorama_0.png"
-hash = "c0456f13177921c86f46b01debea0e46b501771f6be40f64a83ceddbfda4ced1"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/panorama/panorama_1.png"
-hash = "e991ea23d6184f0c50ed15b73949632665a1b259974736910f10e8b54bbd4ad3"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/panorama/panorama_2.png"
-hash = "a5d96b48d12b576830dc0632eb9e0232ab7e3c4686a666bb3bae7fa3aff13aae"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/panorama/panorama_3.png"
-hash = "9ed9a1f23cd3be8a53bfd878f19eddcb60f4269b89cac71defc355798c8a17d6"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/panorama/panorama_4.png"
-hash = "6fcdb6a3f60f1b94f2afad0fac15bb3828a26af491a43589becc3914571a0cd3"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/panorama/panorama_5.png"
-hash = "488efcb0ab4375be087c422bc53d007fd564bc2d598cacd287a2fb38c0b3724e"
-
-[[files]]
-file = "config/fancymenu/panoramas/createbackground/properties.txt"
-hash = "b0d3ffb2ed2a9d13d6fd82db5ccbb3fc8235be608d21ac4d157d8a029337a850"
-
-[[files]]
-file = "config/fancymenu/ui_themes/dark.json"
-hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
-
-[[files]]
-file = "config/fancymenu/ui_themes/light.json"
-hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
-
-[[files]]
-file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/info.txt"
@@ -374,7 +374,7 @@ hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
 
 [[files]]
 file = "mods/CreateVC-Core-1.0.0.jar"
-hash = "66f47d1f9f9edda5e669639c794a37520793e850e25f7a5625d05da3439582d8"
+hash = "74e677879860a7d361e3d1f12e856405e88eb349fa5b0d257f5fc98caf48646d"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -403,7 +403,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "935a80e462527880c90ab4abba671f1add411c441096d1aaab5855ae98484f1f"
+hash = "f0aa35028d210e4c3b87e3029520dea9ead7db9d639e97faad2db374f6a9b2c1"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ hash = "883b2a6e0b10f1e772fac3a182da7f6368e14c8d6e6dac835fcfbcfdb48e5eeb"
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "12f240d6dde74a5daf9b970eaf3df32c7e76731fd3eb43622effc43df9a7cf18"
+hash = "1a52b3a6071fa86dc0854189e110e7dd6c27c0944856fee39a781f58275e1cdd"
 metafile = true
 
 [[files]]
@@ -457,7 +457,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "113f65b62b62a8b34d50c1dc3260106581aaf5b84d10dc15c0195a9488a61453"
+hash = "8f0d13cc7d1b993657aa32e4495b9d75cfdd2e7f93f9a10dec522866e18afc6f"
 metafile = true
 
 [[files]]
@@ -512,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "0dbb09999d85aa27cae3b923827245ad2e9559bb46f69736dde8f0377fd1c7e2"
+hash = "073c8410430fa1f84f4b8926ea37ce5bdcf2df764c25f44331978171311da9f2"
 metafile = true
 
 [[files]]
@@ -662,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "98374b2d02d578ceda870d794879dba0e712b2be2260e7cc63eb7e6e8999fb4b"
+hash = "eac4323cb3abf2b74203e7c60e32e00eb559a38cd866d30003772f3c06c5829e"
 metafile = true
 
 [[files]]
@@ -1130,7 +1130,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "91cfdcee62cc8ef6f6269562b3da00f06a9789a5169765b5175c4d34c17d16dc"
+hash = "579103387e2bad8c05c78bff288bf8555349033856ae10c069296b04b06e5956"
 metafile = true
 
 [[files]]
@@ -1155,7 +1155,7 @@ metafile = true
 
 [[files]]
 file = "mods/movable-tracks.pw.toml"
-hash = "7c903281a078afd2440b682d5e0e08ec0ddc006c5e73a5f88e8d458a3d9d2d1a"
+hash = "99402de4133e892514171c7b74ba34c2da3cfac1da96c8aeffc6e7e5d0143cb3"
 metafile = true
 
 [[files]]
@@ -1259,7 +1259,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "ba94c56993a39c4a2db62d4d09a604b29d0ea64c404ab3172117dfa6b6747c23"
+hash = "114089112a4c3abd4ea2c841f0f8bef8d165576de27c3bfea650871809918950"
 metafile = true
 
 [[files]]
@@ -1294,12 +1294,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "eb6eb39bdb81fe7e2d9fcee4975668c3cc44ebf3be7638e6a893c676543c73a8"
+hash = "d1bde735f99e64f6168dd05c3a09665eb4ff265055849ebed23b7cef23981707"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "98f9707d9486ced144063851fe3e0aa41fac78f7a591470194448f53e01fe4e0"
+hash = "f0e9a7a210a97816ec7375ac14ef1cf8633da0eb4aebbcbafa5949cd7d17bc8d"
 metafile = true
 
 [[files]]
@@ -1309,12 +1309,12 @@ metafile = true
 
 [[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
-hash = "9b99e7aa00e20c15be65b3a4845daac4fb3e456010e924e36e81974cdce50241"
+hash = "dfb492d45561d15d97c8c10a56a9213dcac321c61a5a85a10deab41fe7af7fe5"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "4e45380047390a7981bad480189ac806694d244bb10138ede288fd2e4539dc1f"
+hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
 metafile = true
 
 [[files]]

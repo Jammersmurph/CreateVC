@@ -1,13 +1,13 @@
 name = "Movable Tracks"
-filename = "movabletracks-1.0.0.jar"
+filename = "movabletracks-1.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/xX4m1GME/versions/TWzkTrvr/movabletracks-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/xX4m1GME/versions/JIha8XmV/movabletracks-1.0.1.jar"
 hash-format = "sha512"
-hash = "8d14ad8bdab91040d1dcdbcb2fa16b64481329e5e203a8e8ba9c836a7d260ea1f004b6a7627d25401e673dfab1804bac6656860a9dce1535be194cd638ea5f12"
+hash = "bd0867df827cd1f0fb51c3a137eb5188563136b23fca23d81ba468d104b2ad05040a9319064bef0d4bbf95556a62687fd62d374c5cc84ae499b3bd746c46981a"
 
 [update]
 [update.modrinth]
 mod-id = "xX4m1GME"
-version = "TWzkTrvr"
+version = "JIha8XmV"
