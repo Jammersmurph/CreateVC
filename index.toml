@@ -1379,7 +1379,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "fcd79d883b498523c7b027f2ad2b2e6b55f04c3248f5890ff56de317d616bb24"
+hash = "fcea8975ad1e22845fb4445d0bced82a052655a3f6dcc859548b14ae7a3e29cf"
 
 [[files]]
 file = "push-pack.sh"

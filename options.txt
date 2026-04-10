@@ -24,7 +24,7 @@ reducedDebugInfo:false
 renderClouds:"fast"
 renderDistance:6
 simulationDistance:6
-screenEffectScale:1.0
+screenEffectScale:0.0
 soundDevice:"JACK Default"
 autoJump:false
 operatorItemsTab:true
@@ -239,7 +239,7 @@ key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_create_mobile_packages.keyinfo.open_portable_stock_ticker:key.keyboard.unknown
-key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.h
+key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.p
 key_key.sophisticatedcore.sort:key.mouse.middle
 key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
@@ -254,10 +254,10 @@ key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_key.bridgingmod.toggle_bridging:key.keyboard.comma
