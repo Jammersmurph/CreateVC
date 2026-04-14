@@ -1,13 +1,13 @@
 name = "Simple Voice Chat"
-filename = "voicechat-neoforge-1.21.1-2.6.15.jar"
+filename = "voicechat-neoforge-1.21.1-2.6.16.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/zJuMA3Ya/voicechat-neoforge-1.21.1-2.6.15.jar"
+url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/rGX4hrtP/voicechat-neoforge-1.21.1-2.6.16.jar"
 hash-format = "sha512"
-hash = "44a9c2f817dffe44f795af5bcf8cfc22df15eef286573fe57cec859fca9fc6d712ac2144f22ccbe8f8fe62e6fa140dd85d6bfed7093af3f07c5a3795d003f4d7"
+hash = "87d4862b6d5e91712adb389acdb5a139b20e9315a62b54c60f1cd76855c86ee75e56e61ebc484b44d57179caa0e9f26c28a2284c8a0e3bf403dbd44f79a00ed1"
 
 [update]
 [update.modrinth]
 mod-id = "9eGKb6K1"
-version = "zJuMA3Ya"
+version = "rGX4hrtP"

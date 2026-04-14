@@ -1,0 +1,13 @@
+name = "Create: Ender Gateway"
+filename = "createendergateway-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c631169b2e5fb67324d58d96601b749e84eb7187"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7733154
+project-id = 1479189
