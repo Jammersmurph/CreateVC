@@ -803,11 +803,6 @@ hash = "d1cab276b7bb42d46a5440a767c09c797598034b5aaed364d80b5e7368e79fba"
 metafile = true
 
 [[files]]
-file = "mods/critters-and-companions.pw.toml"
-hash = "55a0ba4e06c9c4098eb04611b0cba005256c06db7421007fea1a7ddd36d7b375"
-metafile = true
-
-[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "a079bf8579ded1a9eeba488f91bdf632a41ac2c35a0cccd8c3aa3cc9ddb7250d"
 metafile = true
@@ -1311,11 +1306,6 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
-metafile = true
-
-[[files]]
 file = "mods/titanium.pw.toml"
 hash = "56112679c853ae645f505078665df9db5b6bfb7aa0480d44cc8f2ba660ed4333"
 metafile = true
@@ -1353,11 +1343,6 @@ metafile = true
 [[files]]
 file = "mods/voiceless-survival.pw.toml"
 hash = "5ca5074d7db18d287f739cc73563362cbbd93b8505726b04ede01b109a1c2d6f"
-metafile = true
-
-[[files]]
-file = "mods/waddles.pw.toml"
-hash = "0e355cc48486d2349ac810a250075f85f667f59e63b98ed5046059773614c75c"
 metafile = true
 
 [[files]]
