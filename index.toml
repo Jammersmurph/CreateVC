@@ -161,6 +161,10 @@ file = "config/info.txt"
 hash = "806eb0596a43a1d8deec50fbd0a1711a52c2bc5dc5982170b6fd08772828cf59"
 
 [[files]]
+file = "embed.json"
+hash = "642ba3c6d3a09ef0a5e452ffcdd86f3e669de4c57ecda8588427caf6c538a04c"
+
+[[files]]
 file = "emotes/Nyan Cat.nbs"
 hash = "2f917b54650570d195a7541a3c0c4aa7da8c1264dcc2fd5fddfe45699ef2ff37"
 
@@ -203,6 +207,10 @@ hash = "73314619c8b98ad68f780e6ed851024c45736944d4197fe22299b2614024e930"
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
 hash = "489d3cb9d45b3b44085788f974ffbd56695e49a8af177401be4dfb35952fd3f8"
+
+[[files]]
+file = "getittogetherdrops-neoforge-1.21.5-1.4.jar"
+hash = "a09466d03e3dde0c0f5c179146a8247b33a720a88979eb813c5f2aa2ad1c7a78"
 
 [[files]]
 file = "icon.png"
@@ -370,7 +378,7 @@ hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
 
 [[files]]
 file = "mods/CreateVC-Core-1.0.0.jar"
-hash = "74e677879860a7d361e3d1f12e856405e88eb349fa5b0d257f5fc98caf48646d"
+hash = "f69a99384fe5636c33db21a98c76236ee20c5d655bf34f696be82ef39a6865ea"
 
 [[files]]
 file = "mods/accessories.pw.toml"
