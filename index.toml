@@ -878,11 +878,6 @@ hash = "db40d54d3dc0efa63fbb4783dcf45552c04ff892c9a51a671ed142f7df184941"
 metafile = true
 
 [[files]]
-file = "mods/emotecraft-forge.pw.toml"
-hash = "41da9deeec5e9e6f3369f890a9f459d3dae3edf59c7072cb7c5dd26b953bf7d7"
-metafile = true
-
-[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "3e12e291f59845d26d24f57f81ee16b56afb486ae532ec3f00f5deda6a93dc6f"
 metafile = true
@@ -1085,11 +1080,6 @@ metafile = true
 [[files]]
 file = "mods/movable-tracks.pw.toml"
 hash = "99402de4133e892514171c7b74ba34c2da3cfac1da96c8aeffc6e7e5d0143cb3"
-metafile = true
-
-[[files]]
-file = "mods/nirvana.pw.toml"
-hash = "4f8b60eca8a7bd5bf1f154f4f3585ee44c8f6aa8b97b7e01ab865559c35ce363"
 metafile = true
 
 [[files]]
