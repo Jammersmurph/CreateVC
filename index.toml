@@ -550,11 +550,6 @@ hash = "458140f6cde00189438da7cbc36c373a0215166dc313813a48a7034bccb9bff0"
 metafile = true
 
 [[files]]
-file = "mods/create-broken-bad-fabric.pw.toml"
-hash = "5117f179779ec5be73a5d36dc5055e1aaafe97672e9b39d39b46b0d433cc27aa"
-metafile = true
-
-[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "841520a74c765cb9aef0cc35ec3f9ea3bef68b47eca8ed2643abacee6961c2ff"
 metafile = true
