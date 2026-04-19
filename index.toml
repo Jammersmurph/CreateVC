@@ -1023,6 +1023,11 @@ hash = "8fcfd4c28dc5b2efa52f936d52e6ca8257f3d12af21d31d7c65dc7d43b08d55d"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "4a38ddbeb3b985bf5a8275853cf4e5da7bbbe48c7671a3dcc20e3a0faa0d43b1"
+metafile = true
+
+[[files]]
 file = "mods/lmft.pw.toml"
 hash = "1b78273918bdbfe66d38f35b6ec2fbaa7e862fb9dca67cc99a725df768365e96"
 metafile = true
@@ -1238,6 +1243,16 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
