@@ -1018,11 +1018,6 @@ hash = "395ed890024bdb90e7c0fed1edf8b3905a367942ded954fca92384c76a7e5601"
 metafile = true
 
 [[files]]
-file = "mods/leaves-be-gone.pw.toml"
-hash = "8fcfd4c28dc5b2efa52f936d52e6ca8257f3d12af21d31d7c65dc7d43b08d55d"
-metafile = true
-
-[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "0c92a3670d2a7a0f013ca6741b75bd8b87c363eb3595d0d43a750b5fb09bf210"
 metafile = true
