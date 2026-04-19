@@ -391,6 +391,11 @@ hash = "1adbcc263f34ce732dbb38bb3307cf7f418cce491e8f6ddc65f59bacd9f46c60"
 metafile = true
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "3d8f918c52e27d4c640f78c67c0a51a2ddbe4e3703c149e8ed9461f43bd5fedd"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "536b4eb5f926560a305c25704c89eb6e4926b196006997b56375d0c04b05cf4a"
 metafile = true
@@ -490,11 +495,6 @@ hash = "b66c76dd9148686b0bccc5166839892b2442197504510bd9cca1306755a18ad1"
 metafile = true
 
 [[files]]
-file = "mods/connectivity.pw.toml"
-hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
-metafile = true
-
-[[files]]
 file = "mods/connector-extras.pw.toml"
 hash = "52e2cb54ee2933bf00e9b7886f47938a2dce1bf998293be2b38552083ffa5f9a"
 metafile = true
@@ -535,11 +535,6 @@ hash = "b8b53f9c89ed90101c100d4ffb1e606c8437e5b857e963cf0dfc44941e240d6c"
 metafile = true
 
 [[files]]
-file = "mods/create-additional-logistics.pw.toml"
-hash = "ba904d5c6a361b648fa7df9ecb8133ef6d1cdc596edb0be128b5562ebbdc14ae"
-metafile = true
-
-[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "d2754c84f0e4770a5852543af08dd02029056d46b7eb751586f77f93af5a1811"
 metafile = true
@@ -550,11 +545,6 @@ hash = "13095f719e466c9187ed385ea7b709226da71143cf192a932d8ec7b27e0c7288"
 metafile = true
 
 [[files]]
-file = "mods/create-big-cannons.pw.toml"
-hash = "c0ce5acc926fd747135f330cb3e53b847e5c05ed950b96f7cbe0d1159aefa285"
-metafile = true
-
-[[files]]
 file = "mods/create-bitterballen.pw.toml"
 hash = "458140f6cde00189438da7cbc36c373a0215166dc313813a48a7034bccb9bff0"
 metafile = true
@@ -562,11 +552,6 @@ metafile = true
 [[files]]
 file = "mods/create-broken-bad-fabric.pw.toml"
 hash = "5117f179779ec5be73a5d36dc5055e1aaafe97672e9b39d39b46b0d433cc27aa"
-metafile = true
-
-[[files]]
-file = "mods/create-cc-total-logistics.pw.toml"
-hash = "0e8eb610e3fa9fc7d7897dd24ac43872ead64ddea9e6b5da2a2730d21892f2fd"
 metafile = true
 
 [[files]]
@@ -765,11 +750,6 @@ hash = "0ad37c7e88d98bb14dda3b148c0c263ea807ebecd729dcdb7f2c307a5e6cd3fa"
 metafile = true
 
 [[files]]
-file = "mods/create-unlimited-logistics.pw.toml"
-hash = "de92b43def5ee61c6c9290bb6865c4e89ac49af86e86a25be3fa09c14c0a793a"
-metafile = true
-
-[[files]]
 file = "mods/create-winery.pw.toml"
 hash = "c990b9438612bb351c69c1cb2cc4cc91056918b58d750845d6d6d79e8dceed1c"
 metafile = true
@@ -808,11 +788,6 @@ file = "mods/createtea-1.0.jar"
 hash = "b55f06ec5522bcb54e61e98b41670e829e12c09e1e9db11ab415bb61637a859c"
 
 [[files]]
-file = "mods/creator-sword.pw.toml"
-hash = "d1cab276b7bb42d46a5440a767c09c797598034b5aaed364d80b5e7368e79fba"
-metafile = true
-
-[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "a079bf8579ded1a9eeba488f91bdf632a41ac2c35a0cccd8c3aa3cc9ddb7250d"
 metafile = true
@@ -825,21 +800,6 @@ metafile = true
 [[files]]
 file = "mods/delivery-director.pw.toml"
 hash = "6698c567fce253cdc646bff69e34b0a1d551d51f73799603159b744386737eae"
-metafile = true
-
-[[files]]
-file = "mods/diagonal-fences.pw.toml"
-hash = "db153992e71c2c1ca7643ad93d11f1276cada2843879cd01909abef2f2ed9df9"
-metafile = true
-
-[[files]]
-file = "mods/diagonal-walls.pw.toml"
-hash = "36899ae409d7c9bf4a5b322328f3eba6c8de4812a4f8594140a4953b05d62f88"
-metafile = true
-
-[[files]]
-file = "mods/diagonal-windows.pw.toml"
-hash = "5280e0bcfa648658c572b9ffa12ff5e39374923b30c732d3ceff4ae7ed9228ff"
 metafile = true
 
 [[files]]
@@ -958,11 +918,6 @@ hash = "c19754832997fe5fbd9488eeb3b02f3221f36893f94003e403b731ed9e9132ce"
 metafile = true
 
 [[files]]
-file = "mods/fast-ip-ping.pw.toml"
-hash = "f3935636357eb78086ff6ba4e8ed68ea0d63411dadbaaf97f25727cfbc6399e3"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
@@ -1000,11 +955,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
-metafile = true
-
-[[files]]
-file = "mods/haunted-harvest.pw.toml"
-hash = "c6746826da9bd56a6060db2945a16c27c6744622890f5d278565dd6c41ebd22c"
 metafile = true
 
 [[files]]
@@ -1080,31 +1030,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "651772c295e73ac60d5efd546dfa3bfa2263330cbb9db45eec9435ef8696b94b"
-metafile = true
-
-[[files]]
-file = "mods/macaws-bridges.pw.toml"
-hash = "de4007e4d9e63f4470c442bc9b568c2c5b6d93970ac881068cccde432ca0058c"
-metafile = true
-
-[[files]]
-file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "da326d59e505ce18857f1b72be406a03c7b7f96e09c0953cf1fff194c7ff58cd"
-metafile = true
-
-[[files]]
-file = "mods/macaws-lights-and-lamps.pw.toml"
-hash = "33ff6177b5e19c7ef130b6076ff6166a3994b511df06f3afcbc02af9212f29c8"
-metafile = true
-
-[[files]]
-file = "mods/macaws-stairs.pw.toml"
-hash = "749bf8f43a3b49b103685b1d1c8c39a2ca7bcd796818dc7aad226711760f0857"
-metafile = true
-
-[[files]]
-file = "mods/macaws-windows.pw.toml"
-hash = "85b0bb55b80d196b879fe6755cd7cc509f6ecd5706bb25acd43826da5335dd57"
 metafile = true
 
 [[files]]
@@ -1278,11 +1203,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "924590dd9b32e32f209e4e1986347b90355c07763e9a27dc79caa9cb12efeab5"
-metafile = true
-
-[[files]]
-file = "mods/smarter-contraption-storage.pw.toml"
-hash = "83bdcbc1d2a8009803ea56cfec979f98830f14cc559a9f3ae8cf53ea1a4d7e65"
 metafile = true
 
 [[files]]
