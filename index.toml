@@ -165,50 +165,6 @@ file = "embed.json"
 hash = "642ba3c6d3a09ef0a5e452ffcdd86f3e669de4c57ecda8588427caf6c538a04c"
 
 [[files]]
-file = "emotes/Nyan Cat.nbs"
-hash = "2f917b54650570d195a7541a3c0c4aa7da8c1264dcc2fd5fddfe45699ef2ff37"
-
-[[files]]
-file = "emotes/kiss.json"
-hash = "3e1e615e8d7ce2118d64bd8d5273ede171c1deee67e2ac8515d868d9ae048278"
-
-[[files]]
-file = "emotes/mario jump.json"
-hash = "77e665211dbd98ba08b181a13b57734bf54c7343152245e549b1e9a1b146c988"
-
-[[files]]
-file = "emotes/northern punch stand.json"
-hash = "d76f2adb0dc1879c6a9a70b79dc4005c600590a455e5588bb0596371dcfea8c9"
-
-[[files]]
-file = "emotes/northern punch.json"
-hash = "5ea86e916e2105f1139d3b65bf4cc9bb8a863da7f98f191646e60993645d97ca"
-
-[[files]]
-file = "emotes/panic.json"
-hash = "b67049914abe491b69cbfcf98be1dab4e8fa09a2c806f3dbd54230dc80fbeb58"
-
-[[files]]
-file = "emotes/peaking.json"
-hash = "5a5eafe65e48cb702a803dc1f4904dbec55e466b9b2ed9bccd6d15dd1e002175"
-
-[[files]]
-file = "emotes/pray.json"
-hash = "d0e9e4f839733882a77676d29314fe7df37a248217eda5ad52d860d9aaf3598c"
-
-[[files]]
-file = "emotes/run.json"
-hash = "13124a217622b564baf397c18a3ee90a6ecb7269b4cdba0aa97a9bfce66ec7cc"
-
-[[files]]
-file = "emotes/sit.json"
-hash = "73314619c8b98ad68f780e6ed851024c45736944d4197fe22299b2614024e930"
-
-[[files]]
-file = "fancymenu_data/last_world.fmdata"
-hash = "489d3cb9d45b3b44085788f974ffbd56695e49a8af177401be4dfb35952fd3f8"
-
-[[files]]
 file = "fix-ampdata-perms.sh"
 hash = "2648dc5b0549340cdfcbe3eb889b0ecdbeeefd87058829d8feaafe4c734e7c90"
 
@@ -378,7 +334,7 @@ hash = "4a24ccde93f8800b62e01414a36aba2a71c300c54d24bc940bb15f1c10eca0ca"
 
 [[files]]
 file = "mods/CreateVC-Core-1.0.0.jar"
-hash = "7ccbb45e12f4ac030626eed08decdc5e98cd31ebba78b5446eb8b166e9d71dde"
+hash = "2c6a28dca0fb37e864aa107be8c347d033c37fcaa4a1f560f6656ebde515ce7b"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -1328,10 +1284,6 @@ hash = "9681a9b1f11cce2332ee0a2a4e376b9f6a08d6deebe23e8123c9e99ded226b2a"
 [[files]]
 file = "servers.dat_old"
 hash = "9681a9b1f11cce2332ee0a2a4e376b9f6a08d6deebe23e8123c9e99ded226b2a"
-
-[[files]]
-file = "setup-createvc.ps1"
-hash = "1b2ea4d03f204b4b4c5b89109eb500821d6818edd4dcb5d2239e06a5cde3de41"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
