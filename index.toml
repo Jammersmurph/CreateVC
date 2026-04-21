@@ -165,10 +165,6 @@ file = "embed.json"
 hash = "642ba3c6d3a09ef0a5e452ffcdd86f3e669de4c57ecda8588427caf6c538a04c"
 
 [[files]]
-file = "fix-ampdata-perms.sh"
-hash = "2648dc5b0549340cdfcbe3eb889b0ecdbeeefd87058829d8feaafe4c734e7c90"
-
-[[files]]
 file = "icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
