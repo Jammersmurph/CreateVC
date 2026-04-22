@@ -9,7 +9,7 @@ if defined JAVA_HOME (
 )
 
 :: Run the updater
-"%JAVA%" -jar "%~dp0CreateVC-Updater.jar" https://jammersmurgh.github.io/CreateVC/pack.toml
+"%JAVA%" -jar "%~dp0CreateVC-Updater.jar" https://jammersmurph.github.io/CreateVC/pack.toml
 
 echo Update check complete. You can now launch the pack through CurseForge normally.
 pause
