@@ -1,0 +1,17 @@
+.git/
+.github/
+*.md
+*.sh
+*.bat
+embed.json
+icon.png
+instance.png
+servers.dat
+servers.dat_old
+CreateVC-Updater.jar
+README.txt
+README.md
+merge.sh
+push-pack.sh
+fix-ampdata-perms.sh
+Launch-CreateVC.bat

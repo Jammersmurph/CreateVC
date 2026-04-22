@@ -1,26 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/Changelog-to-Discord.yml"
-hash = "3f8f24a311b8ed32427e82d81a09e7e063429a161243e36b511edb08480d0ed6"
-
-[[files]]
-file = ".github/workflows/github-releases-to-discord.yml"
-hash = "2c883a456a66f49046ca69fbf40aa6b65ba712c651955ef8073ad36cd3446863"
-
-[[files]]
-file = "CreateVC-Updater.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
-
-[[files]]
-file = "Launch-CreateVC.bat"
-hash = "4ee338143a71dd2fc819018262fbd8db782a594d09159f4b212b25a8d5ee6958"
-
-[[files]]
-file = "README.md"
-hash = "11646f86c33cbc26e4b73da025423319e519ba2366aae7bbb590e5e9db3a8338"
-
-[[files]]
 file = "config/backups/fancymenu/assets/banner1-removebg-preview.png"
 hash = "1b689d77e6fbaf966fbbe5d010a967ece35158e283eb6dc6f049b574f7b4d08b"
 
@@ -169,26 +149,6 @@ file = "config/info.txt"
 hash = "fbaec93bb4eae69f2d66fb1d046848c47410b7a6ce48eb00dc6c63123270c871"
 
 [[files]]
-file = "embed.json"
-hash = "7d02086400b3572200773a6f11f4437e41f88d2dd4adf96532484a6f2d2391ee"
-
-[[files]]
-file = "fix-ampdata-perms.sh"
-hash = "9eb8181a12437375b0b02be4bb3bffd9e506e0184802bb030efe15395d1a1514"
-
-[[files]]
-file = "icon.png"
-hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
-
-[[files]]
-file = "instance.png"
-hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
-
-[[files]]
 file = "kubejs/config/common.json"
 hash = "249e5b59ba852d896a8a77a2d4e5642c69b2e832e83bc6a19572471995db69e9"
 
@@ -219,10 +179,6 @@ hash = "7c8f3480d6917fc1373f6bc84eb2d7877c9ee4da94de23a1d8dff6931090d511"
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "6e9d76a27bf5e161249ae66713cf51a40e344445a87bb8b9911c6a85995c8f89"
-
-[[files]]
-file = "merge.sh"
-hash = "44ded1d695ff0ce37138cca25145c8df65b6287623174a74236e4d468870b563"
 
 [[files]]
 file = "mods/CreateVC-Core-1.0.0.jar"
@@ -1158,24 +1114,12 @@ file = "options.txt"
 hash = "76468f43abd874bcfb3ba713dea1a05edb0f3f57b18fd148fe23dd489c8af260"
 
 [[files]]
-file = "push-pack.sh"
-hash = "7ffb320c98d8086cca6db6bd374acdace542b9a46a19bb9940e77d5995cb7374"
-
-[[files]]
 file = "resourcepacks/FreshAnimations_v1.10.3.zip"
 hash = "999fbdfe9cddcbadeaaa02827f0583dc3d38d8f264146301cb88395d18df85a9"
 
 [[files]]
 file = "resourcepacks/MustardTweaks-Bobteh.zip"
 hash = "517c30f37c2db0d8b4f85d49e876288cd0864aefc1ddf157a6d4bc8842120eed"
-
-[[files]]
-file = "servers.dat"
-hash = "9681a9b1f11cce2332ee0a2a4e376b9f6a08d6deebe23e8123c9e99ded226b2a"
-
-[[files]]
-file = "servers.dat_old"
-hash = "9681a9b1f11cce2332ee0a2a4e376b9f6a08d6deebe23e8123c9e99ded226b2a"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
