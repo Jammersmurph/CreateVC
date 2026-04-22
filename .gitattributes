@@ -1,0 +1,11 @@
+*.pw.toml text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.txt text eol=lf
+*.properties text eol=lf
+*.lewidget text eol=lf
+
+*.jar binary
+*.png binary
+*.db binary
