@@ -9,3 +9,4 @@
 *.jar binary
 *.png binary
 *.db binary
+config/backups/fancymenu/user_variables.db text eol=lf
