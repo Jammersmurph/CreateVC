@@ -181,8 +181,8 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
-file = "mods/CreateVC-Core-1.0.6.jar"
-hash = "d58d3fceb05ea5548d43fd9a309673877bb95d4e9571248e83b1a5b592e22109"
+file = "mods/CreateVC-Core-1.0.7.jar"
+hash = "4520725617c5ecd3b7e4e936808f9b7374068716b4cb67b75b9a126b399d465c"
 
 [[files]]
 file = "mods/accessories.pw.toml"
