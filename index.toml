@@ -191,7 +191,7 @@ metafile = true
 
 [[files]]
 file = "mods/actually-harvest.pw.toml"
-hash = "1adbcc263f34ce732dbb38bb3307cf7f418cce491e8f6ddc65f59bacd9f46c60"
+hash = "0f93cd70c2cf47ac0e2f5aa242f97d74eb51a2c8eb69999b50edb485915d0981"
 metafile = true
 
 [[files]]
@@ -410,7 +410,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "7c65dc63a0f5ecb994085946a8a1366d9d16040d5c069706cbd5604eee329b21"
+hash = "8418d9b91e297fe19735fc0f85dcd520b6ee19b22c0662b313bc58352784b20e"
 metafile = true
 
 [[files]]
@@ -430,7 +430,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "a2fcc547252d18a8f12cbf85f004b193f30b592fe598b12009b27d4f89fe1412"
+hash = "37c21deaf7e65569fa9dcc59a477a55ab8937153c591f1bc4d6249de9582044f"
 metafile = true
 
 [[files]]
@@ -515,7 +515,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-shuffle-filter.pw.toml"
-hash = "8495de36b729391d2411dea3c92b41b7b25e1dfa18689ec1f3831b2bed709a19"
+hash = "0e2648eb1a0918fa430fecfdc6cfb9508f2fb28714ff51e27dffdbddcec31614"
 metafile = true
 
 [[files]]
@@ -818,7 +818,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "9a25a0e1c3349cf25b45216932fffb2678d5d085f46ce5c420c3514b86142b90"
+hash = "5865b4d7d291bfeee5ea36f458c21d236460ef49ffee96491dfbff73006a0f34"
 metafile = true
 
 [[files]]
@@ -848,7 +848,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "505e3f1baaa94149d39b637c87253893477ef5168fd1b9e9f9270bf4a9c5ca8d"
+hash = "67a1f2166177db175eeb9dbd8dd085c6180fbaac6669f07c2cdb9c10efe8da9a"
 metafile = true
 
 [[files]]
