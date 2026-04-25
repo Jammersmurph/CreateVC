@@ -767,6 +767,11 @@ hash = "d480787d9c86b5abe27284195ace63101ac1ccea7f2cb39649b4dcd172932e7e"
 metafile = true
 
 [[files]]
+file = "mods/in-game-account-switcher.pw.toml"
+hash = "0c0e4bd07fe9fd43db7cef444145a3ed008c53dcd095a60935f86ee2aa052ba9"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
 metafile = true
