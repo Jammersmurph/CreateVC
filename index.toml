@@ -186,7 +186,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/CreateVC-Core-1.1.2.jar"
-hash = "18ddfebf9d7b3915c6eb2874b1402672a4ebaf10b204909f34bff0fc446fc67f"
+hash = "13082ffe0d427e655bf00c09f2c5268cb383f9bb1bf62d910e6adc22b3e6af5c"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -355,6 +355,11 @@ metafile = true
 [[files]]
 file = "mods/create-aquatic-ambitions.pw.toml"
 hash = "13095f719e466c9187ed385ea7b709226da71143cf192a932d8ec7b27e0c7288"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "c0ce5acc926fd747135f330cb3e53b847e5c05ed950b96f7cbe0d1159aefa285"
 metafile = true
 
 [[files]]
@@ -842,7 +847,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "5865b4d7d291bfeee5ea36f458c21d236460ef49ffee96491dfbff73006a0f34"
+hash = "daae831820f5b1c8ac4618fc8c44bc6336809e9889bce7c184eaf6c7d927f14f"
 metafile = true
 
 [[files]]
@@ -1050,7 +1055,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "36f797c137ff0a6b652d308a37a07bab9eac036be65c6aae0116174e62740097"
+hash = "c8d0ae09d7edfe045cf8e59b52f3247089b422df39faa420657803119e906cc0"
 metafile = true
 
 [[files]]
@@ -1130,7 +1135,7 @@ metafile = true
 
 [[files]]
 file = "mods/zume.pw.toml"
-hash = "102bf98f0468746f140a4dfe1b3ccc644149c63b0ece8a8f38b7fe1eaff0538c"
+hash = "165466fe8e528309d95875396f2a5e13c0bab7bcb0c1134d1fd5f3a935d488f5"
 metafile = true
 
 [[files]]
