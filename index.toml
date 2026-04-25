@@ -149,6 +149,10 @@ file = "config/info.txt"
 hash = "806eb0596a43a1d8deec50fbd0a1711a52c2bc5dc5982170b6fd08772828cf59"
 
 [[files]]
+file = "defaultconfigs/createvc_core-server.toml"
+hash = "39a2aed996a6b4b0d642de806e76a95f75751a202c95ddf34dd7392efd12cb0d"
+
+[[files]]
 file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
@@ -181,8 +185,8 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
-file = "mods/CreateVC-Core-1.1.0.jar"
-hash = "7bca2f8aec9c8eeef25b1af78fe4e9b881502a6f4e9cc6a7e038e2653f80f418"
+file = "mods/CreateVC-Core-1.1.1.jar"
+hash = "5cb090e165ca31cc4d0a7c5c2931bdd7489a6b385e58d058ef4c359419c10303"
 
 [[files]]
 file = "mods/accessories.pw.toml"

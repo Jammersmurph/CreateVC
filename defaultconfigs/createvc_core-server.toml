@@ -1,0 +1,10 @@
+# Default server config for CreateVC-Core.
+# NeoForge copies this into each world's serverconfig folder on first launch.
+
+[vista]
+	# Keep Vista screens usable on moving Sable physics objects, but cap the
+	# expensive overrides to nearby screens instead of forcing max-cost rendering
+	# globally.
+	enableVistaScreenRendering = true
+	maxRenderDistance = 96
+	forcedViewDistance = 128
