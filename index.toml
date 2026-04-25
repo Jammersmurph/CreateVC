@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".codex"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/backups/fancymenu/assets/banner1-removebg-preview.png"
 hash = "1b689d77e6fbaf966fbbe5d010a967ece35158e283eb6dc6f049b574f7b4d08b"
 
@@ -190,7 +186,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/CreateVC-Core-1.1.1.jar"
-hash = "df04410ca53c8ab6d079919da98c9d51e89d12dc77f10197bf532e8fe41bd7a3"
+hash = "c834498371c8076cc2f10e0f494ec5a41c9007ed63bd62ad42a75d59e6820036"
 
 [[files]]
 file = "mods/accessories.pw.toml"
