@@ -1,0 +1,13 @@
+name = "Create: Enhanced Schematicannon"
+filename = "create_enhanced_schematicannon-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TfCIbLr4/versions/nPYO6I9j/create_enhanced_schematicannon-1.0.4.jar"
+hash-format = "sha512"
+hash = "38f7c28a2781ae45bcb15bf487f89e0c15be44de8d4ada69cf85284c0b5b70d0ec58e1e139959b18b0560417859876791ff0e8518f0f20d5dc87113cd0cde503"
+
+[update]
+[update.modrinth]
+mod-id = "TfCIbLr4"
+version = "nPYO6I9j"

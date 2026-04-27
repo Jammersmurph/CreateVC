@@ -186,7 +186,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/CreateVC-Core-1.2.0.jar"
-hash = "030d310c2a86a66b5ced96fb9f593f9401cbad977eb54459f1cf5f75703f9dad"
+hash = "2c77edbd7f8c3fa778e251d0f845ba2fc8c5dc4452febe5b2b71b0a8250ef824"
 
 [[files]]
 file = "mods/CreateVC-Updater-1.0.0.jar"
@@ -449,6 +449,11 @@ metafile = true
 [[files]]
 file = "mods/create-ender-gateway.pw.toml"
 hash = "257dfde4f1db5ed27667fe38e2c7331cacb742b13ee2e644e2f837d0dbdb0d9a"
+metafile = true
+
+[[files]]
+file = "mods/create-enhanced-schematicannon.pw.toml"
+hash = "3e6507a1178da9a7f650f2f8a1c59c6c6c2200fd66a4ea3eb67d2d679f19dcce"
 metafile = true
 
 [[files]]
