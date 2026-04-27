@@ -189,6 +189,10 @@ file = "mods/CreateVC-Core-1.1.8.jar"
 hash = "ad39b1b804b9b69f7d7a70b4e83fc542b0f65932613177d7d1359095bbe8a51a"
 
 [[files]]
+file = "mods/CreateVC-Updater-1.0.0.jar"
+hash = "8d74c6375b0924aff2e42829547743aec716e2fcca5b5b7d201458b0609d3c4e"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
@@ -269,7 +273,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "0620370193cd76f48ebf81bd0d213cdc3adb5c640d8e39d5758d6f166c0c5036"
+hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
 metafile = true
 
 [[files]]
@@ -702,7 +706,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "3e12e291f59845d26d24f57f81ee16b56afb486ae532ec3f00f5deda6a93dc6f"
+hash = "3937618f06648f5ad0c7be0195b5fa75bf6d7464ee133bd59bb5b13753090de7"
 metafile = true
 
 [[files]]
@@ -797,7 +801,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flw-compat.pw.toml"
-hash = "7a733deb39d1e1691a5746de380da94c47f5d99786a4d22e428b7de58fcc7950"
+hash = "db508c228cf3fd25ffaf86f836d90d292807059c1154a43e7bdd4d08954caf0c"
 metafile = true
 
 [[files]]
@@ -942,7 +946,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "f00bb02d9cda4940f3725e4cc1121bb3c996f05cefeb17ef75969045319ddbc2"
+hash = "8228b2d43f8a36502f4b85c0bd5e17290badc99c2c2e74a3adc481daaf3d4f87"
 metafile = true
 
 [[files]]
