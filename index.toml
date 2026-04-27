@@ -186,11 +186,11 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/CreateVC-Core-1.1.8.jar"
-hash = "ad39b1b804b9b69f7d7a70b4e83fc542b0f65932613177d7d1359095bbe8a51a"
+hash = "634a5fe73d19bff6d798440429c8a74b98ca889e2bd81260d40a11b4527c85f2"
 
 [[files]]
 file = "mods/CreateVC-Updater-1.0.0.jar"
-hash = "ac704dde07a78e1dd73e11c8c4312f8ded241d1e14271eb58a98f9939b7051f4"
+hash = "4a14f7975d75f69b43e64faa4572cb86dc6259c0740aee265f7317634f617334"
 
 [[files]]
 file = "mods/accessories.pw.toml"
