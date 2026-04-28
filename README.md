@@ -6,15 +6,15 @@
 -----
 ## Packs Located in [`Releases`](https://github.com/Jammersmurph/CreateVC/releases)
 ### Or just use a `curl` command for whichever pack you use:
-- `CreateVC-auto-update.zip`
+- `CreateVC.zip` (MultiMC Based | **Recommended**)
 ```bash
 curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC.zip"
 ```
-- `CreateVC-CurseForge.zip`
+- `CreateVC-CurseForge.zip` (CurseForge)
 ```bash
 curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-CurseForge.zip"
 ```
-- `CreateVC.mrpack`
+- `CreateVC.mrpack` (Modrinth)
 ```bash
 curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC.mrpack"
 ```
