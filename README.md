@@ -8,18 +8,19 @@
 ### Or just use a `curl` command for whichever pack you use:
 - `CreateVC-auto-update.zip`
 ```bash
-curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-auto-update.zip"
+curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC.zip"
 ```
-- `CreateVC-man-update.zip`
+- `CreateVC-CurseForge.zip`
 ```bash
-curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-man-update.zip"
+curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-CurseForge.zip"
 ```
-- `CreateVC-auto-update-must-README.mrpack`
+- `CreateVC.mrpack`
 ```bash
-curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-auto-update-must-README.mrpack"
+curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC.mrpack"
 ```
 -----
-## [Modrinth auto-updater tutorial:](https://youtu.be/IV3JY-Sz39o?si=_MLi1bK--ECsRurw)
+***Did you know that you can achieve the same level of efficiency that you get in MultiMC based launchers in modrinth if you do some extra setup?***
+## Modrinth prelaunch auto-updater tutorial:
 - 1. Download and install [JDK 21](https://download.oracle.com/java/21/archive/jdk-21.0.8_windows-x64_bin.exe) (Windows ONLY)
 - 2. Open Modrinth
 - 3. Import the .mcpack file.
@@ -37,7 +38,7 @@ java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 ```
 - 8. Close the settings window.
 - 9. Launch your game.
-- 10. Congratulations! your modpack will now update automatically from now on!
+- 10. Congratulations! your modpack will now update automatically prior to game launching from now on!
 
 ## Thank You!
 
