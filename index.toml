@@ -601,11 +601,6 @@ hash = "7aa0060e5df8631d27a789d73eb57d67c611b95be5bce4175810351e9479ae60"
 metafile = true
 
 [[files]]
-file = "mods/createschematicchecker.pw.toml"
-hash = "de1834c0cb8dc26822dd3b8826767a92f0331a8a445c932ff2acd0989bdc0e0e"
-metafile = true
-
-[[files]]
 file = "mods/createtea-1.0.jar"
 hash = "b55f06ec5522bcb54e61e98b41670e829e12c09e1e9db11ab415bb61637a859c"
 
