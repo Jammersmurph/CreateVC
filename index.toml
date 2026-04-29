@@ -630,6 +630,11 @@ hash = "edaeca13686caeda3d9344ef2ea74f9c25fc05dfdf713a7d95cae733ed3ee2ba"
 metafile = true
 
 [[files]]
+file = "mods/drive-by-wire-sable.pw.toml"
+hash = "d9913dbb9523834e1b5b521a2f9c299dd042132ede17274155e0fd636d0b1b6d"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-lights.pw.toml"
 hash = "70f6427507c7fdac05bfaba2fabbf415c6be754d23cf02085cbb68311a82d57f"
 metafile = true
