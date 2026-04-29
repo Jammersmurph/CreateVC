@@ -42,4 +42,4 @@ java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
 
 ## Thank You!
 
-### *[World Folders](https://github.com/Jammersmurph/CreateVC-Worlds/releases) for anyone who needs them :)*
+### *[World Folders](https://createvc.org/downloads/) for anyone who needs them :)*
