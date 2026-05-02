@@ -482,11 +482,6 @@ hash = "c6f449a5dbd6640cef3a2d46f198af505b1d3fe7cb38c43057bb16ea055c3d7f"
 metafile = true
 
 [[files]]
-file = "mods/create-harmonics.pw.toml"
-hash = "f7d9396d9cb4ca13f944cee424af026818c5d65552acc08300e272284f6263f6"
-metafile = true
-
-[[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
 hash = "90f936b5bc3aa77315b35f4475ca529f12487f732c15782c6971e3f91d9905c9"
 metafile = true
