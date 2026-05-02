@@ -282,11 +282,6 @@ hash = "8f0d13cc7d1b993657aa32e4495b9d75cfdd2e7f93f9a10dec522866e18afc6f"
 metafile = true
 
 [[files]]
-file = "mods/chisels-bits.pw.toml"
-hash = "774b3afab92d453d928b18808eabb5416c84d9fdc4c3450e7becad6f702d04e5"
-metafile = true
-
-[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
