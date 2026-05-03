@@ -257,6 +257,11 @@ hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
 
 [[files]]
+file = "mods/blockui.pw.toml"
+hash = "05abf6fafe4a8adf5aaa24f09b7dedfbe199a8727d925e816fc608d6357f5ba8"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "a5122c5ecc0e36da4f60474cc8ecaff590aaeae8be545ffddfe2c25db89816e7"
 metafile = true
@@ -630,6 +635,11 @@ hash = "6594fd48f50bc63f70749aba1f6b60132f4601487a40bc7b13906fc175789492"
 metafile = true
 
 [[files]]
+file = "mods/domum-ornamentum.pw.toml"
+hash = "acf14ebf63e023fd7b1a58c187f88f2091d5632e1723a816c460e511f6df711d"
+metafile = true
+
+[[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "edaeca13686caeda3d9344ef2ea74f9c25fc05dfdf713a7d95cae733ed3ee2ba"
 metafile = true
@@ -865,6 +875,11 @@ hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
 metafile = true
 
 [[files]]
+file = "mods/minecolonies.pw.toml"
+hash = "3ea53a3421a50217c28e1aed057fd7baf08e946e90013ba12e84d3e04fad4600"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "a0ace741bcbe76bfa3c8bfefd042a1aee7583b32039cb48aa381a8ace956a359"
 metafile = true
@@ -902,6 +917,11 @@ metafile = true
 [[files]]
 file = "mods/movable-tracks.pw.toml"
 hash = "99402de4133e892514171c7b74ba34c2da3cfac1da96c8aeffc6e7e5d0143cb3"
+metafile = true
+
+[[files]]
+file = "mods/multi-piston.pw.toml"
+hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
 
 [[files]]
@@ -1053,6 +1073,11 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
+file = "mods/structurize.pw.toml"
+hash = "9ef81e3a2eedc119c659940b940e5ab1a1ed6e37fbbc83c3edf53a8ea859aaeb"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
 metafile = true
@@ -1070,6 +1095,11 @@ metafile = true
 [[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
+metafile = true
+
+[[files]]
+file = "mods/towntalk.pw.toml"
+hash = "a7074e8e499d34f5ce633dbd33f818e376dd1941ec5b1d97a33acd019df69b5a"
 metafile = true
 
 [[files]]
