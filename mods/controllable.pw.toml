@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7411284
 project-id = 317269
+
+[option]
+optional = true
+default = false
+description = "Enable this mod for additional features."   
