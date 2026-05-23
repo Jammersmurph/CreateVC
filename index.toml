@@ -105,6 +105,10 @@ file = "config/fps_overlay/config.json"
 hash = "9660eb9fccfbadc2cebfbb6f0a1b8856a9b62340d5ebd64e9cc1b8d6a5d86c8d"
 
 [[files]]
+file = "config/immediatelyfast.json"
+hash = "137947e0aaaf165c0b33f520aa3fdab60f0c04b835dd8c11e5de6ffd539d6f3f"
+
+[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
 
@@ -223,14 +227,6 @@ hash = "39e1269b6b3cec623ab69a170ee184c7504c302968c0213ccfbb0dcec71e3964"
 [[files]]
 file = "config/simulated-server.toml"
 hash = "4eb8a653258d8f7aa303fa77c34df800785b543116d5bc41ae613adec8000202"
-
-[[files]]
-file = "config/sodium-extra-options.json"
-hash = "7013e52f3bd075b3424f5737d92c3bac10f34da5d06eee3cdde33e549bbac41f"
-
-[[files]]
-file = "config/sodium-extra.properties"
-hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -460,6 +456,11 @@ hash = "bf87620865e88ba85547d050f09c579e991ed1f80a05058ff86598c61e1d057d"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "8e67a96432b89ad64ec00b59666f510ead091dea23632a672ac800c77964e9ae"
+metafile = true
+
+[[files]]
 file = "mods/jade-sable-compat.pw.toml"
 hash = "278564c8da6f73f0c4649fa9ae50d21b2088a4cc4fb2bc09df74f27f0071c47d"
 metafile = true
@@ -547,11 +548,6 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "345dc5a2b3dedcde5c7a1d8e34d256ecb93cf3a48e9290855b541d1a4d15a340"
-metafile = true
-
-[[files]]
-file = "mods/sodium-extra.pw.toml"
-hash = "b16ee8ff10576cf6ef43fd6a2828463faf96de88e6409f9ee6b3dd31645d282d"
 metafile = true
 
 [[files]]
