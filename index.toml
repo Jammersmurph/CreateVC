@@ -589,10 +589,5 @@ hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
-file = "mods/zume.pw.toml"
-hash = "145943325d3b47d7fb916835d8530645e3f5806c72f68f9d75183493b2c68425"
-metafile = true
-
-[[files]]
 file = "options.txt"
 hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
