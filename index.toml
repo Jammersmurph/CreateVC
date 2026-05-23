@@ -106,7 +106,7 @@ hash = "9660eb9fccfbadc2cebfbb6f0a1b8856a9b62340d5ebd64e9cc1b8d6a5d86c8d"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
+hash = "137947e0aaaf165c0b33f520aa3fdab60f0c04b835dd8c11e5de6ffd539d6f3f"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
