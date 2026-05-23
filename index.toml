@@ -185,10 +185,6 @@ file = "config/moonlight-common.toml"
 hash = "ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea"
 
 [[files]]
-file = "config/moreculling.toml"
-hash = "db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5"
-
-[[files]]
 file = "config/neoforge-client.toml"
 hash = "a5f0eb38f8daf8574f7672a8393a0ab5c668d6ec6e7ae43fc8669e928786929d"
 
@@ -516,11 +512,6 @@ hash = "df576158442ce70c61494ba2ffb94a546bb6f55e25adabdd666b6597c7542688"
 metafile = true
 
 [[files]]
-file = "mods/moreculling.pw.toml"
-hash = "d126f045e2cc43c9142ea4bcb2acec1917351fc6416eb71bf0bc8d32f7bfe69f"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
@@ -617,4 +608,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "3f70650963aed7a3e60a6d50e46542dc64cda72119fd7e598f9af0ca207b918f"
+hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
