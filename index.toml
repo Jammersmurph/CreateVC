@@ -90,7 +90,7 @@ hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
 [[files]]
 file = "config/flerovium.json"
-hash = "c9ff588aadf900efbfc29f552f374f485f1619ecbf8f1ad0d018107928e78ac1"
+hash = "4901d3810835b7bfd5d57a42e13979b5aa490f541724acfdfc10a92420b988ee"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -294,7 +294,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/zume.json5"
-hash = "8e23412c587a2350337de184b152a297778b3760f8b40dc5c2aac29f4b7a8cd3"
+hash = "5674c3a1af18d2c4f9360413b978a2556581d6ba463293b82175266009b67756"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"
