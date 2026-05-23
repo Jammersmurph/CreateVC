@@ -297,6 +297,10 @@ file = "config/zume.json5"
 hash = "8e23412c587a2350337de184b152a297778b3760f8b40dc5c2aac29f4b7a8cd3"
 
 [[files]]
+file = "debug.log"
+hash = "4ebda44490e20e3314656ffcd6a7847a39c4937d0a726ff18ee45fbdf88e8010"
+
+[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "95c4d503a5bec3da68fe3d0641417c976e901029d0bd68e3cd1ef27af88acf59"
 metafile = true
