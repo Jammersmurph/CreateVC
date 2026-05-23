@@ -221,14 +221,6 @@ file = "config/sable-common.toml"
 hash = "9a1ba0617b4544eb8bded0995de05f26837fdc53215453ccc58012b468ff9dde"
 
 [[files]]
-file = "config/sable_sa_compat-client.toml"
-hash = "0fe6e7a819c834ce247d880d22bad7cfd101c613d93f2504743ef7a28ae6fc39"
-
-[[files]]
-file = "config/sable_sa_compat-common.toml"
-hash = "dfe03dabc1c7f74da2ce6c198bc840f44367ef3a2a33cb26805beba45b78b039"
-
-[[files]]
 file = "config/simulated-client.toml"
 hash = "39e1269b6b3cec623ab69a170ee184c7504c302968c0213ccfbb0dcec71e3964"
 
@@ -406,11 +398,6 @@ metafile = true
 [[files]]
 file = "mods/create-stuff-and-addition-tank-fix.pw.toml"
 hash = "892f1bcad13d7048f0d4c6d372937d76dbb26b438433684426f5be98b08b356b"
-metafile = true
-
-[[files]]
-file = "mods/create-stuff-n-additions-x-sable-aeronautics.pw.toml"
-hash = "4c7c02dcf35034a55560c6e8f762cb3fbc6ddd7f6b01a63ad93df0340f6e55d7"
 metafile = true
 
 [[files]]
