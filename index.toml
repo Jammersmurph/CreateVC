@@ -229,6 +229,14 @@ file = "config/simulated-server.toml"
 hash = "4eb8a653258d8f7aa303fa77c34df800785b543116d5bc41ae613adec8000202"
 
 [[files]]
+file = "config/sodium-extra-options.json"
+hash = "7013e52f3bd075b3424f5737d92c3bac10f34da5d06eee3cdde33e549bbac41f"
+
+[[files]]
+file = "config/sodium-extra.properties"
+hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+
+[[files]]
 file = "config/sodium-fingerprint.json"
 hash = "0ffae446f0793ec08009b9ac71dbc2648a09401450eebfd6688e1d654f30e96d"
 
@@ -238,7 +246,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "d73fe3dd71d62cc98640566074a930d090e7d7c51eb6539fb920405b17a34f67"
+hash = "5c12e4d7de5757e3c7e65ea8ff8ef7f051f37e421e9e2a77b1f3712dff9b0696"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -548,6 +556,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "345dc5a2b3dedcde5c7a1d8e34d256ecb93cf3a48e9290855b541d1a4d15a340"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "b16ee8ff10576cf6ef43fd6a2828463faf96de88e6409f9ee6b3dd31645d282d"
 metafile = true
 
 [[files]]
