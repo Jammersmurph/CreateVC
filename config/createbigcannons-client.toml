@@ -2,16 +2,16 @@
 #Client-side config for Create Big Cannons.
 [client]
 	#.
-	showAutocannonPlumes = true
+	showAutocannonPlumes = false
 	#.
-	showDropMortarPlumes = true
+	showDropMortarPlumes = false
 	#.
-	showMortarStoneClouds = true
+	showMortarStoneClouds = false
 	#.
 	#How many particles are in a Fluid Blob of any size.
 	# Default: 20
 	# Range: 0 ~ 1000
-	fluidBlobParticleCount = 20
+	fluidBlobParticleCount = 0
 	#.
 	#How many digits are after the angle decimal point on a block armor info tooltip.
 	# Default: 2
@@ -40,9 +40,9 @@
 	#Projectile Flyby Sounds
 	[client.projectileFlybySounds]
 		#.
-		enableBigCannonProjectileFlybySounds = true
+	enableBigCannonProjectileFlybySounds = false
 		#.
-		enableAutocannonProjectileFlybySounds = true
+	enableAutocannonProjectileFlybySounds = false
 
 	#.
 	#Cannon Mount Goggle Tooltip
@@ -62,7 +62,7 @@
 		#.
 		# Default: 1.2999999523162842
 		# Range: 0.0 ~ 2.0
-		cannonScreenShakeIntensity = 1.2999999523162842
+	cannonScreenShakeIntensity = 0.0
 		#.
 		# Default: 0.07999999821186066
 		# Range: 0.009999999776482582 ~ 2.0
@@ -76,15 +76,15 @@
 	#Big Cannon Blast
 	[client.bigCannonBlast]
 		#.
-		showBigCannonPlumes = true
+		showBigCannonPlumes = false
 		#.
-		showExtraSmoke = true
+		showExtraSmoke = false
 		#.
-		showExtraFlames = true
+		showExtraFlames = false
 		#.
 		# Default: 6.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		screenShakePowerMultiplier = 6.0
+		screenShakePowerMultiplier = 0.0
 		#.
 		#[in Degrees]
 		# Default: 45.0
@@ -95,63 +95,63 @@
 	#Flak Clouds
 	[client.flakClouds]
 		#.
-		showFlakClouds = true
+		showFlakClouds = false
 		#.
-		showExtraFlames = true
+		showExtraFlames = false
 		#.
-		showExtraShockwave = true
+		showExtraShockwave = false
 		#.
-		showExtraTrails = true
+		showExtraTrails = false
 
 	#.
 	#Shrapnel Clouds
 	[client.shrapnelClouds]
 		#.
-		showShrapnelClouds = true
+		showShrapnelClouds = false
 		#.
-		showExtraFlames = true
+		showExtraFlames = false
 		#.
-		showExtraShockwave = true
+		showExtraShockwave = false
 
 	#.
 	#Fluid Shell Clouds
 	[client.fluidShellClouds]
 		#.
-		showFluidShellClouds = true
+		showFluidShellClouds = false
 		#.
-		showExtraFlames = true
+		showExtraFlames = false
 		#.
-		showExtraShockwave = true
+		showExtraShockwave = false
 
 	#.
 	#Projectile Splashes
 	[client.projectileSplashes]
 		#.
-		showProjectileSplashes = true
+		showProjectileSplashes = false
 
 	#.
 	#Projectile Impacts
 	[client.projectileImpacts]
 		#.
-		showProjectileImpacts = true
+		showProjectileImpacts = false
 
 	#.
 	#Sounds
 	[client.sounds]
 		#.
-		blastSoundAirAbsorption = true
+		blastSoundAirAbsorption = false
 
 	#.
 	#Shell Explosions
 	[client.shellExplosions]
 		#.
-		showShellExplosionClouds = true
+		showShellExplosionClouds = false
 		#.
-		showExtraTrails = true
+		showExtraTrails = false
 		#.
 		# Default: 6.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		screenShakePowerMultiplier = 6.0
+		screenShakePowerMultiplier = 0.0
 		#.
 		#[in Degrees]
 		# Default: 45.0
@@ -165,7 +165,7 @@
 		#[in Meters per second]
 		# Default: 1.25
 		# Range: 0.0 ~ 10.0
-		maximumWindSpeed = 1.25
+		maximumWindSpeed = 0.0
 		#.
 		#[in Degrees per tick]
 		# Default: 8.0

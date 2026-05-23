@@ -14,13 +14,13 @@
 	#Higher density means more spawned particles.
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	fanParticleDensity = 0.5
+	fanParticleDensity = 0.0
 	#.
 	#[in Blocks]
 	#Maximum Distance to the player at which items in Blocks' filter slots will be displayed
 	# Default: 10.0
 	# Range: 1.0 ~ 3.4028234663852886E38
-	filterItemRenderDistance = 10.0
+	filterItemRenderDistance = 3.0
 	#.
 	#Choose the menu row that the Create config button appears on in the main menu
 	#Set to 0 to disable the button altogether
@@ -109,7 +109,7 @@
 	[client.sound]
 		#.
 		#Make cogs rumble and machines clatter.
-		enableAmbientSounds = true
+		enableAmbientSounds = false
 		#.
 		#Maximum volume modifier of Ambient noise
 		# Default: 0.10000000149011612
@@ -140,7 +140,7 @@
 		showExtendedTrackGraphOnF3 = false
 		#.
 		#Display Track Networks and Trains on supported map mods
-		showTrainMapOverlay = true
+		showTrainMapOverlay = false
 		#.
 		#Track Network Color on maps
 		#Allowed Values: RED, GREY, WHITE
