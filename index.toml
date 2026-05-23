@@ -89,10 +89,6 @@ file = "config/ferritecore-mixin.toml"
 hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
 [[files]]
-file = "config/flerovium.json"
-hash = "566a6c273c8d4854691a6829f20c433215e8a1b8f8fa01fd2ee394d5a54c9a24"
-
-[[files]]
 file = "config/flywheel-client.toml"
 hash = "e10963bf43711e1d326e076a5b5baa5654b73d1a3878da6aa11c373b47c9e3ac"
 
@@ -442,11 +438,6 @@ hash = "20014df18edb983b2c8eb764e70209ef84a4ac5aefd29ef25502fb102b0306cd"
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
-metafile = true
-
-[[files]]
-file = "mods/flerovium.pw.toml"
-hash = "ab318c94ea021413ca29bdbc166219eba879214d752e77e616687b349e05e3fd"
 metafile = true
 
 [[files]]
