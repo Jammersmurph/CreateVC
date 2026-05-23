@@ -550,9 +550,8 @@ hash = "e3d0e6da51df08d87c9b88fd6b4011de711d95497263b9ecfd1466cbd34b98d5"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics.pw.toml"
-hash = "6cabae8686cf85c826d1280f00e00d67bb7672d353f669bea9f3775de39dd378"
-metafile = true
+file = "mods/create-aeronautics-bundled-1.21.1-1.2.1.jar"
+hash = "5a8c6d168ec1b47ecee7f2e83a93accbca71544d2b14ca1ca1b1271855f26248"
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
@@ -595,9 +594,8 @@ hash = "e2a3aca8101a179153b92e99000a10d06e4b5d285d358fbe457a53690d12dab5"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "541bc7551355a4d6f18317de874b5435f65cbe6eb1f225cca6bcb6477ccf42af"
-metafile = true
+file = "mods/entityculling-neoforge-1.10.2-mc1.21.1.jar"
+hash = "20014df18edb983b2c8eb764e70209ef84a4ac5aefd29ef25502fb102b0306cd"
 
 [[files]]
 file = "mods/ferritecore.pw.toml"
@@ -615,9 +613,8 @@ hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
 
 [[files]]
-file = "mods/fpsoverlay.pw.toml"
-hash = "160544e8fa837b9e287fbbe123d33d8bd14b30140885e34d4cef99ad2cca7a49"
-metafile = true
+file = "mods/fps_overlay-4.2.jar"
+hash = "3f7a972d2f02c88825487405324caf7eba765685314450fd8b483b241105bf0a"
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
