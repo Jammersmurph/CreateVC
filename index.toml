@@ -754,12 +754,13 @@ hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
 metafile = true
 
 [[files]]
-file = "mods/connector-2.0.0-beta.14+1.21.1-full.jar"
-hash = "a79817f1076e2e6499b0ab09c4e8c032d04b071341b66d036c3d96112804e51b"
-
-[[files]]
 file = "mods/connector-extras.pw.toml"
 hash = "179ec97bb6d278f2012c725fdfab2c5b00adb529e4f720587ce6c3409aaa572f"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true
 
 [[files]]
@@ -828,8 +829,9 @@ hash = "ab318c94ea021413ca29bdbc166219eba879214d752e77e616687b349e05e3fd"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar"
-hash = "68abf2864e957df26ac0cc3bd5352ee67880e052b47a80f22f28556c1179f18d"
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
+metafile = true
 
 [[files]]
 file = "mods/fpsoverlay.pw.toml"
@@ -945,12 +947,14 @@ hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
 metafile = true
 
 [[files]]
-file = "mods/sophisticatedbackpacks-1.21.1-3.25.49.1768.jar"
-hash = "21628a46019e66b68cde2e62979667665c2a2f33b66ba8be78856cdbe7cb7ce1"
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "9ccfe2e74bd599341ac9f72f93b415d9e881a37de983c7f522b82bb02c406f8c"
+metafile = true
 
 [[files]]
-file = "mods/sophisticatedcore-1.21.1-1.4.41.1867.jar"
-hash = "12107b78a25a95475c5a95744e921fec2dbeeb21dd3a65bb6ebb63d06055a7de"
+file = "mods/sophisticated-core.pw.toml"
+hash = "1595ce59e71031514c3b2301215892acdb0848c244ef92c66df53a65840c18e4"
+metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
