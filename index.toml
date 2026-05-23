@@ -222,7 +222,7 @@ hash = "9a1ba0617b4544eb8bded0995de05f26837fdc53215453ccc58012b468ff9dde"
 
 [[files]]
 file = "config/sable_sa_compat-client.toml"
-hash = "dcce392974a63198992f68dd3bff9da6b2d27530a0193c8bbc6dbb824fe1911e"
+hash = "0fe6e7a819c834ce247d880d22bad7cfd101c613d93f2504743ef7a28ae6fc39"
 
 [[files]]
 file = "config/sable_sa_compat-common.toml"
