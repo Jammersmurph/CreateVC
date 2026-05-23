@@ -1,0 +1,13 @@
+name = "Create VC Light"
+author = "Jammersmurph"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "62829205352b57084e948aa78d29b5d8031045c30fde63f7f9d0994cfd9bf89e"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"

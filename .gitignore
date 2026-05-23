@@ -1,0 +1,10 @@
+*.jar
+*.zip
+*.mrpack
+.minecraft/
+logs/
+crash-reports/
+saves/
+shaderpacks/
+resourcepacks/
+options.txt

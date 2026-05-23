@@ -1,0 +1,13 @@
+name = "FPS Overlay"
+filename = "fps_overlay-4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f4787217c7ca91a823f0cac89a6b6bbcb2085d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7787004
+project-id = 1341801

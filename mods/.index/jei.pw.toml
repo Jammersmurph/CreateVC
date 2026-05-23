@@ -1,0 +1,17 @@
+filename = 'jei-1.21.1-neoforge-19.27.0.340.jar'
+name = 'Just Enough Items (JEI)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '19.27.0.340'
+
+[download]
+hash = '8bad8eb3c8e974f867e23e4d74598f603c5fbf03eb5356a386dd37cb9fa23e08ad1f58be6b7be50d2fbf9d3fbfaeac8584c70ced736df4b8f82c7c75be242998'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u6dRKJwZ/versions/YAcQ6elZ/jei-1.21.1-neoforge-19.27.0.340.jar'
+
+[update.modrinth]
+mod-id = 'u6dRKJwZ'
+version = 'YAcQ6elZ'

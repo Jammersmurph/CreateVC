@@ -1,0 +1,26 @@
+{
+  "general": {
+    "enabled": true,
+    "enableKeybindings": true,
+    "updateIntervalMs": 250,
+    "configVersion": 4
+  },
+  "hud": {
+    "showFps": true,
+    "showAverageFps": true,
+    "showMemory": true,
+    "showPing": true,
+    "show1PercentLow": true,
+    "showMspt": true,
+    "showTps": true
+  },
+  "appearance": {
+    "position": "TOP_CENTER",
+    "overlayStyle": "NAVBAR",
+    "showBackground": true,
+    "backgroundOpacity": 180,
+    "hudScale": 0.65,
+    "adaptiveColors": true,
+    "autoHideF3": true
+  }
+}
