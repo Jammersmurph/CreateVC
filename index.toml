@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "8a66360bd3bd831fadc371560ad06e0da6b88ec050c4ed550ac9fd6e99e526ea"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -990,7 +986,3 @@ metafile = true
 file = "mods/zume.pw.toml"
 hash = "145943325d3b47d7fb916835d8530645e3f5806c72f68f9d75183493b2c68425"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "1b12a08d528509a62c7918c4f69185a7f1cc01c4b9594d5d9f12ec8e81872174"
