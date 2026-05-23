@@ -1,5 +1,5 @@
 #Whether sub-levels should apply block shading dynamically
-sub_level_dynamic_shading = true
+sub_level_dynamic_shading = false
 #Whether sub-levels can occlude the water surface
 sub_level_water_occlusion = true
 #Whether sub-levels should cast a shadow on the world
