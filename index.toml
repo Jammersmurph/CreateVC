@@ -105,10 +105,6 @@ file = "config/fps_overlay/config.json"
 hash = "9660eb9fccfbadc2cebfbb6f0a1b8856a9b62340d5ebd64e9cc1b8d6a5d86c8d"
 
 [[files]]
-file = "config/immediatelyfast.json"
-hash = "137947e0aaaf165c0b33f520aa3fdab60f0c04b835dd8c11e5de6ffd539d6f3f"
-
-[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
 
@@ -461,11 +457,6 @@ hash = "3f7a972d2f02c88825487405324caf7eba765685314450fd8b483b241105bf0a"
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "bf87620865e88ba85547d050f09c579e991ed1f80a05058ff86598c61e1d057d"
-metafile = true
-
-[[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "8e67a96432b89ad64ec00b59666f510ead091dea23632a672ac800c77964e9ae"
 metafile = true
 
 [[files]]
