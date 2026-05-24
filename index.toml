@@ -455,10 +455,6 @@ hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
 
 [[files]]
-file = "mods/fps_overlay-4.2.jar"
-hash = "3f7a972d2f02c88825487405324caf7eba765685314450fd8b483b241105bf0a"
-
-[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "bf87620865e88ba85547d050f09c579e991ed1f80a05058ff86598c61e1d057d"
 metafile = true
