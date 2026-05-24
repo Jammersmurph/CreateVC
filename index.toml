@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CreateVC-Updater.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
+file = "README.md"
+hash = "cd1e311bdb195b3648a4242411597479540d06c00cfe013ab8cd760cc7b05388"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
