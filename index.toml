@@ -302,7 +302,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/zume.json5"
-hash = "5674c3a1af18d2c4f9360413b978a2556581d6ba463293b82175266009b67756"
+hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"
@@ -436,11 +436,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "e2a3aca8101a179153b92e99000a10d06e4b5d285d358fbe457a53690d12dab5"
-metafile = true
-
-[[files]]
-file = "mods/e4mc.pw.toml"
-hash = "36732fd7fdad0831fdaef0c806def4ebcab5084bfd851bcff5e948923cd1b1d7"
 metafile = true
 
 [[files]]
