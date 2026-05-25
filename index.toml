@@ -6,7 +6,7 @@ hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "README.md"
-hash = "cd1e311bdb195b3648a4242411597479540d06c00cfe013ab8cd760cc7b05388"
+hash = "3f5912fc2b60adcc4e00ff7f6c455b73c473b6113dd94dfe02ea0a99fd7b3b40"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -618,8 +618,8 @@ hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
 
 [[files]]
 file = "servers.dat"
-hash = "6d1d803d71d0c9146a4be57352a1263bbbf8dc8cec4a16df173d6cc4b2ff211f"
+hash = "a421d0d0a7573d0b8e714abe827a98bbccca0511a7cda15bebf0029e3859a7dd"
 
 [[files]]
 file = "servers.dat_old"
-hash = "bbb0654974890e6b07b00af4055be8153514a606353f12d243020751efc8a3b3"
+hash = "a421d0d0a7573d0b8e714abe827a98bbccca0511a7cda15bebf0029e3859a7dd"
