@@ -595,3 +595,11 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
+
+[[files]]
+file = "servers.dat"
+hash = "6d1d803d71d0c9146a4be57352a1263bbbf8dc8cec4a16df173d6cc4b2ff211f"
+
+[[files]]
+file = "servers.dat_old"
+hash = "bbb0654974890e6b07b00af4055be8153514a606353f12d243020751efc8a3b3"
