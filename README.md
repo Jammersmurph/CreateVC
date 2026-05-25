@@ -1,5 +1,5 @@
 # Early Access Setup:
-- Download/Install/Open PrismLauncher/Modrinth or PojavLauncher.
+- Download/Install/Open PrismLauncher/Modrinth/MultiMC-Based
 - Download the [Updater Jar](https://github.com/Jammersmurph/CreateVC/blob/main/CreateVC-Updater.jar)
 - Make a fresh Neoforge 1.21.1 21.1.228 instance.
 - Move the [Updater Jar](https://github.com/Jammersmurph/CreateVC/blob/main/CreateVC-Updater.jar) from earlier into the Root Instance folder, NOT the mods folder. (The folder that contains the mods, configs, screenshots, saves, etc.)
