@@ -1,13 +1,13 @@
 name = "Sophisticated Core"
-filename = "sophisticatedcore-1.21.1-1.4.41.1867.jar"
+filename = "sophisticatedcore-1.21.1-1.4.42.1892.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nmoqTijg/versions/xLeCYw3D/sophisticatedcore-1.21.1-1.4.41.1867.jar"
-hash-format = "sha512"
-hash = "5077d80fe644c34516381e1b9c1f89d9ffd99aa7762af0a4747e82caee5d6828a747802f67c9734104929558e2364631ca3d1d738621638196a51de276aaee37"
+hash-format = "sha1"
+hash = "c96bc37fac2de3a76ce2bffe3881c5f08d04264c"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "nmoqTijg"
-version = "xLeCYw3D"
+[update.curseforge]
+file-id = 8145747
+project-id = 618298
