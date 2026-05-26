@@ -409,6 +409,11 @@ hash = "3fd629d483c750e80a6e450ce0f350b5a15dc6d206fbe7124d5230abd7f164ac"
 metafile = true
 
 [[files]]
+file = "mods/create-qol.pw.toml"
+hash = "cd4d3773bd060f0358038daf13350ef9847398956f1887c81fc8d4b31135a89c"
+metafile = true
+
+[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "0ec6556e7e1c8d7b5ee522656adcd51ff59629e589409128241794f7d677c422"
 metafile = true
