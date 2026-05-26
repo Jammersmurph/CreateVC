@@ -1,0 +1,13 @@
+name = "Create: Netherless (Forge)"
+filename = "create_netherless-2.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d3499b77c8bcbe8c7a301750271c3d2a0b35cbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7956983
+project-id = 881506
