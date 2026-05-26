@@ -394,6 +394,11 @@ hash = "374c57525f5d252ff41b2b72b38b9b36340d3e42ce9d2fc37789e246e669b610"
 metafile = true
 
 [[files]]
+file = "mods/create-netherless.pw.toml"
+hash = "7c8a44b166be5644bd8c1f98bf3a79bdc1a25c8ccae8ccf0b7e9064bf5e05631"
+metafile = true
+
+[[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "a9dad68061b69b23ba00cd93d31dc8b5622f1426b4e684aaf6022e1bd492ae56"
 metafile = true
@@ -436,6 +441,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "e2a3aca8101a179153b92e99000a10d06e4b5d285d358fbe457a53690d12dab5"
+metafile = true
+
+[[files]]
+file = "mods/emojiful.pw.toml"
+hash = "db40d54d3dc0efa63fbb4783dcf45552c04ff892c9a51a671ed142f7df184941"
 metafile = true
 
 [[files]]
