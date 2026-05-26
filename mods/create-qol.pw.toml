@@ -1,0 +1,13 @@
+name = "Create: Quality Of Life"
+filename = "Create Quality of Life-1.21.1-1.6.2-fix2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a884ffb45c99248cf0c355944d524e5794cedc75"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7967344
+project-id = 905508
