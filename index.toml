@@ -665,3 +665,235 @@ hash = "a421d0d0a7573d0b8e714abe827a98bbccca0511a7cda15bebf0029e3859a7dd"
 [[files]]
 file = "servers.dat_old"
 hash = "a421d0d0a7573d0b8e714abe827a98bbccca0511a7cda15bebf0029e3859a7dd"
+
+[[files]]
+file = "updater/.gradle/8.8/checksums/checksums.lock"
+hash = "a96b168263df934e7669e2855e8d7383fac79acfa2aa5d904b43ef135579eaa3"
+
+[[files]]
+file = "updater/.gradle/8.8/dependencies-accessors/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "updater/.gradle/8.8/executionHistory/executionHistory.bin"
+hash = "60f4e7e70e036c0fe2ce299af9f7677144d27f86f40e599da0eb048d745d0b62"
+
+[[files]]
+file = "updater/.gradle/8.8/executionHistory/executionHistory.lock"
+hash = "4bc8a36293e79c1ae05cc6ecfe1acfc82385b328f08dd8c6587a8cfb29361df6"
+
+[[files]]
+file = "updater/.gradle/8.8/fileChanges/last-build.bin"
+hash = "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+
+[[files]]
+file = "updater/.gradle/8.8/fileHashes/fileHashes.bin"
+hash = "22cc626f54b608e2df00fe820b864193becee7d73095467a8f60592d3ef41d64"
+
+[[files]]
+file = "updater/.gradle/8.8/fileHashes/fileHashes.lock"
+hash = "5c2b7d08bbfd80670085a8b90656e8b42205e7abbddf1c0348c88312435966ec"
+
+[[files]]
+file = "updater/.gradle/8.8/fileHashes/resourceHashesCache.bin"
+hash = "fe5a5f5f92e21243f64debf62fd0abeda3104dcfc776ffc51a00bc7459d0db7a"
+
+[[files]]
+file = "updater/.gradle/8.8/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "updater/.gradle/buildOutputCleanup/buildOutputCleanup.lock"
+hash = "ac59c50ce6d01cb036fb274250bbdbc572d57c74a76cdcfb9ad7de5facb88192"
+
+[[files]]
+file = "updater/.gradle/buildOutputCleanup/cache.properties"
+hash = "6af158f8bd65c4a11f55591cf9975c7b1609b6aec0b7031e5bd044933fd9e161"
+
+[[files]]
+file = "updater/.gradle/buildOutputCleanup/outputFiles.bin"
+hash = "f30da40d691983503c95217d2d8694cc4519a1c9f1267217b555d5031b3949c7"
+
+[[files]]
+file = "updater/.gradle/configuration-cache/9wmhi03lv5f2vhrfez72rxs8y/buildfingerprint.bin"
+hash = "6ffce7707bdb61a19efde661e13de13e00580eff837205d46815708575cbdedb"
+
+[[files]]
+file = "updater/.gradle/configuration-cache/9wmhi03lv5f2vhrfez72rxs8y/entry.bin"
+hash = "b702dec43d96e2d2c1dd85d9a292e1fec50b087e5d0afcd04fa6a438fa655fc9"
+
+[[files]]
+file = "updater/.gradle/configuration-cache/9wmhi03lv5f2vhrfez72rxs8y/projectfingerprint.bin"
+hash = "fc471b7c6c55021270d693a3a4326c6295219c9b4ad4ccd143317d4fa50e16ec"
+
+[[files]]
+file = "updater/.gradle/configuration-cache/9wmhi03lv5f2vhrfez72rxs8y/work.bin"
+hash = "02f664dd1b3e1a535d0cb8b05513f680bb46c393e9544e4518a477c64f5e09c0"
+
+[[files]]
+file = "updater/.gradle/configuration-cache/configuration-cache.lock"
+hash = "7044b65435f7decf5f0d1fdbe8c21d3c11d2a73a01fb9fa79520ee41590371ff"
+
+[[files]]
+file = "updater/.gradle/configuration-cache/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "updater/.gradle/file-system.probe"
+hash = "4025c542dc4b8247eee1b6f75121024628a7d94871929abc1ba906d26b6e6d63"
+
+[[files]]
+file = "updater/.gradle/vcs-1/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "updater/LICENSE"
+hash = "06d166216ee26eec9062eddf17fbcf102fbda0b546532d8fcf7341090228182c"
+
+[[files]]
+file = "updater/README.md"
+hash = "c110ae7cf9d38c065b0af925b2c23d2133a960ce21d45dae1b80541a5b288445"
+
+[[files]]
+file = "updater/build.gradle"
+hash = "4e7b7cf9b0e5b4852d4eb0ac275cd09c41bddffc42607e9cf029895b52e42290"
+
+[[files]]
+file = "updater/build/classes/java/main/org/createvc/updater/CreateVCUpdater.class"
+hash = "df626363abd9983570a8ef22f9b06b019869fd9729e9f2759f3a3964679f2b71"
+
+[[files]]
+file = "updater/build/classes/java/main/org/createvc/updater/UpdatePlugin.class"
+hash = "ec8b9f27c13fc90f78d2a958fbc33bf933b0f8d5b868c52eead48b73884d7811"
+
+[[files]]
+file = "updater/build/classes/java/main/org/createvc/updater/UpdaterBootstrap.class"
+hash = "6e857f65dc11725024dda5d73d1c2f7a2ee67a52d82a065a6617772c1c8c2bf2"
+
+[[files]]
+file = "updater/build/generated/sources/modMetadata/META-INF/neoforge.mods.toml"
+hash = "5afd4de3b9b2d9dccd5ad1f8d83336470e33bb6a2583ea8d4c8a38472450500c"
+
+[[files]]
+file = "updater/build/libs/createvc_updater-1.0.0.jar"
+hash = "1811e037487f02540a0fb0e3c6bb596543635a8e8522ae91cc017b83cc7de770"
+
+[[files]]
+file = "updater/build/moddev/artifacts/neoforge-21.1.230-client-extra-aka-minecraft-resources.jar"
+hash = "8e9cf6f4b6eafb1c6bf745a67a61dd1736f31865cad409e5b2bec918667dab5e"
+
+[[files]]
+file = "updater/build/moddev/artifacts/neoforge-21.1.230-merged.jar"
+hash = "8296ae9bbfacbc770779971596fe7d988bd36a8ca6a410e69fa4ebb8e2610c0c"
+
+[[files]]
+file = "updater/build/moddev/artifacts/neoforge-21.1.230-sources.jar"
+hash = "2afa4d2f79ee75ae89cc10e14b27835c467f04dd111fd394d2fe9f043a7839bc"
+
+[[files]]
+file = "updater/build/moddev/artifacts/neoforge-21.1.230.jar"
+hash = "d75ab30989b291b0e60d471227a450fe834e30654250874f687c8cbe26023fb0"
+
+[[files]]
+file = "updater/build/reports/configuration-cache/9wmhi03lv5f2vhrfez72rxs8y/49dg10o01o1uozjb8gv7m3dfd/configuration-cache-report.html"
+hash = "258f4034d84738799af093aede1b8cf4d72b2448418b010add57b2a83c4f4854"
+
+[[files]]
+file = "updater/build/resources/main/META-INF/neoforge.mods.toml"
+hash = "5afd4de3b9b2d9dccd5ad1f8d83336470e33bb6a2583ea8d4c8a38472450500c"
+
+[[files]]
+file = "updater/build/resources/main/META-INF/services/cpw.mods.modlauncher.api.ITransformationService"
+hash = "6e01e51d569d7cf6500be9f25f9dcb0a6074b0e23f52fadb0482b3c08e2668ea"
+
+[[files]]
+file = "updater/build/resources/main/createvc_core.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "updater/build/resources/main/createvc_updater.mixins.json"
+hash = "81b6218c28d3762527a4b0d9e6d81369ed912a95f1f3775e1b698575a4ed12ea"
+
+[[files]]
+file = "updater/build/resources/main/updater/createvc-updater-bootstrap.jar"
+hash = "96ca0e64c6f139127f7535ce647790d78c685d9d45b2373f899710aea4f7504b"
+
+[[files]]
+file = "updater/build/tmp/compileJava/compileTransaction/stash-dir/UpdatePlugin.class.uniqueId0"
+hash = "ec8b9f27c13fc90f78d2a958fbc33bf933b0f8d5b868c52eead48b73884d7811"
+
+[[files]]
+file = "updater/build/tmp/compileJava/compileTransaction/stash-dir/UpdaterBootstrap.class.uniqueId1"
+hash = "8a6db847fcdfe05212651ce0b8b45d7d098b60b8c357a9f2f52c77de6ea8f872"
+
+[[files]]
+file = "updater/build/tmp/compileJava/previous-compilation-data.bin"
+hash = "bf4763dede32a51d1cc8e64ff25cc4609573aef2ba206baf631804674b157ad9"
+
+[[files]]
+file = "updater/build/tmp/createMinecraftArtifacts/nfrt-problem-report.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "updater/build/tmp/createMinecraftArtifacts/nfrt_artifact_manifest.properties"
+hash = "2782b2549cad0e7add84ee864eaf08a071f003af781b11ec5bdb40b45347ac3b"
+
+[[files]]
+file = "updater/build/tmp/jar/MANIFEST.MF"
+hash = "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+
+[[files]]
+file = "updater/gradle.properties"
+hash = "042a4a0a89ca66898c8c32d81192fcd3e127d838f53838fc883ae04061f750d2"
+
+[[files]]
+file = "updater/gradle/wrapper/gradle-wrapper.jar"
+hash = "cb0da6751c2b753a16ac168bb354870ebb1e162e9083f116729cec9c781156b8"
+
+[[files]]
+file = "updater/gradle/wrapper/gradle-wrapper.properties"
+hash = "05e7bec397ce5a52628d31dcc4c8b636cbdc55e28f8cef19d097c71b5c5fbb42"
+
+[[files]]
+file = "updater/gradlew"
+hash = "d8231d345ab33433ab7b2c0720d5beb416c8d5c6789dbc01ad122b63bc2cae0d"
+
+[[files]]
+file = "updater/gradlew.bat"
+hash = "95e8ae8e8a256a2f066cdd745d56f7a3fc87aa058a2e4beb483300db7171bd1f"
+
+[[files]]
+file = "updater/settings.gradle"
+hash = "b94fb4013af72a91c29e63a80c816b56a26abe360c24bcc50e4cc3c602b3ef92"
+
+[[files]]
+file = "updater/src/main/java/org/createvc/updater/CreateVCUpdater.java"
+hash = "0f54c8487972647b4785c2049b0b94b4b33d36936377fc4122b9acc96d054ccd"
+
+[[files]]
+file = "updater/src/main/java/org/createvc/updater/UpdatePlugin.java"
+hash = "a79d93e8e616d2dbc0b2055981a1bd5603914686ce322d9c6ef290a134ce07cc"
+
+[[files]]
+file = "updater/src/main/java/org/createvc/updater/UpdaterBootstrap.java"
+hash = "7dc66da9ae492c8164c7218d00926618a7a56dee014b1f115cccd126b07401ff"
+
+[[files]]
+file = "updater/src/main/resources/META-INF/services/cpw.mods.modlauncher.api.ITransformationService"
+hash = "6e01e51d569d7cf6500be9f25f9dcb0a6074b0e23f52fadb0482b3c08e2668ea"
+
+[[files]]
+file = "updater/src/main/resources/createvc_core.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "updater/src/main/resources/createvc_updater.mixins.json"
+hash = "81b6218c28d3762527a4b0d9e6d81369ed912a95f1f3775e1b698575a4ed12ea"
+
+[[files]]
+file = "updater/src/main/resources/updater/createvc-updater-bootstrap.jar"
+hash = "96ca0e64c6f139127f7535ce647790d78c685d9d45b2373f899710aea4f7504b"
+
+[[files]]
+file = "updater/src/main/templates/META-INF/neoforge.mods.toml"
+hash = "498d78cea21c62d03dd89253dd18a6eb08eb810a146ac36dd59b5fb26130617b"
