@@ -1,0 +1,60 @@
+name: Export & Publish Modpack
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract version from pack.toml
+        id: version
+        run: |
+          VERSION=$(grep '^version =' pack.toml | sed 's/.*"\(.*\)".*/\1/')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export to CurseForge
+        run: packwiz cf export -o CreateVC-Light.zip
+
+      - name: Export to Modrinth
+        run: packwiz mr export -o CreateVC-Light.mrpack
+
+      - name: Upload to Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          curl -X POST https://api.modrinth.com/v2/version \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"createvc-server\",\"file_parts\":[\"file\"]};type=application/json" \
+            -F "file=@CreateVC-Light.mrpack"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: CreateVC-Light-Exports
+          path: |
+            CreateVC-Light.mrpack
+            CreateVC-Light.zip
+          compression-level: 0
+
+      - name: Upload to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            CreateVC-Light.mrpack
+            CreateVC-Light.zip

@@ -1,0 +1,9 @@
+*.zip
+*.mrpack
+
+.minecraft/
+logs/
+crash-reports/
+saves/
+.codex
+Resources/
