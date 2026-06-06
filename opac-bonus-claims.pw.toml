@@ -1,0 +1,13 @@
+name = "OPAC Bonus Claims"
+filename = "opacbonusclaims-1.2.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CfBPXHvv/versions/ZvUIVthw/opacbonusclaims-1.2.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "f4dc3675762f659d7aa46af0b553e2438b76391baa61c86c781254611c1c36fce2ae65ffcfb8c17f78e7dd0e50466baf67f4d1484f9067da48e2af821b3b77a5"
+
+[update]
+[update.modrinth]
+mod-id = "CfBPXHvv"
+version = "ZvUIVthw"
