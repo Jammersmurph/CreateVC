@@ -13,3 +13,7 @@ hash = "6f7383ef3f4b572c76d3371a7441bc3d625db9d404cf61b249fab018bc3ffd1fa82e735e
 [update.modrinth]
 mod-id = "PtjYWJkn"
 version = "pFmw1eci"
+
+[update.curseforge]
+file-id = 8189182
+project-id = 447673
