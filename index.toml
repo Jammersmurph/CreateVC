@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".anchored-summary.md"
-hash = "b05f7d7ff4b3359d595c3d2f865c75fa7cd9d16b9aee86fc50a8d56ec1f4ed8d"
+hash = "2664c71725b573ef4fc7fbb2bfcc91f0ad7d61338c90f9fb1a80a78f442d0446"
 
 [[files]]
 file = "add-cf-metadata.py"
-hash = "dd3eeccdb0c0f346296bd63a21083d3be9d15c315e05c5c91b9c193e0bbfe55c"
+hash = "ac356ada27ab80da74c0bd21c8a3746d147706122332876cd4f88716dedf4f59"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -341,6 +341,11 @@ hash = "c61f4a52708cb024aee637a3331013509f6e83427fd785a67caf75372b0d950e"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "c94e38d4519c2099608a22568641aaaccc4b9e7f6037a130b6130546bddfd6a6"
 metafile = true
@@ -447,7 +452,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater-1.0.1.jar"
-hash = "c85490ac2add911b5af6814073a24ca04646654f0203a23360a99c15b2875235"
+hash = "e3f04fe3881424c38e8aba2e7b89cdefa5d70f51e83989b41b1197950460b270"
 
 [[files]]
 file = "mods/curios.pw.toml"
@@ -592,6 +597,11 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "37c13cdba38c057e7b1e304f6c38b329724c9457832b593bf18adc652a00b622"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
