@@ -367,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "b523861124d39de34c299ecf4b87bce6fb736814d9a18323ae833465f446a559"
+hash = "a967fe8a035786be05cdf8df0c3b89ac3cf6d2476f3cef82a228e4198a0d465c"
 metafile = true
 
 [[files]]
@@ -566,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "136be8673093374184f677efccaede0f05a69aec1c9ba0425f1de9990218ce9c"
+hash = "17884ebb6cc7264bdf47629e5a7069d6b86eb5fae96eba5c15c0083e2d8e1757"
 metafile = true
 
 [[files]]
@@ -616,12 +616,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "26b16542ad3f1d2d48a8abe717e927b8edaa701447d7d95a15a539c24d57944e"
+hash = "847d20d658c1e4c6a30db35d501eee86ae42d311440e0e59001cbb9000903fdd"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "16214104ef2f5f436218ae3a5ba1d9c188c2b8ccf888e5baa004b6fc84042d42"
+hash = "6ed4dab495d16a1ce094074d2e42877a55aeaa80b105a230e2ba4db256bfbae1"
 metafile = true
 
 [[files]]
