@@ -666,12 +666,12 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
+hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "servers.dat"
-hash = "a421d0d0a7573d0b8e714abe827a98bbccca0511a7cda15bebf0029e3859a7dd"
+hash = "302ce7b444771f12340b009f5d55435c0c8885be62586105a9e7768226a6b3db"
 
 [[files]]
 file = "servers.dat_old"
-hash = "a421d0d0a7573d0b8e714abe827a98bbccca0511a7cda15bebf0029e3859a7dd"
+hash = "a42e94efb4c9c9b1d2d2f6333ee265d8be6519781cc6df6325285e75b6c1ec7d"
