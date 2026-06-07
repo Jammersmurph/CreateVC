@@ -481,6 +481,11 @@ hash = "3a70b73cd83263933eb48d59bda47a660815c58b2b2807a9800494a59c6682f1"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "9c1fdfd9982323882a7ef2fdc18e64cf5169f35a01c5a9027a8f5e73519c7372"
 metafile = true
