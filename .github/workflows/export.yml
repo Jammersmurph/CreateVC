@@ -61,19 +61,10 @@ jobs:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           VERSION: ${{ steps.version.outputs.version }}
         run: |
-          VERSION_ID=$( \
-            curl -s -X POST https://api.modrinth.com/v2/version \
-              -H "Authorization: $MODRINTH_TOKEN" \
-              -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"BpnBfkpK\",\"file_parts\":[\"file\"]};type=application/json" \
-              -F "file=@CreateVC.mrpack" \
-            | python3 -c "import json,sys; print(json.load(sys.stdin).get('id',''))" \
-          )
-          if [ -n "$VERSION_ID" ]; then
-            curl -s -X PATCH "https://api.modrinth.com/v2/project/BpnBfkpK" \
-              -H "Authorization: $MODRINTH_TOKEN" \
-              -H "Content-Type: application/json" \
-              -d "{\"server_details\": {\"modpack_version_id\": \"$VERSION_ID\"}}"
-          fi
+          curl -X POST https://api.modrinth.com/v2/version \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"BpnBfkpK\",\"file_parts\":[\"file\"]};type=application/json" \
+            -F "file=@CreateVC.mrpack"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
