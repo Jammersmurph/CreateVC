@@ -62,11 +62,11 @@ HARDCODED = {
     "cloth-config":          (348521, 5729127, "cloth-config-15.0.140-neoforge.jar"),
     "sodium-extra":          (447673, 8189182, "sodium-extra-neoforge-0.8.7+mc1.21.1.jar"),
     "simple-voice-chat":     (416089, 8158511, "voicechat-neoforge-1.21.1-2.6.18.jar"),
-    "nerb":                  (1140083, 5707595, "nerb-1.21.1-0.4.0.jar"),
-    "entityculling":         (409087, 8247538, "entityculling-1.10.2-mc1.21.1.jar"),
+    "nerb":                  (738663, 6880047, "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar"),
+    "entityculling":         (448233, 8053771, "entityculling-neoforge-1.10.2-mc1.21.1.jar"),
     "create-stuff-additions": (466792, 8100852, "create-stuff-additions1.21.1_v2.1.3.jar"),
     "createaddition":        (439890, 8188476, "createaddition-1.6.0.jar"),
-    "kubejs-create":         (1553946, 6993063, "kubejs-create-2101.6.1-build.173.jar"),
+    "kubejs-create":         (429371, 7213667, "kubejs-create-neoforge-2101.3.1-build.18.jar"),
     "create-aeronautics-toolgun": (1521349, 8165837, "create_aeronauticstoolgun-1.0.5.jar"),
 }
 
