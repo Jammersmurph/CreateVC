@@ -12,3 +12,7 @@ hash = "ee04af8b67868d8a1f128eb1f2bcb533f06ed239f6d347aa2c73a8cd4af2194852188db1
 [update.modrinth]
 mod-id = "4Rh1Mobu"
 version = "ROADZx1W"
+
+[update.curseforge]
+file-id = 7951633
+project-id = 1142875

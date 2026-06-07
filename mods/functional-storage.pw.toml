@@ -12,3 +12,7 @@ hash = "703292eb514d09ed34fb4cc889fc424a9816be145a931c29069a24ed6d21f5d9b46f4d8b
 [update.modrinth]
 mod-id = "cO40ZIg3"
 version = "FWnouoF2"
+
+[update.curseforge]
+file-id = 8179577
+project-id = 556861

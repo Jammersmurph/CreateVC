@@ -12,3 +12,7 @@ hash = "e9de2952545e9e773a6e78fc501e8cd231ea19750c30404355b71df9928eb5bd0921a442
 [update.modrinth]
 mod-id = "SaCpeal4"
 version = "3kpPjcTc"
+
+[update.curseforge]
+file-id = 7515858
+project-id = 276951

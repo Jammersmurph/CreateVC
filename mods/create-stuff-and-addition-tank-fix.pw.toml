@@ -11,3 +11,7 @@ hash = "e1e55a15149dc1247c41cf1fda52c8e4c6f5703ed5e20b4c9fb3916fffb6001e03514cd2
 [update.modrinth]
 mod-id = "LANuxfjR"
 version = "4VObKKFd"
+
+[update.curseforge]
+file-id = 7568020
+project-id = 1374815

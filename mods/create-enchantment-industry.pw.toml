@@ -12,3 +12,7 @@ hash = "52b4d41157dee2620694db2cf83c0eb6cb80d86d225ac7c924ff6b87cd0ef5a878d9b1c4
 [update.modrinth]
 mod-id = "JWGBpFUP"
 version = "QclZk1u6"
+
+[update.curseforge]
+file-id = 8204326
+project-id = 688768
