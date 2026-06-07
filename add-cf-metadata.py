@@ -60,7 +60,7 @@ HARDCODED = {
     "selene":                (499980, 8156754, "moonlight-neoforge-1.21.1-3.0.16.jar"),
     "sophisticated-core":    (618298, 8145747, "sophisticatedcore-1.21.1-1.4.42.1892.jar"),
     "cloth-config":          (348521, 5729127, "cloth-config-15.0.140-neoforge.jar"),
-    "sodium-extra":          (447673, 8189182, "sodium-extra-neoforge-0.8.7+mc1.21.1.jar"),
+    "sodium-extra":          (447673, 5913377, "sodium-extra-neoforge-0.6.0+mc1.21.1.jar"),
     "simple-voice-chat":     (416089, 8158511, "voicechat-neoforge-1.21.1-2.6.18.jar"),
     "nerb":                  (738663, 6880047, "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar"),
     "entityculling":         (448233, 8053771, "entityculling-neoforge-1.10.2-mc1.21.1.jar"),
