@@ -28,7 +28,7 @@ jobs:
           if [[ "$GITHUB_REF" == refs/tags/* ]]; then
             echo "tag_name=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
           else
-            echo "tag_name=nightly" >> "$GITHUB_OUTPUT"
+            echo "tag_name=Modpacks" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Go
@@ -47,10 +47,10 @@ jobs:
         run: python3 add-cf-metadata.py
 
       - name: Export to CurseForge
-        run: packwiz cf export -o CreateVC-Light.zip
+        run: packwiz cf export -o CreateVC.zip
 
       - name: Export to Modrinth
-        run: packwiz mr export -o CreateVC-Light.mrpack
+        run: packwiz mr export -o CreateVC.mrpack
 
       - name: Upload to Modrinth
         if: startsWith(github.ref, 'refs/tags/')
@@ -61,24 +61,25 @@ jobs:
           curl -X POST https://api.modrinth.com/v2/version \
             -H "Authorization: $MODRINTH_TOKEN" \
             -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"createvc-server\",\"file_parts\":[\"file\"]};type=application/json" \
-            -F "file=@CreateVC-Light.mrpack"
+            -F "file=@CreateVC.mrpack"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: CreateVC-Light-Exports
+          name: CreateVC-Exports
           path: |
-            CreateVC-Light.mrpack
-            CreateVC-Light.zip
+            CreateVC.mrpack
+            CreateVC.zip
           compression-level: 0
 
-      - name: Create/update release
+      - name: Update Modpacks release
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.tag.outputs.tag_name }}
-          name: ${{ steps.tag.outputs.tag_name == 'nightly' && 'Nightly Build' || steps.version.outputs.version }}
-          prerelease: ${{ steps.tag.outputs.tag_name == 'nightly' }}
           allowUpdates: true
+          omitBody: true
+          omitName: true
+          omitPrerelease: true
           replacesArtifacts: true
-          artifacts: "CreateVC-Light.zip,CreateVC-Light.mrpack"
+          artifacts: "CreateVC.zip,CreateVC.mrpack"
           token: ${{ secrets.GITHUB_TOKEN }}
