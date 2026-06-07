@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".anchored-summary.md"
+hash = "b05f7d7ff4b3359d595c3d2f865c75fa7cd9d16b9aee86fc50a8d56ec1f4ed8d"
+
+[[files]]
 file = "add-cf-metadata.py"
 hash = "dd3eeccdb0c0f346296bd63a21083d3be9d15c315e05c5c91b9c193e0bbfe55c"
 
@@ -482,7 +486,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
+hash = "60baa78b0d76e76a726d459fd32cec5614141a43e1a470afc75bf7cbb14fec04"
 metafile = true
 
 [[files]]
