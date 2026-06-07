@@ -482,12 +482,8 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "60baa78b0d76e76a726d459fd32cec5614141a43e1a470afc75bf7cbb14fec04"
+hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
 metafile = true
-
-[[files]]
-file = "mods/ftb-library-neoforge-2101.1.31.jar"
-hash = "3d44705187cf938842e06d484a93e0491b82b0689785e6da4f7cabe40bd88aeb"
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
