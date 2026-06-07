@@ -13,3 +13,7 @@ hash = "e6d12bcc860d81af59b8cb6d7e2306eb6c119b57f6bd0e7f9536e7800b82385b935b9b23
 [update.modrinth]
 mod-id = "1bokaNcj"
 version = "CklXEjmp"
+
+[update.curseforge]
+file-id = 8046966
+project-id = 263420

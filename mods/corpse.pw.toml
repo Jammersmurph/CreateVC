@@ -12,3 +12,7 @@ hash = "473aafd82008c1e041e3b4a5a177507d555c8bc9dd1f121f252f1e81bc0c69c79a91cb64
 [update.modrinth]
 mod-id = "WrpuIfhw"
 version = "Zwf8nv8y"
+
+[update.curseforge]
+file-id = 7018307
+project-id = 316582

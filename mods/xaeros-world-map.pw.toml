@@ -13,3 +13,7 @@ hash = "30fee010d813ce1cffe67a7b386d0ff6a8f9bd49026a38d0ba948a44a4670c50d434d30c
 [update.modrinth]
 mod-id = "NcUtCpym"
 version = "XwL25au3"
+
+[update.curseforge]
+file-id = 8042208
+project-id = 317780

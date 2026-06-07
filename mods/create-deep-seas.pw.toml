@@ -11,3 +11,7 @@ hash = "473ade3d57bd221d7cd19e4fd80559046c996c913fcc15bdb0f3fca5bdd04254b6f13791
 [update.modrinth]
 mod-id = "mva5q4qZ"
 version = "oQnHpdLL"
+
+[update.curseforge]
+file-id = 8208441
+project-id = 1533137

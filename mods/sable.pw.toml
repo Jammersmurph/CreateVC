@@ -12,3 +12,7 @@ hash = "eb7c46649f5aa359f688fecacfa348b205dff0cfc2d27694632c2e1e1f8f4dbab2c31bdc
 [update.modrinth]
 mod-id = "T9PomCSv"
 version = "3FMsUjO4"
+
+[update.curseforge]
+file-id = 8007005
+project-id = 1312371

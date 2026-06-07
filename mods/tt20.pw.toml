@@ -12,3 +12,7 @@ hash = "7f4115470d002392b03ca5a7595b8526f1a70a851fc24d492905a36a87d92bba561040c2
 [update.modrinth]
 mod-id = "YS3ZignI"
 version = "6qauLY5E"
+
+[update.curseforge]
+file-id = 8168270
+project-id = 1368326
