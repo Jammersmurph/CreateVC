@@ -1,6 +1,8 @@
-name: Export & Publish Modpack
+name: Export & Publish
 
 on:
+  push:
+    branches: [main]
   release:
     types: [published]
   workflow_dispatch:
@@ -9,8 +11,7 @@ jobs:
   export:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Extract version from pack.toml
         id: version
@@ -18,13 +19,29 @@ jobs:
           VERSION=$(grep '^version =' pack.toml | sed 's/.*"\(.*\)".*/\1/')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
+      - name: Determine release tag
+        id: tag
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then
+            echo "tag_name=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag_name=nightly" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: "1.22"
+          cache: true
 
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
+
+      - name: Download mods to cache
+        run: packwiz update --all --yes
+
+      - name: Add CurseForge metadata (CFWidget, no key needed)
+        run: python3 add-cf-metadata.py
 
       - name: Export to CurseForge
         run: packwiz cf export -o CreateVC-Light.zip
@@ -33,6 +50,7 @@ jobs:
         run: packwiz mr export -o CreateVC-Light.mrpack
 
       - name: Upload to Modrinth
+        if: startsWith(github.ref, 'refs/tags/')
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           VERSION: ${{ steps.version.outputs.version }}
@@ -51,10 +69,13 @@ jobs:
             CreateVC-Light.zip
           compression-level: 0
 
-      - name: Upload to release
-        if: github.event_name == 'release'
-        uses: softprops/action-gh-release@v2
+      - name: Create/update release
+        uses: ncipollo/release-action@v1
         with:
-          files: |
-            CreateVC-Light.mrpack
-            CreateVC-Light.zip
+          tag: ${{ steps.tag.outputs.tag_name }}
+          name: ${{ steps.tag.outputs.tag_name == 'nightly' && 'Nightly Build' || steps.version.outputs.version }}
+          prerelease: ${{ steps.tag.outputs.tag_name == 'nightly' }}
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: "CreateVC-Light.zip,CreateVC-Light.mrpack"
+          token: ${{ secrets.GITHUB_TOKEN }}
