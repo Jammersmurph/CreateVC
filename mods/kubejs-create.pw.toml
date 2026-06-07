@@ -1,6 +1,7 @@
 name = "KubeJS Create"
 filename = "kubejs-create-neoforge-2101.3.1-build.18.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar"
@@ -12,7 +13,6 @@ hash = "b2c3064a06f7a06aa479c38daa72fcf88e31e753cb16c53435690b2472f71acea49fe3fc
 [update.modrinth]
 mod-id = "T38eAZQC"
 version = "1qmcLagN"
-
 
 [update.curseforge]
 file-id = 7213667
