@@ -49,9 +49,6 @@ jobs:
       - name: Export to CurseForge
         run: packwiz cf export -o CreateVC.zip
 
-      - name: Exclude FTB Library from Modrinth export
-        run: mv mods/ftb-library-forge.pw.toml /tmp/
-
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
 
