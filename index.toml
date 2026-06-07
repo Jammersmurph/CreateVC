@@ -481,11 +481,6 @@ hash = "d11576f39283aaac03a66892015e87349a8ab86a43f61dcd0fe0cfd3e9c8ab52"
 metafile = true
 
 [[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
-metafile = true
-
-[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "afeaacb70d69214eb543a6e452038200ea0e34b324280e174561569ae082c1b9"
 metafile = true
@@ -653,6 +648,10 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
+
+[[files]]
+file = "push-release.sh"
+hash = "7369b66eb18ae42d51e909c2ba6e8ca418f0965a6258a4b05a45cdcefaf4b5fe"
 
 [[files]]
 file = "servers.dat"
