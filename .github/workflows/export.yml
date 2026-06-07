@@ -63,7 +63,7 @@ jobs:
         run: |
           curl -X POST https://api.modrinth.com/v2/version \
             -H "Authorization: $MODRINTH_TOKEN" \
-            -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"create-vc\",\"file_parts\":[\"file\"]};type=application/json" \
+            -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"BpnBfkpK\",\"file_parts\":[\"file\"]};type=application/json" \
             -F "file=@CreateVC.mrpack"
 
       - name: Upload artifacts
