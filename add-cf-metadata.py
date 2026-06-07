@@ -73,7 +73,7 @@ HARDCODED = {
 
 def cfw_get(slug):
     url = f"{CFWIDGET_BASE}/{urllib.parse.quote(slug)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "CreateVC-Light/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "CreateVC/1.0"})
     try:
         with urllib.request.urlopen(req, timeout=15) as r:
             return json.loads(r.read())
