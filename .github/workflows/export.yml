@@ -79,7 +79,7 @@ jobs:
           allowUpdates: true
           omitBody: true
           omitName: true
-          omitPrerelease: true
-          replacesArtifacts: true
+          omitPrereleaseDuringUpdate: true
+          removeArtifacts: true
           artifacts: "CreateVC.zip,CreateVC.mrpack"
           token: ${{ secrets.GITHUB_TOKEN }}
