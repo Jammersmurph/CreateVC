@@ -1,1 +1,8 @@
 .github/
+.gitignore
+.packwizignore
+README.md
+push-release.sh
+*.zip
+*.mrpack
+LICENSE*

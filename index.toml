@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "3f5912fc2b60adcc4e00ff7f6c455b73c473b6113dd94dfe02ea0a99fd7b3b40"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -378,12 +374,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "9938e977bb3718515ff2d6343801e79acb8af63cf49f6dcfd2c6579f8ff05ae2"
+hash = "f359bdcbed9a210dda0f29e6fe63bf40537ba0eb76ca77408bec5f2e025a2521"
 metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "17c3e810cb5e3a0732d9d519267626f8196afa64e9b99a55cf28df1d5bfea202"
+hash = "616a0a7fc051382574b73276c74e60ae7c40d9cf1bbb9113375da164278ae94f"
 metafile = true
 
 [[files]]
@@ -443,7 +439,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater-1.0.1.jar"
-hash = "761bd7ebe29861cba739b0f4b47ad36ce5e3413e4cd5392556412030cb5e901a"
+hash = "c85490ac2add911b5af6814073a24ca04646654f0203a23360a99c15b2875235"
 
 [[files]]
 file = "mods/curios.pw.toml"
@@ -597,7 +593,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "ed13d46ac8153d72c02136cc7a5e909840f01ef7f1d000bf168564f35e24d268"
+hash = "e22f7b8a2a99ba68e6bf148c59362a2e2d268e05183d80530d3306535f952251"
 metafile = true
 
 [[files]]
@@ -648,10 +644,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "88bc46a13f477751c3f618e715fca53ed09b7ca56e7102c030d5453674bbf0cd"
-
-[[files]]
-file = "push-release.sh"
-hash = "7369b66eb18ae42d51e909c2ba6e8ca418f0965a6258a4b05a45cdcefaf4b5fe"
 
 [[files]]
 file = "servers.dat"
