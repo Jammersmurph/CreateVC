@@ -644,7 +644,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-stuff-and-addition-tank-fix.pw.toml"
-hash = "1efb508463de84515cf13610c19c201f0b820dc427831385809fab6222c4ce99"
+hash = "e532302500b137517a3954fdb825fbc5e344538134e4cbd55432e7444bcfe166"
 metafile = true
 
 [[files]]
@@ -666,14 +666,6 @@ metafile = true
 file = "mods/createlazytick.pw.toml"
 hash = "f5b33cd7a052ac31b56cd5987e32cc29acf8babf55e931b7b6bfaa2e454880f3"
 metafile = true
-
-[[files]]
-file = "mods/createvc_server_updater-1.0.2.jar"
-hash = "b3a50e4e474125ae0c35e5a70d4d810177231a36bd8a922553b9e63b19fa9714"
-
-[[files]]
-file = "mods/createvc_updater-1.0.1.jar"
-hash = "4b0e87464c45657a8ea1e79bb9cc112da4399a270a1a1b0477b9778dcf80faa0"
 
 [[files]]
 file = "mods/curios.pw.toml"
