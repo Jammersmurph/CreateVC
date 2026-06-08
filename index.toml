@@ -5,10 +5,6 @@ file = ".anchored-summary.md"
 hash = "2664c71725b573ef4fc7fbb2bfcc91f0ad7d61338c90f9fb1a80a78f442d0446"
 
 [[files]]
-file = "add-cf-metadata.py"
-hash = "ac356ada27ab80da74c0bd21c8a3746d147706122332876cd4f88716dedf4f59"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -326,6 +322,11 @@ hash = "582ab10e5342ea26b0b5761f8e8fcea227fc5025a28f4c62b38a90457aecf16b"
 metafile = true
 
 [[files]]
+file = "mods/camera-mod.pw.toml"
+hash = "fd8400c730eed14672714c57ce51f76e90caa472c3c3d6148f60a5b0de632f30"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "eb9489e1224ca73e531ce31a6dedd56ea5f4be87b73184e72ce3a2603835c905"
 metafile = true
@@ -452,11 +453,16 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater-1.0.1.jar"
-hash = "e3f04fe3881424c38e8aba2e7b89cdefa5d70f51e83989b41b1197950460b270"
+hash = "d44ab06f3a6d153c6c91a3526cf952ad7b30492b8b4adb24d869790f933893f1"
 
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "e7060df83fd764e59abd7b4ec52592da63c44894f908ba2d62f8ab55ab00c45b"
+metafile = true
+
+[[files]]
+file = "mods/discord-chat-connect.pw.toml"
+hash = "61394a707cc61d948dca670b8ccb9b16ee0bcf22b3d60d3501990172ddf4e684"
 metafile = true
 
 [[files]]
@@ -547,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "02e560903c25f1cf8cd2b4dda77f4ff8cf57aa987a442c75cdba80db9b4776ac"
+metafile = true
+
+[[files]]
+file = "mods/modflared.pw.toml"
+hash = "112c4664762b3a07df2c24c7fad06b6cd64f535d82746b2e17eeb4dc1c95fc69"
 metafile = true
 
 [[files]]

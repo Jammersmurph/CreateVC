@@ -1,0 +1,13 @@
+name = "Modflared"
+filename = "modflared-1.2.2+release.81.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uRHq6kbO/versions/YkeiestV/modflared-1.2.2%2Brelease.81.jar"
+hash-format = "sha512"
+hash = "dd7d843533a9a62f327f16cbc67d4212c9342439850da678ff26be80da1e1c7bbee4dc522523297e0b93a4346b818bb93eaafaea4ba94a7fa078f5efb6c34248"
+
+[update]
+[update.modrinth]
+mod-id = "uRHq6kbO"
+version = "YkeiestV"
