@@ -6,3 +6,4 @@
 # mods/createvc_updater-*.jar
 # config/some-pack-controlled-file.toml
 # kubejs/**
+createvc-updater.jar
