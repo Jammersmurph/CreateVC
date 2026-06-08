@@ -1,17 +1,8 @@
 name = "Create: Stuff 'N Additions - Tank Fix (Spout, Curios & Upgrade)"
-filename = "createsa_tank_fix-1.3.jar"
+filename = "createsa_tank_fix-1.3-createvc.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/LANuxfjR/versions/4VObKKFd/createsa_tank_fix-1.3.jar"
+url = "https://github.com/Jammersmurph/Create-Stuff-and-Addition-Tank-Fix/releases/download/v1.3-createvc/createsa_tank_fix-1.3-createvc.jar"
 hash-format = "sha512"
-hash = "e1e55a15149dc1247c41cf1fda52c8e4c6f5703ed5e20b4c9fb3916fffb6001e03514cd229e4340d34366b8a6386250e2decd8432c166d81078ea988ecb3ebb6"
-
-[update]
-[update.modrinth]
-mod-id = "LANuxfjR"
-version = "4VObKKFd"
-
-[update.curseforge]
-file-id = 7568020
-project-id = 1374815
+hash = "1c983c95397cf17a9f3306d66db05d653178d23e9552efa49a80ba74e674a0252db1a2739a3b54988d7413bfaa06e0d522c615b1c79744692283d07d83038d5c"
