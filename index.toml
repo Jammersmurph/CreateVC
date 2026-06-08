@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".anchored-summary.md"
-hash = "2664c71725b573ef4fc7fbb2bfcc91f0ad7d61338c90f9fb1a80a78f442d0446"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -862,12 +858,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "77fb415914a459cbc0eb85b5830a39afb7f8d1fe24ad31ea489e7425dd7a7216"
+hash = "3d1fae2c504747d077fbd929d1edcde56932e9fd712963d14ab55517f1fa914c"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "1097d7757d8b22f76ae5aacd3afa275c0a8e02a683becf9595c312ecf92cfe97"
+hash = "6c9a8abd2357e34bf9d10161f440bc79b94159fadb151f0bfa79c96d90e7350b"
 metafile = true
 
 [[files]]
