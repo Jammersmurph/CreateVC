@@ -3,9 +3,9 @@ filename = "sophisticatedbackpacks-1.21.1-3.25.55.1843.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TyCTlI4b/versions/At57qCDT/sophisticatedbackpacks-1.21.1-3.25.55.1843.jar"
-hash-format = "sha512"
-hash = "e71cac4220c87671880cddd432065f189174a82d48b12b6d6a063d545128c060324a11eee5c4ebd5c40dee87d6f73e5079ce613d86fa48cbf3bc06fc2b8e4889"
+hash-format = "sha1"
+hash = "1c6a26bab568590420fd1b89534459975b4ed892"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
