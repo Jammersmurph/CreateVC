@@ -15,10 +15,7 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC.mrpack"
 ```
 
-### Manual modpack install command:
-```txt
-java -jar CreateVC-Updater.jar https://jammersmurph.github.io/CreateVC/pack.toml
-```
+### [Download from Modrinth](https://modrinth.com/server/createvc-server)
 
 ## Thank You!
 
