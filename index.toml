@@ -668,6 +668,10 @@ hash = "f5b33cd7a052ac31b56cd5987e32cc29acf8babf55e931b7b6bfaa2e454880f3"
 metafile = true
 
 [[files]]
+file = "mods/createvc_server_updater-1.0.2.jar"
+hash = "b3a50e4e474125ae0c35e5a70d4d810177231a36bd8a922553b9e63b19fa9714"
+
+[[files]]
 file = "mods/createvc_updater-1.0.1.jar"
 hash = "4b0e87464c45657a8ea1e79bb9cc112da4399a270a1a1b0477b9778dcf80faa0"
 
