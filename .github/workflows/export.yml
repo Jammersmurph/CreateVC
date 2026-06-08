@@ -43,12 +43,6 @@ jobs:
       - name: Download mods to cache
         run: packwiz update --all --yes
 
-      - name: Add CurseForge metadata (CFWidget, no key needed)
-        run: python3 add-cf-metadata.py
-
-      - name: Export to CurseForge
-        run: packwiz cf export -o CreateVC.zip
-
       - name: Exclude FTB Library from Modrinth export
         run: mv mods/ftb-library-forge.pw.toml /tmp/
 
@@ -78,9 +72,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CreateVC-Exports
-          path: |
-            CreateVC.mrpack
-            CreateVC.zip
+          path: CreateVC.mrpack
           compression-level: 0
 
       - name: Update Modpacks release
@@ -92,5 +84,5 @@ jobs:
           omitName: true
           omitPrereleaseDuringUpdate: true
           removeArtifacts: true
-          artifacts: "CreateVC.zip,CreateVC.mrpack"
+          artifacts: "CreateVC.mrpack"
           token: ${{ secrets.GITHUB_TOKEN }}
