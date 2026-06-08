@@ -1,0 +1,4 @@
+#Freeze train wheel animation while a stationary train is being carried by moving tracks.
+freezeCarriedWheelAnimation = true
+#Enable shift-right-click debug helpers for tracks and stations.
+enableDebugTools = false

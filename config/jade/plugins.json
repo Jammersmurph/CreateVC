@@ -52,17 +52,15 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "create_mobile_packages": {
+    "bee_port": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "toms_storage": {
-    "inventory_hopper": true,
-    "inventory_config": true,
-    "inventory_connector": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -74,5 +72,15 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "camera": {
+    "image_frame": true
+  },
+  "corpse": {
+    "corpse": true
+  },
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
   }
 }
