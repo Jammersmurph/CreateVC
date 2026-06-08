@@ -453,7 +453,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater-1.0.1.jar"
-hash = "d44ab06f3a6d153c6c91a3526cf952ad7b30492b8b4adb24d869790f933893f1"
+hash = "4b0e87464c45657a8ea1e79bb9cc112da4399a270a1a1b0477b9778dcf80faa0"
 
 [[files]]
 file = "mods/curios.pw.toml"
@@ -642,7 +642,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "9133b2e47780ea78add3d2718a4f1851b89dacbed79e7502230101f3154b00e8"
+hash = "77fb415914a459cbc0eb85b5830a39afb7f8d1fe24ad31ea489e7425dd7a7216"
 metafile = true
 
 [[files]]
@@ -691,3 +691,7 @@ hash = "302ce7b444771f12340b009f5d55435c0c8885be62586105a9e7768226a6b3db"
 [[files]]
 file = "servers.dat_old"
 hash = "a42e94efb4c9c9b1d2d2f6333ee265d8be6519781cc6df6325285e75b6c1ec7d"
+
+[[files]]
+file = "updater/src/main/resources/updater/createvc-updater-bootstrap.jar"
+hash = "6bb6689c09c198ae4c77294928610a47ee7bc596e8bbef5b8be5a4c79b01400d"
