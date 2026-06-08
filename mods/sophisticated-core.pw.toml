@@ -4,13 +4,13 @@ side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6da3665337625b390d56664d62780bdf5269f899"
-mode = "metadata:curseforge"
+hash = "3a5384f3179d5746fd2c262a0afd4436748e7383"
+mode = "metadata:modrinth"
 
 [update]
+[update.modrinth]
+mod-id = "nmoqTijg"
+version = "8TQbwhEU"
 [update.curseforge]
 file-id = 8213443
 project-id = 618298
-[update.modrinth]
-mod-id = "nmoqTijg"
-version = "OQHNNOIq"
