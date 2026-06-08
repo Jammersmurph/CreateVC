@@ -40,9 +40,6 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Download mods to cache
-        run: packwiz update --all --yes
-
       - name: Exclude updater-managed files from Modrinth export
         run: |
           mkdir -p /tmp/createvc-export-excluded

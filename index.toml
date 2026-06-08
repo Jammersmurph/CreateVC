@@ -609,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "9b03efb0ba296fff8e5e3812147903582e4704e3842d3e77ed0ec16474f7d547"
+hash = "d416b554903fb603bf631fe71cb8f3807dbf2b794458346fb040adae48f57c1a"
 metafile = true
 
 [[files]]
@@ -624,7 +624,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "6dbb404da43368f06bc01b9c6214fb5f1b9633e1519f6467f2a419d3958d3c72"
+hash = "5268af241a04a6cadb21dbd30bee1816cf8145a641f607ec4ab0972903595898"
 metafile = true
 
 [[files]]
@@ -838,7 +838,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "86a92d544972b26d852a12bdac44ae9cba1653c759d4d4ad1ffa7a41bc1052bb"
+hash = "f7c81f174d35648d501e8f2b5510a34bc1ba4f68834827fe9cbf1c1905daacb8"
 metafile = true
 
 [[files]]
@@ -858,7 +858,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3d1fae2c504747d077fbd929d1edcde56932e9fd712963d14ab55517f1fa914c"
+hash = "c983be3c1e0090dcd1fdea835cf404fad63193b452d3b464a90ecc1f3b5e702e"
 metafile = true
 
 [[files]]
