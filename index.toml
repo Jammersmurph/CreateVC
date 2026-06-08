@@ -437,30 +437,6 @@ file = "config/tt20/config.json"
 hash = "6e8d7177b4fbad19d578fed0ad3d4e89d2c6cff89562ffee7f38d681de027fc8"
 
 [[files]]
-file = "config/voicechat/category-volumes.properties"
-hash = "3747c48bcb3a60834f88f056ee9b3a025153b11f6ca88652b4bddebb77cea009"
-
-[[files]]
-file = "config/voicechat/player-volumes.properties"
-hash = "cd385ca1eeda4df612631e2713cc6d503793157ef8bd5518d736429e6c1ae474"
-
-[[files]]
-file = "config/voicechat/translations.properties"
-hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
-
-[[files]]
-file = "config/voicechat/username-cache.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/voicechat/voicechat-client.properties"
-hash = "80fbb6f40ebd7fa06aa9ccfebb45144c5a8eed4db2964fa955696318bfa8cd52"
-
-[[files]]
-file = "config/voicechat/voicechat-server.properties"
-hash = "608786349573d05ed6c27f068955a7a9f2e7d832719bd635888606a2d1db4282"
-
-[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 
