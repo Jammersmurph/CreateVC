@@ -566,6 +566,11 @@ hash = "06618edf733606fc01beb928d789d6298004d3e12ca785554fd38b39518bf2f4"
 metafile = true
 
 [[files]]
+file = "mods/movable-tracks.pw.toml"
+hash = "9bd78d5332debff02d8b141f9a2050c29a60e236b5a1917fdc3acb27c0bf7ce7"
+metafile = true
+
+[[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "93b5ba7412e5b73119cfd45474e7b33bf5eb850cca14e8e242b636a633f52da5"
 metafile = true
