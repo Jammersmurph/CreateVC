@@ -35,14 +35,16 @@
 	blastEffectDelaySpeed = 320.0
 	#.
 	highlightFuzeInputOnShellBlocks = true
+	#.
+	enableEmissiveTracers = false
 
 	#.
 	#Projectile Flyby Sounds
 	[client.projectileFlybySounds]
 		#.
-	enableBigCannonProjectileFlybySounds = false
+		enableBigCannonProjectileFlybySounds = false
 		#.
-	enableAutocannonProjectileFlybySounds = false
+		enableAutocannonProjectileFlybySounds = false
 
 	#.
 	#Cannon Mount Goggle Tooltip
@@ -62,7 +64,7 @@
 		#.
 		# Default: 1.2999999523162842
 		# Range: 0.0 ~ 2.0
-	cannonScreenShakeIntensity = 0.0
+		cannonScreenShakeIntensity = 0.0
 		#.
 		# Default: 0.07999999821186066
 		# Range: 0.009999999776482582 ~ 2.0
