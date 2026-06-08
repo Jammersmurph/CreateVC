@@ -43,8 +43,28 @@ jobs:
       - name: Download mods to cache
         run: packwiz update --all --yes
 
-      - name: Exclude FTB Library from Modrinth export
-        run: mv mods/ftb-library-forge.pw.toml /tmp/
+      - name: Exclude updater-managed files from Modrinth export
+        run: |
+          mkdir -p /tmp/createvc-export-excluded
+
+          # FTB Library is installed by the CreateVC updater because it cannot be
+          # referenced by the Modrinth pack export.
+          mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
+
+          # These are first-install-only files managed by the CreateVC updater.
+          # Keeping them out of the .mrpack prevents Modrinth App updates from
+          # replacing player-local settings before the updater can preserve them.
+          for path in \
+            config \
+            options.txt \
+            optionsof.txt \
+            servers.dat \
+            servers.dat_old
+          do
+            if [ -e "$path" ]; then
+              mv "$path" /tmp/createvc-export-excluded/
+            fi
+          done
 
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
