@@ -1,4 +1,5 @@
 .github/
+.anchored-summary.md
 .gitignore
 .packwizignore
 createvc-overwrite-allowlist.txt
