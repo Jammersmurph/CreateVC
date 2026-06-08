@@ -1,0 +1,13 @@
+name = "Discord & Chat Images"
+filename = "discord_chat_mod-neoforge-1.21.1-2.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yIWYj2mo/versions/omOPn9In/discord_chat_mod-neoforge-1.21.1-2.7.0.jar"
+hash-format = "sha512"
+hash = "fd94358f21a9b2eb7810f66e447ba885f1c6fcf4c034c8378e73748a656989c8fca4761fdd706f83d67ab6fe5867cc36f84d8f15af1aa31be74dbf3f13d5f87d"
+
+[update]
+[update.modrinth]
+mod-id = "yIWYj2mo"
+version = "omOPn9In"
