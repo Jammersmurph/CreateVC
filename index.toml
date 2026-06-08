@@ -609,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "d416b554903fb603bf631fe71cb8f3807dbf2b794458346fb040adae48f57c1a"
+hash = "b70321445572a1cef1a04def6ffbf14a75b5705b2aa8baeb29ebbae2b414154f"
 metafile = true
 
 [[files]]
@@ -624,7 +624,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "5268af241a04a6cadb21dbd30bee1816cf8145a641f607ec4ab0972903595898"
+hash = "73ed993bcf63829025e3aafa42e89b5f00feec3b3210cd5d421762f29ca4d159"
 metafile = true
 
 [[files]]
@@ -808,7 +808,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "6a938790e67fa99a026548a93771e81999f82a16139cb299552754568205b87c"
+hash = "f63ed2729b2121cba2c9da0ab378883959bd41657965c83cfa5eee04fa544315"
 metafile = true
 
 [[files]]
@@ -838,7 +838,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "f7c81f174d35648d501e8f2b5510a34bc1ba4f68834827fe9cbf1c1905daacb8"
+hash = "5dfce9987c9a515f61ef15380b65b25d32aa4ae2f12b0bd16cda5444e76f6c5b"
 metafile = true
 
 [[files]]
@@ -863,7 +863,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "6c9a8abd2357e34bf9d10161f440bc79b94159fadb151f0bfa79c96d90e7350b"
+hash = "542e19b801f2ec46f5593c1cfdee240460ff55ed6888714ebc3ad78ba54b243b"
 metafile = true
 
 [[files]]
