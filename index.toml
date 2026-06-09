@@ -513,6 +513,11 @@ file = "mods/CreateVC-Core-1.2.8.jar"
 hash = "e7eb11df22528b291035b9c1126aad4ae6acfa78906692f0b7c3037b54e3c816"
 
 [[files]]
+file = "mods/aeronautics-addition.pw.toml"
+hash = "c1938b904258f9b15a9ce93d9c7221be075f270b7c641a188b739f35d8c8f66e"
+metafile = true
+
+[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "89f3b7bc029ab5dabe9a600a6219a699584064fc6cb78a9f9d38ed26f2a7a4de"
 metafile = true
@@ -666,6 +671,10 @@ metafile = true
 file = "mods/createlazytick.pw.toml"
 hash = "f5b33cd7a052ac31b56cd5987e32cc29acf8babf55e931b7b6bfaa2e454880f3"
 metafile = true
+
+[[files]]
+file = "mods/createvc_updater-1.0.1.jar"
+hash = "4b0e87464c45657a8ea1e79bb9cc112da4399a270a1a1b0477b9778dcf80faa0"
 
 [[files]]
 file = "mods/createvc_updater.pw.toml"
