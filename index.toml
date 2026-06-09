@@ -513,11 +513,6 @@ file = "mods/CreateVC-Core-1.2.8.jar"
 hash = "e7eb11df22528b291035b9c1126aad4ae6acfa78906692f0b7c3037b54e3c816"
 
 [[files]]
-file = "mods/aeronautics-addition.pw.toml"
-hash = "c1938b904258f9b15a9ce93d9c7221be075f270b7c641a188b739f35d8c8f66e"
-metafile = true
-
-[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "89f3b7bc029ab5dabe9a600a6219a699584064fc6cb78a9f9d38ed26f2a7a4de"
 metafile = true
@@ -650,6 +645,11 @@ metafile = true
 [[files]]
 file = "mods/create-stuff-and-addition-tank-fix.pw.toml"
 hash = "e532302500b137517a3954fdb825fbc5e344538134e4cbd55432e7444bcfe166"
+metafile = true
+
+[[files]]
+file = "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml"
+hash = "3124ff7b0beddb44ec981a35a149ced3e6a29f84b72a01a1d088932d61bdbdbb"
 metafile = true
 
 [[files]]
