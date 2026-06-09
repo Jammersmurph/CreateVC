@@ -618,6 +618,11 @@ hash = "9cc5bf30316fdc240c158fdd7cb5070d0bb22b937e444af3328ace72a1d7537b"
 metafile = true
 
 [[files]]
+file = "mods/create-liquid-fuel.pw.toml"
+hash = "2af9229718d9edb1eaa4b88fac0063ab2f5f7ba7650a4efa5f0a8e6ce25549cd"
+metafile = true
+
+[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "15bf6adbc17560774e4530335ce644e919f59c92eca110602549d5e4f88385b5"
 metafile = true
