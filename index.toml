@@ -882,8 +882,12 @@ hash = "d2dd75b9c8eaa049a7390350bb0fa2d57cbf051517fb2187d516bbbc0d0d4e80"
 metafile = true
 
 [[files]]
+file = "mods/sodium-neoforge-0.8.12-beta.1+mc1.21.1.jar"
+hash = "dc2838d5538db39414171fe86586ab89d1a30d2fd97f59229cc44cf3777f569d"
+
+[[files]]
 file = "mods/sodium.pw.toml"
-hash = "cb507d36d1dbf79a77410634835585c05cd9501b918ee1d1396aa41a297a69f4"
+hash = "54a0909ba6dc8a8eb3b85d5fff8a707462f37a6394d5f53617cefefa4bc5de8c"
 metafile = true
 
 [[files]]
