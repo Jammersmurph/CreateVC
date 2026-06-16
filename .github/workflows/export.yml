@@ -100,6 +100,6 @@ jobs:
           omitBody: true
           omitName: true
           omitPrereleaseDuringUpdate: true
-          removeArtifacts: true
+          removeArtifacts: false
           artifacts: "CreateVC.mrpack"
           token: ${{ secrets.GITHUB_TOKEN }}
