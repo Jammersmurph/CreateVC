@@ -12,7 +12,7 @@
     "particles": true,
     "rain_splash": false,
     "block_break": true,
-    "block_breaking": true,
+    "block_breaking": false,
     "other": {}
   },
   "detail_settings": {
@@ -31,7 +31,7 @@
     "dimensionFogDistance": {
       "minecraft:overworld": 0
     },
-    "light_updates": true,
+    "light_updates": false,
     "item_frame": false,
     "armor_stand": false,
     "painting": false,
@@ -45,8 +45,8 @@
   "extra_settings": {
     "overlay_corner": "TOP_RIGHT",
     "text_contrast": "NONE",
-    "show_fps": true,
-    "show_f_p_s_extended": true,
+    "show_fps": false,
+    "show_f_p_s_extended": false,
     "show_coords": false,
     "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
