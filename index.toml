@@ -226,7 +226,7 @@ hash = "4eb8a653258d8f7aa303fa77c34df800785b543116d5bc41ae613adec8000202"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "7013e52f3bd075b3424f5737d92c3bac10f34da5d06eee3cdde33e549bbac41f"
+hash = "fe94d154f24e36d2246f47e9d59282b3a93f160a337cb41767e83419a28327f8"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -242,7 +242,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "5c12e4d7de5757e3c7e65ea8ff8ef7f051f37e421e9e2a77b1f3712dff9b0696"
+hash = "def2777bca5f272b93219121d9605067d70cbefe61509f8fd3ec40ed5a67f00d"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
