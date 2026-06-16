@@ -788,6 +788,11 @@ hash = "902352f8014181f2545e34d41d9f74e0dff5b5687329db8d46c92be8cf35c0e3"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "9b3281300c8cada68de4f92167f085998eb7d5461d508bae3242ca61351e350a"
 metafile = true
@@ -840,6 +845,11 @@ metafile = true
 [[files]]
 file = "mods/numismatics.pw.toml"
 hash = "827912518091637636f4b9f5b0071830b7e28800bb5b02891d12ba2e6b30d109"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+hash = "3e477c97729015ac6184c0b56cb148947b7c0dc5cca764336ee96719f05f05e6"
 metafile = true
 
 [[files]]
