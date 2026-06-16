@@ -1,6 +1,6 @@
 name = "Sodium Extra"
 filename = "sodium-extra-neoforge-0.6.0+mc1.21.1.jar"
-side = "both"
+side = "client"
 pin = true
 
 [download]

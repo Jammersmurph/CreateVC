@@ -741,7 +741,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "fc48348685dece1c8c26ed9742d1b23c0024d008e491e78cfdbda8fc5432e6a7"
+hash = "8c55746415f4581a0dd6cc9ad9b908a9e1532004e175104b5b014692af449d2c"
 metafile = true
 
 [[files]]
@@ -886,7 +886,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "d2dd75b9c8eaa049a7390350bb0fa2d57cbf051517fb2187d516bbbc0d0d4e80"
+hash = "f4a79e5c10b8fd7531362460e8f28494b979dd12ec8fdd0a1544b994dbb0e522"
 metafile = true
 
 [[files]]
@@ -895,7 +895,7 @@ hash = "dc2838d5538db39414171fe86586ab89d1a30d2fd97f59229cc44cf3777f569d"
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "39ac7dcd2c6cf86ee0628823782a08f524d4bfe82bd758a7535f66fc630e5c9f"
+hash = "0d45d7da0350055f55d273204653c18828b82e6a29f68cbdb6ae1ad8340cc343"
 metafile = true
 
 [[files]]
