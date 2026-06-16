@@ -114,7 +114,7 @@ hash = "cae06e041a0e6d79175fa0d0b072adddb1eb7ebe87f2d2c56e45520a489004bb"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "64de3ab27b52b9b23c1c67eaeb98de10d45abbe8abd4384f6dcbe298caabaab3"
+hash = "cae06e041a0e6d79175fa0d0b072adddb1eb7ebe87f2d2c56e45520a489004bb"
 
 [[files]]
 file = "config/createbigcannons-client-1.toml.bak"
@@ -122,7 +122,7 @@ hash = "664bd2d589a53331f5d395218f36db37951bda61a69432b8d7cdd1434f964d4f"
 
 [[files]]
 file = "config/createbigcannons-client.toml"
-hash = "275bb059fa704999b14c011312b11d87fc6ebf54c0d7ce7f6945bb8df9deca25"
+hash = "664bd2d589a53331f5d395218f36db37951bda61a69432b8d7cdd1434f964d4f"
 
 [[files]]
 file = "config/createbigcannons-server.toml"
@@ -174,7 +174,7 @@ hash = "d1c1ce76674c85b4dfab0936661a3847863f49c04992c69da372100d31290530"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4b8016fa39a701e800287c59ef3c6ddfd2ee4396298e9e2b300fbb6a683eda9f"
+hash = "28557ee1b36747e9fe2d30318c3d4edf39256c388a934cfb639e4f06d459fa96"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -182,7 +182,7 @@ hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
 [[files]]
 file = "config/flerovium.json"
-hash = "566a6c273c8d4854691a6829f20c433215e8a1b8f8fa01fd2ee394d5a54c9a24"
+hash = "4901d3810835b7bfd5d57a42e13979b5aa490f541724acfdfc10a92420b988ee"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -210,7 +210,7 @@ hash = "17d2b12e9fbb5f811850b5a772b6c5e59c352ba8dd87957abdace159656e7771"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "e5c4348eee374e407813023bcb5ad97dacf884a6f913132689ab0f4671eef2ed"
+hash = "137947e0aaaf165c0b33f520aa3fdab60f0c04b835dd8c11e5de6ffd539d6f3f"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -226,11 +226,11 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "4d4b4d44c66fcde30900c4e7e6cd56a8da3b87d68dfd2417320a74497662b6a1"
+hash = "df5d49c5670ddb8a73849b59a34a854fb5cc9b1b7bfbf2a7582932ea230c4f5b"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "801e282e1923c90296638dba8b1ba2a909114c059385998a12b301d3bd8d41b2"
+hash = "25a51a95dad93b0925755ec074756d7c33b97f34f36ceb44caed050322e7e18a"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -242,7 +242,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "ac53a5a875751a56d59a733d0620701bc1e68b0e4aaa25ac769852b8880438ea"
+hash = "d7a7eebb11f9e354c5db157c68367e0fcfea2cdb6bd1c9d4ede520e88b6f8894"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -250,7 +250,7 @@ hash = "41529c0995233ba5dce62005e656f740f3bbd61f5cc625a296b0a6fc6b64702b"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "f74594ff6a6c93f3073f5e727aeaaadc7456b5cdb56849089681b457f52af05f"
+hash = "6a1866460a95431a3f7b79f7fec7c18e4ce0b7d4d7d017c45af58c1cfee639fc"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -266,7 +266,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "c9231cfa56f33c12e020bab3bac479ce545b2199b31f24d913aeefe5bb83177e"
+hash = "290f4c6824e84077fd6877efeefdf351a6313d3059025e62140856553502e9e9"
 
 [[files]]
 file = "config/lithium.properties"
@@ -370,7 +370,7 @@ hash = "4eb8a653258d8f7aa303fa77c34df800785b543116d5bc41ae613adec8000202"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "6cdb0cf5bb30cb67df7ee0e71868b11cd8bffe7c66bf4fc489f6a26b135b88c3"
+hash = "7013e52f3bd075b3424f5737d92c3bac10f34da5d06eee3cdde33e549bbac41f"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -386,7 +386,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "6302f9f6901613d227719d4e960c55a7071de7a6582b043734bc08e0f3a29e8a"
+hash = "5c12e4d7de5757e3c7e65ea8ff8ef7f051f37e421e9e2a77b1f3712dff9b0696"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -431,6 +431,14 @@ hash = "ff334879cf2146f183ff4dd34dd8ef7860165e9f5bb1298689376ac95756a93b"
 [[files]]
 file = "config/tt20/config.json"
 hash = "6e8d7177b4fbad19d578fed0ad3d4e89d2c6cff89562ffee7f38d681de027fc8"
+
+[[files]]
+file = "config/voicechat/voicechat-client.properties"
+hash = "116f191f4b2fd4aaa2bc9607feb88a7a44791db121f5b7467360920d5eaafdf0"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "80763b028daa87486d8e20066f3a3451add1896d146fafdafc9f2addc0028553"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -506,7 +514,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/zume.json5"
-hash = "8e23412c587a2350337de184b152a297778b3760f8b40dc5c2aac29f4b7a8cd3"
+hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
 file = "mods/CreateVC-Core-1.2.8.jar"
@@ -883,6 +891,10 @@ metafile = true
 file = "mods/simple-voice-chat.pw.toml"
 hash = "e0f262b84354331f33e1f5652f9586e8d0bc4f8525dada8278677918443d0d3a"
 metafile = true
+
+[[files]]
+file = "mods/sodium-extra-neoforge-0.8.7+mc1.21.1.jar"
+hash = "d116168ddbc2d6ba1bfcd6562ebedb5fc8df7b83771ac255dfb63085e6cc40f6"
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
