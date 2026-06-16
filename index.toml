@@ -603,7 +603,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "a967fe8a035786be05cdf8df0c3b89ac3cf6d2476f3cef82a228e4198a0d465c"
+hash = "1384e3324f48732a619a20690316ecd1d035e09d0a647487658b74ff314684df"
 metafile = true
 
 [[files]]
@@ -685,6 +685,10 @@ metafile = true
 file = "mods/createaddition.pw.toml"
 hash = "cf937528cd9c66e98e8f57313e28edb264a97e914e99e43ec160949b9e5908ee"
 metafile = true
+
+[[files]]
+file = "mods/createbigcannons-5.11.6+mc.1.21.1.jar"
+hash = "37c21204e365ba270d6af9acad90dbb7a494e2d75fae510800ea4d21d98c296f"
 
 [[files]]
 file = "mods/createlazytick.pw.toml"
