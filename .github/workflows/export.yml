@@ -40,17 +40,13 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Exclude updater-managed files from Modrinth export
+      - name: Exclude first-install-only files from exports
         run: |
           mkdir -p /tmp/createvc-export-excluded
 
-          # FTB Library is installed by the CreateVC updater because it cannot be
-          # referenced by the Modrinth pack export.
-          mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
-
           # These are first-install-only files managed by the CreateVC updater.
-          # Keeping them out of the .mrpack prevents Modrinth App updates from
-          # replacing player-local settings before the updater can preserve them.
+          # Keeping them out of exports prevents pack installers from replacing
+          # player-local settings before the updater can preserve them.
           for path in \
             config \
             options.txt \
@@ -62,6 +58,15 @@ jobs:
               mv "$path" /tmp/createvc-export-excluded/
             fi
           done
+
+      - name: Export to CurseForge
+        run: packwiz cf export -o CreateVC.zip
+
+      - name: Exclude FTB Library for Modrinth export
+        run: |
+          # FTB Library is installed by the CreateVC updater because it cannot be
+          # referenced by the Modrinth pack export.
+          mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
 
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
@@ -89,7 +94,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CreateVC-Exports
-          path: CreateVC.mrpack
+          path: |
+            CreateVC.mrpack
+            CreateVC.zip
           compression-level: 0
 
       - name: Update Modpacks release
@@ -101,5 +108,5 @@ jobs:
           omitName: true
           omitPrereleaseDuringUpdate: true
           removeArtifacts: true
-          artifacts: "CreateVC.mrpack"
+          artifacts: "CreateVC.mrpack,CreateVC.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
