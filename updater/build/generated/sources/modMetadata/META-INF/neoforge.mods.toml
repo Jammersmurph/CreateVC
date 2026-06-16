@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createvc_updater"
+version = "1.0.1"
+displayName = "CreateVC Updater"
+logoFile = "createvc_core.png"
+displayURL = "https://www.createvc.org"
+authors = "Jammersmurph"
+description = '''CreateVC modpack updater. Runs before normal mod loading and can be disabled with "-Dcreatevcupdater.skip=true".'''
+
+[[mixins]]
+config = "createvc_updater.mixins.json"
+
+[[dependencies."createvc_updater"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."createvc_updater"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
