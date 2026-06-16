@@ -93,13 +93,9 @@ jobs:
           compression-level: 0
 
       - name: Update Modpacks release
-        uses: ncipollo/release-action@v1
-        with:
-          tag: ${{ steps.tag.outputs.tag_name }}
-          allowUpdates: true
-          omitBody: true
-          omitName: true
-          omitPrereleaseDuringUpdate: true
-          removeArtifacts: false
-          artifacts: "CreateVC.mrpack"
-          token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.tag.outputs.tag_name }}
+        run: |
+          gh release upload "$TAG" CreateVC.mrpack --clobber || \
+            gh release create "$TAG" CreateVC.mrpack --title "$TAG" --generate-notes
