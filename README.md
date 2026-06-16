@@ -20,3 +20,4 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 ## Thank You!
 
 ### *[World Folders](https://createvc.org/downloads/) for anyone who needs them :)*
+
