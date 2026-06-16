@@ -863,6 +863,11 @@ hash = "77f0bda82c318128d7fca9d7cbd8b6b4e7fe96dd3b339b95a79209a8155bd08e"
 metafile = true
 
 [[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "d05b878ebec90619d25ef13043322c0638f35dbf72e2bab8ba6c1f0cc0d9e0fe"
 metafile = true
