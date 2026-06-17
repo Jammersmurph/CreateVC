@@ -591,10 +591,6 @@ hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics-bundled-1.21.1-1.3.0.jar"
-hash = "482c90e0e6fe72f33fe7abb079e5fda581cd660ee53c38c44448a64283e1044c"
-
-[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "262e558bfe856d514ff94b0ca0a28ee3509b01834a92bce300adb1a07b79fee2"
 metafile = true
@@ -695,17 +691,9 @@ hash = "cf937528cd9c66e98e8f57313e28edb264a97e914e99e43ec160949b9e5908ee"
 metafile = true
 
 [[files]]
-file = "mods/createbigcannons-5.11.6+mc.1.21.1.jar"
-hash = "37c21204e365ba270d6af9acad90dbb7a494e2d75fae510800ea4d21d98c296f"
-
-[[files]]
 file = "mods/createlazytick.pw.toml"
 hash = "f5b33cd7a052ac31b56cd5987e32cc29acf8babf55e931b7b6bfaa2e454880f3"
 metafile = true
-
-[[files]]
-file = "mods/createvc_updater-1.0.1.jar"
-hash = "4b0e87464c45657a8ea1e79bb9cc112da4399a270a1a1b0477b9778dcf80faa0"
 
 [[files]]
 file = "mods/createvc_updater.pw.toml"
@@ -908,17 +896,9 @@ hash = "e0f262b84354331f33e1f5652f9586e8d0bc4f8525dada8278677918443d0d3a"
 metafile = true
 
 [[files]]
-file = "mods/sodium-extra-neoforge-0.8.7+mc1.21.1.jar"
-hash = "d116168ddbc2d6ba1bfcd6562ebedb5fc8df7b83771ac255dfb63085e6cc40f6"
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "691ef1ec87c439000f6f1be870732053439e4f64ad7505e2401d6be65dc08ce7"
 metafile = true
-
-[[files]]
-file = "mods/sodium-neoforge-0.8.12-beta.1+mc1.21.1.jar"
-hash = "dc2838d5538db39414171fe86586ab89d1a30d2fd97f59229cc44cf3777f569d"
 
 [[files]]
 file = "mods/sodium.pw.toml"
