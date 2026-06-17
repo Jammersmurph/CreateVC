@@ -8,3 +8,5 @@ push-release.sh
 *.zip
 *.mrpack
 LICENSE*
+mods/createbigcannons-*.jar
+mods/createvc_updater-*.jar
