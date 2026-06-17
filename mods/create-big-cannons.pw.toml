@@ -5,5 +5,9 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "62072e46cc5d2f8b9c6b524785638a482d23ef0f"
-mode = "url"
-url = "https://jammersmurph.github.io/CreateVC/mods/createbigcannons-5.11.6+mc.1.21.1.jar"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8208458
+project-id = 646668
