@@ -622,7 +622,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "d0fa26ac747ce3cd5ca02b67ed889c0758d82851ea928dc810a18e574c127456"
+hash = "08fb68827af2e115bb84a4e8d7d9cf39656acbe6800fb6cca55b38a75d0b2b64"
 metafile = true
 
 [[files]]
@@ -737,7 +737,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "8c55746415f4581a0dd6cc9ad9b908a9e1532004e175104b5b014692af449d2c"
+hash = "223d73ddc3cbc154d74ba6af8cdcf121f38f727b0241de2da32a3a2af5953aa2"
 metafile = true
 
 [[files]]
@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade-sable-compat.pw.toml"
-hash = "b86ffecd9054f74fbc6d69caf585f7456b56fc92d7aa46d711471f5c90b97274"
+hash = "9c25ba7eaea62894ba9e864f30b7cb51b549c1961dbb2da94884b7da4433f1f1"
 metafile = true
 
 [[files]]
@@ -807,7 +807,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "1b62ce0aed2be53eb17a9587afacccc406aa69daf93f313f9eccaa503723199b"
+hash = "34c769794af3019011f6802b254287dcf293b0af263c75dadcf2c36ee6eee6fa"
 metafile = true
 
 [[files]]
@@ -872,7 +872,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "6aabaabc0f2fd2596e91ef0f27357d6f509640f97bcda2248a58c4a6101176d2"
+hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
 
 [[files]]
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "5dfce9987c9a515f61ef15380b65b25d32aa4ae2f12b0bd16cda5444e76f6c5b"
+hash = "4c0cfcb3ed7d4e362568e79d5b753a57415d261f8ea3930630ae7753350625a1"
 metafile = true
 
 [[files]]
@@ -902,7 +902,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0d45d7da0350055f55d273204653c18828b82e6a29f68cbdb6ae1ad8340cc343"
+hash = "4b2c22e49baf8d6b74c94038b58015a5b5eac21694f89f82623d296c775915fa"
 metafile = true
 
 [[files]]
