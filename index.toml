@@ -190,7 +190,7 @@ hash = "e10963bf43711e1d326e076a5b5baa5654b73d1a3878da6aa11c373b47c9e3ac"
 
 [[files]]
 file = "config/fml.toml"
-hash = "415eaa408ddfdeb1bfa0d825f9a148934b39c9b64fd8e166ad92fa51b43d60fd"
+hash = "e6c11b24905331671f34ed12437d400d2eab2ba696eef2c3cfaee7fb40b9be9e"
 
 [[files]]
 file = "config/fps_overlay/config.json"
@@ -361,6 +361,14 @@ file = "config/saturn-optimizations.toml"
 hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
+file = "config/simple-custom-early-loading.json"
+hash = "759cb8fbfca4e01f3e2019c1bc0391b8797a43cc35b64c3e62a512f5e60a94cd"
+
+[[files]]
+file = "config/simple-custom-early-loading/CreateVC_SMP.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
 file = "config/simulated-client.toml"
 hash = "39e1269b6b3cec623ab69a170ee184c7504c302968c0213ccfbb0dcec71e3964"
 
@@ -518,7 +526,11 @@ hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
 file = "mods/CreateVC-Core-1.2.9.jar"
-hash = "848d67b5e40e6fafb05d14876b2c002f2fe3742009d38ac999d14197ffb90085"
+hash = "22734ec95ea52a58734ad9c565f18cbeea7110362f6213f4d8d6e9c5c75ae0ff"
+
+[[files]]
+file = "mods/SimpleCustomEarlyLoading-2.0-neoforge.jar"
+hash = "1a21484a56036e1bac8cbbfadd4d4e329acd41344ab8f11390d49524f695a590"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"
@@ -908,6 +920,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "4c0cfcb3ed7d4e362568e79d5b753a57415d261f8ea3930630ae7753350625a1"
+metafile = true
+
+[[files]]
+file = "mods/simple-custom-early-loading.pw.toml"
+hash = "18ac036cd5661abb6977b1acc0926565430cbb24edc366a386f9047bdebf74f5"
 metafile = true
 
 [[files]]
