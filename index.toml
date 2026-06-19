@@ -190,7 +190,7 @@ hash = "e10963bf43711e1d326e076a5b5baa5654b73d1a3878da6aa11c373b47c9e3ac"
 
 [[files]]
 file = "config/fml.toml"
-hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
+hash = "415eaa408ddfdeb1bfa0d825f9a148934b39c9b64fd8e166ad92fa51b43d60fd"
 
 [[files]]
 file = "config/fps_overlay/config.json"
@@ -361,6 +361,15 @@ file = "config/saturn-optimizations.toml"
 hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
+file = "config/simple-custom-early-loading.json"
+hash = "3675af72637a272134c87c5ba03735eed16964d3da4813470864c79b76cae9de"
+
+[[files]]
+file = "config/simple-custom-early-loading/CreateVC_SMP.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
+
+[[files]]
 file = "config/simulated-client.toml"
 hash = "39e1269b6b3cec623ab69a170ee184c7504c302968c0213ccfbb0dcec71e3964"
 
@@ -518,7 +527,7 @@ hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
 file = "mods/CreateVC-Core-1.2.9.jar"
-hash = "da9c34914e4c58af294bd585cbabfe708be3ff180f67fbf6dec8c6ab546f060a"
+hash = "b5db52e07db611a7e5862ef845adf7f48bb9e023b5f2d72cec7cb67de832cbb4"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"

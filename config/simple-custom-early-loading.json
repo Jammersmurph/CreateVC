@@ -1,0 +1,28 @@
+{
+  "elements": [
+    {
+      "image": "CreateVC_SMP.png",
+      "position": {
+        "position_anchor": "CENTER",
+        "position_unit": "PERCENTAGE",
+        "x": 50,
+        "y": 50,
+        "size_unit": "PERCENTAGE",
+        "width": 100
+      }
+    }
+  ],
+  "progress_bar": {
+    "bar_count": 3,
+    "position": {
+      "position_anchor": "TOP_CENTER",
+      "position_unit": "PERCENTAGE",
+      "x": 50,
+      "y": 80
+    }
+  },
+  "performance_bar": false,
+  "fox": false,
+  "log_messages": false,
+  "forge_version": false
+}
