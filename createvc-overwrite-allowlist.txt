@@ -1,9 +1,8 @@
 # Existing files are preserved by default.
 # Add gitignore-style patterns here for files the updater is allowed to overwrite or delete.
-#
-# Examples:
-# servers.dat*
-# mods/createvc_updater-*.jar
-# config/some-pack-controlled-file.toml
-# kubejs/**
+
+servers.dat*
+mods/createvc_updater-*.jar
+kubejs/**
 createvc-updater.jar
+# config/
