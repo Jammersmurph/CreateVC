@@ -556,6 +556,16 @@ hash = "fd8400c730eed14672714c57ce51f76e90caa472c3c3d6148f60a5b0de632f30"
 metafile = true
 
 [[files]]
+file = "mods/cc-redstone-link-bridge.pw.toml"
+hash = "791a6138f2501b4e3d2695bc6f95d207da57872cb7a32074a6236a264e43cb7f"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "eb9489e1224ca73e531ce31a6dedd56ea5f4be87b73184e72ce3a2603835c905"
 metafile = true
@@ -606,6 +616,16 @@ hash = "0608f932c604ef0db60199d4193c42aa612670c199089d960ffdf6868599620b"
 metafile = true
 
 [[files]]
+file = "mods/create-avionics.pw.toml"
+hash = "89f883bddfb008d0cf9b6ed4ff49795b351f3f5c3e5e3cc8e3a2818a81cea9b5"
+metafile = true
+
+[[files]]
+file = "mods/create-ccbr.pw.toml"
+hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
+metafile = true
+
+[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "f76104f797ad7c1aee893fcf3b53d756b44358a3cd55a65150e4598450339714"
 metafile = true
@@ -653,6 +673,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "77a5ead1c841ce7def52029ba85cc1972d9b810338acbb7f7aeb712e6d262712"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "096b8e62fe666bc8e32d4fd5c5512dcd3e464f7f4e29979f00d8ddd2e22a931e"
 metafile = true
 
 [[files]]
