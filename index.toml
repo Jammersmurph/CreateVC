@@ -190,7 +190,7 @@ hash = "e10963bf43711e1d326e076a5b5baa5654b73d1a3878da6aa11c373b47c9e3ac"
 
 [[files]]
 file = "config/fml.toml"
-hash = "415eaa408ddfdeb1bfa0d825f9a148934b39c9b64fd8e166ad92fa51b43d60fd"
+hash = "2a2def12e251c3754dd24d665c00be4086b03a8690cf58435befba72b8b3aa44"
 
 [[files]]
 file = "config/fps_overlay/config.json"
@@ -362,7 +362,7 @@ hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
-hash = "3675af72637a272134c87c5ba03735eed16964d3da4813470864c79b76cae9de"
+hash = "759cb8fbfca4e01f3e2019c1bc0391b8797a43cc35b64c3e62a512f5e60a94cd"
 
 [[files]]
 file = "config/simple-custom-early-loading/CreateVC_SMP.png"

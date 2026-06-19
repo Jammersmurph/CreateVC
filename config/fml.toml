@@ -19,7 +19,7 @@ earlyWindowHeight = 480
 #Early window framebuffer scale
 earlyWindowFBScale = 1
 #Early window starts maximized
-earlyWindowMaximized = false
+earlyWindowMaximized = true
 #Skip specific GL versions, may help with buggy graphics card drivers
 earlyWindowSkipGLVersions = []
 #Squir?

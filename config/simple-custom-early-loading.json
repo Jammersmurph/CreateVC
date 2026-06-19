@@ -18,10 +18,10 @@
       "position_anchor": "TOP_CENTER",
       "position_unit": "PERCENTAGE",
       "x": 50,
-      "y": 80
+      "y": 90
     }
   },
-  "performance_bar": false,
+  "performance_bar": true,
   "fox": false,
   "log_messages": false,
   "forge_version": false
