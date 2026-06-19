@@ -1,0 +1,13 @@
+name = "Simple Custom Early Loading"
+filename = "SimpleCustomEarlyLoading-2.2-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Bi8o4aLw/versions/G5bmC36h/SimpleCustomEarlyLoading-2.2-neoforge.jar"
+hash-format = "sha512"
+hash = "5fa2487129c5367c80528e196ad9b606a10067786852c01f5ab09fd1804d2dbde1b1e074c7ddb969b8503104b2b575ae42e74f9560e386e2942cbd0506958c71"
+
+[update]
+[update.modrinth]
+mod-id = "Bi8o4aLw"
+version = "G5bmC36h"
