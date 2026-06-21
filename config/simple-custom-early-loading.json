@@ -13,15 +13,15 @@
     }
   ],
   "progress_bar": {
-    "bar_count": 3,
+    "bar_count": 1,
     "position": {
-      "position_anchor": "TOP_CENTER",
+      "position_anchor": "BOTTOM_CENTER",
       "position_unit": "PERCENTAGE",
       "x": 50,
       "y": 90
     }
   },
-  "performance_bar": true,
+  "performance_bar": false,
   "fox": false,
   "log_messages": false,
   "forge_version": false
