@@ -1,0 +1,66 @@
+name: Export Dev
+
+on:
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache: true
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Exclude updater-managed files from export
+        run: |
+          mkdir -p /tmp/createvc-export-excluded
+
+          mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
+
+          for path in \
+            config \
+            options.txt \
+            optionsof.txt \
+            servers.dat \
+            servers.dat_old
+          do
+            if [ -e "$path" ]; then
+              mv "$path" /tmp/createvc-export-excluded/
+            fi
+          done
+
+          git checkout config/fml.toml
+          git checkout config/simple-custom-early-loading.json
+          git checkout config/simple-custom-early-loading/
+
+      - name: Export to mrpack
+        run: packwiz mr export -o CreateVC.mrpack
+
+      - name: Copy mrpack into repo
+        run: |
+          mkdir -p builds
+          cp CreateVC.mrpack builds/CreateVC-dev.mrpack
+
+      - name: Push mrpack to dev branch
+        run: |
+          git config user.name "CreateVC Dev CI"
+          git config user.email "actions@github.com"
+          git add -A builds/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "update dev build [skip ci]"
+          git push
