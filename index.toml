@@ -529,10 +529,6 @@ file = "mods/CreateVC-Core-1.2.9.jar"
 hash = "22734ec95ea52a58734ad9c565f18cbeea7110362f6213f4d8d6e9c5c75ae0ff"
 
 [[files]]
-file = "mods/SimpleCustomEarlyLoading-2.0-neoforge.jar"
-hash = "1a21484a56036e1bac8cbbfadd4d4e329acd41344ab8f11390d49524f695a590"
-
-[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "89f3b7bc029ab5dabe9a600a6219a699584064fc6cb78a9f9d38ed26f2a7a4de"
 metafile = true
