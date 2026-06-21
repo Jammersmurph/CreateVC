@@ -362,15 +362,11 @@ hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
-hash = "0dc7415b51e28aaabb538670f9ec3a51b71259e86aaacca1d7e21936d08c9bc0"
+hash = "4a1637054a704426365f6be2e711e7b752187482a0b05567429fd9cc78dd16be"
 
 [[files]]
 file = "config/simple-custom-early-loading/CreateVC_SMP.png"
 hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
-
-[[files]]
-file = "config/simple-custom-early-loading/createvc-smp-logo.png"
-hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
 
 [[files]]
 file = "config/simulated-client.toml"

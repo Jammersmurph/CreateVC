@@ -10,17 +10,6 @@
         "size_unit": "PERCENTAGE",
         "width": 100
       }
-    },
-    {
-      "image": "createvc-smp-logo.png",
-      "position": {
-        "position_anchor": "CENTER",
-        "position_unit": "PERCENTAGE",
-        "x": 50,
-        "y": 50,
-        "size_unit": "PERCENTAGE",
-        "width": 75
-      }
     }
   ],
   "progress_bar": {
