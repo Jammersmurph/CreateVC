@@ -725,7 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater.pw.toml"
-hash = "4aca5315a004def8d7067b9c51ccbda4b716cc9e7b48fd81d14b72b00af70c6b"
+hash = "08fb88bdaec55c702f384b663771e10936fe97bff79331cfd70a70442d4c6a29"
 metafile = true
 
 [[files]]
