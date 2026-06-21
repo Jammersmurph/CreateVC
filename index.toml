@@ -362,15 +362,7 @@ hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
-hash = "d2e700a4ede24c9451581150690ff44be57715aebf8479b7a3972a023e013e11"
-
-[[files]]
-file = "config/simple-custom-early-loading/CVC_animated.apng"
-hash = "6e17379da71b931286e3c56f6c16418342e76f606e0d84ea972839809378388c"
-
-[[files]]
-file = "config/simple-custom-early-loading/CVC_animated.gif"
-hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
+hash = "4a1637054a704426365f6be2e711e7b752187482a0b05567429fd9cc78dd16be"
 
 [[files]]
 file = "config/simple-custom-early-loading/CreateVC_SMP.png"

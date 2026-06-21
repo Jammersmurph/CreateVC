@@ -10,17 +10,6 @@
         "size_unit": "PERCENTAGE",
         "width": 100
       }
-    },
-    {
-      "image": "CVC_animated.apng",
-      "position": {
-        "position_anchor": "CENTER",
-        "position_unit": "PERCENTAGE",
-        "x": 50,
-        "y": 65,
-        "size_unit": "PERCENTAGE",
-        "width": 35
-      }
     }
   ],
   "progress_bar": {
