@@ -3,14 +3,11 @@ filename = "create_connected-1.2.2-mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d9b3d62c537beb18f4e9edf129d9b95709197777"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Vg5TIO6d/versions/iUFG9osW/create_connected-1.2.2-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "26af7e18f3e045b24a9504e0394563714bb19823552a4633a1662cf10eeb60eb36ebef7243f3d1294db1ce58f510e2f8372bdfaa63cc424214466f6abce2fc2a"
 
 [update]
-[update.curseforge]
-file-id = 8221350
-project-id = 947914
 [update.modrinth]
 mod-id = "Vg5TIO6d"
 version = "iUFG9osW"
