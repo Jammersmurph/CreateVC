@@ -362,7 +362,15 @@ hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
-hash = "4a1637054a704426365f6be2e711e7b752187482a0b05567429fd9cc78dd16be"
+hash = "1805df9518fce9dad5c4bb6120708bb80d6c42ba6ddad7f70aec29bbea78a23a"
+
+[[files]]
+file = "config/simple-custom-early-loading/CVC_animated.gif"
+hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
+
+[[files]]
+file = "config/simple-custom-early-loading/CVC_animated.png"
+hash = "6e17379da71b931286e3c56f6c16418342e76f606e0d84ea972839809378388c"
 
 [[files]]
 file = "config/simple-custom-early-loading/CreateVC_SMP.png"
@@ -526,7 +534,7 @@ hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
 file = "mods/CreateVC-Core-1.3.1.jar"
-hash = "97895173e46f28426c1f7bc1512a3fcf2ba4a61078268a501a48b0603553cb57"
+hash = "bdbe22d97d6e62edf37e2b47f44352d3fd67345252b924cef06e3340bf6d07b9"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"
