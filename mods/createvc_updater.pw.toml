@@ -1,8 +1,8 @@
-name = "CreateVC Updater"
-filename = "createvc_updater-1.0.1.jar"
+name = "CreateVC Updater Dev"
+filename = "createvc_updater_dev-1.0.1-dev.jar"
 side = "client"
 
 [download]
-url = "https://raw.githubusercontent.com/Jammersmurph/CreateVC/dev/mods/createvc_updater-1.0.1.jar"
+url = "https://raw.githubusercontent.com/Jammersmurph/CreateVC/dev/mods/createvc_updater_dev-1.0.1-dev.jar"
 hash-format = "sha512"
 hash = "7f50b12c60fd0caee7dd0013b9dc1155c2d4868ae3c7b3c2e4e93db226dd20923f4dab4ce79db05bc6e6fb63d9cb18c6b93016c287bef91bc1f07bb3f2827c5e"
