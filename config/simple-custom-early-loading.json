@@ -12,14 +12,14 @@
       }
     },
     {
-      "image": "CVC_animated.png",
+      "image": "CVC_animated.apng",
       "position": {
         "position_anchor": "CENTER",
         "position_unit": "PERCENTAGE",
         "x": 50,
-        "y": 50,
+        "y": 65,
         "size_unit": "PERCENTAGE",
-        "width": 40
+        "width": 35
       }
     }
   ],
