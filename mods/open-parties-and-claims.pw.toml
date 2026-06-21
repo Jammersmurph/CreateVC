@@ -3,14 +3,11 @@ filename = "open-parties-and-claims-neoforge-1.21.1-0.27.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "72a83713417b82bcd66f4b1fbe0adaa5f43e363b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/gF3BGWvG/versions/N11y4hWk/open-parties-and-claims-neoforge-1.21.1-0.27.5.jar"
+hash-format = "sha512"
+hash = "5ec145d3902354ebd191c41e5328f0970dbc3eaf7498d47f17572a32f2bf4c4cb793f8a44fe5c3409cbd3278d64cb9d4a56777685e4abb13e5c2da36c348537a"
 
 [update]
-[update.curseforge]
-file-id = 8230815
-project-id = 636608
 [update.modrinth]
 mod-id = "gF3BGWvG"
 version = "N11y4hWk"

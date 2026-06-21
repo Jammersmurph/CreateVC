@@ -590,7 +590,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
+hash = "4c0943468e816c02ad58398d600e6c5c413d3a3e0495d3245cd77c4066a14e77"
 metafile = true
 
 [[files]]
@@ -615,7 +615,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronauticstoolgun.pw.toml"
-hash = "554242f5c67a0dc834ad7916b2f71fd278d3bbbd5e09c980dfbc45d6fc822873"
+hash = "4e327bfce14dc51bf11ae59b466ce1d75f3c48245cb3dbfb8aa306ebe5a87744"
 metafile = true
 
 [[files]]
@@ -640,7 +640,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "4712e801e9dd953ce2d1cfe45e219199a396a3caab87658bbb56e8949292a1a3"
+hash = "19f3a244bf8ffca1aa53621524681f98c680e8395323e7fa50c93169a6851a74"
 metafile = true
 
 [[files]]
@@ -650,12 +650,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "25ec34b50b0ef7bfb69248b7d990b39c7fbd5d5c15f3a328f98ae0b78d169f90"
+hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
 metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "13cde0d6719eab686a3bb832fd6423572e8bf59a03abc87f539a4b4c3eb958d9"
+hash = "ff6a3d4bed914978aada4a059a16100cd2fd69a3cf19987c0d80160a7125e78b"
 metafile = true
 
 [[files]]
@@ -670,7 +670,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "73ed993bcf63829025e3aafa42e89b5f00feec3b3210cd5d421762f29ca4d159"
+hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
 metafile = true
 
 [[files]]
@@ -825,7 +825,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "5451b6a835b85c8351c1eaa8d8f9e1c4a717d1b73870d9a8b2fb3e035a269990"
+hash = "0b2e5afd8e76ff119e6212a077a07a3b786776811f968287f0a219f106c8e175"
 metafile = true
 
 [[files]]
@@ -875,7 +875,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "77f0bda82c318128d7fca9d7cbd8b6b4e7fe96dd3b339b95a79209a8155bd08e"
+hash = "f5e0874a456cf7b4d1cc48131810ad660f556b4d08bc050c5e89ddf5d167da66"
 metafile = true
 
 [[files]]
@@ -885,7 +885,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "d05b878ebec90619d25ef13043322c0638f35dbf72e2bab8ba6c1f0cc0d9e0fe"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
@@ -910,7 +910,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
+hash = "b62e1a32d2d6a18ea848f58d629f9caf5565a90495de33cdfbebd041c735c07b"
 metafile = true
 
 [[files]]
@@ -930,17 +930,17 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "4b2c22e49baf8d6b74c94038b58015a5b5eac21694f89f82623d296c775915fa"
+hash = "25324a8a9cdc663d3d1952191e873f87531011715de49673cbf7c1b0da0504d6"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "c4edbe25b1ada44ce44f618e512fb4bd6763313176c82061f0b0b065e2d75301"
+hash = "96bb7a10b70c0aff16d43b28a656c3336f416c6dfa6a22cdf5d3b478d514faf6"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "584ec95e808fe3428f4f700c0a7a3da154346e5db166346120e9b828519b13ca"
+hash = "b539f1a863542708d95aeb8d80b7b81ec00ef98d8ee3c79371d0ff444b2485b7"
 metafile = true
 
 [[files]]
@@ -955,12 +955,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "e757ead8663c0a98164f330f5f19190103272a9f2a99e388868e4bd25d88d466"
+hash = "141fbb4e134c0e2c08f45e4e1dda3a5d6c4fdd444f6e3e854c0ec7b0b431c741"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "646601cadb25d018b36dbc36188247991a71ce68c0adc12dcf28b8918df2ba59"
+hash = "096fec83cd62f4c7ad91a8dea66ec9cdce214f8edf136006828e4106d9b59f24"
 metafile = true
 
 [[files]]
@@ -976,6 +976,10 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
+
+[[files]]
+file = "scripts/promote-dev-to-main.sh"
+hash = "cc06ddec05eda80470cfd35f43182a1b097157c6db4881de827665e264e58b5b"
 
 [[files]]
 file = "servers.dat"

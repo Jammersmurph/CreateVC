@@ -48,6 +48,37 @@ jobs:
       - name: Export to mrpack
         run: packwiz mr export -o CreateVC.mrpack
 
+      - name: Sanity check - no unexpected override mods
+        run: |
+          ALLOWED_OVERRIDES="\
+            overrides/mods/CreateVC-Core-
+            overrides/mods/createsa_tank_fix-
+            overrides/mods/createvc_updater_
+            client-overrides/mods/\
+          "
+          FAILED=0
+          while IFS= read -r entry; do
+            allowed=false
+            for pattern in $ALLOWED_OVERRIDES; do
+              case "$entry" in
+                *"$pattern"*) allowed=true; break;;
+              esac
+            done
+            if [ "$allowed" = false ]; then
+              echo "UNEXPECTED OVERRIDE: $entry"
+              FAILED=1
+            fi
+          done < <(unzip -l CreateVC.mrpack 2>/dev/null \
+            | awk '{print $4}' \
+            | grep -E 'overrides/mods/|client-overrides/mods/')
+          if [ "$FAILED" = 1 ]; then
+            echo ""
+            echo "ERROR: Unexpected override mods found in mrpack."
+            echo "Move them to Modrinth metadata in their .pw.toml to fix this."
+            exit 1
+          fi
+          echo "Override mods check passed."
+
       - name: Copy mrpack into repo
         run: |
           mkdir -p builds
