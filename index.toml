@@ -190,7 +190,7 @@ hash = "e10963bf43711e1d326e076a5b5baa5654b73d1a3878da6aa11c373b47c9e3ac"
 
 [[files]]
 file = "config/fml.toml"
-hash = "e6c11b24905331671f34ed12437d400d2eab2ba696eef2c3cfaee7fb40b9be9e"
+hash = "415eaa408ddfdeb1bfa0d825f9a148934b39c9b64fd8e166ad92fa51b43d60fd"
 
 [[files]]
 file = "config/fps_overlay/config.json"
@@ -729,7 +729,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater.pw.toml"
-hash = "4962c848bebf54c15c70619bda79ce2e5956078dbfa3cab0d8188cd68cfaf0d7"
+hash = "4aca5315a004def8d7067b9c51ccbda4b716cc9e7b48fd81d14b72b00af70c6b"
 metafile = true
 
 [[files]]
