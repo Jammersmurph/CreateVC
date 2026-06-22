@@ -5,7 +5,19 @@ servers.dat*
 mods/createvc_updater-*.jar
 kubejs/**
 createvc-updater.jar
+
+# CreateVC branding and loading-screen assets are pack-managed.
+# Existing installs may have generated/default SCEL files; keep these current.
 config/fml.toml
+config/*CreateVC*
+config/*createvc*
+config/*branding*
+config/simple-custom-early-loading
 config/simple-custom-early-loading/*
+config/simple-custom-early-loading/**
 config/simple-custom-early-loading*
+mods/CreateVC-Core-*.jar
 mods/simple-custom-early-loading*
+resourcepacks/*CreateVC*
+resourcepacks/*createvc*
+resourcepacks/*branding*
