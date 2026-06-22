@@ -53,8 +53,6 @@ jobs:
           # replacing player-local settings before the updater can preserve them.
           for path in \
             config \
-            options.txt \
-            optionsof.txt \
             servers.dat \
             servers.dat_old
           do
@@ -65,6 +63,51 @@ jobs:
 
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
+
+      - name: Sanity check - no unexpected override mods
+        run: |
+          ALLOWED_OVERRIDES="\
+            overrides/mods/CreateVC-Core-
+            overrides/mods/createsa_tank_fix-
+            overrides/mods/createvc_updater_
+            client-overrides/mods/\
+          "
+          FAILED=0
+          while IFS= read -r entry; do
+            allowed=false
+            for pattern in $ALLOWED_OVERRIDES; do
+              case "$entry" in
+                *"$pattern"*) allowed=true; break;;
+              esac
+            done
+            if [ "$allowed" = false ]; then
+              echo "UNEXPECTED OVERRIDE: $entry"
+              FAILED=1
+            fi
+          done < <(unzip -l CreateVC.mrpack 2>/dev/null \
+            | awk '{print $4}' \
+            | grep -E 'overrides/mods/|client-overrides/mods/')
+          if [ "$FAILED" = 1 ]; then
+            echo ""
+            echo "ERROR: Unexpected override mods found in mrpack."
+            echo "Move them to Modrinth metadata in their .pw.toml to fix this."
+            exit 1
+          fi
+          echo "Override mods check passed."
+
+      - name: Commit mrpack to repo
+        run: |
+          mkdir -p builds
+          cp CreateVC.mrpack builds/CreateVC.mrpack
+          git config user.name "CreateVC CI"
+          git config user.email "actions@github.com"
+          git add -f builds/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "update build [skip ci]"
+            git push
+          fi
 
       - name: Upload to Modrinth & set server pack version
         continue-on-error: true
