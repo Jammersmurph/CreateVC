@@ -69,6 +69,15 @@ jobs:
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
 
+      - name: Sanity check - options defaults are install-only
+        run: |
+          unzip -l CreateVC.mrpack | awk '{print $4}' | grep -Fxq 'overrides/options.txt'
+          if grep -Eq '^[[:space:]]*options(of)?\.txt[[:space:]]*$' createvc-overwrite-allowlist.txt; then
+            echo "ERROR: options.txt/optionsof.txt must never be updater-overwritable."
+            exit 1
+          fi
+          echo "Options defaults check passed."
+
       - name: Sanity check - no unexpected override mods
         run: |
           ALLOWED_OVERRIDES="\
