@@ -61,6 +61,11 @@ jobs:
             fi
           done
 
+          # Restore pack-managed configs that should ship with every install.
+          git checkout config/fml.toml
+          git checkout config/simple-custom-early-loading.json
+          git checkout config/simple-custom-early-loading/
+
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
 
