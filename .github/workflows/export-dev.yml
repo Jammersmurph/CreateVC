@@ -54,7 +54,7 @@ jobs:
             echo "ERROR: options.txt/optionsof.txt must not ship in the mrpack."
             exit 1
           fi
-          grep -Fxq 'file = "options.txt"' index.toml
+          grep -Eq '^[[:space:]]*file = "options\.txt"[[:space:]]*$' index.toml
           if grep -Eq '^[[:space:]]*options(of)?\.txt[[:space:]]*$' createvc-overwrite-allowlist.txt; then
             echo "ERROR: options.txt/optionsof.txt must never be updater-overwritable."
             exit 1
