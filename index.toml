@@ -984,7 +984,7 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "scripts/promote-dev-to-main.sh"
-hash = "cc06ddec05eda80470cfd35f43182a1b097157c6db4881de827665e264e58b5b"
+hash = "d8e0384056e73a7d7fb87a69afce8814e1bed5bf5ddcd9cef93d6269007b2478"
 
 [[files]]
 file = "servers.dat"
