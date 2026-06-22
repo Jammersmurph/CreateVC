@@ -5,5 +5,7 @@ servers.dat*
 mods/createvc_updater-*.jar
 kubejs/**
 createvc-updater.jar
+config/fml.toml
 config/simple-custom-early-loading/*
 config/simple-custom-early-loading*
+mods/simple-custom-early-loading*
