@@ -42,6 +42,12 @@ git diff-index --cached --quiet HEAD || fail "Staging area has uncommitted chang
 step "Fetching latest from origin…"
 git fetch origin
 
+# The script is dev-only, so on main it is often run from a temporary copy.
+# If that copy is under scripts/, remove it before merge so origin/dev can be
+# checked out cleanly without an untracked-file collision.
+rm -f "scripts/promote-dev-to-main.sh" 2>/dev/null || true
+rmdir scripts 2>/dev/null || true
+
 # ── Merge dev into main ────────────────────────────────
 # Start from dev's exact tree, then apply the known main-only/dev-only fixups.
 # This avoids Git auto-merge silently dropping nearby workflow/config edits.
