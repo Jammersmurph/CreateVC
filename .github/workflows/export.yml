@@ -53,8 +53,6 @@ jobs:
           # replacing player-local settings before the updater can preserve them.
           for path in \
             config \
-            options.txt \
-            optionsof.txt \
             servers.dat \
             servers.dat_old
           do

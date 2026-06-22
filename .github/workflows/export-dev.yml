@@ -31,8 +31,6 @@ jobs:
 
           for path in \
             config \
-            options.txt \
-            optionsof.txt \
             servers.dat \
             servers.dat_old
           do
