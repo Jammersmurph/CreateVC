@@ -53,6 +53,8 @@ jobs:
           # replacing player-local settings before the updater can preserve them.
           for path in \
             config \
+            options.txt \
+            optionsof.txt \
             servers.dat \
             servers.dat_old
           do
@@ -69,14 +71,18 @@ jobs:
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
 
-      - name: Sanity check - options defaults are install-only
+      - name: Sanity check - options defaults are updater-only
         run: |
-          unzip -l CreateVC.mrpack | awk '{print $4}' | grep -Fxq 'overrides/options.txt'
+          if unzip -l CreateVC.mrpack | awk '{print $4}' | grep -Eq '^overrides/options(of)?\.txt$'; then
+            echo "ERROR: options.txt/optionsof.txt must not ship in the mrpack."
+            exit 1
+          fi
+          grep -Fxq 'file = "options.txt"' index.toml
           if grep -Eq '^[[:space:]]*options(of)?\.txt[[:space:]]*$' createvc-overwrite-allowlist.txt; then
             echo "ERROR: options.txt/optionsof.txt must never be updater-overwritable."
             exit 1
           fi
-          echo "Options defaults check passed."
+          echo "Options updater-only check passed."
 
       - name: Sanity check - no unexpected override mods
         run: |
