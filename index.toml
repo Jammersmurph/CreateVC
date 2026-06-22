@@ -362,7 +362,7 @@ hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
-hash = "4a1637054a704426365f6be2e711e7b752187482a0b05567429fd9cc78dd16be"
+hash = "00196656ca4c4a2286e9f8d90c0b232b9e59a45e18a903c2816b4cb7bbdf78ee"
 
 [[files]]
 file = "config/simple-custom-early-loading/CreateVC_SMP.png"
