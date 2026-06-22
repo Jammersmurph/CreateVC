@@ -48,10 +48,9 @@ jobs:
           # referenced by the Modrinth pack export.
           mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
 
-          # These files are managed by the CreateVC updater and delivered only on
-          # first install.  Keeping them out of the .mrpack prevents Modrinth App
-          # updates from replacing player-local settings.  They remain tracked in
-          # the repo and index.toml so the updater can distribute them.
+          # These are first-install-only files managed by the CreateVC updater.
+          # Keeping them out of the .mrpack prevents Modrinth App updates from
+          # replacing player-local settings before the updater can preserve them.
           for path in \
             config \
             options.txt \
