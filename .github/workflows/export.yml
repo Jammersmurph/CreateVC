@@ -100,6 +100,20 @@ jobs:
           fi
           echo "Override mods check passed."
 
+      - name: Commit mrpack to repo
+        run: |
+          mkdir -p builds
+          cp CreateVC.mrpack builds/CreateVC.mrpack
+          git config user.name "CreateVC CI"
+          git config user.email "actions@github.com"
+          git add -f builds/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "update build [skip ci]"
+            git push
+          fi
+
       - name: Upload to Modrinth & set server pack version
         continue-on-error: true
         env:
