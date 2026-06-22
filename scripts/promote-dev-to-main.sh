@@ -20,6 +20,13 @@ step()  { echo -e "${GREEN}[*]${NC} $1"; }
 warn()  { echo -e "${YELLOW}[!]${NC} $1"; }
 fail()  { echo -e "${RED}[X]${NC} $1"; exit 1; }
 
+remove_path() {
+    local path="$1"
+    git rm -rf --cached --ignore-unmatch "$path" >/dev/null 2>&1 || true
+    rm -rf "$path" 2>/dev/null || true
+    git add -u -- "$path" 2>/dev/null || true
+}
+
 REPO_ROOT=$(git rev-parse --show-toplevel 2>/dev/null)
 cd "$REPO_ROOT"
 
@@ -36,40 +43,24 @@ step "Fetching latest from origin…"
 git fetch origin
 
 # ── Merge dev into main ────────────────────────────────
-# This should be clean: main has no commits since dev forked.
+# Start from dev's exact tree, then apply the known main-only/dev-only fixups.
+# This avoids Git auto-merge silently dropping nearby workflow/config edits.
 step "Merging origin/dev into main…"
 git merge origin/dev --no-commit --no-ff || {
-    warn "Merge had conflicts. Taking dev's version for all conflicted files…"
-    git checkout --theirs -- . 2>/dev/null || true
-    git add -A
+    warn "Merge had conflicts. Replacing working tree with origin/dev before fixups…"
 }
+
+step "Applying origin/dev tree exactly before main fixups…"
+git checkout origin/dev -- .
+git add -A
 
 # ── Remove dev-only files ──────────────────────────────
 step "Removing dev-only files…"
 
-# dev updater jar (rename target)
-if git ls-files --cached | grep -qF "mods/createvc_updater_dev-1.0.1-dev.jar"; then
-    git rm -f "mods/createvc_updater_dev-1.0.1-dev.jar"
-fi
-rm -f "mods/createvc_updater_dev-1.0.1-dev.jar" 2>/dev/null || true
-
-# dev CI workflow
-if git ls-files --cached | grep -qF ".github/workflows/export-dev.yml"; then
-    git rm -f ".github/workflows/export-dev.yml"
-fi
-rm -f ".github/workflows/export-dev.yml" 2>/dev/null || true
-
-# builds/ directory
-if git ls-files --cached | grep -q "^builds/"; then
-    git ls-files --cached | grep "^builds/" | xargs git rm -f -- 2>/dev/null || git rm -rf builds/
-fi
-rm -rf builds/ 2>/dev/null || true
-
-# this script itself (dev-only tooling)
-if git ls-files --cached | grep -qF "scripts/promote-dev-to-main.sh"; then
-    git rm -f "scripts/promote-dev-to-main.sh"
-fi
-rm -f "scripts/promote-dev-to-main.sh" 2>/dev/null || true
+remove_path "mods/createvc_updater_dev-1.0.1-dev.jar"
+remove_path ".github/workflows/export-dev.yml"
+remove_path "builds"
+remove_path "scripts/promote-dev-to-main.sh"
 
 # ── Restore main's updater ─────────────────────────────
 step "Restoring main's updater files…"
