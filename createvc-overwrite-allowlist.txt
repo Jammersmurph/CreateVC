@@ -21,3 +21,4 @@ mods/simple-custom-early-loading*
 resourcepacks/*CreateVC*
 resourcepacks/*createvc*
 resourcepacks/*branding*
+config/xaero/lib/*
