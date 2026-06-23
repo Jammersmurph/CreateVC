@@ -16,6 +16,7 @@ config/simple-custom-early-loading
 config/simple-custom-early-loading/*
 config/simple-custom-early-loading/**
 config/simple-custom-early-loading*
+config/xaero/lib/*
 mods/CreateVC-Core-*.jar
 mods/simple-custom-early-loading*
 resourcepacks/*CreateVC*

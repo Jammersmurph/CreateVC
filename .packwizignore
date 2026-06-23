@@ -1,5 +1,4 @@
 .anchored-summary.md
-config/xaero/lib/*
 createvc-overwrite-allowlist.txt
 .github/
 .gitignore
