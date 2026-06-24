@@ -1,0 +1,13 @@
+name = "Create Encased"
+filename = "Create Encased-1.21.1-1.8.1-ht1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hSSqdyU1/versions/3sUW27Ho/Create%20Encased-1.21.1-1.8.1-ht1.jar"
+hash-format = "sha512"
+hash = "9c4927dd65546a9b0700dc8547a71115dec56d32edb0c5f2fe38440408db33afa00313eb4d02ad3332d3fe269aae9e485bf3eda3a602821cb0a41ebeec16283a"
+
+[update]
+[update.modrinth]
+mod-id = "hSSqdyU1"
+version = "3sUW27Ho"
