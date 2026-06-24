@@ -470,7 +470,7 @@ hash = "3096ef1548a7b64a92c82eb52e3d93cff9665158b7871cd09fb7d7b3db599c45"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"
-hash = "d0f3f8d958a3d030141f7e3c1265f302f361792c009427676b29ed75fe3f9d67"
+hash = "89f3b7bc029ab5dabe9a600a6219a699584064fc6cb78a9f9d38ed26f2a7a4de"
 metafile = true
 
 [[files]]
@@ -650,7 +650,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-stuff-additions.pw.toml"
-hash = "16b1cd7736913f5a72d8886ab9b5ef51f4b60c3a708575f9158cb73dc37098b8"
+hash = "17a87ed421639310e22a1e1d2b693dbe04c69282f2a083e030ee24f969e4b08b"
 metafile = true
 
 [[files]]
@@ -735,7 +735,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "7c0fc38a2d56a5f043bc7614b354a37fff8670f8a22c9fbdcee5886c4c1d5d46"
+hash = "18ef5a47bbb0785cd439dadaf9b9fe3c0e0400447230c1686dccc5149d9c6487"
 metafile = true
 
 [[files]]
@@ -775,7 +775,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "0826a9628d3ae9030e1072a257dd26bf60cf3563a1a7ee3766d1dec4e97eb32d"
+hash = "e7b3c08c8b168d15e3997d41d0480d1d35cba0bdda94094f123d1eef65d0b0c4"
 metafile = true
 
 [[files]]
@@ -890,7 +890,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "41a0be4150fdba425e69be26023040af0e8ff0f889df3562efecadd9cdb3fd13"
+hash = "bf3757240109ab1b642e90a8905454aa1ee715d76c55e979f51e96af6f4d07c9"
 metafile = true
 
 [[files]]
@@ -900,7 +900,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "b0f977cd6da6730ea0c45e7e8b0f0b5b51e0232d73db973107f8e16f02f8339c"
+hash = "369617869e9c8224e9c5e875d70677c491bc4282919b32705d096d253e2ffecd"
 metafile = true
 
 [[files]]
@@ -970,7 +970,139 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
+hash = "888404933b9cccc41baf9f1da3ead3c3211106c2ad374cb3283ca2ab20d40ca9"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_shingle_slab.json"
+hash = "e6fd0ebe2ed3812ac471f80f839f2d5c21030166d72b4c21ce09c3e70d9b9c1e"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_shingle_stairs.json"
+hash = "a0884edd14a7d5f4804bad06b9af5abe12ce3857fd1ed0a73eb36bfd8ebbcf30"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_tile_slab.json"
+hash = "7056167bb30da092458dabfee7d94ddc6b58960bd51a6840baabc4055234e4e7"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_tile_stairs.json"
+hash = "2f17afa2d93efb34fe420f80915f3a78bd476cb17c61d86c5a624aca5af4ce0f"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_shingle_slab.json"
+hash = "59ed15baa8eaa0b3aa8a32d93ef517a6ec51e63a01097340bfeee65596201888"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_shingle_stairs.json"
+hash = "d0b4f3b543c96bec2df1bcfb286e136bc6ecc7ce751c036cef8c8945f030f2a5"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_tile_slab.json"
+hash = "3b9bbfcba0c4edf2ed355ea71061ebec344a25084c62973e0523092e28d6bf30"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_tile_stairs.json"
+hash = "fd0efcec344b5df52fdafac22a793fc8a85623b8ffd5c0abdd305eda35235ea0"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_shingle_slab.json"
+hash = "dfb2da359030d0e7c5bb125b0c3330650e65ace388c46d0e14ff6787bf865000"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_shingle_stairs.json"
+hash = "11aa8a5bf4afa949da9d22f1edf02b65efe6805e8e7a4ce629b4de4cf918c95c"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_tile_slab.json"
+hash = "e7c54f8016cf2b283b8912c1c20b72a74493bb9da0b8ba40f32b1ed22f48afb8"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_tile_stairs.json"
+hash = "0c3a0860d6e1ac2b854c271f8a10ee7c35bcfdfc5723e23488e856796cb0d967"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_shingle_slab.json"
+hash = "e063213408cc8d913dff2ae15c2bcaebaa0612195f09e413201f928ffb1d53b1"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_shingle_stairs.json"
+hash = "f39787313f7148261a02cc48be4cccde60a6ddf592cde677d30c6fa89f5654b2"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_tile_slab.json"
+hash = "2bbc8328d5624031ad68ce63650f6e84b630762f2eb6da2deb3a7f9be9552cc0"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_tile_stairs.json"
+hash = "ab834f4781facf99982ac469d13116512d7f02374cdce4539cd6383cc868603f"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_shingle_slab.json"
+hash = "9a898778207a209e86e7947258c66b4ab2f053d48fc86b487628b79fa66841b7"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_shingle_stairs.json"
+hash = "cd72f954e6034a1e48364c9378142578de6cdd461feed5dd9701134f1aa34c27"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_tile_slab.json"
+hash = "32ccb1b80800b9d309edb4b62af1a5946adf05a0b8de283079218bdcc2772633"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_tile_stairs.json"
+hash = "6fa9b0e126ca737e251a332e90f0d8ad270afe48ef1493db68ddbd54cecd27b1"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_shingle_slab.json"
+hash = "a76107575e25ee1a851826dc6617268ef52f0a5645e7cb8b9a16befdf26926d8"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_shingle_stairs.json"
+hash = "9fc24785223d639e672bef6396489f93936dfaec68e58cbd9f248808ef4f73a5"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_tile_slab.json"
+hash = "31cad498912932a021c0d26dd15afe66bf667a26455c44892245199c30f863b3"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_tile_stairs.json"
+hash = "8171a973ece0855216b7a8b39342b69884362cb90d2538229e8bb6ba0621ee4c"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_shingle_slab.json"
+hash = "1f1e1b39dfd0b05adda2a7acc56033edbc4365002d14f116a3af63589b05a6fd"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_shingle_stairs.json"
+hash = "85bdfd2fa4a50fca4e0ccf479f2c61ec609be262c6846bd8a692188427f3e817"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_tile_slab.json"
+hash = "76502ced151743824b733effea8fdff0ce190619bd50c312ffa4000e01a5ae8a"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_tile_stairs.json"
+hash = "a992fd6b22b0a54e2c275c63ebd7e13242ea1906cee213dc76eeb5853168bbb9"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_shingle_slab.json"
+hash = "d9ef886328e7f95940db7fdf24aee23b2b7198a8a8a554cfcb40c9c180fd4fe3"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_shingle_stairs.json"
+hash = "3dbcefd802b1875d9c3ed02560e1a872e9dfa005bd19b78c220dec924f273323"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_tile_slab.json"
+hash = "13ba230591397f3287c239fd7f887e2a37358d06930abcb1d852c182fdf18ccb"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_tile_stairs.json"
+hash = "1e617cf3d53c47010e0bc7628092ed69dc58cdf63bb41a70ef03f42b46898912"
+
+[[files]]
+file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/pack.mcmeta"
+hash = "9aa9b6289a4fbecac6dbc8d5370a0c91b5aabdc7e3abcc484970bf5c65ef3a7f"
 
 [[files]]
 file = "scripts/promote-dev-to-main.sh"

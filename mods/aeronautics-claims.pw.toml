@@ -1,13 +1,14 @@
 name = "Create Aeronautics: Claims"
-filename = "aeroclaims-0.9.1.jar"
+filename = "aeroclaims-0.9.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CwZ8q37q/versions/V4YtnlzK/aeroclaims-0.9.1.jar"
+url = "https://cdn.modrinth.com/data/CwZ8q37q/versions/krKUPLGP/aeroclaims-0.9.0.jar"
+mode = "url"
 hash-format = "sha512"
-hash = "0f1c98e257618bdecb229b6dcd9390b17a7c7ce010c0b8884179bdf7d6a8fa037520466274812ad9c214671a7640e90f2a36f53daadddfc186fccb95100aaaff"
+hash = "68b4569dcf30369e3799390a48551d529d10edea17b462b7e0577e98ffde619340a2de1daf6ee757aaabcf0ca0e5cd5afa0186b406c8ec3e3765695acb17017c"
 
 [update]
 [update.modrinth]
 mod-id = "CwZ8q37q"
-version = "V4YtnlzK"
+version = "krKUPLGP"
