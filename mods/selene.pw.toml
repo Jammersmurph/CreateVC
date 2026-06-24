@@ -3,14 +3,11 @@ filename = "moonlight-neoforge-1.21.1-3.0.19.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3defd4e67f63c808a33d2c8062f964f334a8b1c3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/twkfQtEc/versions/5njDrYO0/moonlight-neoforge-1.21.1-3.0.19.jar"
+hash-format = "sha512"
+hash = "e7608f65b787add25a0271c9e646edc073e9c7b30485c9e90c3c645532752090f710c9d7884d65443f28cd81c768601104d93c17761b0bc59eb9adfc3da8e4c0"
 
 [update]
-[update.curseforge]
-file-id = 8298889
-project-id = 499980
 [update.modrinth]
 mod-id = "twkfQtEc"
 version = "5njDrYO0"

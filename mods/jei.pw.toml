@@ -3,14 +3,11 @@ filename = "jei-1.21.1-neoforge-19.27.0.343.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "de304e36e94ff54997d62ee881c904a4892fd6dc"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iiCpE7cU/jei-1.21.1-neoforge-19.27.0.343.jar"
+hash-format = "sha512"
+hash = "65c05aaaf4a2696f8298ce402470288ef88c21390d5e89101f5e511aa36ee23d2463f0975653bf949c4ee079f557a698ee70de1fa89ef64b81fd41e1edc4fdb8"
 
 [update]
-[update.curseforge]
-file-id = 8292118
-project-id = 238222
 [update.modrinth]
 mod-id = "u6dRKJwZ"
 version = "iiCpE7cU"
