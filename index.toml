@@ -465,8 +465,12 @@ file = "config/zume.json5"
 hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
+file = "mods/CreateVC-Core-1.4.0-sources.jar"
+hash = "5116aa2d8e86be7e40f033e044568bec5aa37a7e9da38dceb5e3a57ac759a734"
+
+[[files]]
 file = "mods/CreateVC-Core-1.4.0.jar"
-hash = "3096ef1548a7b64a92c82eb52e3d93cff9665158b7871cd09fb7d7b3db599c45"
+hash = "6f0758f57b9375e08d8e31697b889238d2dcfedc7b46d7858d1f861d915867fe"
 
 [[files]]
 file = "mods/aeronautics-claims.pw.toml"
