@@ -457,6 +457,10 @@ file = "config/xaero/lib/common.cfg"
 hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
 
 [[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "43d7b01a8710687554de4935be83bb6f412a0e1b74638c945d5f2eb67dfb20c5"
+
+[[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
@@ -890,6 +894,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "b539f1a863542708d95aeb8d80b7b81ec00ef98d8ee3c79371d0ff444b2485b7"
+metafile = true
+
+[[files]]
+file = "mods/starhud-neoforge.pw.toml"
+hash = "7416a248662b1eac703c16300e9ccda5f44b3a971be8c41706c1c51eeae073ca"
 metafile = true
 
 [[files]]

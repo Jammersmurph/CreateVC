@@ -1,0 +1,12 @@
+name = "StarHUD NeoForge"
+filename = "starhud-neoforge-1.21.1-2.5.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Jammersmurph/starhud-neoforge/releases/download/v2.5.3/starhud-neoforge-1.21.1-2.5.3.jar"
+hash-format = "sha256"
+hash = "d85208f5b88bf773a86ed2b4944729a067827d07ee0b7f252cf108c832b88c9b"
+
+[update.github]
+slug = "Jammersmurph/starhud-neoforge"
+tag = "v2.5.3"

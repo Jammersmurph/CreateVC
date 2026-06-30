@@ -22,3 +22,4 @@ resourcepacks/*CreateVC*
 resourcepacks/*createvc*
 resourcepacks/*branding*
 config/xaero/lib/*
+config/xaero/minimap/**
