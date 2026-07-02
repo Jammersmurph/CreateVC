@@ -1,12 +1,12 @@
 name = "Modflared (fork - fixed)"
-filename = "modflared-1.7.0+release.1.jar"
+filename = "modflared-1.7.0+release.2.jar"
 side = "client"
 
 [download]
-url = "https://github.com/Jammersmurph/modflared/releases/download/v1.7.0%2Brelease.1/modflared-1.7.0%2Brelease.1.jar"
+url = "https://github.com/Jammersmurph/modflared/releases/download/v1.7.0%2Brelease.2/modflared-1.7.0%2Brelease.2.jar"
 hash-format = "sha512"
-hash = "a611d2dd9b215a47e3b0c930433f9486a73ec98af49f456bec67a5254aba00cc4a4fd21ae9995702f618a769f68925383676cdf8ec142208d5ba93a5f086ad65"
+hash = "91d95aee9b9ff9bdd08cd6461b473c28e6eea905d0d255841424d2a66569f509afb4f37671631cd9780f3c26f4efb229e05988cecef63815a037e62b4961dbe9"
 
 [update.github]
 slug = "Jammersmurph/modflared"
-tag = "v1.7.0+release.1"
+tag = "v1.7.0+release.2"
