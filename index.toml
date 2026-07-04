@@ -582,6 +582,11 @@ hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
+metafile = true
+
+[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "f76104f797ad7c1aee893fcf3b53d756b44358a3cd55a65150e4598450339714"
 metafile = true
@@ -589,6 +594,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "19f3a244bf8ffca1aa53621524681f98c680e8395323e7fa50c93169a6851a74"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
 metafile = true
 
 [[files]]
@@ -602,6 +612,11 @@ hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
 metafile = true
 
 [[files]]
+file = "mods/create-encased.pw.toml"
+hash = "d6caec9fa4c1fdb3b27d6f68ff4197760fef9ae87eaa8bd57cd08e011af3b06e"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "ff6a3d4bed914978aada4a059a16100cd2fd69a3cf19987c0d80160a7125e78b"
 metafile = true
@@ -609,6 +624,11 @@ metafile = true
 [[files]]
 file = "mods/create-liquid-fuel.pw.toml"
 hash = "2af9229718d9edb1eaa4b88fac0063ab2f5f7ba7650a4efa5f0a8e6ce25549cd"
+metafile = true
+
+[[files]]
+file = "mods/create-misc-and-things.pw.toml"
+hash = "055a23471c72576d1f79e2edcd6a20bcaa59ac70c84480fc10069c6469b3f528"
 metafile = true
 
 [[files]]
@@ -667,6 +687,11 @@ hash = "cf937528cd9c66e98e8f57313e28edb264a97e914e99e43ec160949b9e5908ee"
 metafile = true
 
 [[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
+metafile = true
+
+[[files]]
 file = "mods/createlazytick.pw.toml"
 hash = "f5b33cd7a052ac31b56cd5987e32cc29acf8babf55e931b7b6bfaa2e454880f3"
 metafile = true
@@ -707,6 +732,11 @@ hash = "35ee747916914f38241762f41f52c72a9b79c5d0699925f7da74a7e72700eb73"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "858ec807d274694a343cfc0b34df23a71d9f72de34b095d6254ca16175ba5d28"
 metafile = true
@@ -734,6 +764,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "9f5de2cf930343446286617332bb7e1896c1d35e3a5fd34a0c2eb589fa1c953e"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
 metafile = true
 
 [[files]]
@@ -877,6 +912,16 @@ hash = "e0f262b84354331f33e1f5652f9586e8d0bc4f8525dada8278677918443d0d3a"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
+metafile = true
+
+[[files]]
+file = "mods/smarter-contraption-storage.pw.toml"
+hash = "7ec957e4186c457b300833de16ec33156c9528d8321bea575336208a5a05f9cc"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "691ef1ec87c439000f6f1be870732053439e4f64ad7505e2401d6be65dc08ce7"
 metafile = true
@@ -884,6 +929,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "25324a8a9cdc663d3d1952191e873f87531011715de49673cbf7c1b0da0504d6"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "936cea5edc30df0fd4d7939c73d94f6f9b6c1304620c4d4c4a3bc831ef6d7a91"
 metafile = true
 
 [[files]]
@@ -934,6 +984,10 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
+
+[[files]]
+file = "scripts/promote-dev-to-main.sh"
+hash = "d8e0384056e73a7d7fb87a69afce8814e1bed5bf5ddcd9cef93d6269007b2478"
 
 [[files]]
 file = "servers.dat"
