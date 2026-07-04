@@ -3,6 +3,7 @@
 
 **CreateVC [Website](https://www.createvc.org)** (Live Map/Live Stats/Live Chat/World Downloads)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V21TYEVK)
 -----
 ## Packs Located in [`Releases`](https://github.com/Jammersmurph/CreateVC/releases)
 ### Or just use a `curl` command for whichever pack you use:

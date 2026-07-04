@@ -457,12 +457,20 @@ file = "config/xaero/lib/common.cfg"
 hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
 
 [[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "43d7b01a8710687554de4935be83bb6f412a0e1b74638c945d5f2eb67dfb20c5"
+
+[[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/zume.json5"
 hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
+
+[[files]]
+file = "mods/CreateVC-Core-1.4.0-sources.jar"
+hash = "5116aa2d8e86be7e40f033e044568bec5aa37a7e9da38dceb5e3a57ac759a734"
 
 [[files]]
 file = "mods/CreateVC-Core-1.4.0.jar"
@@ -574,23 +582,13 @@ hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
 
 [[files]]
-file = "mods/create-central-kitchen.pw.toml"
-hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "f76104f797ad7c1aee893fcf3b53d756b44358a3cd55a65150e4598450339714"
 metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
-metafile = true
-
-[[files]]
-file = "mods/create-deco.pw.toml"
-hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+hash = "19f3a244bf8ffca1aa53621524681f98c680e8395323e7fa50c93169a6851a74"
 metafile = true
 
 [[files]]
@@ -604,11 +602,6 @@ hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
 metafile = true
 
 [[files]]
-file = "mods/create-encased.pw.toml"
-hash = "c3cbea800ad6c0b2442f89f83a40b7bb950c1c3645192348e5ba389dacdc3e55"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "ff6a3d4bed914978aada4a059a16100cd2fd69a3cf19987c0d80160a7125e78b"
 metafile = true
@@ -616,11 +609,6 @@ metafile = true
 [[files]]
 file = "mods/create-liquid-fuel.pw.toml"
 hash = "2af9229718d9edb1eaa4b88fac0063ab2f5f7ba7650a4efa5f0a8e6ce25549cd"
-metafile = true
-
-[[files]]
-file = "mods/create-misc-and-things.pw.toml"
-hash = "055a23471c72576d1f79e2edcd6a20bcaa59ac70c84480fc10069c6469b3f528"
 metafile = true
 
 [[files]]
@@ -650,7 +638,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-stuff-additions.pw.toml"
-hash = "17a87ed421639310e22a1e1d2b693dbe04c69282f2a083e030ee24f969e4b08b"
+hash = "8e77a9569e014ef11c88697e32320e4a9fff6285bcefbec4c0d558d629d58385"
 metafile = true
 
 [[files]]
@@ -676,11 +664,6 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "cf937528cd9c66e98e8f57313e28edb264a97e914e99e43ec160949b9e5908ee"
-metafile = true
-
-[[files]]
-file = "mods/createbetterfps.pw.toml"
-hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
 metafile = true
 
 [[files]]
@@ -724,18 +707,13 @@ hash = "35ee747916914f38241762f41f52c72a9b79c5d0699925f7da74a7e72700eb73"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "858ec807d274694a343cfc0b34df23a71d9f72de34b095d6254ca16175ba5d28"
 metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "18ef5a47bbb0785cd439dadaf9b9fe3c0e0400447230c1686dccc5149d9c6487"
+hash = "223d73ddc3cbc154d74ba6af8cdcf121f38f727b0241de2da32a3a2af5953aa2"
 metafile = true
 
 [[files]]
@@ -759,11 +737,6 @@ hash = "9f5de2cf930343446286617332bb7e1896c1d35e3a5fd34a0c2eb589fa1c953e"
 metafile = true
 
 [[files]]
-file = "mods/interiors.pw.toml"
-hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
-metafile = true
-
-[[files]]
 file = "mods/jade-sable-compat.pw.toml"
 hash = "9c25ba7eaea62894ba9e864f30b7cb51b549c1961dbb2da94884b7da4433f1f1"
 metafile = true
@@ -775,7 +748,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e7b3c08c8b168d15e3997d41d0480d1d35cba0bdda94094f123d1eef65d0b0c4"
+hash = "902352f8014181f2545e34d41d9f74e0dff5b5687329db8d46c92be8cf35c0e3"
 metafile = true
 
 [[files]]
@@ -890,27 +863,17 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "bf3757240109ab1b642e90a8905454aa1ee715d76c55e979f51e96af6f4d07c9"
+hash = "4c0cfcb3ed7d4e362568e79d5b753a57415d261f8ea3930630ae7753350625a1"
 metafile = true
 
 [[files]]
 file = "mods/simple-custom-early-loading.pw.toml"
-hash = "4471d7e34c1c208725308eafd2b19bf42833891c0428a2257539066505221a5d"
+hash = "18ac036cd5661abb6977b1acc0926565430cbb24edc366a386f9047bdebf74f5"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "369617869e9c8224e9c5e875d70677c491bc4282919b32705d096d253e2ffecd"
-metafile = true
-
-[[files]]
-file = "mods/slice-and-dice.pw.toml"
-hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
-metafile = true
-
-[[files]]
-file = "mods/smarter-contraption-storage.pw.toml"
-hash = "7ec957e4186c457b300833de16ec33156c9528d8321bea575336208a5a05f9cc"
+hash = "e0f262b84354331f33e1f5652f9586e8d0bc4f8525dada8278677918443d0d3a"
 metafile = true
 
 [[files]]
@@ -924,18 +887,18 @@ hash = "25324a8a9cdc663d3d1952191e873f87531011715de49673cbf7c1b0da0504d6"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "936cea5edc30df0fd4d7939c73d94f6f9b6c1304620c4d4c4a3bc831ef6d7a91"
-metafile = true
-
-[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ffb55dc7c35521b4e3fe36716321b9cf3ca11673bb6e511c63de8e5ec7d29541"
+hash = "96bb7a10b70c0aff16d43b28a656c3336f416c6dfa6a22cdf5d3b478d514faf6"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "82e9a1a3374847c0cda6bd0cef3718df19983226742f988f80a04cee0e94a45f"
+hash = "b539f1a863542708d95aeb8d80b7b81ec00ef98d8ee3c79371d0ff444b2485b7"
+metafile = true
+
+[[files]]
+file = "mods/starhud-neoforge.pw.toml"
+hash = "7416a248662b1eac703c16300e9ccda5f44b3a971be8c41706c1c51eeae073ca"
 metafile = true
 
 [[files]]
@@ -955,7 +918,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "67121835339ff35bc213b2ede0375d10de4c1fc9f40c7579a47ebc1a3d050648"
+hash = "66f85f7c21c70440f919d91a96190854c9af6b50f2214153ea0ab0a5c949ccdc"
 metafile = true
 
 [[files]]
@@ -964,144 +927,13 @@ hash = "e46fd336f08e2c8aa93d6841c2e14538ab444b83c7ea3fb8b5f1afb3a591212e"
 metafile = true
 
 [[files]]
+file = "mods/zume.pw.toml"
+hash = "f378c43a679098711a59000cc92906d962de3ac48434d2fecad378a53085a8cf"
+metafile = true
+
+[[files]]
 file = "options.txt"
-hash = "888404933b9cccc41baf9f1da3ead3c3211106c2ad374cb3283ca2ab20d40ca9"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_shingle_slab.json"
-hash = "e6fd0ebe2ed3812ac471f80f839f2d5c21030166d72b4c21ce09c3e70d9b9c1e"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_shingle_stairs.json"
-hash = "a0884edd14a7d5f4804bad06b9af5abe12ce3857fd1ed0a73eb36bfd8ebbcf30"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_tile_slab.json"
-hash = "7056167bb30da092458dabfee7d94ddc6b58960bd51a6840baabc4055234e4e7"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/copper_tile_stairs.json"
-hash = "2f17afa2d93efb34fe420f80915f3a78bd476cb17c61d86c5a624aca5af4ce0f"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_shingle_slab.json"
-hash = "59ed15baa8eaa0b3aa8a32d93ef517a6ec51e63a01097340bfeee65596201888"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_shingle_stairs.json"
-hash = "d0b4f3b543c96bec2df1bcfb286e136bc6ecc7ce751c036cef8c8945f030f2a5"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_tile_slab.json"
-hash = "3b9bbfcba0c4edf2ed355ea71061ebec344a25084c62973e0523092e28d6bf30"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/exposed_copper_tile_stairs.json"
-hash = "fd0efcec344b5df52fdafac22a793fc8a85623b8ffd5c0abdd305eda35235ea0"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_shingle_slab.json"
-hash = "dfb2da359030d0e7c5bb125b0c3330650e65ace388c46d0e14ff6787bf865000"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_shingle_stairs.json"
-hash = "11aa8a5bf4afa949da9d22f1edf02b65efe6805e8e7a4ce629b4de4cf918c95c"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_tile_slab.json"
-hash = "e7c54f8016cf2b283b8912c1c20b72a74493bb9da0b8ba40f32b1ed22f48afb8"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/oxidized_copper_tile_stairs.json"
-hash = "0c3a0860d6e1ac2b854c271f8a10ee7c35bcfdfc5723e23488e856796cb0d967"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_shingle_slab.json"
-hash = "e063213408cc8d913dff2ae15c2bcaebaa0612195f09e413201f928ffb1d53b1"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_shingle_stairs.json"
-hash = "f39787313f7148261a02cc48be4cccde60a6ddf592cde677d30c6fa89f5654b2"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_tile_slab.json"
-hash = "2bbc8328d5624031ad68ce63650f6e84b630762f2eb6da2deb3a7f9be9552cc0"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_copper_tile_stairs.json"
-hash = "ab834f4781facf99982ac469d13116512d7f02374cdce4539cd6383cc868603f"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_shingle_slab.json"
-hash = "9a898778207a209e86e7947258c66b4ab2f053d48fc86b487628b79fa66841b7"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_shingle_stairs.json"
-hash = "cd72f954e6034a1e48364c9378142578de6cdd461feed5dd9701134f1aa34c27"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_tile_slab.json"
-hash = "32ccb1b80800b9d309edb4b62af1a5946adf05a0b8de283079218bdcc2772633"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_exposed_copper_tile_stairs.json"
-hash = "6fa9b0e126ca737e251a332e90f0d8ad270afe48ef1493db68ddbd54cecd27b1"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_shingle_slab.json"
-hash = "a76107575e25ee1a851826dc6617268ef52f0a5645e7cb8b9a16befdf26926d8"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_shingle_stairs.json"
-hash = "9fc24785223d639e672bef6396489f93936dfaec68e58cbd9f248808ef4f73a5"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_tile_slab.json"
-hash = "31cad498912932a021c0d26dd15afe66bf667a26455c44892245199c30f863b3"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_oxidized_copper_tile_stairs.json"
-hash = "8171a973ece0855216b7a8b39342b69884362cb90d2538229e8bb6ba0621ee4c"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_shingle_slab.json"
-hash = "1f1e1b39dfd0b05adda2a7acc56033edbc4365002d14f116a3af63589b05a6fd"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_shingle_stairs.json"
-hash = "85bdfd2fa4a50fca4e0ccf479f2c61ec609be262c6846bd8a692188427f3e817"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_tile_slab.json"
-hash = "76502ced151743824b733effea8fdff0ce190619bd50c312ffa4000e01a5ae8a"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/waxed_weathered_copper_tile_stairs.json"
-hash = "a992fd6b22b0a54e2c275c63ebd7e13242ea1906cee213dc76eeb5853168bbb9"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_shingle_slab.json"
-hash = "d9ef886328e7f95940db7fdf24aee23b2b7198a8a8a554cfcb40c9c180fd4fe3"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_shingle_stairs.json"
-hash = "3dbcefd802b1875d9c3ed02560e1a872e9dfa005bd19b78c220dec924f273323"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_tile_slab.json"
-hash = "13ba230591397f3287c239fd7f887e2a37358d06930abcb1d852c182fdf18ccb"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/assets/create/blockstates/weathered_copper_tile_stairs.json"
-hash = "1e617cf3d53c47010e0bc7628092ed69dc58cdf63bb41a70ef03f42b46898912"
-
-[[files]]
-file = "resourcepacks/CreateVC-Create-Blockstate-Hotfix/pack.mcmeta"
-hash = "9aa9b6289a4fbecac6dbc8d5370a0c91b5aabdc7e3abcc484970bf5c65ef3a7f"
-
-[[files]]
-file = "scripts/promote-dev-to-main.sh"
-hash = "d8e0384056e73a7d7fb87a69afce8814e1bed5bf5ddcd9cef93d6269007b2478"
+hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "servers.dat"
