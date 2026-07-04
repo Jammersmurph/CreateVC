@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","fabric","file/CreateVC-Create-Blockstate-Hotfix"]
+resourcePacks:["vanilla","mod_resources","fabric"]
 incompatibleResourcePacks:[]
 lastServer:createvc.org
 lang:en_us
