@@ -3,14 +3,11 @@ filename = "Emojiful-Neoforge-1.21-5.2.3-all.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d126435eccfd67f790c3901be4bfad6c3ab8672e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/72GXx2MO/versions/CCGuuKEr/Emojiful-Neoforge-1.21-5.2.3-all.jar"
+hash-format = "sha512"
+hash = "41660d1fc771fe9f379819ebf18233e60b87428b49fd28140f9225e21798f2de375833faf9b19f64f58fd80a8842ab92622d77aa06f5afb9a381028bc3cb75d8"
 
 [update]
-[update.curseforge]
-file-id = 8330557
-project-id = 284324
 [update.modrinth]
 mod-id = "72GXx2MO"
 version = "CCGuuKEr"
