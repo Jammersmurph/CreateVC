@@ -3,14 +3,11 @@ filename = "createcobblestone-1.4.11+neoforge-1.21.1-140.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d856af86e369aebfb2f8c1842b0a48e1971833f8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ihpnEd80/versions/BezgtvNb/createcobblestone-1.4.11%2Bneoforge-1.21.1-140.jar"
+hash-format = "sha512"
+hash = "5bee8e13c8967b96f4d8580d62a932d290df82e18465c9416e62dfd389f88b5242f5261d9da6d305a9dd0e41140fc006749b2dade6ae92f571592882b671d21e"
 
 [update]
-[update.curseforge]
-file-id = 8318580
-project-id = 1023532
 [update.modrinth]
 mod-id = "ihpnEd80"
 version = "BezgtvNb"
