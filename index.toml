@@ -497,6 +497,11 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "762fcd212e5049e6e8dcece301c4f33a17d3fc9b00744301c52c4695d7015523"
+metafile = true
+
+[[files]]
 file = "mods/byte.pw.toml"
 hash = "582ab10e5342ea26b0b5761f8e8fcea227fc5025a28f4c62b38a90457aecf16b"
 metafile = true
@@ -549,6 +554,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "208c397b652079dfe917bb9dd6825bba14ddd1751da9db13045666e5a2a2e76a"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-curios-api-compat.pw.toml"
+hash = "2f6a345c8124dd87b60c8ebbbaa35d9efa27c2d1947357b3247ab98fae9db210"
 metafile = true
 
 [[files]]
