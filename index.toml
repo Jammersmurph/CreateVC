@@ -932,11 +932,6 @@ hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
 metafile = true
 
 [[files]]
-file = "mods/smarter-contraption-storage.pw.toml"
-hash = "7ec957e4186c457b300833de16ec33156c9528d8321bea575336208a5a05f9cc"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "42eb9b7ffa740b76a7480d1291d9c08ada55fe31d1cad947ec7a306bb70377e5"
 metafile = true
