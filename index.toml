@@ -892,6 +892,11 @@ hash = "6de50220a8be7e48ae96930df33ef8d5cc246171a3d1e8e03bca356a42962071"
 metafile = true
 
 [[files]]
+file = "mods/sable-schematic-tool.pw.toml"
+hash = "1689ab92b06bdbb37a960d9c820d13b5ec91fc1108ec9e40c19be1090c121adc"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
