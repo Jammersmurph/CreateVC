@@ -16,12 +16,12 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC.mrpack"
 ```
 **VERY** Low-End Hardware?
-*(~4GB RAM, ~1Ghz CPU, etc)*
-Use our **`CreateVC-Light.zip`** pack **with [PrismLauncher](https://prismlauncher.org/)**
-- `CreateVC-Light.zip` (PrismLauncher)
-```bash
-curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-Light.zip"
-```
+> *(~4GB RAM, ~1Ghz CPU, etc)*
+> Use our **`CreateVC-Light.zip`** pack **with [PrismLauncher](https://prismlauncher.org/)**
+> - `CreateVC-Light.zip` (PrismLauncher)
+> ```bash
+> curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-Light.zip"
+> ```
 
 ### [Download from Modrinth](https://modrinth.com/server/createvc-server)
 
