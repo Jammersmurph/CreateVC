@@ -597,11 +597,6 @@ hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
 
 [[files]]
-file = "mods/create-central-kitchen.pw.toml"
-hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "42c1a422e697288fa65a78fd1aa3c88f9c5246fb61f95ba219fadb600ab18a9e"
 metafile = true
