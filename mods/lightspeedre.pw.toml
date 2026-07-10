@@ -1,0 +1,13 @@
+name = "LightSpeedRe"
+filename = "lightspeed-1.21.1-1.2.0hotfix3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/niZHUKxZ/versions/6Ag85pHR/lightspeed-1.21.1-1.2.0hotfix3.jar"
+hash-format = "sha512"
+hash = "3416a6a3ccb472d3aadaea5e9b52634be772da0f0f00ba2e4b8c910a26c0a3d2c5dcb0993667b7641deb4ed0925e01b476f36eae201443d7d0c29d1e0f445dfa"
+
+[update]
+[update.modrinth]
+mod-id = "niZHUKxZ"
+version = "6Ag85pHR"

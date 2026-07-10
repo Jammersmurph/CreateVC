@@ -497,6 +497,11 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/autochefs-delight.pw.toml"
+hash = "c493259c25b99cafb6ad8c3f76fe0373984924035f1e014f5978bf3dcf853e03"
+metafile = true
+
+[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
@@ -572,6 +577,11 @@ hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-compatability.pw.toml"
+hash = "d26208ac86594d7d1186514c56971d508fe375f8b9e845bd4b23cc24bec31539"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "6c76e3bfe272f26adc1c7388aaabadeb3489c36231ef00a78ca87a838c928249"
 metafile = true
@@ -627,6 +637,11 @@ hash = "ff6a3d4bed914978aada4a059a16100cd2fd69a3cf19987c0d80160a7125e78b"
 metafile = true
 
 [[files]]
+file = "mods/create-entity-control.pw.toml"
+hash = "cd8ce8c722b8346f91a00bbfe67167d00cc2bd62eb030dcc0460d54b2ff6e00e"
+metafile = true
+
+[[files]]
 file = "mods/create-liquid-fuel.pw.toml"
 hash = "2af9229718d9edb1eaa4b88fac0063ab2f5f7ba7650a4efa5f0a8e6ce25549cd"
 metafile = true
@@ -649,6 +664,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "48307664a4d3ff3cc309abf00be8da87fdd47b7e1f91a61e900b6865938811cf"
+metafile = true
+
+[[files]]
+file = "mods/create-smart-bounds.pw.toml"
+hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
 metafile = true
 
 [[files]]
@@ -707,6 +727,11 @@ hash = "676df36a849cf3bd9771661ac6f4fdee8860cac6e63e4cc2dcebe9b25e7ddeae"
 metafile = true
 
 [[files]]
+file = "mods/direct-chute.pw.toml"
+hash = "87d17b6f585dec07f2b0b70c4577d508610263806926d093a2334e3cb9fca48c"
+metafile = true
+
+[[files]]
 file = "mods/discord-chat-connect.pw.toml"
 hash = "61394a707cc61d948dca670b8ccb9b16ee0bcf22b3d60d3501990172ddf4e684"
 metafile = true
@@ -734,6 +759,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
+hash = "574e4be5a4194cf6a44a5d064e3734dfbaac911c3caebfdf722ed7c35ff5215e"
 metafile = true
 
 [[files]]
@@ -807,6 +837,11 @@ hash = "8ffb648a73b29fd7f395372f5c1d46c1120f9921dfea2c2e3eed777c6e5aa072"
 metafile = true
 
 [[files]]
+file = "mods/lightspeedre.pw.toml"
+hash = "311414019f1598a96ffc7221b179825af8ba48dac632a76aafc40fa62959a7f4"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
@@ -819,6 +854,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "141584f0498f59dc445d163b82e148b339a7948927e476c6183b40da19c05799"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6f0dcbcffd4400c6cef07f1eeb48cdc25bac0fa01270936feab4c549aff4738e"
 metafile = true
 
 [[files]]
@@ -874,6 +914,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
+metafile = true
+
+[[files]]
+file = "mods/redirected.pw.toml"
+hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
 metafile = true
 
 [[files]]
@@ -937,6 +982,11 @@ hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
 metafile = true
 
 [[files]]
+file = "mods/smooth-boot.pw.toml"
+hash = "792770e773b1c15870ac7b80b42d3c8f4483d70f0e5594c9af35977a0b1f01c6"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "42eb9b7ffa740b76a7480d1291d9c08ada55fe31d1cad947ec7a306bb70377e5"
 metafile = true
@@ -974,6 +1024,11 @@ metafile = true
 [[files]]
 file = "mods/tt20.pw.toml"
 hash = "384d249d277b8ee99f3ba05c6626a5c3e82fe2782a41b64c784c8edbb9799821"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
