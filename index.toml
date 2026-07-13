@@ -497,6 +497,16 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/autochefs-delight.pw.toml"
+hash = "c493259c25b99cafb6ad8c3f76fe0373984924035f1e014f5978bf3dcf853e03"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
+metafile = true
+
+[[files]]
 file = "mods/byte.pw.toml"
 hash = "582ab10e5342ea26b0b5761f8e8fcea227fc5025a28f4c62b38a90457aecf16b"
 metafile = true
@@ -552,6 +562,11 @@ hash = "208c397b652079dfe917bb9dd6825bba14ddd1751da9db13045666e5a2a2e76a"
 metafile = true
 
 [[files]]
+file = "mods/corpse-x-curios-api-compat.pw.toml"
+hash = "0f24d3112418b31cf86b84d0ded37decc9dbd50cc229cec632547458c01ffdca"
+metafile = true
+
+[[files]]
 file = "mods/corpse.pw.toml"
 hash = "a0553559e78b8cc741a09a8d77cf2e2a0da1f5c605647b29935185c6cb353534"
 metafile = true
@@ -559,6 +574,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked-forked.pw.toml"
 hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-compatability.pw.toml"
+hash = "d26208ac86594d7d1186514c56971d508fe375f8b9e845bd4b23cc24bec31539"
 metafile = true
 
 [[files]]
@@ -587,11 +607,6 @@ hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
 
 [[files]]
-file = "mods/create-central-kitchen.pw.toml"
-hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "42c1a422e697288fa65a78fd1aa3c88f9c5246fb61f95ba219fadb600ab18a9e"
 metafile = true
@@ -617,23 +632,18 @@ hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
 metafile = true
 
 [[files]]
-file = "mods/create-encased.pw.toml"
-hash = "d6caec9fa4c1fdb3b27d6f68ff4197760fef9ae87eaa8bd57cd08e011af3b06e"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
 metafile = true
 
 [[files]]
-file = "mods/create-liquid-fuel.pw.toml"
-hash = "2af9229718d9edb1eaa4b88fac0063ab2f5f7ba7650a4efa5f0a8e6ce25549cd"
+file = "mods/create-entity-control.pw.toml"
+hash = "cd8ce8c722b8346f91a00bbfe67167d00cc2bd62eb030dcc0460d54b2ff6e00e"
 metafile = true
 
 [[files]]
-file = "mods/create-misc-and-things.pw.toml"
-hash = "055a23471c72576d1f79e2edcd6a20bcaa59ac70c84480fc10069c6469b3f528"
+file = "mods/create-liquid-fuel.pw.toml"
+hash = "2af9229718d9edb1eaa4b88fac0063ab2f5f7ba7650a4efa5f0a8e6ce25549cd"
 metafile = true
 
 [[files]]
@@ -654,6 +664,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "48307664a4d3ff3cc309abf00be8da87fdd47b7e1f91a61e900b6865938811cf"
+metafile = true
+
+[[files]]
+file = "mods/create-smart-bounds.pw.toml"
+hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
 metafile = true
 
 [[files]]
@@ -703,12 +718,17 @@ metafile = true
 
 [[files]]
 file = "mods/createvc_updater.pw.toml"
-hash = "08fb88bdaec55c702f384b663771e10936fe97bff79331cfd70a70442d4c6a29"
+hash = "4962c848bebf54c15c70619bda79ce2e5956078dbfa3cab0d8188cd68cfaf0d7"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "676df36a849cf3bd9771661ac6f4fdee8860cac6e63e4cc2dcebe9b25e7ddeae"
+metafile = true
+
+[[files]]
+file = "mods/direct-chute.pw.toml"
+hash = "87d17b6f585dec07f2b0b70c4577d508610263806926d093a2334e3cb9fca48c"
 metafile = true
 
 [[files]]
@@ -734,6 +754,11 @@ metafile = true
 [[files]]
 file = "mods/entity-culling.pw.toml"
 hash = "d9a6560a6eb390f000c05f6e443425b2a9f2f88b566400d699ae333b4a3f9786"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
+hash = "574e4be5a4194cf6a44a5d064e3734dfbaac911c3caebfdf722ed7c35ff5215e"
 metafile = true
 
 [[files]]
@@ -802,6 +827,16 @@ hash = "6f5a245cfe66775d5813a5ac6440634184f85ef43c98e7b574300f2f705f6f94"
 metafile = true
 
 [[files]]
+file = "mods/ldlib.pw.toml"
+hash = "8ffb648a73b29fd7f395372f5c1d46c1120f9921dfea2c2e3eed777c6e5aa072"
+metafile = true
+
+[[files]]
+file = "mods/lightspeedre.pw.toml"
+hash = "311414019f1598a96ffc7221b179825af8ba48dac632a76aafc40fa62959a7f4"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
@@ -814,6 +849,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "141584f0498f59dc445d163b82e148b339a7948927e476c6183b40da19c05799"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6f0dcbcffd4400c6cef07f1eeb48cdc25bac0fa01270936feab4c549aff4738e"
 metafile = true
 
 [[files]]
@@ -877,6 +917,11 @@ hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
 
 [[files]]
+file = "mods/redirected.pw.toml"
+hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
@@ -887,8 +932,18 @@ hash = "5e6090ced6289a87b9672f669d99941d55774da1a5c545a8c5afdd391b9caf0d"
 metafile = true
 
 [[files]]
+file = "mods/sable-cleanup.pw.toml"
+hash = "a853620e7a9fff71bb22f2e467b5861bafdea792d4e679709800c587c98ae95c"
+metafile = true
+
+[[files]]
 file = "mods/sable-physics-compat.pw.toml"
 hash = "6de50220a8be7e48ae96930df33ef8d5cc246171a3d1e8e03bca356a42962071"
+metafile = true
+
+[[files]]
+file = "mods/sable-schematic-tool.pw.toml"
+hash = "1689ab92b06bdbb37a960d9c820d13b5ec91fc1108ec9e40c19be1090c121adc"
 metafile = true
 
 [[files]]
@@ -922,8 +977,8 @@ hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
 metafile = true
 
 [[files]]
-file = "mods/smarter-contraption-storage.pw.toml"
-hash = "7ec957e4186c457b300833de16ec33156c9528d8321bea575336208a5a05f9cc"
+file = "mods/smooth-boot.pw.toml"
+hash = "792770e773b1c15870ac7b80b42d3c8f4483d70f0e5594c9af35977a0b1f01c6"
 metafile = true
 
 [[files]]
@@ -967,6 +1022,11 @@ hash = "384d249d277b8ee99f3ba05c6626a5c3e82fe2782a41b64c784c8edbb9799821"
 metafile = true
 
 [[files]]
+file = "mods/txnilib.pw.toml"
+hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "3f9e51bfceabca41c537e58b8767bdb4273fdafe9f08bc472ebc255554617ad2"
 metafile = true
@@ -989,10 +1049,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
-
-[[files]]
-file = "scripts/promote-dev-to-main.sh"
-hash = "d8e0384056e73a7d7fb87a69afce8814e1bed5bf5ddcd9cef93d6269007b2478"
 
 [[files]]
 file = "servers.dat"
