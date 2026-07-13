@@ -23,6 +23,28 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
+      - name: Validate index hashes match actual files
+        run: |
+          python3 -c "
+import hashlib, sys, re
+index = open('index.toml').read()
+errors = []
+for m in re.finditer(r'file = \"(mods/[^\"]+\.pw\.toml)\"\nhash = \"([^\"]+)\"', index):
+    filepath = m.group(1)
+    expected = m.group(2)
+    actual = hashlib.sha256(open(filepath, 'rb').read()).hexdigest()
+    if actual != expected:
+        errors.append(f'MISMATCH: {filepath}: expected {expected}, got {actual}')
+if errors:
+    print('Index validation FAILED — metafile hashes in index.toml are stale.')
+    for e in errors:
+        print(f'  {e}')
+    print('Run packwiz refresh on this branch and commit the result.')
+    sys.exit(1)
+else:
+    print('Index validation passed.')
+"
+
       - name: Exclude updater-managed files from export
         run: |
           mkdir -p /tmp/createvc-export-excluded
