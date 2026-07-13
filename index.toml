@@ -737,11 +737,6 @@ hash = "d9a6560a6eb390f000c05f6e443425b2a9f2f88b566400d699ae333b4a3f9786"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "9ddc328c8a3d5a5ab5ecf39d77d9c39aaf1be20ba10c13f95c0e66fe09dcd226"
 metafile = true
