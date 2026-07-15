@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "_patched-mods/AeroStar-1.0.1.jar"
-hash = "d1b067a535997b6de16f2fe26bf0eee07e5395b7989e606326992419b92d373d"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -591,11 +587,6 @@ hash = "4e327bfce14dc51bf11ae59b466ce1d75f3c48245cb3dbfb8aa306ebe5a87744"
 metafile = true
 
 [[files]]
-file = "mods/create-aerostar.pw.toml"
-hash = "647171323fd4336508094a8f5b2c6e2c4e7f68b7f68f476eedaf5863fb3ea317"
-metafile = true
-
-[[files]]
 file = "mods/create-aeroworks.pw.toml"
 hash = "5ffd0a1de763566600ee3709c5dd54ab14231b0ba24baaeef20597735992a621"
 metafile = true
@@ -888,11 +879,6 @@ metafile = true
 [[files]]
 file = "mods/movable-tracks.pw.toml"
 hash = "9bd78d5332debff02d8b141f9a2050c29a60e236b5a1917fdc3acb27c0bf7ce7"
-metafile = true
-
-[[files]]
-file = "mods/northstar-redux.pw.toml"
-hash = "14f7d55594269565bde84e899b5375a02b1afe13a33e543d4e152a40743c0291"
 metafile = true
 
 [[files]]
