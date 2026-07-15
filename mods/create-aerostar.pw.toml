@@ -1,11 +1,12 @@
-name = "Create: AeroStar Northstar Comp"
+name = "AeroStar-1.0.1"
 filename = "AeroStar-1.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NeuVAJHp/versions/LMyKfVd5/AeroStar-1.0.1.jar"
+url = "https://raw.githubusercontent.com/Jammersmurph/CreateVC/main/mods/patched/AeroStar-1.0.1.jar"
+mode = "url"
 hash-format = "sha512"
-hash = "bf3e5c958d4c0f65cbfdd357096dbc9a328247cc92b13edb2a6e5770edc0d51c4d4399b91248ecd359e50a37338b1cd4e1d13f83d4d133855f489495c60d60d2"
+hash = "13c35a5eb674b0726750487b7696727c7c98883a8f4cca507a5c5799176713b0b61d0d6bca0d2ad890d2551d55eb49392998374213c1e5ea9a108b7931f84ce3"
 
 [update]
 [update.modrinth]
