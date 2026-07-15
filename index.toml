@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "_patched-mods/AeroStar-1.0.1.jar"
+hash = "d1b067a535997b6de16f2fe26bf0eee07e5395b7989e606326992419b92d373d"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -588,7 +592,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aerostar.pw.toml"
-hash = "0248b6cde2d1f3ef5d5d66314a9d080f610cf6e20a1513ee6189a75fb95fb9d1"
+hash = "647171323fd4336508094a8f5b2c6e2c4e7f68b7f68f476eedaf5863fb3ea317"
 metafile = true
 
 [[files]]
@@ -920,10 +924,6 @@ metafile = true
 file = "mods/packet-fixer.pw.toml"
 hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
-
-[[files]]
-file = "mods/patched/AeroStar-1.0.1.jar"
-hash = "d1b067a535997b6de16f2fe26bf0eee07e5395b7989e606326992419b92d373d"
 
 [[files]]
 file = "mods/polymorph.pw.toml"
