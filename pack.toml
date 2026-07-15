@@ -1,12 +1,12 @@
 name = "Create VC"
 author = "Jammersmurph"
-version = "1.0.8"
+version = "1.0.9"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fff4ddc61a590526c520f4969eb0d960793ee6225b4be6b18ac6755598b47205"
+hash = "fe2a9221ab379d4ca4caea109a8c2941622b4cfcbc9417f5976e75ccd8012671"
 
 [versions]
 minecraft = "1.21.1"

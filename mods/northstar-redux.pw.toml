@@ -1,0 +1,13 @@
+name = "Create: Northstar - Redux"
+filename = "Northstar-0.6.3+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UZiq3QVW/versions/md0Go19S/Northstar-0.6.3%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "9cc9fde739fc480ef295455ae2ce3654a007a15eed5ac855024a26f89886334262e4192158daa5dd2b8d47dafc9aafe867ec290925a14ecd48a11cd295e94481"
+
+[update]
+[update.modrinth]
+mod-id = "UZiq3QVW"
+version = "md0Go19S"
