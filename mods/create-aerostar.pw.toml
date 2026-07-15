@@ -1,0 +1,13 @@
+name = "Create: AeroStar Northstar Comp"
+filename = "AeroStar-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NeuVAJHp/versions/LMyKfVd5/AeroStar-1.0.1.jar"
+hash-format = "sha512"
+hash = "bf3e5c958d4c0f65cbfdd357096dbc9a328247cc92b13edb2a6e5770edc0d51c4d4399b91248ecd359e50a37338b1cd4e1d13f83d4d133855f489495c60d60d2"
+
+[update]
+[update.modrinth]
+mod-id = "NeuVAJHp"
+version = "LMyKfVd5"

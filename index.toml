@@ -587,6 +587,11 @@ hash = "4e327bfce14dc51bf11ae59b466ce1d75f3c48245cb3dbfb8aa306ebe5a87744"
 metafile = true
 
 [[files]]
+file = "mods/create-aerostar.pw.toml"
+hash = "83ad8520388c2973a9d08b7b6dfe82e35acbb85fc49cb1b46f61341547f69a63"
+metafile = true
+
+[[files]]
 file = "mods/create-aeroworks.pw.toml"
 hash = "5ffd0a1de763566600ee3709c5dd54ab14231b0ba24baaeef20597735992a621"
 metafile = true
@@ -877,6 +882,11 @@ hash = "9bd78d5332debff02d8b141f9a2050c29a60e236b5a1917fdc3acb27c0bf7ce7"
 metafile = true
 
 [[files]]
+file = "mods/northstar-redux.pw.toml"
+hash = "14f7d55594269565bde84e899b5375a02b1afe13a33e543d4e152a40743c0291"
+metafile = true
+
+[[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "a7bfd9ad73434e66cb34e31d6cd15165fbfd6dcecb44d8b066d3e82ee165e47e"
 metafile = true
@@ -934,6 +944,11 @@ metafile = true
 [[files]]
 file = "mods/sable-physics-compat.pw.toml"
 hash = "6de50220a8be7e48ae96930df33ef8d5cc246171a3d1e8e03bca356a42962071"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "bf3c84eff52457596d58a73882e72759804117f0731a0fde343cfd54d33e55ba"
 metafile = true
 
 [[files]]
