@@ -70,6 +70,11 @@ jobs:
           # referenced by the Modrinth pack export.
           mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
 
+          # Patched AeroStar (bytecode-modified for Northstar 0.6.3 compat) must
+          # not ship in the Modrinth pack for licensing reasons. The updater
+          # downloads it from the raw GitHub URL in its .pw.toml.
+          mv mods/create-aerostar.pw.toml /tmp/createvc-export-excluded/
+
           # These are first-install-only files managed by the CreateVC updater.
           # Keeping them out of the .mrpack prevents Modrinth App updates from
           # replacing player-local settings before the updater can preserve them.
