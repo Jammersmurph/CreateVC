@@ -597,6 +597,11 @@ hash = "89f883bddfb008d0cf9b6ed4ff49795b351f3f5c3e5e3cc8e3a2818a81cea9b5"
 metafile = true
 
 [[files]]
+file = "mods/create-blueprinted.pw.toml"
+hash = "5321a8dc0a35ccec341dadb5032cc099e9c79355c6e378de3ba291ec78feeb15"
+metafile = true
+
+[[files]]
 file = "mods/create-ccbr.pw.toml"
 hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
@@ -604,6 +609,11 @@ metafile = true
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "42c1a422e697288fa65a78fd1aa3c88f9c5246fb61f95ba219fadb600ab18a9e"
+metafile = true
+
+[[files]]
+file = "mods/create-configured.pw.toml"
+hash = "8dc6ec1f66b7cb45e3a23c42d3a720a0e66cd8a1f1723e5f5e832ab8ff0a1598"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Create: Blueprinted"
+filename = "create_blueprinted-2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nJM6buSc/versions/e50eIpMV/create_blueprinted-2.0.jar"
+hash-format = "sha512"
+hash = "594401113e8df2eea08c1796e629290b075a973427e272c60467aac14980bcb12ae1382ef4d0903faf90ad93d169cc4e319fe6980de084b7fbb7a7c0e5371446"
+
+[update]
+[update.modrinth]
+mod-id = "nJM6buSc"
+version = "e50eIpMV"
