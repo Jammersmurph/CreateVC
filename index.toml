@@ -334,7 +334,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "d87f7908139478df74831962e2cd7b742c13fab97b8b85abd761f9935aa6407f"
+hash = "128b48fdbe933d7ba540da2b405902d84335aa3be56f9ebae10a2d5a7c4f7188"
 
 [[files]]
 file = "config/ponder-client.toml"
