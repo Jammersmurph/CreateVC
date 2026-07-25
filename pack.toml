@@ -6,11 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-<<<<<<< HEAD
-hash = "90e370500ed0048c427f45770bb9bf967e96b91354343643236127980ee5485b"
-=======
 hash = "dee692b463a51c46b8455c6b2140a061e9e99a2415eb39adaf166f5b56d3d96a"
->>>>>>> eb94002 (fix server side config.)
 
 [versions]
 minecraft = "1.21.1"
