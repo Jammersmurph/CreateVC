@@ -569,7 +569,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-compatability.pw.toml"
-hash = "d26208ac86594d7d1186514c56971d508fe375f8b9e845bd4b23cc24bec31539"
+hash = "d66f3ca71587c7ab8076f4a0154b0d3aa2f043c29c6373f2b8b2e5d6c3c3e91f"
 metafile = true
 
 [[files]]
@@ -584,12 +584,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "5ffd0a1de763566600ee3709c5dd54ab14231b0ba24baaeef20597735992a621"
+hash = "ff5cc2cb323fcfc334b4975b2d23ddffa01a6c42fb9b73128f7409bc617d9f4b"
 metafile = true
 
 [[files]]
 file = "mods/create-avionics.pw.toml"
-hash = "89f883bddfb008d0cf9b6ed4ff49795b351f3f5c3e5e3cc8e3a2818a81cea9b5"
+hash = "09c4a6ed0968780cedfb90be7d72d9e5b7fe179b3fc289f1427dbba0a5ea90fb"
 metafile = true
 
 [[files]]
@@ -909,7 +909,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "f5e0874a456cf7b4d1cc48131810ad660f556b4d08bc050c5e89ddf5d167da66"
+hash = "2dc5bf4118f932f3d328b163e1b97972964ac33e82c4eb89f2f122ef0661de7e"
 metafile = true
 
 [[files]]
