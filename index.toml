@@ -466,7 +466,7 @@ hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
 file = "dev-update-preview.md"
-hash = "fbf25c23d775462d8e2f6c26c6e73af98b6b494dbf1c84b9ecf9374661a747d8"
+hash = "ac61bbb5ac685a0a87d0c82dc0c009bb8a56dbd54451f6aaf6811c2bff6d2521"
 
 [[files]]
 file = "mods/CreateVC-Core-1.4.0-sources.jar"
@@ -572,6 +572,11 @@ hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
 metafile = true
 
 [[files]]
+file = "mods/cosmonautics-deep-air.pw.toml"
+hash = "ee0fdf638745dfff92320b76eceef0ada67b2ac1a270dcbb70bc1b309a999d5c"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
 hash = "db2ec960ce42b3d381003c82cff71e68a7c55c68117c3bf43ad2418111260065"
 metafile = true
@@ -629,6 +634,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
+metafile = true
+
+[[files]]
+file = "mods/create-cosmonatics.pw.toml"
+hash = "85db243bd9495608c9b8bcee8482c4f2b4b1761d12c108a741139fb498cb5e3c"
 metafile = true
 
 [[files]]

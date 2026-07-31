@@ -7,6 +7,8 @@ Here is what is currently included in the next CreateVC dev/testing build.
 - **Create Aeronautics: Encased Fluid Pipes** added
 - **VS / Sable Hose Connectors** added
 - **Climbable Ropes for Create Aeronautics** added
+- **Create Cosmonautics** added
+- **Cosmonautics: Deep Air** added
 - **playerAnimator** added as a required dependency for Climbable Ropes
 
 ## Create Addons
