@@ -1,13 +1,13 @@
 name = "Sable Schematic Tool"
-filename = "sable-schematic-api-0.4.0.jar"
+filename = "sable-photomancy-1.0.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hNGBYvQN/versions/g3sn79Tz/sable-schematic-api-0.4.0.jar"
+url = "https://cdn.modrinth.com/data/hNGBYvQN/versions/D3xGo3Gm/sable-photomancy-1.0.0.jar"
 hash-format = "sha512"
-hash = "d766828e0cfc723dca193531603ed53f987dfbf6179fe4e0773c619f3b1d11f845dad8138cc0003d3afe4434cb254e33c2c69db065660b41af4a4c145665a1c5"
+hash = "5ecae8a34f5193956fb833912aad560a9e6d317743da5f28696eac83195e785ca76cc425bf02d9cfedc893ead9c3961b829cc8b66ada13a92a59cfaf9dd070fc"
 
 [update]
 [update.modrinth]
 mod-id = "hNGBYvQN"
-version = "g3sn79Tz"
+version = "D3xGo3Gm"
