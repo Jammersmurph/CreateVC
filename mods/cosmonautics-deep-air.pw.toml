@@ -1,0 +1,13 @@
+name = "Cosmonautics: Deep Air"
+filename = "cosmonauticsdeepair-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rzqxJXfo/versions/IxjdMVIp/cosmonauticsdeepair-1.0.2.jar"
+hash-format = "sha512"
+hash = "0beb60a778fcf4af323a06c5967a7ffb4fd316ce353d0a397f6c1a17e430a78aef7689913a57ce08a7b6c87106b783a42635e777e7c7e04acd2b2d230788bb4a"
+
+[update]
+[update.modrinth]
+mod-id = "rzqxJXfo"
+version = "IxjdMVIp"
