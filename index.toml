@@ -622,6 +622,11 @@ hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
 
 [[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "de3d0b757448bb1f92ed2f945f91d24550385e1160b909ed69f6ed5948d11c97"
+metafile = true
+
+[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "7d89a6bba992c8f1a2d28f79411952c51b60d2f37ded6226e714552476639fd8"
 metafile = true
