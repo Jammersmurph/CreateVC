@@ -1,13 +1,13 @@
 name = "Flerovium"
-filename = "flerovium-neoforge-1.21.1-1.1.1-all.jar"
+filename = "flerovium-neoforge-1.21.1-1.1.2-all.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/Q5w50Bcp/flerovium-neoforge-1.21.1-1.1.1-all.jar"
+url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/oU1q3eIj/flerovium-neoforge-1.21.1-1.1.2-all.jar"
 hash-format = "sha512"
-hash = "327449811b116832bc4f873d252b1c39460c8897383de0a2b35e2f7bfad6e0ec7744cf0b4ab6449bce06ba1a3046faa8f708c1b4c2787068705b2f81ee7fe1c5"
+hash = "6301ea6991768832fa983f61e1b0574336aea4920e027632a3df93c8a10f5d87041876fad516d16827d9cd13a84b5a8c334c1a0076ca04121e321939d5d6ea52"
 
 [update]
 [update.modrinth]
 mod-id = "4Rh1Mobu"
-version = "Q5w50Bcp"
+version = "oU1q3eIj"
