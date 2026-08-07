@@ -1,13 +1,13 @@
 name = "Create Cosmonautics"
-filename = "cosmonautics-26.07.289.jar"
+filename = "cosmonautics-26.08.292.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/micg1iTH/versions/4hX6lMHg/cosmonautics-26.07.289.jar"
+url = "https://cdn.modrinth.com/data/micg1iTH/versions/ouy1OyBj/cosmonautics-26.08.292.jar"
 hash-format = "sha512"
-hash = "d3a3e84d2b38dbaac479477a626d9296a5819f788b49ece097c2ed658be3ac8491e8a760420e34b29885ac31355081b6a55a4994a74568b0259620c547c05322"
+hash = "703b6e3501087dc04663c9e47fd652db9506f1d825e71b62f73697a48283e041c6354dffc29c85ae6dbf47dc906f3d73ffe88bbf57212a9a656e3d7bdda06828"
 
 [update]
 [update.modrinth]
 mod-id = "micg1iTH"
-version = "4hX6lMHg"
+version = "ouy1OyBj"
