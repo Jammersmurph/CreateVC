@@ -607,12 +607,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronauticstoolgun.pw.toml"
-hash = "bdd4a0cccfcd1268f0096748aa22c133d4b6f80960e3180baf12b3f5765cd7b4"
+hash = "0cd410edccfed5e349d7d9ed02bce16e656f18f8aedd79030829289377726183"
 metafile = true
 
 [[files]]
 file = "mods/create-aeroworks.pw.toml"
-hash = "ff5cc2cb323fcfc334b4975b2d23ddffa01a6c42fb9b73128f7409bc617d9f4b"
+hash = "8bc79b14b3fa74bbb49550cf543a1f4b6303e8e09c1f73125a022783e9d02711"
 metafile = true
 
 [[files]]
@@ -632,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-coasters-simulated.pw.toml"
-hash = "de3d0b757448bb1f92ed2f945f91d24550385e1160b909ed69f6ed5948d11c97"
+hash = "0e590f9694cb6d9d1353dea5602cb911a6628cfb0aa36b408bc2c30fc3e88c96"
 metafile = true
 
 [[files]]
@@ -652,7 +652,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-cosmonatics.pw.toml"
-hash = "85db243bd9495608c9b8bcee8482c4f2b4b1761d12c108a741139fb498cb5e3c"
+hash = "40b211edffc1aa1ec5833deebb9f7f7a699c2866f4c22b08bfdfbfb5a8d307d8"
 metafile = true
 
 [[files]]
@@ -667,12 +667,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "9c112af813c1f7540c3d198f38c8733fb7d983f459b1d20e372402af16d07f7d"
+hash = "9cb87d122e89fdf3173eea53030ee2f53be0b78620b79d79ef664ae7aa18807c"
 metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
+hash = "c1758e37c8a2e8f884f5c1b8b11f71bbe0bd18c40df00c93c93d4341b943405a"
 metafile = true
 
 [[files]]
@@ -842,7 +842,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a1e8edfdd1892bc064b9d1c710143063e6f4981884f6ce2477bed631a9da2f59"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
@@ -867,7 +867,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "a0a4890a2503d4947d523296b00512aa1d9bca974e5c5777098ff8eccb2f2516"
+hash = "a3651388ceed0df0eada7fb15cf453c48fe51e280542a7a874286349263f4984"
 metafile = true
 
 [[files]]
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
+hash = "2d8016aab6d4b3410b7a35003aa9d778dad45379c89dc9490cd6c3f3bcec9f6f"
 metafile = true
 
 [[files]]
@@ -907,7 +907,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "688a2fcd58d20df93c57e571b054b3c582932a795a255dc13c65b055dc1880b1"
+hash = "1707b4f1e3df638815211af1336c4d565d7eeae0b629527f1f9cd14eae9c0335"
 metafile = true
 
 [[files]]
@@ -1022,7 +1022,7 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
+hash = "83a7b840686a417dfe1161ee5cd918989dd2d901c9013bf85e93a30f597260f7"
 metafile = true
 
 [[files]]
@@ -1047,12 +1047,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "16d83873bed6c9301df009a4f21ba45f920d3fca7536e4cd8b719c73393209e8"
+hash = "eeb5faeae3d12ba962803f4ea52bef83ae22d0c004a9790ce90ef49ade3850d3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f1ac2f9ecce242d0f193db475dba673da2bd5ee04b59d3e750699e7b7c4d1f39"
+hash = "f3bf4cbcc66f7ee1d628b9f17dfc190d502a22efe92bf8079eaf5772b2a6b7ee"
 metafile = true
 
 [[files]]
@@ -1067,7 +1067,7 @@ metafile = true
 
 [[files]]
 file = "mods/tt20.pw.toml"
-hash = "384d249d277b8ee99f3ba05c6626a5c3e82fe2782a41b64c784c8edbb9799821"
+hash = "a616a6a27e6567a895b6d67ccf43cf12d79c2058adda7b8cd042af9326ddce12"
 metafile = true
 
 [[files]]
