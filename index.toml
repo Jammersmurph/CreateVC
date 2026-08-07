@@ -469,6 +469,10 @@ file = "dev-update-preview.md"
 hash = "ac61bbb5ac685a0a87d0c82dc0c009bb8a56dbd54451f6aaf6811c2bff6d2521"
 
 [[files]]
+file = "kubejs/server_scripts/cosmonautics_no_ore_recipes.server.js"
+hash = "95b6e0fec2bad371a2c89c9058095a9b4096f4ec68db8852a04041864d8cdc61"
+
+[[files]]
 file = "mods/CreateVC-Core-1.4.0-sources.jar"
 hash = "5116aa2d8e86be7e40f033e044568bec5aa37a7e9da38dceb5e3a57ac759a734"
 
