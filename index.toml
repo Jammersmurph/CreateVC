@@ -651,8 +651,8 @@ hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
 metafile = true
 
 [[files]]
-file = "mods/create-cosmonatics.pw.toml"
-hash = "40b211edffc1aa1ec5833deebb9f7f7a699c2866f4c22b08bfdfbfb5a8d307d8"
+file = "mods/create-cosmonautics.pw.toml"
+hash = "ba0a503a65bc2a938f639d49debd09e1dd0fcdcb33795b6c6558e55527e529b5"
 metafile = true
 
 [[files]]
