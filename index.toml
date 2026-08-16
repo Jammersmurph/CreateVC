@@ -486,6 +486,11 @@ hash = "1778bf706c6c180f44a52fe145c95a984bd24520a425a5b1ef6ddef9151ff7b7"
 metafile = true
 
 [[files]]
+file = "mods/aerovive-fix.pw.toml"
+hash = "2c9499558f73b59cc50a5ed640ba3c1fb4564555a90b3841f12833a8c2a4bcf1"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "66128dccd47b193d621ae703de7dac1f2ada0f84f8434ca8c7d356f4329afc94"
 metafile = true
@@ -538,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "e42363c32c9b6323eea977283c928cec373bfc415534ec92e9c3367ee8c54256"
+metafile = true
+
+[[files]]
+file = "mods/cc-vr.pw.toml"
+hash = "cfe306407493626c8d4b87c557239b04e674c3dc2f15d923562791a6b7286866"
 metafile = true
 
 [[files]]
@@ -761,6 +771,11 @@ hash = "676df36a849cf3bd9771661ac6f4fdee8860cac6e63e4cc2dcebe9b25e7ddeae"
 metafile = true
 
 [[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
+metafile = true
+
+[[files]]
 file = "mods/direct-chute.pw.toml"
 hash = "87d17b6f585dec07f2b0b70c4577d508610263806926d093a2334e3cb9fca48c"
 metafile = true
@@ -891,6 +906,11 @@ hash = "2d8016aab6d4b3410b7a35003aa9d778dad45379c89dc9490cd6c3f3bcec9f6f"
 metafile = true
 
 [[files]]
+file = "mods/mc-vr-api.pw.toml"
+hash = "f0e281e1e2dadfc65e6d8d3189d143120f86ec75a0cb27077e55216847df729b"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "6f0dcbcffd4400c6cef07f1eeb48cdc25bac0fa01270936feab4c549aff4738e"
 metafile = true
@@ -996,6 +1016,11 @@ hash = "2c584b85225b1d1723c3e988476f5713a904eb67ac0fb5b6efab89b53234cf03"
 metafile = true
 
 [[files]]
+file = "mods/sable-vivecraft-fix.pw.toml"
+hash = "27a0e515be835123e1a43de11cdec04f05a558a69ac03561e38c4584253ae445"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
@@ -1073,6 +1098,16 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft-compat.pw.toml"
+hash = "4670cdef72a5b5805925e600a2be56bba331bdb8eb5c0e620d4d0c80bb2f9aab"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "ea0413c80dea2f9214472f16e8dda2d7178e20255199256440f18962927e14ff"
 metafile = true
 
 [[files]]

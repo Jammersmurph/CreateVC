@@ -1,0 +1,13 @@
+name = "CC: VR"
+filename = "cc_vr-neoforge-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/shehT2Uw/versions/HXXV3Nrx/cc_vr-neoforge-1.0.2.jar"
+hash-format = "sha512"
+hash = "f12d9235b768f68c6733f1691fbaf2b4ec9633779fb6f27a4d7f4b9fe1df662eeb4f5a4c7d42b543247044510626674d4ef6e7359c70cfc6940584567b2d60c2"
+
+[update]
+[update.modrinth]
+mod-id = "shehT2Uw"
+version = "HXXV3Nrx"
