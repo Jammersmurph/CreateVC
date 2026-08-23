@@ -5,20 +5,8 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/aeronautics-server.toml"
-hash = "733a50c4a935c18257572c88cf0df06e85978671930984248d4dac1ffdfb6b19"
-
-[[files]]
 file = "config/aeroworks-client.toml"
 hash = "28969de26284882b050aa680f4b84c833f227f9831debd00b183b83ab5afdbd2"
-
-[[files]]
-file = "config/aeroworks-common.toml"
-hash = "f022c1ec0c914ee26fc35e5815abe33f7846c2bcc115fee261362dd3b3fbc278"
-
-[[files]]
-file = "config/aiimprovements-common.toml"
-hash = "16eb2dc098fab4a2b7192cb87522640bdd87d39a97ad13ac081aca206f2706b2"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -33,60 +21,24 @@ file = "config/camera-client.toml"
 hash = "6ffdc4ec91d36d7211b37b8b3a1d450a3108b3813ce5c7965706d2c72ef3a69f"
 
 [[files]]
-file = "config/comforts-common.toml"
-hash = "d1ff6e8f5aa2b77d6708b9d4a566d2de96e6f1ec594139742162b1dfdf92c476"
-
-[[files]]
-file = "config/comforts-server.toml"
-hash = "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
-
-[[files]]
 file = "config/copycats-client.toml"
 hash = "e315dbb97d8623bcb779383e2b58d22cf2c65b7ca239f73cb34660ee077fecfb"
-
-[[files]]
-file = "config/copycats-common.toml"
-hash = "14818ac4ed5c487630e917c6bcbb986b6dfad26357111cdb4619ad5456b3a46e"
-
-[[files]]
-file = "config/copycats-server.toml"
-hash = "dac18a20718319d6556a7b2709d8f7a64b5da718d2b05ab9d32604087860322a"
 
 [[files]]
 file = "config/create-client.toml"
 hash = "ea87247fbe88b6fb8b03a4ab33d38f684a45312d5058df397cd3a6d649346491"
 
 [[files]]
-file = "config/create-common.toml"
-hash = "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf"
-
-[[files]]
-file = "config/create-server.toml"
-hash = "f1a3edd31cdcf2b602b7d51d1fe8ba5e88d6403580ba382ba4cbfab1ecb3a365"
-
-[[files]]
 file = "config/create-stuff-additions.toml"
 hash = "d6cb54312eaf10821b8fdbd0d07cb1f5bcce1c5fa26482495e3ca116e52718c1"
-
-[[files]]
-file = "config/create_connected-common.toml"
-hash = "5e18ed787b1fb0fcd23abcc4baf7f73f5ebcf73f369bf1102ba251569fd06fd4"
 
 [[files]]
 file = "config/create_dragons_plus-client.toml"
 hash = "a3888f58a510d8e33e3caf8444af00c726f895f75f1d85f5b99c20c6ca420290"
 
 [[files]]
-file = "config/create_dragons_plus-common.toml"
-hash = "8f6fb30e56b4eec815d02127682717d9846a724dcd7d77ca8309aa7300498d22"
-
-[[files]]
 file = "config/create_enchantment_industry-client.toml"
 hash = "a12fe6bf0d2f2b1c1a4ad05ab17cbd34f9fdf1dbcef20085f6b48a4dcf94d242"
-
-[[files]]
-file = "config/create_enchantment_industry-common.toml"
-hash = "c758403d22c507ca6c7c3e52460ac2668127b9a20ee2cd85e0e2aed1d252f35b"
 
 [[files]]
 file = "config/create_mobile_packages-client.toml"
@@ -97,24 +49,8 @@ file = "config/create_new_age-client.toml"
 hash = "6c82ae8a4c75d278f2331646067530324fb2377811f65860168a89e9e35a642f"
 
 [[files]]
-file = "config/create_new_age-common.toml"
-hash = "c55dbf07a7ba940e2d7358cb548fa27a99b12919fec262413629b91bdfc25079"
-
-[[files]]
-file = "config/create_submarine-common.toml"
-hash = "bad2ed3565fddd1c4ef66ec143a23b87103c493cf5d005db61a1370bbde22a1e"
-
-[[files]]
 file = "config/create_submarine_client_state.json"
 hash = "08b6e82ddd47db0d09dbbd7bebd4c0bc2a013ea2a1dc80e85ae28a19827fa374"
-
-[[files]]
-file = "config/createaddition-common-1.toml.bak"
-hash = "cae06e041a0e6d79175fa0d0b072adddb1eb7ebe87f2d2c56e45520a489004bb"
-
-[[files]]
-file = "config/createaddition-common.toml"
-hash = "cae06e041a0e6d79175fa0d0b072adddb1eb7ebe87f2d2c56e45520a489004bb"
 
 [[files]]
 file = "config/createbigcannons-client-1.toml.bak"
@@ -125,14 +61,6 @@ file = "config/createbigcannons-client.toml"
 hash = "664bd2d589a53331f5d395218f36db37951bda61a69432b8d7cdd1434f964d4f"
 
 [[files]]
-file = "config/createbigcannons-server.toml"
-hash = "c25c7c00736b699bc4ee602f773db4057ee78b2138813c27d25546a42a2e6b99"
-
-[[files]]
-file = "config/createcobblestone-common.toml"
-hash = "0de1c99021330f507e93300260a6f710c526b5e20e2051fb166dbbb73c4f5280"
-
-[[files]]
 file = "config/createlazytick-client.toml"
 hash = "f9ff8abdc007d16f2331f9923f512d11fc0f6a7e9de9bbe7981d5d706a27c36c"
 
@@ -141,24 +69,12 @@ file = "config/createpropulsion-client.toml"
 hash = "ed4c5599ccd8916b39fd40ec83b9b665cd7ed511bf4c773cb56e1e9a22d34055"
 
 [[files]]
-file = "config/createpropulsion-common.toml"
-hash = "b9f866f4b410c501d7fb3e8866f9f53065c1de4403846113b5f0f561d983a401"
-
-[[files]]
 file = "config/curios-client.toml"
 hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
 [[files]]
-file = "config/curios-common.toml"
-hash = "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
-
-[[files]]
 file = "config/discord_chat_mod-client.toml"
 hash = "cfefc26c1e8930a0c66d9db18985d0ff1e73ce5ff003851045159b70793589b6"
-
-[[files]]
-file = "config/discord_chat_mod-common.toml"
-hash = "c0f9fc10d52d78654e1c4964d47d7c235bbc34d96a0cf4f5655f6b7c5d233d22"
 
 [[files]]
 file = "config/dynamic_fps.json"
@@ -205,10 +121,6 @@ file = "config/functionalstorage/functionalstorage-client.toml"
 hash = "b662e890f6c9042543eac4cb672a09a78164abfbf790f8d139cdc7de52c59111"
 
 [[files]]
-file = "config/functionalstorage/functionalstorage-common.toml"
-hash = "17d2b12e9fbb5f811850b5a772b6c5e59c352ba8dd87957abdace159656e7771"
-
-[[files]]
 file = "config/immediatelyfast.json"
 hash = "137947e0aaaf165c0b33f520aa3fdab60f0c04b835dd8c11e5de6ffd539d6f3f"
 
@@ -231,10 +143,6 @@ hash = "df5d49c5670ddb8a73849b59a34a854fb5cc9b1b7bfbf2a7582932ea230c4f5b"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "25a51a95dad93b0925755ec074756d7c33b97f34f36ceb44caed050322e7e18a"
-
-[[files]]
-file = "config/jei-server.toml"
-hash = "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -281,14 +189,6 @@ file = "config/lootr-client.toml"
 hash = "4dd03ec5be94c8e56794c8fb0d0d1c907228d6881787d06e2743035e1dd4ca10"
 
 [[files]]
-file = "config/lootr-common.toml"
-hash = "2efbd58d0330a2eb357c51c33a4346bce57ff8f4c9226660d3bf1aa549eead4b"
-
-[[files]]
-file = "config/modernfix-common.toml"
-hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
-
-[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "32bbaa6f573b612b92653fc2814365cd8aa423d39fcab4fa5dcfcb5f31121874"
 
@@ -297,24 +197,8 @@ file = "config/moonlight-client.toml"
 hash = "5a6948c2b7927921cd3cab28446f301a24cf4db168533474d20dac154ad18167"
 
 [[files]]
-file = "config/moonlight-common.toml"
-hash = "ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea"
-
-[[files]]
-file = "config/movabletracks-common.toml"
-hash = "7960a133f88e0f0d462ffc600205d727e8c5b56afe8d49d775e0b827e82bd68b"
-
-[[files]]
 file = "config/neoforge-client.toml"
 hash = "a5f0eb38f8daf8574f7672a8393a0ab5c668d6ec6e7ae43fc8669e928786929d"
-
-[[files]]
-file = "config/neoforge-common.toml"
-hash = "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399"
-
-[[files]]
-file = "config/neoforge-server.toml"
-hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
 
 [[files]]
 file = "config/nerb/compat/emi.yaml"
@@ -329,24 +213,12 @@ file = "config/nowheel.json"
 hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
-file = "config/offroad-server.toml"
-hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
-
-[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
 [[files]]
-file = "config/ritchiesprojectilelib-server.toml"
-hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
-
-[[files]]
 file = "config/sable-client.toml"
 hash = "778241e85149e471847aaee4c7f93a863580af677ecbb8891627ad009aa46c36"
-
-[[files]]
-file = "config/sable-common.toml"
-hash = "9a1ba0617b4544eb8bded0995de05f26837fdc53215453ccc58012b468ff9dde"
 
 [[files]]
 file = "config/sablejade-client.toml"
@@ -369,10 +241,6 @@ file = "config/simulated-client.toml"
 hash = "39e1269b6b3cec623ab69a170ee184c7504c302968c0213ccfbb0dcec71e3964"
 
 [[files]]
-file = "config/simulated-server.toml"
-hash = "4eb8a653258d8f7aa303fa77c34df800785b543116d5bc41ae613adec8000202"
-
-[[files]]
 file = "config/sodium-extra-options.json"
 hash = "fe94d154f24e36d2246f47e9d59282b3a93f160a337cb41767e83419a28327f8"
 
@@ -393,20 +261,8 @@ file = "config/sodium-options.json"
 hash = "def2777bca5f272b93219121d9605067d70cbefe61509f8fd3ec40ed5a67f00d"
 
 [[files]]
-file = "config/sophisticatedbackpacks-common.toml"
-hash = "ce60ba4ebdbb1ba959f3ee6be206f84f2221b8dc436140c92cda412ef33f10e6"
-
-[[files]]
-file = "config/sophisticatedbackpacks-server.toml"
-hash = "16bd32ab93fa47ece9096630c10f6065c33df825383ec62d298a48aff8f5f307"
-
-[[files]]
 file = "config/sophisticatedcore-client.toml"
 hash = "467c9ffc84322873121a2e109258245030ec4d0608b7181a739681ce685a63c9"
-
-[[files]]
-file = "config/sophisticatedcore-common.toml"
-hash = "6f383dbfdde5d6bd554cec57776a6c352d17cb6136b9802f48dcad06a494b416"
 
 [[files]]
 file = "config/submarine_hull.json"
@@ -441,16 +297,8 @@ file = "config/voicechat/voicechat-client.properties"
 hash = "116f191f4b2fd4aaa2bc9607feb88a7a44791db121f5b7467360920d5eaafdf0"
 
 [[files]]
-file = "config/voicechat/voicechat-server.properties"
-hash = "80763b028daa87486d8e20066f3a3451add1896d146fafdafc9f2addc0028553"
-
-[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
-
-[[files]]
-file = "config/xaero/lib/common.cfg"
-hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
