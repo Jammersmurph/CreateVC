@@ -694,11 +694,6 @@ hash = "4ae505d63fe067cdf0bbc364283eb0e5d90ebdb409cf1633326d10cfdeea28a8"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "60baa78b0d76e76a726d459fd32cec5614141a43e1a470afc75bf7cbb14fec04"
 metafile = true
