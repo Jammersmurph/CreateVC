@@ -329,6 +329,11 @@ file = "mods/CreateVC-Core-1.4.0.jar"
 hash = "6f0758f57b9375e08d8e31697b889238d2dcfedc7b46d7858d1f861d915867fe"
 
 [[files]]
+file = "mods/advanced-pvp-toggle.pw.toml"
+hash = "f643fec9c216f67cb31334832cda1ac3543a759b9e6b1bf26b7d5ea0ea592030"
+metafile = true
+
+[[files]]
 file = "mods/aeroengine.pw.toml"
 hash = "3637f8c7e237525c908ef902ab13765be9b7c885e22a5ec0532561a13af7ba48"
 metafile = true
@@ -465,7 +470,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "6c76e3bfe272f26adc1c7388aaabadeb3489c36231ef00a78ca87a838c928249"
+hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
 
 [[files]]
@@ -629,6 +634,11 @@ hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
 metafile = true
 
 [[files]]
+file = "mods/deployer.pw.toml"
+hash = "0e4942ab12e496d3649dc35f1734c20c9fb46e235265f7076a2465eb1b139473"
+metafile = true
+
+[[files]]
 file = "mods/direct-chute.pw.toml"
 hash = "87d17b6f585dec07f2b0b70c4577d508610263806926d093a2334e3cb9fca48c"
 metafile = true
@@ -655,7 +665,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-culling.pw.toml"
-hash = "d9a6560a6eb390f000c05f6e443425b2a9f2f88b566400d699ae333b4a3f9786"
+hash = "79b6d35e03f01866680b412a3d74139feb3bf1e5b56db43ea3237c52b58ffc6c"
 metafile = true
 
 [[files]]
@@ -720,7 +730,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "bc42470787cc1d0bc134d2c9137ab4a9eeee266463d800db7eb05337ca2030f6"
+hash = "58ed8e868a732911b326d45f10478dfd959b2717d720e1a60c8e1230f8bc1da2"
 metafile = true
 
 [[files]]
