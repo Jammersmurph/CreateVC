@@ -1,0 +1,13 @@
+name = "[Moonsu] Better GUI Create Style for Tom's Simple Storage"
+filename = "[Moonsu] Better GUI Tom's S.S. 2.0 1.21.X.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/G4E1ubyN/versions/ER7IiGeC/%5BMoonsu%5D%20Better%20GUI%20Tom%27s%20S.S.%202.0%201.21.X.zip"
+hash-format = "sha512"
+hash = "af82793338a11605c2c9d9f669a00c2c01a95a40f527a7d14e7aa935955b2717503180b445cb6f16038cb4083ada59372c669f46ec729bc1f586b8e5ad65fc8e"
+
+[update]
+[update.modrinth]
+mod-id = "G4E1ubyN"
+version = "ER7IiGeC"
