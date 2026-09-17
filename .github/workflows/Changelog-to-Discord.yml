@@ -6,9 +6,69 @@ jobs:
   git:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Send changelog to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.request
 
-      - name: Run Discord Webhook
-        uses: johnnyhuy/actions-discord-git-webhook@main
-        with:
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}
+          webhook = os.environ.get("DISCORD_WEBHOOK")
+          if not webhook:
+              raise SystemExit("DISCORD_WEBHOOK is not configured")
+
+          with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as event_file:
+              event = json.load(event_file)
+
+          commits = event.get("commits", [])
+          if not commits:
+              print("Push contains no commits; skipping Discord notification.")
+              raise SystemExit(0)
+
+          lines = []
+          for commit in commits[:4]:
+              author = commit.get("author") or {}
+              username = author.get("username") or author.get("name") or "unknown"
+              message = " ".join(commit.get("message", "").split())
+              if len(message) > 128:
+                  message = message[:128] + "..."
+              sha = commit.get("id", "unknown")[:6]
+              url = commit.get("url", "")
+              lines.append(f"[`{sha}`]({url}) {message} by _@{username}_")
+
+          if len(commits) > 4:
+              lines.append(f"+ {len(commits) - 4} more...")
+
+          repository = event["repository"]["full_name"]
+          branch = event.get("ref", "").removeprefix("refs/heads/")
+          count = len(commits)
+          payload = {
+              "allowed_mentions": {"parse": []},
+              "embeds": [{
+                  "title": f"{count} {'Commit' if count == 1 else 'Commits'} | {repository} | {branch}",
+                  "url": event.get("compare"),
+                  "description": "\n".join(lines),
+                  "color": int("7dbbe6", 16),
+                  "timestamp": commits[0].get("timestamp"),
+              }],
+          }
+
+          request = urllib.request.Request(
+              webhook,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json",
+                  "User-Agent": "CreateVC-GitHub-Actions/1.0",
+              },
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  print(f"Discord webhook sent successfully ({response.status}).")
+          except urllib.error.HTTPError as error:
+              detail = error.read().decode("utf-8", errors="replace")
+              raise SystemExit(f"Discord webhook failed ({error.code}): {detail}") from error
+          PY
