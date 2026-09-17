@@ -93,6 +93,146 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "28557ee1b36747e9fe2d30318c3d4edf39256c388a934cfb639e4f06d459fa96"
 
 [[files]]
+file = "config/fancymenu/assets/blank_blueprint.png"
+hash = "fa480747c900e6862ffbae706245a41ea01dc8a0756e54b7fbdbc134dcf3ebf3"
+
+[[files]]
+file = "config/fancymenu/assets/createvc-banner-text.png"
+hash = "c9ee90b1a19c4dacf7e99df15f63171cccb04428619a0170406cb23becfb1841"
+
+[[files]]
+file = "config/fancymenu/assets/createvc-smp-logo.png"
+hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_logo.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_logo_v2.png"
+hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_smp.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_smp_logo_v3.png"
+hash = "3a17b58121cbbfcd77759731adf713a4d209b17b007066bf9de04a550ae7f9d9"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_smp_v2.png"
+hash = "336a4b5dd515bbd5bed942e62176c26c6cc96d64d81439ace86333d5331fbb60"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_smp_v3-high.png"
+hash = "7ac8fcd8435a97defcb5a11c0b1eced776220778c45e980df2137ed40c5c7d15"
+
+[[files]]
+file = "config/fancymenu/assets/createvc_smp_v3.png"
+hash = "467cff7d611caf9f715558f34aa041ed7a4f0904f0337de1f8c7bf0fbeac3988"
+
+[[files]]
+file = "config/fancymenu/assets/cvc_animated.gif"
+hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
+
+[[files]]
+file = "config/fancymenu/assets/minecraftjava.jpg"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/assets/new-createvc-banner-text.png"
+hash = "1996ff7cd69fc9795536a11cc695474bbb8efd48b53a3389f9d2ea14a59b65c7"
+
+[[files]]
+file = "config/fancymenu/assets/new-logo.png"
+hash = "d291947cecf1c73918e43f3743792cfd065ed4862444a9006383dd0d83ba5b48"
+
+[[files]]
+file = "config/fancymenu/assets/server-icon.png"
+hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "config/fancymenu/assets/wrench_blueprint-high.png"
+hash = "87ee0b98ce2246fdb985c20eb51cc43dc480639bdf60f30788524fbf48a3869d"
+
+[[files]]
+file = "config/fancymenu/assets/wrench_blueprint.png"
+hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "4ef4c1e82ded094c2feff6bb18956284cf030ed94bf0ea6617132fba7afca3a4"
+
+[[files]]
+file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "582bf6b3f4da3d9a9f17b77148a55acf2c35936eeb86dd1f72179793769cc64a"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "a78e21d564b422639fdd8b8a7a54fbd3358c17cae77cf6e3779fbe96c233f394"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "c619e7bd141f4597e5eca58c1522d5cbb34d90e20e37344cb1d8a6562155818c"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
@@ -234,6 +374,10 @@ hash = "00196656ca4c4a2286e9f8d90c0b232b9e59a45e18a903c2816b4cb7bbdf78ee"
 
 [[files]]
 file = "config/simple-custom-early-loading/CreateVC_SMP.png"
+hash = "7ac8fcd8435a97defcb5a11c0b1eced776220778c45e980df2137ed40c5c7d15"
+
+[[files]]
+file = "config/simple-custom-early-loading/CreateVC_SMP.png.bak"
 hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
 
 [[files]]
@@ -622,6 +766,10 @@ metafile = true
 file = "mods/createvc-updater-dev.pw.toml"
 hash = "6ca547e6fea9660ca821e754d56aeaaf36e22e9e13577f52d9d3036200b85cf4"
 metafile = true
+
+[[files]]
+file = "mods/createvc_updater_dev-1.0.1-dev.jar"
+hash = "d663b4bfa8cce5bdba9c93967327bf4c329eea44128428afc5a70a916e9d906a"
 
 [[files]]
 file = "mods/curios.pw.toml"
