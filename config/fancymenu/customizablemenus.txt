@@ -1,0 +1,17 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.neoforged.neoforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.options.OptionsScreen {
+}
+
