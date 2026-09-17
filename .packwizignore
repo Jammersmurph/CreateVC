@@ -10,5 +10,5 @@ push-release.sh
 LICENSE*
 mods/createbigcannons-*.jar
 mods/createvc_updater-*.jar
-mods/createvc_updater_dev-*.jar
+# mods/createvc_updater_dev-*.jar
 builds/*
