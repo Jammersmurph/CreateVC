@@ -70,6 +70,33 @@ jobs:
       - name: Export to mrpack
         run: packwiz mr export -o CreateVC.mrpack
 
+      - name: Sanity check - use backup CreateVC Core artifact
+        run: |
+          if ! unzip -Z1 CreateVC.mrpack | grep -Fxq 'overrides/mods/CreateVC-Core-1.4.0.jar.bak'; then
+            echo "ERROR: CreateVC-Core-1.4.0.jar.bak is missing from the mrpack."
+            exit 1
+          fi
+          if unzip -Z1 CreateVC.mrpack | grep -Fxq 'overrides/mods/CreateVC-Core-1.4.0.jar'; then
+            echo "ERROR: CreateVC-Core-1.4.0.jar must not ship in the mrpack."
+            exit 1
+          fi
+          echo "CreateVC Core backup artifact check passed."
+
+      - name: Sanity check - include dev updater
+        run: |
+          python3 -c "
+          import json, sys, zipfile
+          path = 'mods/createvc_updater_dev-1.0.1-dev.jar'
+          url = 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/dev/mods/createvc_updater_dev-1.0.1-dev.jar'
+          with zipfile.ZipFile('CreateVC.mrpack') as archive:
+              manifest = json.loads(archive.read('modrinth.index.json'))
+          entry = next((item for item in manifest['files'] if item['path'] == path), None)
+          if entry is None or url not in entry.get('downloads', []):
+              print('ERROR: The dev updater is missing or has the wrong download URL.')
+              sys.exit(1)
+          print('Dev updater check passed.')
+          "
+
       - name: Sanity check - options defaults are updater-only
         run: |
           if unzip -l CreateVC.mrpack | awk '{print $4}' | grep -Eq '^overrides/options(of)?\.txt$'; then
