@@ -1,0 +1,485 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = xaero.pac.client.gui.MainMenu
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1789588800000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:createvc-claims-layout] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  interactable = false
+  source = OpenPAC Bonus Shop%n%&7Purchase scrolls with Numismatics Spurs%n%&7Right-click received scrolls to apply them
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = false
+  remove_html_breaks = true
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = createvc-claim-shop-title
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = -118
+  width = 360
+  height = 42
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-claim-shop-title-loading
+  [loading_requirement_container_meta:createvc-claim-shop-title-loading] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  interactable = false
+  source = &6Claims&f - 1 Spur each
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = false
+  remove_html_breaks = true
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = createvc-claims-heading
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = -67
+  width = 160
+  height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-claims-heading-loading
+  [loading_requirement_container_meta:createvc-claims-heading-loading] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  interactable = false
+  source = &dForceloads&f - 10 Spurs each
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = false
+  remove_html_breaks = true
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = createvc-forceloads-heading
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -110
+  y = -67
+  width = 180
+  height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-forceloads-heading-loading
+  [loading_requirement_container_meta:createvc-forceloads-heading-loading] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-claim-1-block
+  [executable_action_instance:createvc-buy-claim-1-action][action_type:sendmessage] = /claimshop buy claim_1%!n!%
+  [executable_block:createvc-buy-claim-1-block][type:generic] = [executables:createvc-buy-claim-1-action;]
+  label = +1 - 1 Spur
+  description = Buy 1 bonus claim at the standard price.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-claim-1
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = -45
+  width = 160
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-claim-1-loading
+  [loading_requirement_container_meta:createvc-buy-claim-1-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-claim-10-block
+  [executable_action_instance:createvc-buy-claim-10-action][action_type:sendmessage] = /claimshop buy claim_10%!n!%
+  [executable_block:createvc-buy-claim-10-block][type:generic] = [executables:createvc-buy-claim-10-action;]
+  label = +10 - 9 Spurs
+  description = Buy 10 bonus claims with a 10% bulk discount.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-claim-10
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = -20
+  width = 160
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-claim-10-loading
+  [loading_requirement_container_meta:createvc-buy-claim-10-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-claim-25-block
+  [executable_action_instance:createvc-buy-claim-25-action][action_type:sendmessage] = /claimshop buy claim_25%!n!%
+  [executable_block:createvc-buy-claim-25-block][type:generic] = [executables:createvc-buy-claim-25-action;]
+  label = +25 - 20 Spurs
+  description = Buy 25 bonus claims with a 20% bulk discount.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-claim-25
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = 5
+  width = 160
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-claim-25-loading
+  [loading_requirement_container_meta:createvc-buy-claim-25-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-claim-50-block
+  [executable_action_instance:createvc-buy-claim-50-action][action_type:sendmessage] = /claimshop buy claim_50%!n!%
+  [executable_block:createvc-buy-claim-50-block][type:generic] = [executables:createvc-buy-claim-50-action;]
+  label = +50 - 35 Spurs
+  description = Buy 50 bonus claims with a 30% bulk discount.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-claim-50
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = 30
+  width = 160
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-claim-50-loading
+  [loading_requirement_container_meta:createvc-buy-claim-50-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-forceload-1-block
+  [executable_action_instance:createvc-buy-forceload-1-action][action_type:sendmessage] = /claimshop buy forceload_1%!n!%
+  [executable_block:createvc-buy-forceload-1-block][type:generic] = [executables:createvc-buy-forceload-1-action;]
+  label = +1 - 10 Spurs
+  description = Buy 1 bonus forceload at the standard price.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-forceload-1
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -110
+  y = -45
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-forceload-1-loading
+  [loading_requirement_container_meta:createvc-buy-forceload-1-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-forceload-10-block
+  [executable_action_instance:createvc-buy-forceload-10-action][action_type:sendmessage] = /claimshop buy forceload_10%!n!%
+  [executable_block:createvc-buy-forceload-10-block][type:generic] = [executables:createvc-buy-forceload-10-action;]
+  label = +10 - 90 Spurs
+  description = Buy 10 bonus forceloads with a 10% bulk discount.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-forceload-10
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -110
+  y = -20
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-forceload-10-loading
+  [loading_requirement_container_meta:createvc-buy-forceload-10-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-forceload-25-block
+  [executable_action_instance:createvc-buy-forceload-25-action][action_type:sendmessage] = /claimshop buy forceload_25%!n!%
+  [executable_block:createvc-buy-forceload-25-block][type:generic] = [executables:createvc-buy-forceload-25-action;]
+  label = +25 - 200 Spurs
+  description = Buy 25 bonus forceloads with a 20% bulk discount.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-forceload-25
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -110
+  y = 5
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-forceload-25-loading
+  [loading_requirement_container_meta:createvc-buy-forceload-25-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-buy-forceload-50-block
+  [executable_action_instance:createvc-buy-forceload-50-action][action_type:sendmessage] = /claimshop buy forceload_50%!n!%
+  [executable_block:createvc-buy-forceload-50-block][type:generic] = [executables:createvc-buy-forceload-50-action;]
+  label = +50 - 350 Spurs
+  description = Buy 50 bonus forceloads with a 30% bulk discount.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-buy-forceload-50
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -110
+  y = 30
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-buy-forceload-50-loading
+  [loading_requirement_container_meta:createvc-buy-forceload-50-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = createvc-open-party-menu-block
+  [executable_action_instance:createvc-open-party-menu-action][action_type:opengui] = brassworks.pac.partymenu
+  [executable_block:createvc-open-party-menu-block][type:generic] = [executables:createvc-open-party-menu-action;]
+  label = Party Menu
+  description = Open the OpenPAC party menu.
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = createvc-open-party-menu
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -285
+  y = 60
+  width = 340
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = createvc-open-party-menu-loading
+  [loading_requirement_container_meta:createvc-open-party-menu-loading] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+}
