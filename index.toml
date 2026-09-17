@@ -170,7 +170,7 @@ hash = "efae973cd2e5402bd9e99ecd2b311d098e3b45c270c4f0f32da8eda3e86c699d"
 
 [[files]]
 file = "config/fancymenu/customization/createvc_claim_shop_layout.txt"
-hash = "f32da9aaed39f8ab27fa6b5a82851b1bc1b4b5a52d199a7dcc3430ef4729f720"
+hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
