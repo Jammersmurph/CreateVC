@@ -162,11 +162,15 @@ hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+hash = "7c16f8ab6495639d242369302f814c8c2faa487ac5810d6af0c070b0f53b7ae8"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "efae973cd2e5402bd9e99ecd2b311d098e3b45c270c4f0f32da8eda3e86c699d"
+
+[[files]]
+file = "config/fancymenu/customization/createvc_claim_shop_layout.txt"
+hash = "f32da9aaed39f8ab27fa6b5a82851b1bc1b4b5a52d199a7dcc3430ef4729f720"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
@@ -182,7 +186,7 @@ hash = "a78e21d564b422639fdd8b8a7a54fbd3358c17cae77cf6e3779fbe96c233f394"
 
 [[files]]
 file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
-hash = "a478139c8b9a1d80ad835d8c4831b8dbea682f84b043eefaa922e4a397f16551"
+hash = "fef3758cda7dc5750140b4cd50b3c9ca5438d3286dc478c02a70174bff2c4682"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
