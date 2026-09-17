@@ -109,7 +109,6 @@ jobs:
       - name: Sanity check - no unexpected override mods
         run: |
           ALLOWED_OVERRIDES="\
-            overrides/mods/CreateVC-Core-
             overrides/mods/createsa_tank_fix-
             overrides/mods/createvc_updater_
             client-overrides/mods/\

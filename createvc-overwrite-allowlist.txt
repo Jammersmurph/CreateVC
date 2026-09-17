@@ -16,7 +16,6 @@ config/simple-custom-early-loading
 config/simple-custom-early-loading/*
 config/simple-custom-early-loading/**
 config/simple-custom-early-loading*
-mods/CreateVC-Core-*.jar
 mods/simple-custom-early-loading*
 resourcepacks/*CreateVC*
 resourcepacks/*createvc*
