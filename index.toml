@@ -162,15 +162,19 @@ hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "7c16f8ab6495639d242369302f814c8c2faa487ac5810d6af0c070b0f53b7ae8"
+hash = "233c6fae022efc8f587131f8a991235d4196c1dd37ac72b336d454dee7d98e32"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "efae973cd2e5402bd9e99ecd2b311d098e3b45c270c4f0f32da8eda3e86c699d"
 
 [[files]]
+file = "config/fancymenu/customization/claimshop_layout.txt"
+hash = "782d4324b5098a8dd4772d3f82de32b47e283a6ebfdb6d01a1c61f34d4915695"
+
+[[files]]
 file = "config/fancymenu/customization/createvc_claim_shop_layout.txt"
-hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
+hash = "ce3d3ad9ddd63a855c3577d3e6f83e53875e7e0df188501392b7b83cdc5be4aa"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
@@ -182,15 +186,15 @@ hash = "ab44029520eb209025e5f0caf6df08467a7e7917b6d31afdb55f9ef15317157d"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "a78e21d564b422639fdd8b8a7a54fbd3358c17cae77cf6e3779fbe96c233f394"
+hash = "54d3479f41d26f5c3376078383fdb06c1e5a005d0a8ac5fbb1a947b8d07b5a59"
 
 [[files]]
 file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
-hash = "fef3758cda7dc5750140b4cd50b3c9ca5438d3286dc478c02a70174bff2c4682"
+hash = "a478139c8b9a1d80ad835d8c4831b8dbea682f84b043eefaa922e4a397f16551"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "f4376005d963ff52e6a4e937e4413e539b4e08ef21c9f060df3696a236bcc14e"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -238,7 +242,7 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+hash = "548a9903499c0f43940ddbf5b2f95dcdbd8ef6a3fc5a889725a3a637f11e4bac"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"

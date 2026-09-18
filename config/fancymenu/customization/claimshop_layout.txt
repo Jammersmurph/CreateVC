@@ -1,32 +1,43 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = createvc_claim_shop
+  identifier = claimshop
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1789738087936
+  last_edited_time = 1789758036804
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eb32bf72-1bc9-4b10-bfee-ca847a5cb032-1789737603843] = [groups:][instances:]
+  [loading_requirement_container_meta:3fba81bd-354c-45a3-b673-539b07fdc0ba-1789757837017] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1865
+  baseheight = 1113
 }
 
 menu_background {
-  instance_identifier = createvc-claim-shop-background
+  instance_identifier = d76e69d2-eef0-45c3-893e-132a71a482e6-1789747097173
   background_type = color_fancymenu
-  show_background = true
-  color = #101820FF
+  show_background = false
+  color = #FFC800FF
 }
 
 menu_background {
-  instance_identifier = abc4ec99-6d36-440c-b8a8-d71276077a0a-1789701747502
+  instance_identifier = e48ba2a0-869b-4be5-bae8-2103fe8975e4-1789747097173
   background_type = panorama
   show_background = false
 }
 
 menu_background {
-  instance_identifier = fae29a22-3aaa-4aa8-be84-68ab8301224e-1789701747502
+  instance_identifier = 4a424f58-7523-4076-bdec-3a08799c2a38-1789747097173
   background_type = image
   show_background = false
   slide = false
@@ -39,13 +50,13 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = efcdb895-5567-4e61-9c3a-0bf21d718488-1789701747502
+  instance_identifier = 8683c6f6-493a-495f-ac73-b3664bdf3a6e-1789747097173
   background_type = slideshow
   show_background = false
 }
 
 menu_background {
-  instance_identifier = b26f0d7f-ef61-4cfe-876e-1c8f5c4d2afb-1789701747502
+  instance_identifier = 150f6da1-842b-46ed-8426-49e5cec19cd0-1789747097173
   background_type = video
   show_background = false
   loop = false
@@ -59,7 +70,7 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 7428af67-e551-471a-8cd1-131488c6a68e-1789701747502
+  instance_identifier = 54b888a2-18d6-47b2-b4c4-69b8dae3e83a-1789747097173
   background_type = video_rinku
   show_background = false
   loop = false
@@ -72,7 +83,7 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 35860071-e6d7-453a-a33c-12fc2a0dae03-1789701747503
+  instance_identifier = 942a9b58-fcb5-41eb-9629-64e892b44976-1789747097173
   background_type = browser
   show_background = false
   url = https://www.curseforge.com/minecraft
@@ -89,7 +100,7 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = abb15dbc-ac67-48e1-bbea-c8347a082ba7-1789701747503
+  instance_identifier = c8523f2e-ce95-4975-946d-10ed91b2b6c1-1789747097173
   background_type = glsl
   show_background = false
   inline_shader_source = 
@@ -130,7 +141,7 @@ menu_background {
 
 decoration_overlay {
   overlay_type = browser
-  instance_identifier = 406581c4-957f-4323-845c-e95cd726c623-1789701747503
+  instance_identifier = 6676ab6c-ac14-4ad2-83a0-73c2ba7f0ef8-1789747097173
   show_decoration_overlay = false
   url = https://www.curseforge.com/minecraft
   consume_mouse_clicks = true
@@ -147,7 +158,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = glsl
-  instance_identifier = 17b81f2b-fb00-4f36-9011-175166d6c8d9-1789701747503
+  instance_identifier = de2bdea7-7736-47ab-958a-07583a203db4-1789747097173
   show_decoration_overlay = false
   inline_shader_source = 
   buffer_a_inline_source = 
@@ -187,7 +198,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = buddy
-  instance_identifier = 486c355c-ef01-4d26-8ab7-e7747821377a-1789701747503
+  instance_identifier = 501a1b11-9adc-4dd4-b0ac-6950b6afa114-1789747097174
   show_decoration_overlay = false
   buddy_hunger_decay_per_tick = 0.005
   buddy_happiness_decay_per_tick = 0.003
@@ -217,7 +228,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = string_lights
-  instance_identifier = 3cf82b5e-3634-4745-b8ca-89c81e78d654-1789701747503
+  instance_identifier = 0503a799-02d4-4dfd-abb6-92f10d408a10-1789747097174
   show_decoration_overlay = false
   string_lights_scale = 1.0
   string_lights_wind_strength = 1.0
@@ -250,7 +261,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = fireworks
-  instance_identifier = e7a8a7e6-b436-4ac9-afe9-affd0412e16a-1789701747503
+  instance_identifier = 3d8cf300-55ee-4a35-aa7a-4bb2b4320141-1789747097174
   show_decoration_overlay = false
   fireworks_scale = 1.0
   fireworks_explosion_size = 1.0
@@ -260,7 +271,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = snowfall
-  instance_identifier = d06b7005-55d7-4c24-9c9b-f0774bbe1404-1789701747503
+  instance_identifier = 6136e9b9-8029-4c4b-8bfc-d644ad7ebfea-1789747097174
   show_decoration_overlay = false
   snow_intensity = 1.0
   snow_scale = 1.0
@@ -271,7 +282,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = rainfall
-  instance_identifier = 0cda26c1-1161-4be9-befa-af84fa1051a2-1789701747504
+  instance_identifier = dc3d0f62-79c3-482e-8591-6e97ea34458f-1789747097174
   show_decoration_overlay = false
   rain_intensity = 1.0
   rain_scale = 1.0
@@ -284,7 +295,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = fireflies
-  instance_identifier = bf2abef0-a6e4-44ba-a338-717df3e2f1bf-1789701747504
+  instance_identifier = 4970a403-8598-44da-b0ad-33f02c839765-1789747097174
   show_decoration_overlay = false
   firefly_group_density = 1.0
   firefly_group_amount = 1.0
@@ -297,7 +308,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = leaves
-  instance_identifier = c258496b-4e04-46ef-ae74-43cbca9256fe-1789701747504
+  instance_identifier = 0b5a8b16-a5c1-43d8-a2e9-3484bd43c423-1789747097174
   show_decoration_overlay = false
   leaves_density = 1.0
   leaves_wind_intensity = 1.0
@@ -310,7 +321,7 @@ decoration_overlay {
 
 decoration_overlay {
   overlay_type = confetti
-  instance_identifier = d3e6f957-ee23-4a01-bf75-5bc8bc2a181d-1789701747504
+  instance_identifier = 4845093a-8366-47da-8c2b-cfc948a3bfd3-1789747097174
   show_decoration_overlay = false
   confetti_scale = 1.0
   confetti_fall_speed = 1.0
@@ -342,316 +353,44 @@ layout_action_executable_blocks {
 }
 
 element {
-  interactable = false
-  source = &b&lCREATEVC   BONUS   SHOP%n%&7Purchase OpenPAC chunks with Numismatics Spurs%n%&8Right-click received scrolls to apply them
-  source_mode = direct
-  shadow = true
-  enable_scrolling = false
-  auto_line_wrapping = false
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  click_event_color = #0771FCFF
-  hover_event_color = #0771FCFF
-  quote_color = #818181FF
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  element_type = text_v2
-  instance_identifier = createvc-claim-shop-title
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1170
-  auto_sizing_base_screen_height = 1113
-  auto_sizing_base_gui_scale = 3
-  auto_sizing_base_gui_width = 390
-  auto_sizing_base_gui_height = 371
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -177
-  y = -102
-  width = 360
-  height = 42
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = createvc-claim-shop-title-loading
-  [loading_requirement_container_meta:createvc-claim-shop-title-loading] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 0.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
-  scale = 1.0
-  text_border = 2
-  line_spacing = 2
-  quote_indent = 8
-  bullet_list_indent = 8
-  bullet_list_spacing = 3
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-}
-
-element {
-  interactable = false
-  source = &6Claims&f - 1 Spur each
-  source_mode = direct
-  shadow = true
-  enable_scrolling = false
-  auto_line_wrapping = false
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  click_event_color = #0771FCFF
-  hover_event_color = #0771FCFF
-  quote_color = #818181FF
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  element_type = text_v2
-  instance_identifier = createvc-claims-heading
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1170
-  auto_sizing_base_screen_height = 1113
-  auto_sizing_base_gui_scale = 3
-  auto_sizing_base_gui_width = 390
-  auto_sizing_base_gui_height = 371
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -175
-  y = -50
-  width = 160
-  height = 16
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = createvc-claims-heading-loading
-  [loading_requirement_container_meta:createvc-claims-heading-loading] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 0.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
-  scale = 1.0
-  text_border = 2
-  line_spacing = 2
-  quote_indent = 8
-  bullet_list_indent = 8
-  bullet_list_spacing = 3
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-}
-
-element {
-  interactable = false
-  source = &dForceloads&f - 10 Spurs each
-  source_mode = direct
-  shadow = true
-  enable_scrolling = false
-  auto_line_wrapping = false
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  click_event_color = #0771FCFF
-  hover_event_color = #0771FCFF
-  quote_color = #818181FF
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  element_type = text_v2
-  instance_identifier = createvc-forceloads-heading
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1170
-  auto_sizing_base_screen_height = 1113
-  auto_sizing_base_gui_scale = 3
-  auto_sizing_base_gui_width = 390
-  auto_sizing_base_gui_height = 371
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 20
-  y = -50
-  width = 160
-  height = 16
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = createvc-forceloads-heading-loading
-  [loading_requirement_container_meta:createvc-forceloads-heading-loading] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 0.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
-  scale = 1.0
-  text_border = 2
-  line_spacing = 2
-  quote_indent = 8
-  bullet_list_indent = 8
-  bullet_list_spacing = 3
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-}
-
-element {
-  button_element_executable_block_identifier = createvc-buy-claim-1-block
-  [executable_action_instance:createvc-buy-claim-1-action][action_type:sendmessage] = /claimshop buy claim_1%!n!%
-  [executable_block:createvc-buy-claim-1-block][type:generic] = [executables:createvc-buy-claim-1-action;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/blank_blueprint.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/wrench_blueprint-high.png
+  slider_type = integer_range
+  pre_selected_value = {"placeholder":"getvariable","values":{"name":"force-claims"}}
+  slider_label = Bonus Forceloads: $$value
+  slider_list_value_0 = some_value
+  slider_list_value_1 = another_value
+  slider_list_value_2 = third_value
+  slider_element_executable_block_identifier = 65f5adcc-dcdd-4874-b5c0-b51c84330b99-1789747159523
+  [executable_action_instance:0b30d9b6-0d69-49e4-91b1-148eea9a2317-1789749293060][action_type:set_variable] = force-claims:$$value
+  [executable_block:65f5adcc-dcdd-4874-b5c0-b51c84330b99-1789747159523][type:generic] = [executables:0b30d9b6-0d69-49e4-91b1-148eea9a2317-1789749293060;]
   underline_label_on_hover = false
   transparent_background = false
-  restartbackgroundanimations = true
-  nine_slice_custom_background = true
-  clicksound = [source:location]minecraft:sounds/random/orb.ogg
-  description = Buy 1 bonus claim at the standard price.
-  label = +1 - 1 Spur
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 69c403e5-fad8-4a24-90f3-77917822313f-1789701792759
-  [loading_requirement_container_meta:69c403e5-fad8-4a24-90f3-77917822313f-1789701792759] = [groups:][instances:]
-  is_template = true
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = sliders
+  restart_background_animations = true
+  nine_slice_custom_background = false
   nine_slice_slider_handle = false
-  element_type = custom_button
-  instance_identifier = createvc-buy-claim-1
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 7d2e8880-2066-4c22-8483-b2350829454f-1789747159523
+  [loading_requirement_container_meta:7d2e8880-2066-4c22-8483-b2350829454f-1789747159523] = [groups:][instances:]
+  element_type = slider_v2
+  instance_identifier = 54fd9e2d-3605-4de6-814b-bc6cc7eedc86-1789747159521
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1170
-  auto_sizing_base_screen_height = 1113
-  auto_sizing_base_gui_scale = 3
-  auto_sizing_base_gui_width = 390
-  auto_sizing_base_gui_height = 371
+  auto_sizing_base_screen_width = 1168
+  auto_sizing_base_screen_height = 1114
+  auto_sizing_base_gui_scale = 1.8820375335120643
+  auto_sizing_base_gui_width = 621
+  auto_sizing_base_gui_height = 592
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = -175
-  y = -28
-  width = 160
+  anchor_point = mid-left
+  x = 295
+  y = -40
+  width = 130
   height = 20
   stay_on_screen = true
-  element_loading_requirement_container_identifier = createvc-buy-claim-1-loading
-  [loading_requirement_container_meta:createvc-buy-claim-1-loading] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 095a1d03-d524-4fb5-9437-024c5e2f3762-1789747159521
+  [loading_requirement_container_meta:095a1d03-d524-4fb5-9437-024c5e2f3762-1789747159521] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -669,7 +408,7 @@ element {
   advanced_height = -2147483648
   stretch_x = false
   stretch_y = false
-  appearance_delay_seconds = 0.0
+  appearance_delay_seconds = 1.0
   disappearance_delay_seconds = 1.0
   fade_in_speed = 1.0
   fade_out_speed = 1.0
@@ -682,6 +421,9 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
+  min_range_value = 0.0
+  max_range_value = 100.0
+  rounding_decimal_place = 2
   label_scale = 1.0
   label_shadow = true
   nine_slice_border_x = 5
@@ -691,52 +433,44 @@ element {
 }
 
 element {
-  button_element_executable_block_identifier = createvc-buy-forceload-1-block
-  [executable_action_instance:createvc-buy-forceload-1-action][action_type:sendmessage] = /claimshop buy forceload_1%!n!%
-  [executable_block:createvc-buy-forceload-1-block][type:generic] = [executables:createvc-buy-forceload-1-action;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/blank_blueprint.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/wrench_blueprint-high.png
+  slider_type = integer_range
+  pre_selected_value = {"placeholder":"getvariable","values":{"name":"claims"}}
+  slider_label = Bonus Claims: $$value
+  slider_list_value_0 = some_value
+  slider_list_value_1 = another_value
+  slider_list_value_2 = third_value
+  slider_element_executable_block_identifier = 65f5adcc-dcdd-4874-b5c0-b51c84330b99-1789747159523
+  [executable_action_instance:b410a82c-8417-470a-b4de-97e80ff28860-1789749144379][action_type:set_variable] = claims:$$value
+  [executable_block:65f5adcc-dcdd-4874-b5c0-b51c84330b99-1789747159523][type:generic] = [executables:b410a82c-8417-470a-b4de-97e80ff28860-1789749144379;]
   underline_label_on_hover = false
   transparent_background = false
-  restartbackgroundanimations = true
-  nine_slice_custom_background = true
-  clicksound = [source:location]minecraft:sounds/random/orb.ogg
-  description = Buy 1 bonus forceload at the standard price.
-  label = +1 - 10 Spurs
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 3a1dcc2a-57a1-45af-a092-f052de22d00d-1789701792760
-  [loading_requirement_container_meta:3a1dcc2a-57a1-45af-a092-f052de22d00d-1789701792760] = [groups:][instances:]
-  is_template = true
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = sliders
+  restart_background_animations = true
+  nine_slice_custom_background = false
   nine_slice_slider_handle = false
-  element_type = custom_button
-  instance_identifier = createvc-buy-forceload-1
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 7d2e8880-2066-4c22-8483-b2350829454f-1789747159523
+  [loading_requirement_container_meta:7d2e8880-2066-4c22-8483-b2350829454f-1789747159523] = [groups:][instances:]
+  element_type = slider_v2
+  instance_identifier = 60d80fd2-322c-4f82-a4b9-0352e3a353fa-1789747215084
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1170
-  auto_sizing_base_screen_height = 1113
-  auto_sizing_base_gui_scale = 3
-  auto_sizing_base_gui_width = 390
-  auto_sizing_base_gui_height = 371
+  auto_sizing_base_screen_width = 1168
+  auto_sizing_base_screen_height = 1114
+  auto_sizing_base_gui_scale = 1.8820375335120643
+  auto_sizing_base_gui_width = 621
+  auto_sizing_base_gui_height = 592
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 20
-  y = -28
-  width = 160
+  x = -154
+  y = -40
+  width = 130
   height = 20
   stay_on_screen = true
-  element_loading_requirement_container_identifier = createvc-buy-forceload-1-loading
-  [loading_requirement_container_meta:createvc-buy-forceload-1-loading] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 095a1d03-d524-4fb5-9437-024c5e2f3762-1789747159521
+  [loading_requirement_container_meta:095a1d03-d524-4fb5-9437-024c5e2f3762-1789747159521] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -754,7 +488,180 @@ element {
   advanced_height = -2147483648
   stretch_x = false
   stretch_y = false
-  appearance_delay_seconds = 0.0
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  min_range_value = 0.0
+  max_range_value = 100.0
+  rounding_decimal_place = 2
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+element {
+  interactable = true
+  source = &6Claims: &f{"placeholder":"getvariable","values":{"name":"claims"}} &8=&6 {"placeholder":"calc","values":{"decimal":"false","expression":"{"placeholder":"getvariable","values":{"name":"claims"}} - 15*floor({"placeholder":"getvariable","values":{"name":"claims"}}/50) - 5*floor(({"placeholder":"getvariable","values":{"name":"claims"}}%50)/25) - floor(({"placeholder":"getvariable","values":{"name":"claims"}}%50)%25/10)"}} &7Spurs%n%&dForceloads: &f{"placeholder":"getvariable","values":{"name":"force-claims"}} &8=&d {"placeholder":"calc","values":{"decimal":"false","expression":"10*({"placeholder":"getvariable","values":{"name":"force-claims"}} - 15*floor({"placeholder":"getvariable","values":{"name":"force-claims"}}/50) - 5*floor(({"placeholder":"getvariable","values":{"name":"force-claims"}}%50)/25) - floor(({"placeholder":"getvariable","values":{"name":"force-claims"}}%50)%25/10))"}} &7Spurs%n%%n%&e&lTOTAL: &f{"placeholder":"calc","values":{"decimal":"false","expression":"({"placeholder":"getvariable","values":{"name":"claims"}} - 15*floor({"placeholder":"getvariable","values":{"name":"claims"}}/50) - 5*floor(({"placeholder":"getvariable","values":{"name":"claims"}}%50)/25) - floor(({"placeholder":"getvariable","values":{"name":"claims"}}%50)%25/10))+10*({"placeholder":"getvariable","values":{"name":"force-claims"}} - 15*floor({"placeholder":"getvariable","values":{"name":"force-claims"}}/50) - 5*floor(({"placeholder":"getvariable","values":{"name":"force-claims"}}%50)/25) - floor(({"placeholder":"getvariable","values":{"name":"force-claims"}}%50)%25/10))"}} &7Spurs&8 (&7You save &a{"placeholder":"calc","values":{"decimal":"false","expression":"(({"placeholder":"getvariable","values":{"name":"claims"}}) + 10*({"placeholder":"getvariable","values":{"name":"force-claims"}})) - (({"placeholder":"getvariable","values":{"name":"claims"}} - 15*floor({"placeholder":"getvariable","values":{"name":"claims"}}/50) - 5*floor(({"placeholder":"getvariable","values":{"name":"claims"}}%50)/25) - floor(({"placeholder":"getvariable","values":{"name":"claims"}}%50)%25/10))+10*({"placeholder":"getvariable","values":{"name":"force-claims"}} - 15*floor({"placeholder":"getvariable","values":{"name":"force-claims"}}/50) - 5*floor(({"placeholder":"getvariable","values":{"name":"force-claims"}}%50)/25) - floor(({"placeholder":"getvariable","values":{"name":"force-claims"}}%50)%25/10)))"}} &7Spurs&8)   
+  source_mode = direct
+  shadow = true
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  click_event_color = #0771FCFF
+  hover_event_color = #0771FCFF
+  quote_color = #818181FF
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  element_type = text_v2
+  instance_identifier = 3739ee57-b127-4833-806b-26979be7e097-1789747995556
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1168
+  auto_sizing_base_screen_height = 1114
+  auto_sizing_base_gui_scale = 1.8820375335120643
+  auto_sizing_base_gui_width = 621
+  auto_sizing_base_gui_height = 592
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -154
+  y = -143
+  width = 354
+  height = 101
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f7c99557-ed3b-4be6-a3c9-6fbee64e09d2-1789747995555
+  [loading_requirement_container_meta:f7c99557-ed3b-4be6-a3c9-6fbee64e09d2-1789747995555] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = -2.0697727
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  base_color = #FFFFFFFF
+  scale = 2.0
+  text_border = 2
+  line_spacing = 2
+  quote_indent = 8
+  bullet_list_indent = 8
+  bullet_list_spacing = 3
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+}
+
+element {
+  button_element_executable_block_identifier = 13c78867-3b56-4c28-89f4-f641a5bd963a-1789749619947
+  [executable_action_instance:8bac642c-f902-4b2a-9a1d-f1f5f02117f5-1789749680652][action_type:sendmessage] = /execute as {"placeholder":"playername"} run claimshop buy claims {"placeholder":"getvariable","values":{"name":"claims"}} forceloads {"placeholder":"getvariable","values":{"name":"force-claims"}}
+  [executable_action_instance:3b436727-777a-4dc1-831e-dec591de3d78-1789757833544][action_type:closegui] = 
+  [executable_block:13c78867-3b56-4c28-89f4-f641a5bd963a-1789749619947][type:generic] = [executables:8bac642c-f902-4b2a-9a1d-f1f5f02117f5-1789749680652;3b436727-777a-4dc1-831e-dec591de3d78-1789757833544;]
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  label = Buy
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 9e2c735c-0843-49dd-901a-e0b834d00703-1789749619947
+  [loading_requirement_container_meta:9e2c735c-0843-49dd-901a-e0b834d00703-1789749619947] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = dff9d416-59d3-4450-8366-2d328d8075f6-1789749619946
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1168
+  auto_sizing_base_screen_height = 1114
+  auto_sizing_base_gui_scale = 1.8820375335120643
+  auto_sizing_base_gui_width = 621
+  auto_sizing_base_gui_height = 592
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -69
+  y = 5
+  width = 136
+  height = 37
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a3962b5e-27bf-440f-a520-3749762cd6b2-1789749619946
+  [loading_requirement_container_meta:a3962b5e-27bf-440f-a520-3749762cd6b2-1789749619946] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
   disappearance_delay_seconds = 1.0
   fade_in_speed = 1.0
   fade_out_speed = 1.0

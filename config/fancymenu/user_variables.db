@@ -1,2 +1,13 @@
 type = user_variables
 
+variable {
+  name = force-claims
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = claims
+  value = 0
+  reset_on_launch = false
+}
