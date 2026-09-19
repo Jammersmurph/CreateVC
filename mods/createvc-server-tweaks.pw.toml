@@ -1,0 +1,8 @@
+name = "CreateVC Server Tweaks"
+filename = "createvc-server-tweaks-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Jammersmurph/CreateVC/releases/download/Modpacks/createvc-server-tweaks-0.2.0.jar"
+hash-format = "sha512"
+hash = "48275f0d228dd1cfbe4097370aa5c31ca9f2eb1f2552efe49a6b9e4415fd486965638b79896a2d4bf257f20e0c6956fa1b6bc6871c0beab5145bbf8c3985879a"
