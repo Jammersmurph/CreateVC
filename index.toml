@@ -754,7 +754,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc-server-tweaks.pw.toml"
-hash = "103daa5495083eaeff51990179e7342926f868109c17a9148c3000fd2ff85cb1"
+hash = "17a2cb6cfd8f66846d1bf0df523179195e156decd1d106ebdd9a4bfdf82a3bfc"
 metafile = true
 
 [[files]]
