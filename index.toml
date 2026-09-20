@@ -753,11 +753,6 @@ hash = "0590e6ac543f33f0df98b90fe1ccfd57bbfe2af396dc3ef87264c313f104e7ff"
 metafile = true
 
 [[files]]
-file = "mods/createvc-server-tweaks.pw.toml"
-hash = "17a2cb6cfd8f66846d1bf0df523179195e156decd1d106ebdd9a4bfdf82a3bfc"
-metafile = true
-
-[[files]]
 file = "mods/createvc_updater.pw.toml"
 hash = "4962c848bebf54c15c70619bda79ce2e5956078dbfa3cab0d8188cd68cfaf0d7"
 metafile = true
