@@ -798,11 +798,6 @@ hash = "6fb320d3ab2a4b3ea9458c60a1fb1d0ceadebe4cceb17291db83699ec4bc7f3d"
 metafile = true
 
 [[files]]
-file = "mods/entity-culling.pw.toml"
-hash = "f5adfb82254f2d70070d45a1b6a38a631cb0b7b8a4c76205caf5895ce4911176"
-metafile = true
-
-[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "0789c9f6c10b5cddaa37eeb9388b068b168cd8c0ee1d21f0c3b78d160fc48fdd"
 metafile = true
