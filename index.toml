@@ -469,6 +469,10 @@ file = "config/zume.json5"
 hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 
 [[files]]
+file = "icon.png"
+hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
+
+[[files]]
 file = "kubejs/server_scripts/cosmonautics_no_ore_recipes.server.js"
 hash = "95b6e0fec2bad371a2c89c9058095a9b4096f4ec68db8852a04041864d8cdc61"
 
@@ -600,6 +604,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-encased-fluid-pipes.pw.toml"
 hash = "c43a63422172da82f7bf9331f54b298058df9fbef57cb32473de691ce91f580d"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-lift-patch.pw.toml"
+hash = "434d92388783bd89bfad57891f43b7bab9b9c3b16800fd1d8de5f76049a2f304"
 metafile = true
 
 [[files]]
