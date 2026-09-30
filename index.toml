@@ -1140,11 +1140,6 @@ hash = "a8ad7b48a29c70861d99e9be8c6511768815c4bc503cb64daad8f780548e77c8"
 metafile = true
 
 [[files]]
-file = "mods/sable-android-patch.pw.toml"
-hash = "f82af52ced9f721eee84412c580745f8bdf71826e51968837a81c99ad53cefb8"
-metafile = true
-
-[[files]]
 file = "mods/sable-cleanup.pw.toml"
 hash = "a853620e7a9fff71bb22f2e467b5861bafdea792d4e679709800c587c98ae95c"
 metafile = true
