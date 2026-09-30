@@ -1,0 +1,13 @@
+name = "Sable Android Patch"
+filename = "sable-android-patch-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Fo4aonKl/versions/CsE39kHl/sable-android-patch-2.0.3.jar"
+hash-format = "sha512"
+hash = "62a6aa788b66af7c149b9b4bd3d9cde850772b9481f522a0ed10d5cc31afda10737a3903783afaaaaf29e83e4d1c2c1c37970fff96ee910edc8b602276e8cccd"
+
+[update]
+[update.modrinth]
+mod-id = "Fo4aonKl"
+version = "CsE39kHl"

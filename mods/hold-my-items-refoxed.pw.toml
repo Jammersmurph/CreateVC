@@ -1,0 +1,13 @@
+name = "Hold My Items - ReFoxed"
+filename = "holdmyitems-1.21.1-NeoForge-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d2576a6b7dec9120e07f745773bec5c11cfdcf64"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6502159
+project-id = 1254817

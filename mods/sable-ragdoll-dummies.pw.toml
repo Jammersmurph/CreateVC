@@ -1,0 +1,13 @@
+name = "Sable: Ragdoll Dummies"
+filename = "sable_ragdoll_dummies-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YSTRBJTu/versions/biCqsCL8/sable_ragdoll_dummies-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "97a5662dd92360307a7c0f53321122c8c6026a70386c530a8b13a7d85e6f0786d8b41848b445a511b68ea07907e3174a2b4197a391dd56fa810d06363af1225d"
+
+[update]
+[update.modrinth]
+mod-id = "YSTRBJTu"
+version = "biCqsCL8"

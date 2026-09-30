@@ -1,0 +1,13 @@
+name = "Create Ore Excavation Better Finder"
+filename = "coebetterfinder-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3vHDDSZ7/versions/L2o05cl8/coebetterfinder-1.0.3.jar"
+hash-format = "sha512"
+hash = "e307d89d24a6954b7aff0e6069181c2ffe084860ff3b7a777a338f20bd73b79700e0baf02e28d022b49abc4008b6142200b95764b82d69380abc7d6db6feae0c"
+
+[update]
+[update.modrinth]
+mod-id = "3vHDDSZ7"
+version = "L2o05cl8"
