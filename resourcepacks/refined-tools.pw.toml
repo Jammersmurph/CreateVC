@@ -1,0 +1,13 @@
+name = "Refined Tools"
+filename = "Refined Tools 3.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6l1WUegn/versions/ndAFoNmO/Refined%20Tools%203.0.zip"
+hash-format = "sha512"
+hash = "0b874e634c89a2ebbf24f2658890b6d20d83974d5c0779ea3e9f655d58cb01922ff91bf374db1f872a77a3e359e3eb9184ce5107b6f3949947176715e0fe3d9b"
+
+[update]
+[update.modrinth]
+mod-id = "6l1WUegn"
+version = "ndAFoNmO"

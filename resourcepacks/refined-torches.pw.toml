@@ -1,0 +1,13 @@
+name = "Refined Torches"
+filename = "refined torches 2.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M6aa729D/versions/e7EW6ibn/refined%20torches%202.1.zip"
+hash-format = "sha512"
+hash = "0e0b7379c26523003e0c0084c0c1fa5b529bdec16c78552937769effae7a4855427a86fd3f91af252e601eb4c4992fa0537b76a721c32ef19ae37ad33065d069"
+
+[update]
+[update.modrinth]
+mod-id = "M6aa729D"
+version = "e7EW6ibn"
