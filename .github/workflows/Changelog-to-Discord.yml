@@ -2,6 +2,12 @@ name: Discord Webhook
 
 on: [push]
 
+# Queue rather than cancel: a push that arrives while a notification is being
+# sent must still be reported.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   git:
     runs-on: ubuntu-latest

@@ -8,6 +8,14 @@ on:
 permissions:
   contents: write
 
+# Serialize builds per branch instead of letting them race. A duplicate push
+# event otherwise makes both runs try to commit builds/, and the loser fails
+# with a non-fast-forward rejection. Queued (rather than cancelled) so a
+# legitimate follow-up commit is never silently dropped.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   export:
     runs-on: ubuntu-latest
@@ -136,13 +144,28 @@ jobs:
           cp CreateVC.mrpack builds/CreateVC-dev.mrpack
 
       - name: Push mrpack to dev branch
+        if: github.ref_type == 'branch'
         run: |
+          # The branch can move under us: a duplicate push event, or another run
+          # committing its own build. Rebuilding directly on top of the current
+          # remote tip keeps the push a fast-forward without ever merging
+          # histories, and makes a duplicate run a no-op when the artifact is
+          # already committed.
+          artifact="builds/CreateVC-dev.mrpack"
+          scratch="${RUNNER_TEMP:-/tmp}/createvc-build-artifact"
+          cp "$artifact" "$scratch"
+
           git config user.name "CreateVC Dev CI"
           git config user.email "actions@github.com"
+
+          git fetch -q origin "$GITHUB_REF_NAME"
+          git reset --hard -q "origin/${GITHUB_REF_NAME}"
+          cp "$scratch" "$artifact"
+
           git add -f builds/
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "update dev build [skip ci]"
+          git commit -q -m "update dev build [skip ci]"
           git push
