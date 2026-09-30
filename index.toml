@@ -920,8 +920,8 @@ hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
-file = "mods/hold-my-items-refoxed.pw.toml"
-hash = "4343aeacf9404c6eb59da55e43507e01f1607ac51dc385c8fad40fc9b3ce4894"
+file = "mods/hold-my-items-reforged.pw.toml"
+hash = "6363d6bf7a1e0f798d6e316240f3e6695f95fafb31d195c56afa0dcc93e02510"
 metafile = true
 
 [[files]]

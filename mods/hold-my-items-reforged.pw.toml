@@ -1,0 +1,13 @@
+name = "Hold My Items - Reforged"
+filename = "holdmyitems-1.21.1v2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/VPPMiyrF/versions/azGfREAV/holdmyitems-1.21.1v2.0.jar"
+hash-format = "sha512"
+hash = "efe0bbd4ecc0f74268488cbb90ec59096411d55ac9f01056bf9defb95e7e823a8f74f53b3f4ea38f7b4960b69cd89b42a076367df0d2441bc43857ef964f7d63"
+
+[update]
+[update.modrinth]
+mod-id = "VPPMiyrF"
+version = "azGfREAV"
