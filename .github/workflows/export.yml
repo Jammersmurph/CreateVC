@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# Serialize builds per branch. See the note in export-dev.yml.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   export:
     runs-on: ubuntu-latest
@@ -137,18 +142,34 @@ jobs:
           echo "Override mods check passed."
 
       - name: Commit mrpack to repo
+        # Only a branch ref can receive the artifact back. A release event checks
+        # out a tag in detached HEAD, where there is nothing sensible to push to
+        # and no branch to fast-forward.
+        if: github.ref_type == 'branch'
         run: |
           mkdir -p builds
           cp CreateVC.mrpack builds/CreateVC.mrpack
+
+          # See the note in export-dev.yml: rebuild on the current remote tip so
+          # the push is a fast-forward and a duplicate run is a no-op.
+          artifact="builds/CreateVC.mrpack"
+          scratch="${RUNNER_TEMP:-/tmp}/createvc-build-artifact"
+          cp "$artifact" "$scratch"
+
           git config user.name "CreateVC CI"
           git config user.email "actions@github.com"
+
+          git fetch -q origin "$GITHUB_REF_NAME"
+          git reset --hard -q "origin/${GITHUB_REF_NAME}"
+          cp "$scratch" "$artifact"
+
           git add -f builds/
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "update build [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -q -m "update build [skip ci]"
+          git push
 
       - name: Upload to Modrinth & set server pack version
         continue-on-error: true
