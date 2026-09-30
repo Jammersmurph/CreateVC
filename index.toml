@@ -781,11 +781,6 @@ hash = "f14ab00e7678ba29914b0d1a45a9e200ced324886dc41f2a3f1001a7a80ae67d"
 metafile = true
 
 [[files]]
-file = "mods/create-tfmg.pw.toml"
-hash = "dfbb2a077b144492f48af0255906b146d56011ccb6c6f6e343bab703e8cc0f79"
-metafile = true
-
-[[files]]
 file = "mods/create-tweaked-controllers.pw.toml"
 hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
 metafile = true
@@ -1197,11 +1192,6 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "9eeecfb14537d372a1a9ad7ae7fd03be75d9fa0f32a80143bd9487df0d1a430f"
-metafile = true
-
-[[files]]
-file = "mods/scalablelux.pw.toml"
-hash = "9d9330972174ff5c68779f15ecd7023b357eb2e0a5bdc99b63ca7768e90616f1"
 metafile = true
 
 [[files]]
