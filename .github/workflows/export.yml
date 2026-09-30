@@ -66,9 +66,9 @@ jobs:
         run: |
           mkdir -p /tmp/createvc-export-excluded
 
-          # FTB Library is installed by the CreateVC updater because it cannot be
-          # referenced by the Modrinth pack export.
-          mv mods/ftb-library-forge.pw.toml /tmp/createvc-export-excluded/
+          # FTB Library and any other CurseForge-sourced mod cannot be referenced by
+          # the Modrinth pack export, so the CreateVC updater installs them instead.
+          ./.github/scripts/exclude-curseforge-mods.sh /tmp/createvc-export-excluded
 
           # These are first-install-only files managed by the CreateVC updater.
           # Keeping them out of the .mrpack prevents Modrinth App updates from
