@@ -911,7 +911,7 @@ metafile = true
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
-hash = "1faf48b7c3887b3b9ccae6999c9ebb36e9424009b8d3be5c4275aa7c0f139bcd"
+hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
 metafile = true
 
 [[files]]
@@ -1241,7 +1241,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "e697bd3a78edee29ae0bdfbf3cd4261dcbe4517ffb5ef84851e4cc0abcbda7e1"
+hash = "55df9531ad6c2db9a814bdb32c0cac04b4bc28d0ed720086d18655a0b4a622ff"
 metafile = true
 
 [[files]]
