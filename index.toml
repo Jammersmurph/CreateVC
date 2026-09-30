@@ -907,6 +907,11 @@ hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
 metafile = true
@@ -1309,6 +1314,11 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
+
+[[files]]
+file = "resourcepacks/bare-bones.pw.toml"
+hash = "7ad01ea25a9820861f58d795cc9a14442447f5a8c5660007aa30e4d518c6fb13"
+metafile = true
 
 [[files]]
 file = "resourcepacks/refined-buckets.pw.toml"
