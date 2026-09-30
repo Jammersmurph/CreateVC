@@ -920,11 +920,6 @@ hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
-file = "mods/hold-my-items-reforged.pw.toml"
-hash = "6363d6bf7a1e0f798d6e316240f3e6695f95fafb31d195c56afa0dcc93e02510"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
 metafile = true
@@ -1107,6 +1102,11 @@ metafile = true
 [[files]]
 file = "mods/power-grid.pw.toml"
 hash = "22cf5579fbc67af2ac84358af3c390c6235fabd6cd6cc3828021349b588f4bdb"
+metafile = true
+
+[[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "cdf1a3d52c7dad334e75edbe0377e868a2d4847a57127aaa4b5653da7b8f6aab"
 metafile = true
 
 [[files]]
