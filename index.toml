@@ -1007,6 +1007,16 @@ hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
+metafile = true
+
+[[files]]
+file = "mods/modefite-item-definition-backport.pw.toml"
+hash = "d5e22fe1cacf92f856df16785fd07587ec709b238aca42c91405ff91aa0bed6d"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "6f0dcbcffd4400c6cef07f1eeb48cdc25bac0fa01270936feab4c549aff4738e"
 metafile = true
@@ -1099,6 +1109,11 @@ metafile = true
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
 hash = "cdf1a3d52c7dad334e75edbe0377e868a2d4847a57127aaa4b5653da7b8f6aab"
+metafile = true
+
+[[files]]
+file = "mods/puzzle.pw.toml"
+hash = "748d7eb08f3d2c362aebf9ee417706b181257b7d5f4a2003ec93340d5b7b881d"
 metafile = true
 
 [[files]]
