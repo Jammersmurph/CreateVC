@@ -72,18 +72,6 @@ jobs:
       - name: Export to mrpack
         run: packwiz mr export -o CreateVC.mrpack
 
-      - name: Sanity check - use backup CreateVC Core artifact
-        run: |
-          if ! unzip -Z1 CreateVC.mrpack | grep -Fxq 'overrides/mods/CreateVC-Core-1.4.0.jar.bak'; then
-            echo "ERROR: CreateVC-Core-1.4.0.jar.bak is missing from the mrpack."
-            exit 1
-          fi
-          if unzip -Z1 CreateVC.mrpack | grep -Fxq 'overrides/mods/CreateVC-Core-1.4.0.jar'; then
-            echo "ERROR: CreateVC-Core-1.4.0.jar must not ship in the mrpack."
-            exit 1
-          fi
-          echo "CreateVC Core backup artifact check passed."
-
       - name: Sanity check - include dev updater
         run: |
           python3 -c "
@@ -115,8 +103,7 @@ jobs:
       - name: Sanity check - no unexpected override mods
         run: |
           ALLOWED_OVERRIDES="\
-            overrides/mods/CreateVC-Core-
-            overrides/mods/createsa_tank_fix-
+            overrides/mods/createsa_tank_fix-\
             overrides/mods/createvc_updater_
             client-overrides/mods/\
           "
