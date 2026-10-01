@@ -1,5 +1,5 @@
 name = "CreateVC Core"
-filename = "CreateVC-Core.jar"
+filename = "createvc-core-managed.jar"
 side = "both"
 
 [download]
