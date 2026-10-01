@@ -1,5 +1,5 @@
 name: Update CreateVC Core
-# Triggered after CreateVC-Core policy/download updates.
+# Triggered after verified CreateVC-Core rolling build 0966a592.
 
 on:
   workflow_dispatch:
