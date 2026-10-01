@@ -1,5 +1,5 @@
 name: Update CreateVC Core
-# Triggered after Core cache-key migration.
+# Trigger immutable Core metadata refresh after published build.
 
 on:
   workflow_dispatch:
