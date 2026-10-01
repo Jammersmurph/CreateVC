@@ -1329,22 +1329,22 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
-hash = "7ad01ea25a9820861f58d795cc9a14442447f5a8c5660007aa30e4d518c6fb13"
+hash = "b0e9418f54fef2f5f5787a5f15f2d771da2bef206a6003d44d177810a2413b46"
 metafile = true
 
 [[files]]
 file = "resourcepacks/refined-buckets.pw.toml"
-hash = "96e1f49469e305dd51e0d58cd618c0ae2cdffc36a72ee5bee3231d56947614e6"
+hash = "c7bd4264599e38bfb4989756b73875706298c71e699f7169cb760f7c3d45462e"
 metafile = true
 
 [[files]]
 file = "resourcepacks/refined-tools.pw.toml"
-hash = "0461c5b805ec8fbfe7618f9a16e0a6fa9630bf33b38979d7aa6c5ae1a0e61575"
+hash = "f729fc82b16e3d1bb4d1a42a60336332da589c02ce16194b79e383525bf39541"
 metafile = true
 
 [[files]]
 file = "resourcepacks/refined-torches.pw.toml"
-hash = "93224d8f3ca6f6c48bce218a75e7219a57b963102dee538047501ba4cb83731e"
+hash = "63e186f2aea73ce47dc2cc99d18bc158ff2d68531e5f27ae49c368da56a43e3c"
 metafile = true
 
 [[files]]

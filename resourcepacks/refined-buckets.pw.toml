@@ -1,6 +1,7 @@
 name = "Refined Buckets"
 filename = "Refined Buckets 2.4.1.zip"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/l2nl8HQJ/versions/IDRASEyH/Refined%20Buckets%202.4.1.zip"

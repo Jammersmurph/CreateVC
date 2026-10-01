@@ -1,6 +1,7 @@
 name = "Bare Bones"
 filename = "Bare Bones 1.21.11.zip"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/rox3U8B6/versions/jQBWn2Q3/Bare%20Bones%201.21.11.zip"

@@ -1,6 +1,7 @@
 name = "Refined Torches"
 filename = "refined torches 2.1.zip"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/M6aa729D/versions/e7EW6ibn/refined%20torches%202.1.zip"

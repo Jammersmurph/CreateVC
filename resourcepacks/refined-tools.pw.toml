@@ -1,6 +1,7 @@
 name = "Refined Tools"
 filename = "Refined Tools 3.0.zip"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/6l1WUegn/versions/ndAFoNmO/Refined%20Tools%203.0.zip"
