@@ -816,7 +816,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc-core.pw.toml"
-hash = "3789193387ee789ddcbaa688d982719fdbfc7ca09a50591cde75b0c586397a5c"
+hash = "2101c3ffb667eceb686a929c750dac530d252a273b17509f02b879800c69671a"
 metafile = true
 
 [[files]]
