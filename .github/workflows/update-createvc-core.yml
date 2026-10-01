@@ -1,5 +1,5 @@
 name: Update CreateVC Core
-# Triggered after verified CreateVC-Core rolling build 0966a592.
+# Triggered after Core cache-key migration.
 
 on:
   workflow_dispatch:
