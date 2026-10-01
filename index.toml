@@ -73,6 +73,14 @@ file = "config/curios-client.toml"
 hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "e5a566bef574218bbdf735913c0bba4cc24cb3f07c8cf2c8b2a0e80d74f6e3c4"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "a2a39fa71c67fd39799a5ce5920fc68259df259dd3f2bf73f6d105cdbe537613"
+
+[[files]]
 file = "config/discord_chat_mod-client.toml"
 hash = "cfefc26c1e8930a0c66d9db18985d0ff1e73ce5ff003851045159b70793589b6"
 
