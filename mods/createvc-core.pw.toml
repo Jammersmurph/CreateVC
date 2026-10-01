@@ -1,0 +1,8 @@
+name = "CreateVC Core"
+filename = "CreateVC-Core.jar"
+side = "both"
+
+[download]
+url = "https://downloads.createvc.org/CreateVC-Core.jar"
+hash-format = "sha256"
+hash = "0000000000000000000000000000000000000000000000000000000000000000"
