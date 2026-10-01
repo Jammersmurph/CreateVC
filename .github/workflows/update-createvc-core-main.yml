@@ -1,0 +1,72 @@
+name: Update CreateVC Core (Main)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-createvc-core-main.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-createvc-core-main
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Update CreateVC Core metadata
+        shell: bash
+        run: |
+          curl -fsSL --retry 3 -H "Cache-Control: no-cache" \
+            "https://downloads.createvc.org/CreateVC-Core.jar?refresh=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            -o /tmp/CreateVC-Core.jar
+          HASH=$(sha256sum /tmp/CreateVC-Core.jar | awk '{print $1}')
+          IMMUTABLE_URL="https://downloads.createvc.org/CreateVC-Core/${HASH}.jar"
+          echo "Current CreateVC Core SHA-256: $HASH"
+          echo "Pinning CreateVC Core to: $IMMUTABLE_URL"
+
+          # Do not publish metadata until the immutable object exists.
+          curl -fsSL --retry 3 "$IMMUTABLE_URL" -o /tmp/CreateVC-Core-immutable.jar
+          IMMUTABLE_HASH=$(sha256sum /tmp/CreateVC-Core-immutable.jar | awk '{print $1}')
+          test "$IMMUTABLE_HASH" = "$HASH"
+
+          sed -i -E "s|^url = \".*\"$|url = \"$IMMUTABLE_URL\"|" mods/createvc-core.pw.toml
+          sed -i -E "s|^hash = \"[0-9a-fA-F]{64}\"$|hash = \"$HASH\"|" mods/createvc-core.pw.toml
+
+      - name: Refresh Packwiz index
+        run: '"$(go env GOPATH)/bin/packwiz" refresh'
+
+      - name: Commit update
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mods/createvc-core.pw.toml index.toml pack.toml
+          if git diff --cached --quiet; then
+            echo "CreateVC Core is already current."
+            exit 0
+          fi
+          git commit -m "Update CreateVC Core [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

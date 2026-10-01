@@ -1,0 +1,8 @@
+name = "CreateVC Core"
+filename = "createvc-core-managed.jar"
+side = "both"
+
+[download]
+url = "https://downloads.createvc.org/CreateVC-Core/f5209123f4064cde5fd30a53ef68233abbf0c70437b6eaa80e293cd6396e66be.jar"
+hash-format = "sha256"
+hash = "f5209123f4064cde5fd30a53ef68233abbf0c70437b6eaa80e293cd6396e66be"
