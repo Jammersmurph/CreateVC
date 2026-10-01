@@ -43,6 +43,9 @@ jobs:
           curl -fsSL --retry 3 -H "Cache-Control: no-cache" "https://downloads.createvc.org/CreateVC-Core.jar?refresh=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" -o /tmp/CreateVC-Core.jar
           HASH=$(sha256sum /tmp/CreateVC-Core.jar | awk '{print $1}')
           echo "Current CreateVC Core SHA-256: $HASH"
+          IMMUTABLE_URL="https://downloads.createvc.org/CreateVC-Core/${HASH}.jar"
+          echo "Pinning CreateVC Core to: $IMMUTABLE_URL"
+          sed -i -E "s|^url = \".*\"$|url = \"$IMMUTABLE_URL\"|" mods/createvc-core.pw.toml
           sed -i -E "s|^hash = \"[0-9a-fA-F]{64}\"$|hash = \"$HASH\"|" mods/createvc-core.pw.toml
 
       - name: Refresh Packwiz index
