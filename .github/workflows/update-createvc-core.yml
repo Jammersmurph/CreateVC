@@ -1,4 +1,5 @@
 name: Update CreateVC Core
+# Triggered after CreateVC-Core policy/download updates.
 
 on:
   workflow_dispatch:
