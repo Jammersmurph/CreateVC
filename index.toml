@@ -73,6 +73,10 @@ file = "config/curios-client.toml"
 hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "0e3ef7b062709f1fc4577bbf7381bd28eb9dd051d51fe95e5f48049ebc4a2c0c"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "e5a566bef574218bbdf735913c0bba4cc24cb3f07c8cf2c8b2a0e80d74f6e3c4"
 
