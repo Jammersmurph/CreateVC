@@ -61,6 +61,12 @@ jobs:
           # the Modrinth pack export, so the CreateVC updater installs them instead.
           ./.github/scripts/exclude-curseforge-mods.sh /tmp/createvc-export-excluded
 
+          # CreateVC Core is updater-managed and must not be packaged in the Modrinth export.
+          if [ -e mods/createvc-core.pw.toml ]; then
+            echo "Excluding mods/createvc-core.pw.toml (installed by the CreateVC updater)"
+            mv mods/createvc-core.pw.toml /tmp/createvc-export-excluded/
+          fi
+
           for path in \
             config \
             options.txt \
