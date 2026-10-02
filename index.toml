@@ -690,7 +690,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "e58b6f59c358976fe008f4d1b29df375b185d06a3da631c42daa0f095aac7ff4"
+hash = "788e25d1dc32eb3bdd1c893ca6aacec91b012dabfe4c783cc06143318fe30a9a"
 metafile = true
 
 [[files]]
