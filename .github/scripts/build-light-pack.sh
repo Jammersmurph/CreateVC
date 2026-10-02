@@ -23,6 +23,15 @@ cp "$repo_root/updater/src/main/resources/updater/createvc-updater-bootstrap.jar
 cp "$repo_root/config/fancymenu/assets/createvc_logo_v2.png" "$stage/icon.png"
 cp "$repo_root/prism-light/instance.cfg" "$stage/instance.cfg"
 cp "$repo_root/prism-light/mmc-pack.json" "$stage/mmc-pack.json"
+cp -a "$repo_root/prism-light/minecraft/." "$stage/minecraft/"
+
+renderscale_file="renderscale-1.4.0-alpha.6-neoforge+1.21.1.jar"
+renderscale_url="https://cdn.modrinth.com/data/Va8PJBFX/versions/ia1WQxLW/renderscale-1.4.0-alpha.6-neoforge%2B1.21.1.jar"
+renderscale_sha512="a5b662b87c0433c32ee58cde499e7afe86e9b90e0fab70876a533894ff6dafbdc388632681552428942095a8d2f6d4fcc3af20b8e3242a2ede82a244e75848c3"
+curl --fail --location --silent --show-error \
+    "$renderscale_url" \
+    --output "$stage/minecraft/mods/$renderscale_file"
+printf '%s  %s\n' "$renderscale_sha512" "$stage/minecraft/mods/$renderscale_file" | sha512sum --check --status
 
 mkdir -p "$(dirname "$output")"
 rm -f "$output"

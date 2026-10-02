@@ -67,7 +67,9 @@ jobs:
                   'instance.cfg',
                   'mmc-pack.json',
                   'minecraft/config/lambdynlights.toml',
+                  'minecraft/config/renderscale.json5',
                   'minecraft/mods/createvc_updater_dev-1.0.1-dev.jar',
+                  'minecraft/mods/renderscale-1.4.0-alpha.6-neoforge+1.21.1.jar',
               }
               missing = required - names
               if missing:
@@ -96,6 +98,10 @@ jobs:
               lights = archive.read('minecraft/config/lambdynlights.toml').decode()
               if 'mode = \"off\"' not in lights:
                   sys.exit('Dynamic lighting is not disabled by default')
+
+              render_scale = json.loads(archive.read('minecraft/config/renderscale.json5'))
+              if render_scale.get('scale') != 0.75:
+                  sys.exit('RenderScale is not configured to 0.75')
           print('Prism Light pack validation passed.')
           "
 

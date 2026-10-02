@@ -1,0 +1,8 @@
+{
+  "scale": 0.75,
+  "forceLinear": false,
+  "targetFrameRate": 0,
+  "aggressionLevel": "NORMAL",
+  "minimumScale": 0.1,
+  "irisScale": -1.0
+}
