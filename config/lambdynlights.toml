@@ -1,0 +1,3 @@
+# LambDynamicLights configuration.
+# Keep dynamic lighting available, but disabled by default for consistent frame times.
+mode = "off"

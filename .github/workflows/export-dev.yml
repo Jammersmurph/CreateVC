@@ -53,6 +53,52 @@ jobs:
               print('Index validation passed.')
           "
 
+      - name: Build Prism Light pack
+        run: bash .github/scripts/build-light-pack.sh CreateVC-Light-dev.zip
+
+      - name: Validate Prism Light pack
+        run: |
+          python3 -c "
+          import configparser, io, json, sys, zipfile
+          path = 'CreateVC-Light-dev.zip'
+          with zipfile.ZipFile(path) as archive:
+              names = set(archive.namelist())
+              required = {
+                  'instance.cfg',
+                  'mmc-pack.json',
+                  'minecraft/config/lambdynlights.toml',
+                  'minecraft/mods/createvc_updater_dev-1.0.1-dev.jar',
+              }
+              missing = required - names
+              if missing:
+                  sys.exit(f'Missing Light pack files: {sorted(missing)}')
+
+              instance_text = archive.read('instance.cfg').decode()
+              if '/home/' in instance_text or 'JavaPath=' in instance_text:
+                  sys.exit('Light instance contains a machine-specific Java path')
+              config = configparser.ConfigParser()
+              config.read_file(io.StringIO(instance_text))
+              general = config['General']
+              if general.getboolean('AutomaticJava') is not True:
+                  sys.exit('AutomaticJava must be enabled')
+              if general.getboolean('OverrideJavaLocation') is not False:
+                  sys.exit('OverrideJavaLocation must be disabled')
+              if general.getint('MaxMemAlloc') != 2048:
+                  sys.exit('Light pack must allocate at most 2048 MB')
+
+              components = json.loads(archive.read('mmc-pack.json'))['components']
+              versions = {component['uid']: component['version'] for component in components}
+              if versions.get('net.minecraft') != '1.21.1':
+                  sys.exit('Unexpected Minecraft version')
+              if versions.get('net.neoforged') != '21.1.250':
+                  sys.exit('Unexpected NeoForge version')
+
+              lights = archive.read('minecraft/config/lambdynlights.toml').decode()
+              if 'mode = \"off\"' not in lights:
+                  sys.exit('Dynamic lighting is not disabled by default')
+          print('Prism Light pack validation passed.')
+          "
+
       - name: Exclude updater-managed files from export
         run: |
           mkdir -p /tmp/createvc-export-excluded
@@ -144,12 +190,22 @@ jobs:
           fi
           echo "Override mods check passed."
 
-      - name: Copy mrpack into repo
+      - name: Copy builds into repo
         run: |
           mkdir -p builds
           cp CreateVC.mrpack builds/CreateVC-dev.mrpack
+          cp CreateVC-Light-dev.zip builds/CreateVC-Light-dev.zip
 
-      - name: Push mrpack to dev branch
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: CreateVC-Dev-Exports
+          path: |
+            builds/CreateVC-dev.mrpack
+            builds/CreateVC-Light-dev.zip
+          compression-level: 0
+
+      - name: Push builds to dev branch
         if: github.ref_type == 'branch'
         run: |
           # The branch can move under us: a duplicate push event, or another run
@@ -157,16 +213,19 @@ jobs:
           # remote tip keeps the push a fast-forward without ever merging
           # histories, and makes a duplicate run a no-op when the artifact is
           # already committed.
-          artifact="builds/CreateVC-dev.mrpack"
-          scratch="${RUNNER_TEMP:-/tmp}/createvc-build-artifact"
-          cp "$artifact" "$scratch"
+          scratch="${RUNNER_TEMP:-/tmp}/createvc-build-artifacts"
+          mkdir -p "$scratch"
+          cp builds/CreateVC-dev.mrpack "$scratch/"
+          cp builds/CreateVC-Light-dev.zip "$scratch/"
 
           git config user.name "CreateVC Dev CI"
           git config user.email "actions@github.com"
 
           git fetch -q origin "$GITHUB_REF_NAME"
           git reset --hard -q "origin/${GITHUB_REF_NAME}"
-          cp "$scratch" "$artifact"
+          mkdir -p builds
+          cp "$scratch/CreateVC-dev.mrpack" builds/CreateVC-dev.mrpack
+          cp "$scratch/CreateVC-Light-dev.zip" builds/CreateVC-Light-dev.zip
 
           git add -f builds/
           if git diff --cached --quiet; then

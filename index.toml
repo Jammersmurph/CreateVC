@@ -337,6 +337,10 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "290f4c6824e84077fd6877efeefdf351a6313d3059025e62140856553502e9e9"
 
 [[files]]
+file = "config/lambdynlights.toml"
+hash = "3347ada47496aa536c29089bdb19588aee793340327d018738d0122f380d5393"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 
@@ -632,11 +636,6 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-encased-fluid-pipes.pw.toml"
 hash = "c43a63422172da82f7bf9331f54b298058df9fbef57cb32473de691ce91f580d"
-metafile = true
-
-[[files]]
-file = "mods/create-aeronautics-gadgets-and-gizmos.pw.toml"
-hash = "413c42a99861b98f8db2bbac9333397b21a0aff515bbf0347f5800011975faa5"
 metafile = true
 
 [[files]]

@@ -12,3 +12,4 @@ mods/createbigcannons-*.jar
 mods/createvc_updater-*.jar
 # mods/createvc_updater_dev-*.jar
 builds/*
+prism-light/
