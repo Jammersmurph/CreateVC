@@ -690,7 +690,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "c910548be40bd299d9199dc049399c440093577c04a0d4fd937f9880a06c32c4"
+hash = "e58b6f59c358976fe008f4d1b29df375b185d06a3da631c42daa0f095aac7ff4"
 metafile = true
 
 [[files]]
@@ -795,7 +795,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "bcbcb4d32d5b2b6bcb4a578639a8830396eb87febe0ff3364a99ca6aee9a5bb7"
+hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
@@ -810,7 +810,7 @@ metafile = true
 
 [[files]]
 file = "mods/createparachute.pw.toml"
-hash = "98d90d85986bfb7bf5d0cdedcd9a4ab61d68fdfa3a59d06b07fc0a5af2ec2037"
+hash = "c99ee3de7f26bcce317b549160b483b84c634513a5ed07b3b78e49df74d470f9"
 metafile = true
 
 [[files]]
@@ -989,7 +989,7 @@ metafile = true
 
 [[files]]
 file = "mods/lightspeedre.pw.toml"
-hash = "6725f847c21b5e437484405bcb63be18f0065337e28cbcbf153bf766b4e133b3"
+hash = "b309085bd7cd5298d248f80dc60185b2c0eb969320353947c84b8f6c4db44354"
 metafile = true
 
 [[files]]
@@ -1134,7 +1134,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "cdf1a3d52c7dad334e75edbe0377e868a2d4847a57127aaa4b5653da7b8f6aab"
+hash = "50f79c96f99d4b4ed903ebd449cdd54a96dad8062c26916694a1af34485639a6"
 metafile = true
 
 [[files]]

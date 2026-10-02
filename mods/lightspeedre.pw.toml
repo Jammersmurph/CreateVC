@@ -1,13 +1,13 @@
 name = "LightSpeedRe"
-filename = "lightspeed-1.21.1-2.0.0.jar"
+filename = "lightspeed-1.21.1-2.0.1hotfix.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/niZHUKxZ/versions/CsRTZznW/lightspeed-1.21.1-2.0.0.jar"
+url = "https://cdn.modrinth.com/data/niZHUKxZ/versions/ghS7qlwk/lightspeed-1.21.1-2.0.1hotfix.jar"
 hash-format = "sha512"
-hash = "fc10634234cdd7cc13b7d6e76064063be841b5ed11b6d08df3aa82c260d7669e811580640ac328d3ae51be15b8cea26f9af948be9a409c908a28eb587fe20a66"
+hash = "be634fb2ff3bd83d2f19f54df6971e7f2fd4bf29cd63d1690923fdb776212934373b127f5143dbd64d48bd24ffd697b167870c4ffda5a07eeda1811d5d595b8e"
 
 [update]
 [update.modrinth]
 mod-id = "niZHUKxZ"
-version = "CsRTZznW"
+version = "ghS7qlwk"
