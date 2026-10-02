@@ -1,0 +1,13 @@
+name = "OpenComputers II"
+filename = "oc2-MC1.21.1-neoforge-0.8.0+f37735d.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xkOonJ4E/versions/TKvxv7ox/oc2-MC1.21.1-neoforge-0.8.0%2Bf37735d.jar"
+hash-format = "sha512"
+hash = "a08dc385869493c701f8946937553ecf76d058d51fc6dd5f23366827bcd6c0a89644cc186fc65f5e657ea267dd5d8c2220bff14cc1c5b24af1c800087cb861f6"
+
+[update]
+[update.modrinth]
+mod-id = "xkOonJ4E"
+version = "TKvxv7ox"

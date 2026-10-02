@@ -1019,6 +1019,11 @@ hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
 
 [[files]]
+file = "mods/markdownmanual.pw.toml"
+hash = "f16f12f50147b493bc8b321ab26337b78cb892efdcf48cef6ddddefa1d4ea927"
+metafile = true
+
+[[files]]
 file = "mods/mc-vr-api.pw.toml"
 hash = "f0e281e1e2dadfc65e6d8d3189d143120f86ec75a0cb27077e55216847df729b"
 metafile = true
@@ -1101,6 +1106,11 @@ metafile = true
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
+metafile = true
+
+[[files]]
+file = "mods/opencomputers-ii.pw.toml"
+hash = "5dfb12db10bf4d566848842f31f9e39fabb65c93c3b0f14fee5958a5683ca291"
 metafile = true
 
 [[files]]
