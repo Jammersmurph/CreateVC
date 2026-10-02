@@ -809,11 +809,6 @@ hash = "6e7a27c7bd1957c97acc97819c08c4c485c3164692335381f4f77e60af0d78a5"
 metafile = true
 
 [[files]]
-file = "mods/createparachute.pw.toml"
-hash = "c99ee3de7f26bcce317b549160b483b84c634513a5ed07b3b78e49df74d470f9"
-metafile = true
-
-[[files]]
 file = "mods/createvc-core.pw.toml"
 hash = "b25ff9c505fd3d5a152b54b78c169ba42a746c6529469856b8fc220ae7b4b34a"
 metafile = true
