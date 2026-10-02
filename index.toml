@@ -1109,11 +1109,6 @@ hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
 metafile = true
 
 [[files]]
-file = "mods/opencomputers-ii.pw.toml"
-hash = "5dfb12db10bf4d566848842f31f9e39fabb65c93c3b0f14fee5958a5683ca291"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
