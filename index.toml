@@ -820,12 +820,12 @@ metafile = true
 
 [[files]]
 file = "mods/createvc-updater-dev.pw.toml"
-hash = "a60cf88a79d308b60433ed2b8716e78210f6ff03a4bf0ddce15b53d7fd2e2207"
+hash = "15a15ba8c002e11591c744c6931ca6c647578a611238beac6bb594a150c49bf9"
 metafile = true
 
 [[files]]
 file = "mods/createvc_updater_dev-1.0.1-dev.jar"
-hash = "c75eb49364c467b58200859953a008378bd5bf14d268fa66ca7a60d932d8405a"
+hash = "f0bc9f769a9ccdc22acbec68b289cd48e7cbe93de6a4e489cab504b60ddf2634"
 
 [[files]]
 file = "mods/curios.pw.toml"
