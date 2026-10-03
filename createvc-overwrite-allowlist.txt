@@ -3,6 +3,7 @@
 
 servers.dat*
 mods/createvc_updater-*.jar
+mods/createvc_updater_dev-*.jar
 mods/CreateVC-Core.jar
 mods/createvc-core-managed.jar
 kubejs/**
