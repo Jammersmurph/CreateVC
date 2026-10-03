@@ -1,0 +1,13 @@
+name = "Iris Veil Compat"
+filename = "irisveil-0.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/owQyCHo4/versions/5vFVK52d/irisveil-0.3.0.jar"
+hash-format = "sha512"
+hash = "9d840887150c9ca4591d41d8cc770735dc9cbf2b91787a427e391f39cf036a27a8169e62f09de9c91d8fc1a43651cb9947bccd4bb77cde35a1995904ab6c0817"
+
+[update]
+[update.modrinth]
+mod-id = "owQyCHo4"
+version = "5vFVK52d"

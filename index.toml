@@ -938,6 +938,16 @@ hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
 metafile = true
 
 [[files]]
+file = "mods/iris-veil-compat.pw.toml"
+hash = "69f9051c61c05546a2bf008654149a101814842bc2bf384df5c0ee0d64301ccd"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
 file = "mods/jade-sable-compat.pw.toml"
 hash = "1a2aa3eb16420ffc423770d31d7c2faa9bffafb15331540b1b80be7ed9d3987c"
 metafile = true
