@@ -53,6 +53,42 @@ jobs:
               print('Index validation passed.')
           "
 
+      - name: Validate optional mod metadata
+        run: |
+          python3 -c "
+          import glob, sys, tomllib
+
+          problems = []
+          optional_names = []
+
+          for path in sorted(glob.glob('mods/*.pw.toml')):
+              with open(path, 'rb') as handle:
+                  data = tomllib.load(handle)
+              option = data.get('option')
+              if option is None:
+                  continue
+              name = data.get('name', path)
+              optional_names.append(name)
+              if option.get('optional') is not True:
+                  problems.append(f'{path}: option.optional must be true')
+              if option.get('default') is not False:
+                  problems.append(
+                      f'{path}: option.default must be false so the mod stays opt-in')
+              description = option.get('description')
+              if not isinstance(description, str) or not description.strip():
+                  problems.append(f'{path}: option.description must be a non-empty string')
+
+          if problems:
+              print('Optional mod validation FAILED')
+              for problem in problems:
+                  print(f'  {problem}')
+              sys.exit(1)
+
+          print(f'Validated {len(optional_names)} optional mods:')
+          for name in optional_names:
+              print(f'  - {name}')
+          "
+
       - name: Build Prism Light pack
         run: bash .github/scripts/build-light-pack.sh CreateVC-Light-dev.zip
 
@@ -151,6 +187,55 @@ jobs:
               print('ERROR: The dev updater is missing or has the wrong download URL.')
               sys.exit(1)
           print('Dev updater check passed.')
+          "
+
+      - name: Sanity check - optional mods export as optional
+        run: |
+          python3 -c "
+          import glob, json, sys, tomllib, zipfile
+
+          expected = {}
+          for metafile in sorted(glob.glob('mods/*.pw.toml')):
+              with open(metafile, 'rb') as handle:
+                  data = tomllib.load(handle)
+              if data.get('option', {}).get('optional') is True:
+                  expected[data['filename']] = data['name']
+
+          if not expected:
+              sys.exit('No optional mods found; expected the VR/shader opt-in set.')
+
+          with zipfile.ZipFile('CreateVC.mrpack') as archive:
+              manifest = json.loads(archive.read('modrinth.index.json'))
+
+          exported = {entry['path']: entry.get('env', {}) for entry in manifest['files']}
+
+          problems = []
+          checked = 0
+          for filename, name in sorted(expected.items()):
+              path = 'mods/' + filename
+              env = exported.get(path)
+              if env is None:
+                  # Excluded from the export on purpose (e.g. updater-managed).
+                  print(f'SKIP  {name} is not in the mrpack manifest')
+                  continue
+              checked += 1
+              if env.get('client') != 'optional':
+                  problems.append(
+                      f'{path} ({name}) is env.client={env.get(\"client\")!r}, expected \'optional\'')
+              else:
+                  print(f'OK    {name} -> env.client=optional, env.server={env.get(\"server\")}')
+
+          if problems:
+              print('')
+              print('Optional mod export FAILED:')
+              for problem in problems:
+                  print(f'  {problem}')
+              sys.exit(1)
+
+          if checked == 0:
+              sys.exit('No optional mods reached the mrpack manifest.')
+
+          print(f'Optional export check passed for {checked} mods.')
           "
 
       - name: Sanity check - options defaults are updater-only

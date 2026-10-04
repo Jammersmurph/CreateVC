@@ -11,3 +11,8 @@ hash = "3d404c56ca5485a532452c021b03dc28a57ae34b99c6da82ce15e4c075a086781f18c203
 [update.modrinth]
 mod-id = "xnSuzkaS"
 version = "O9q6ZstV"
+
+[option]
+optional = true
+default = false
+description = "VR support (3/6): ViveCraft compatibility. Requires a VR headset. Enable all six VR mods together."

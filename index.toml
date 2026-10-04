@@ -505,7 +505,7 @@ metafile = true
 
 [[files]]
 file = "mods/aerovive-fix.pw.toml"
-hash = "2c9499558f73b59cc50a5ed640ba3c1fb4564555a90b3841f12833a8c2a4bcf1"
+hash = "8732c153322e82888d68cdbeb52697469db517c07693677566fe200336118b7e"
 metafile = true
 
 [[files]]
@@ -939,12 +939,12 @@ metafile = true
 
 [[files]]
 file = "mods/iris-veil-compat.pw.toml"
-hash = "69f9051c61c05546a2bf008654149a101814842bc2bf384df5c0ee0d64301ccd"
+hash = "1cf255fed438aa2f7957a569a57fad5aa67db2323b9a15ee07b6c9b8fdd72167"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+hash = "eca5c3e48a85f2fd415c12fd376d3abe9858242b1983032dd158c9bea211be73"
 metafile = true
 
 [[files]]
@@ -989,7 +989,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
+hash = "5b6c4a6f2da837e715eeec9cec4e46b0def3c352f354dceee5f7e42065283db4"
 metafile = true
 
 [[files]]
@@ -1034,7 +1034,7 @@ metafile = true
 
 [[files]]
 file = "mods/mc-vr-api.pw.toml"
-hash = "f0e281e1e2dadfc65e6d8d3189d143120f86ec75a0cb27077e55216847df729b"
+hash = "31ae2417d7d525bc4c5ee4be1067dd52d1fe71fea042fb7569d9bf2812d8911b"
 metafile = true
 
 [[files]]
@@ -1129,7 +1129,7 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+hash = "fe9d96be2f1649e595f8fcc109293b2ee2df23ac5144891bc52a622bcbffb65f"
 metafile = true
 
 [[files]]
@@ -1144,7 +1144,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "50f79c96f99d4b4ed903ebd449cdd54a96dad8062c26916694a1af34485639a6"
+hash = "2577bc97ae2ef67f55e2a8be6f07e6dc733dbdd2410bb655dbddae60299617e3"
 metafile = true
 
 [[files]]
@@ -1219,7 +1219,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable-vivecraft-fix.pw.toml"
-hash = "27a0e515be835123e1a43de11cdec04f05a558a69ac03561e38c4584253ae445"
+hash = "f358b56fe1fc90e85f514ff4d6e2fc6c4c1fdb0dbe447fd18f5d56fd1f8f1af9"
 metafile = true
 
 [[files]]
@@ -1304,17 +1304,17 @@ metafile = true
 
 [[files]]
 file = "mods/vivecraft-compat.pw.toml"
-hash = "4670cdef72a5b5805925e600a2be56bba331bdb8eb5c0e620d4d0c80bb2f9aab"
+hash = "fd6ad5c0657c44c74246c0868181c1b34952150c3a85a423b101a21ce35549de"
 metafile = true
 
 [[files]]
 file = "mods/vivecraft.pw.toml"
-hash = "ea0413c80dea2f9214472f16e8dda2d7178e20255199256440f18962927e14ff"
+hash = "41fa9ed41f4a2813ebc1dbd9567be1b6d6b89160b812e6366cb377ba2abcbec5"
 metafile = true
 
 [[files]]
 file = "mods/vr-swing-sprint.pw.toml"
-hash = "5055b3d1360c3754c85807399542873481bd19098c85546973347827f4e4a78b"
+hash = "df3e5339184a43898a3d3f566329951034b8b8c810ea5521b66bf92b351dc591"
 metafile = true
 
 [[files]]

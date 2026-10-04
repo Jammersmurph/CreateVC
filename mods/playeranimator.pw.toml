@@ -11,3 +11,8 @@ hash = "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0df
 [update.modrinth]
 mod-id = "gedNE4y2"
 version = "HJZB6bmA"
+
+[option]
+optional = true
+default = false
+description = "Smooth player animations."

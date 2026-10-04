@@ -11,3 +11,8 @@ hash = "9d840887150c9ca4591d41d8cc770735dc9cbf2b91787a427e391f39cf036a27a8169e62
 [update.modrinth]
 mod-id = "owQyCHo4"
 version = "5vFVK52d"
+
+[option]
+optional = true
+default = false
+description = "Shaders (2/2): Iris shader compatibility layer. Needs a capable GPU. Enable both shader mods together."

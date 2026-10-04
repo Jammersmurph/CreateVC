@@ -11,3 +11,8 @@ hash = "9f51001dc46b5a48c580d23db6456a369fbcb2d8d3f8c892025905664c0baf580514b7a8
 [update.modrinth]
 mod-id = "B3INNxum"
 version = "9ziXlpbX"
+
+[option]
+optional = true
+default = false
+description = "VR support (2/6): VR API library. Requires a VR headset. Enable all six VR mods together."

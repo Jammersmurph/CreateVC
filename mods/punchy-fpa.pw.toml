@@ -11,3 +11,8 @@ hash = "44871b7d63009e447614dff0d43acc76c9744979099f3a43d175733e86dd4d15a44d7071
 [update.modrinth]
 mod-id = "8aoMKplv"
 version = "NFoiGe81"
+
+[option]
+optional = true
+default = false
+description = "First-person punch animations."

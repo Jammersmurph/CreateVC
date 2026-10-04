@@ -11,3 +11,8 @@ hash = "53dd7c837f6ae8151491002f209412f26530a2ea4b0580a42c613f70727d6a0e584f2844
 [update.modrinth]
 mod-id = "jAEjiIKx"
 version = "JWH7y55x"
+
+[option]
+optional = true
+default = false
+description = "VR support (4/6): VR swing and sprint. Requires a VR headset. Enable all six VR mods together."

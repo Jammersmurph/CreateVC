@@ -11,3 +11,8 @@ hash = "c37acbd6adf71d0f60924caceaa16e2614594586fb077de6d21467d18c1832911c7db8f9
 [update.modrinth]
 mod-id = "wGoQDPN5"
 version = "LjqlbRAO"
+
+[option]
+optional = true
+default = false
+description = "VR support (1/6): core VR mod. Requires a VR headset. Enable all six VR mods together."

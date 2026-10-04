@@ -11,3 +11,8 @@ hash = "0286076e8b2922dfbe90cd4544a0d16e6d07d7249c732a37479ea4281e9cf96c86dd2e1c
 [update.modrinth]
 mod-id = "yBW8D80W"
 version = "ksaGCvSu"
+
+[option]
+optional = true
+default = false
+description = "Dynamic lighting. Off by default in this pack for consistent frame times."
