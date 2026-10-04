@@ -1348,7 +1348,7 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
-hash = "b0e9418f54fef2f5f5787a5f15f2d771da2bef206a6003d44d177810a2413b46"
+hash = "5a7d429db4838deb6311d1c5f521c5d51eca08a10eb389f3e5292d6699ff8fd0"
 metafile = true
 
 [[files]]

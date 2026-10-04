@@ -12,3 +12,8 @@ hash = "268b578d6d34adaa2491572af4cabf65fab94edee00e688f5b4cb4f072c0620c492d58a4
 [update.modrinth]
 mod-id = "rox3U8B6"
 version = "jQBWn2Q3"
+
+[option]
+optional = true
+default = false
+description = "Alternative texture pack. Replaces the vanilla block and item textures; disable it to keep the default look."

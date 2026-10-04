@@ -61,7 +61,9 @@ jobs:
           problems = []
           optional_names = []
 
-          for path in sorted(glob.glob('mods/*.pw.toml')):
+          metafiles = sorted(glob.glob('mods/*.pw.toml')) \
+              + sorted(glob.glob('resourcepacks/*.pw.toml'))
+          for path in metafiles:
               with open(path, 'rb') as handle:
                   data = tomllib.load(handle)
               option = data.get('option')
@@ -195,11 +197,14 @@ jobs:
           import glob, json, sys, tomllib, zipfile
 
           expected = {}
-          for metafile in sorted(glob.glob('mods/*.pw.toml')):
+          metafiles = sorted(glob.glob('mods/*.pw.toml')) \
+              + sorted(glob.glob('resourcepacks/*.pw.toml'))
+          for metafile in metafiles:
               with open(metafile, 'rb') as handle:
                   data = tomllib.load(handle)
               if data.get('option', {}).get('optional') is True:
-                  expected[data['filename']] = data['name']
+                  category = metafile.split('/')[0]
+                  expected[category + '/' + data['filename']] = data['name']
 
           if not expected:
               sys.exit('No optional mods found; expected the VR/shader opt-in set.')
@@ -211,8 +216,7 @@ jobs:
 
           problems = []
           checked = 0
-          for filename, name in sorted(expected.items()):
-              path = 'mods/' + filename
+          for path, name in sorted(expected.items()):
               env = exported.get(path)
               if env is None:
                   # Excluded from the export on purpose (e.g. updater-managed).
