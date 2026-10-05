@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://raw.githubusercontent.com/Jammersmurph/CreateVC/dev/mods/createvc_updater_dev-1.0.1-dev.jar"
 hash-format = "sha256"
-hash = "f0bc9f769a9ccdc22acbec68b289cd48e7cbe93de6a4e489cab504b60ddf2634"
+hash = "3b258e5ed9f05da1e740a19bf89b5c8fd6b194476d0bf1255166e52b53bd5f41"
