@@ -174,6 +174,12 @@ jobs:
           git checkout config/simple-custom-early-loading.json
           git checkout config/simple-custom-early-loading/
 
+          # PackUpdater needs its configuration to know which pack to sync against, so it
+          # cannot be left to be delivered by the updater itself: on a fresh install the
+          # updater would have no URL and would do nothing. Ship it with the pack so the
+          # very first launch can bootstrap.
+          git checkout config/packupdater.properties
+
       - name: Export to mrpack
         run: packwiz mr export -o CreateVC.mrpack
 
@@ -217,9 +223,18 @@ jobs:
           elif 'CreateVC/main/pack.toml' not in props:
               problems.append('packupdater.url does not point at the main pack')
 
-          # config/ is excluded from the mrpack on purpose: the updater ships it.
-          if any(item['path'] == 'config/packupdater.properties' for item in manifest['files']):
-              problems.append('config/packupdater.properties must not ship in the mrpack')
+          # PackUpdater must be configured on first launch. If this file is missing from
+          # the mrpack the updater has no packupdater.url, silently does nothing, never
+          # shows the option window, and never installs the mods the packwiz export
+          # cannot carry (CurseForge-sourced ones). config/ is otherwise excluded from
+          # the export, so this one file is restored on purpose and ships as an override.
+          with zipfile.ZipFile('CreateVC.mrpack') as archive:
+              names = set(archive.namelist())
+          shipped = 'overrides/config/packupdater.properties' in names or any(
+              item['path'] == 'config/packupdater.properties' for item in manifest['files'])
+          if not shipped:
+              problems.append('config/packupdater.properties is missing from the mrpack, so'
+                              ' PackUpdater would be inert on a fresh install')
 
           if problems:
               print('PackUpdater check FAILED')
