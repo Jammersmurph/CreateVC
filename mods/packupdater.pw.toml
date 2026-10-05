@@ -1,0 +1,13 @@
+name = "PackUpdater"
+filename = "packupdater.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Jammersmurph/PackUpdater/releases/download/v1.0.3/packupdater.jar"
+hash-format = "sha256"
+hash = "ec27dcf0c1418d4fbbc61fcbb1ed56285f6605002c358ec0aea0c84f128f402d"
+
+[update.github]
+slug = "Jammersmurph/PackUpdater"
+tag = "v1.0.3"
+regex = "^packupdater\\.jar$"

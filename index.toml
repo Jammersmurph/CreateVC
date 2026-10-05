@@ -377,6 +377,10 @@ file = "config/nowheel.json"
 hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
+file = "config/packupdater.properties"
+hash = "a8656339acfe75e2d7919fe25f2eaa85d8093fe74c4c779aec24f1ec0e75baeb"
+
+[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
@@ -819,11 +823,6 @@ hash = "b25ff9c505fd3d5a152b54b78c169ba42a746c6529469856b8fc220ae7b4b34a"
 metafile = true
 
 [[files]]
-file = "mods/createvc-updater-dev.pw.toml"
-hash = "b85e3b8f9565f4bebff7382e4716c03c1a6e9a5a1ce9b12292654a305ede992e"
-metafile = true
-
-[[files]]
 file = "mods/createvc_updater_dev-1.0.1-dev.jar"
 hash = "fb4ec59df2944331d5791ecbf10fbeff8f68828dbefa5ba37b83b1421aa6a158"
 
@@ -1125,6 +1124,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
+metafile = true
+
+[[files]]
+file = "mods/packupdater.pw.toml"
+hash = "23aa867d901bc06e9e2e8c951532749c09a21debb923440fb098a44a7ccc7cde"
 metafile = true
 
 [[files]]
