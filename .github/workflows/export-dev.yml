@@ -106,8 +106,9 @@ jobs:
                   'mmc-pack.json',
                   'minecraft/config/lambdynlights.toml',
                   'minecraft/config/renderscale.json5',
-                  'minecraft/mods/createvc_updater_dev-1.0.1-dev.jar',
+                  'minecraft/mods/packupdater.jar',
                   'minecraft/mods/renderscale-1.4.0-alpha.6-neoforge+1.21.1.jar',
+                  'minecraft/config/packupdater.properties',
               }
               missing = required - names
               if missing:
@@ -176,19 +177,57 @@ jobs:
       - name: Export to mrpack
         run: packwiz mr export -o CreateVC.mrpack
 
-      - name: Sanity check - include dev updater
+      - name: Sanity check - include PackUpdater and its config
         run: |
           python3 -c "
-          import json, sys, zipfile
-          path = 'mods/createvc_updater_dev-1.0.1-dev.jar'
-          url = 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/dev/mods/createvc_updater_dev-1.0.1-dev.jar'
+          import json, re, subprocess, sys, zipfile
+
+          problems = []
+
+          def committed(path):
+              return subprocess.run(['git', 'show', f'HEAD:{path}'],
+                                    capture_output=True, text=True, check=True).stdout
+
+          metafile = committed('mods/packupdater.pw.toml')
+          filename = re.search(r'^filename\s*=\s*\"([^\"]+)\"', metafile, re.M).group(1)
+          url = re.search(r'^url\s*=\s*\"([^\"]+)\"', metafile, re.M).group(1)
+          expected_hash = re.search(r'^hash\s*=\s*\"([^\"]+)\"', metafile, re.M).group(1)
+
           with zipfile.ZipFile('CreateVC.mrpack') as archive:
               manifest = json.loads(archive.read('modrinth.index.json'))
+
+          path = 'mods/' + filename
           entry = next((item for item in manifest['files'] if item['path'] == path), None)
-          if entry is None or url not in entry.get('downloads', []):
-              print('ERROR: The dev updater is missing or has the wrong download URL.')
+          if entry is None:
+              problems.append(f'{path} is missing from the mrpack manifest')
+          elif url not in entry.get('downloads', []):
+              problems.append(f'{path} has the wrong download URL: {entry.get(\"downloads\")}')
+
+          # Read the committed files: the export step moves config/ aside and packwiz
+          # rewrites index.toml, so the working tree no longer lists them.
+          index = committed('index.toml')
+          for required in ('config/packupdater.properties', 'mods/packupdater.pw.toml'):
+              if f'file = \"{required}\"' not in index:
+                  problems.append(f'{required} is not tracked in index.toml, so the updater'
+                                  ' would never receive it at runtime')
+
+          props = committed('config/packupdater.properties')
+          if 'packupdater.url=' not in props:
+              problems.append('config/packupdater.properties does not set packupdater.url')
+          elif 'CreateVC/main/pack.toml' not in props:
+              problems.append('packupdater.url does not point at the main pack')
+
+          # config/ is excluded from the mrpack on purpose: the updater ships it.
+          if any(item['path'] == 'config/packupdater.properties' for item in manifest['files']):
+              problems.append('config/packupdater.properties must not ship in the mrpack')
+
+          if problems:
+              print('PackUpdater check FAILED')
+              for problem in problems:
+                  print(f'  {problem}')
               sys.exit(1)
-          print('Dev updater check passed.')
+
+          print(f'PackUpdater check passed ({filename}, expected sha256 {expected_hash[:12]}...).')
           "
 
       - name: Sanity check - optional mods export as optional
