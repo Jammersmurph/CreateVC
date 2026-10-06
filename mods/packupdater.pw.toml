@@ -1,6 +1,6 @@
 name = "PackUpdater"
 filename = "packupdater.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://github.com/Jammersmurph/PackUpdater/releases/download/v1.2.0/packupdater.jar"
