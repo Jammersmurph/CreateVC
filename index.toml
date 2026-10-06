@@ -365,6 +365,10 @@ file = "config/nowheel.json"
 hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
+file = "config/packupdater.properties"
+hash = "d863a558b397e3ce2465000b2ccbaad97a38a4f30a278b6c39d8b9c19b251798"
+
+[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
@@ -767,11 +771,6 @@ hash = "b25ff9c505fd3d5a152b54b78c169ba42a746c6529469856b8fc220ae7b4b34a"
 metafile = true
 
 [[files]]
-file = "mods/createvc_updater.pw.toml"
-hash = "f247e3b1c94b6bd63f51fc33394dd290258c1de3558e34d8f032b8134d681661"
-metafile = true
-
-[[files]]
 file = "mods/curios.pw.toml"
 hash = "676df36a849cf3bd9771661ac6f4fdee8860cac6e63e4cc2dcebe9b25e7ddeae"
 metafile = true
@@ -992,6 +991,11 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
+file = "mods/packupdater.pw.toml"
+hash = "74be5b097d7e71ef6c4a2d8238601cf5474e02dcbc351649627b8b886ea2729f"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
@@ -1167,7 +1171,3 @@ hash = "302ce7b444771f12340b009f5d55435c0c8885be62586105a9e7768226a6b3db"
 [[files]]
 file = "servers.dat_old"
 hash = "a42e94efb4c9c9b1d2d2f6333ee265d8be6519781cc6df6325285e75b6c1ec7d"
-
-[[files]]
-file = "updater/src/main/resources/updater/createvc-updater-bootstrap.jar"
-hash = "6bb6689c09c198ae4c77294928610a47ee7bc596e8bbef5b8be5a4c79b01400d"

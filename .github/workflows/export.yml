@@ -98,11 +98,68 @@ jobs:
 
           # Restore pack-managed configs that should ship with every install.
           git checkout config/fml.toml
+          git checkout config/packupdater.properties
           git checkout config/simple-custom-early-loading.json
           git checkout config/simple-custom-early-loading/
 
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
+
+      - name: Sanity check - updater and its config reach the mrpack
+        run: |
+          # This guards a regression that shipped a broken pack for months: .packwizignore
+          # listed the updater jar, so `packwiz mr export` silently dropped it. The Modrinth
+          # pack then had no updater at all, and because FTB Library and CreateVC Core are
+          # deliberately excluded as updater-managed, they were missing too with nothing
+          # left to install them. Every fresh install was quietly incomplete.
+          #
+          # PackUpdater must arrive as a real dependency in modrinth.index.json, not as an
+          # override, so it needs no .packwizignore exemption and can self-update.
+          python3 -c "
+          import json, subprocess, sys, zipfile
+
+          problems = []
+          z = zipfile.ZipFile('CreateVC.mrpack')
+          names = z.namelist()
+
+          deps = [f['path'].lower() for f in json.loads(z.read('modrinth.index.json'))['files']]
+          if 'mods/packupdater.jar' not in deps:
+              problems.append(
+                  'mods/packupdater.jar is not in modrinth.index.json. Check that '
+                  'mods/packupdater.pw.toml exists and that .packwizignore does not exclude it.')
+
+          if 'overrides/config/packupdater.properties' not in names:
+              problems.append(
+                  'config/packupdater.properties is not in the mrpack, so a fresh install has '
+                  'no URL and the updater skips its first run. Add a git checkout for it in '
+                  'the export steps above.')
+
+          # The legacy updater must be gone, and its dead source tree must not ship.
+          for stale in [n for n in names if 'createvc_updater' in n.lower()]:
+              problems.append(f'{stale}: the legacy CreateVC updater must not ship any more.')
+          for stale in [n for n in names if n.startswith('overrides/updater/')]:
+              problems.append(
+                  f'{stale}: the legacy updater bootstrap must not ship; it is not a mod and '
+                  'NeoForge never loads it.')
+
+          # FTB Library and CreateVC Core are deliberately kept out of the mrpack and are
+          # installed by the updater from index.toml instead. That only works while they
+          # remain tracked in the pack index, so assert it here rather than in the pack.
+          index = subprocess.run(['git', 'show', 'HEAD:index.toml'],
+                                  capture_output=True, text=True, check=True).stdout
+          for required in ['mods/ftb-library-forge.pw.toml', 'mods/createvc-core.pw.toml']:
+              if required not in index:
+                  problems.append(
+                      f'{required} is no longer tracked in index.toml. It is excluded from '
+                      'the mrpack on purpose, so nothing would ever install it.')
+
+          if problems:
+              print('Updater export check FAILED')
+              for problem in problems:
+                  print(f'  {problem}')
+              sys.exit(1)
+          print('Updater export check passed: PackUpdater and its config are in the mrpack.')
+          "
 
       - name: Sanity check - options defaults are updater-only
         run: |
@@ -121,7 +178,6 @@ jobs:
         run: |
           ALLOWED_OVERRIDES="\
             overrides/mods/createsa_tank_fix-
-            overrides/mods/createvc_updater_
             client-overrides/mods/\
           "
           FAILED=0
