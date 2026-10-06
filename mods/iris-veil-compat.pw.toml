@@ -15,3 +15,4 @@ version = "hWItkPzn"
 [option]
 optional = true
 description = "Shaders (2/2): Iris shader compatibility layer. Needs a capable GPU. Enable both shader mods together."
+default = false

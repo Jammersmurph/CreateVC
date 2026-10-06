@@ -15,4 +15,4 @@ version = "luK5HVTT"
 [option]
 optional = true
 description = "First-person punch animations."
-default = true
+default = false

@@ -944,7 +944,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-veil-compat.pw.toml"
-hash = "682f184f8af865b7db947bebe915541c50e58ca3404419d62e48abbf37c9db29"
+hash = "c3b121626c223cc6f9aae0a0cb23e3cc1924fdc41471b37f56810e054902b13d"
 metafile = true
 
 [[files]]
@@ -1154,7 +1154,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "e368c10e84373b10212795948a01b0b611aa4236e929f7ba377291bada3ea930"
+hash = "fbf881bc4c72af22b1f6d4e33a1744056e9eb120580d52526eb3e8952ad45883"
 metafile = true
 
 [[files]]
@@ -1358,7 +1358,7 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
-hash = "9493065ad1a02833788b0cf22a10d769be0427bd306bba1f8c583aa239a2e04a"
+hash = "5a7d429db4838deb6311d1c5f521c5d51eca08a10eb389f3e5292d6699ff8fd0"
 metafile = true
 
 [[files]]
