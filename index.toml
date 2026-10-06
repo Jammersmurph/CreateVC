@@ -366,7 +366,7 @@ hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "74b2e5a62d22d87d43a3e85b46a819646ddfcdfb8dd36a8ec682366d3e495f1f"
+hash = "0983ce1a338dae5e4594f0f31fd3670cbf809e4755441b3e672d462b4d733e90"
 
 [[files]]
 file = "config/ponder-client.toml"
