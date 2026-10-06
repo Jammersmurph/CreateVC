@@ -878,6 +878,16 @@ hash = "a5a84995813d90e4eb6a4b1d438e0f06bb4b15f899ddae275c145420bf0551e4"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "b363434af9ce56fc7243c0db537bec2f99ecbfc618e226dbeda8835f435b887c"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "1a518584c9e3a73366f40b3c9e6fe1b25d9dd4aab9d14e82001b337033048a08"
+metafile = true
+
+[[files]]
 file = "mods/extra-gauges.pw.toml"
 hash = "4c05f6744be64d47634fbd906b1502ec6ba7ce9becf473cc8db882922716b620"
 metafile = true
