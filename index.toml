@@ -529,7 +529,7 @@ metafile = true
 
 [[files]]
 file = "mods/azimuth-api.pw.toml"
-hash = "3f829f54e19ebb32f23f554e05bd49c005dfc057933e07d0df4f85e7085d314d"
+hash = "a14aa30b199bcc4fb3b382327be7cabb22ce03d8e780f68c3b8307136f0589d7"
 metafile = true
 
 [[files]]
@@ -734,7 +734,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-mobile-packages.pw.toml"
-hash = "3956311952e50e1b437d8e7c5af4537feebd3d95bd5435192b78b251cab38bf2"
+hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
 metafile = true
 
 [[files]]
@@ -769,7 +769,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-storage-neo-forge.pw.toml"
-hash = "c5c5d732a02521e4b3e960653a84f0781b5919e9df13bad99666493bc2f1d63c"
+hash = "cbd71ae5d96954234a03740dc91b945191c0df9ad63ee93eac18489e2babb6cb"
 metafile = true
 
 [[files]]
@@ -944,7 +944,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-veil-compat.pw.toml"
-hash = "1cf255fed438aa2f7957a569a57fad5aa67db2323b9a15ee07b6c9b8fdd72167"
+hash = "682f184f8af865b7db947bebe915541c50e58ca3404419d62e48abbf37c9db29"
 metafile = true
 
 [[files]]
@@ -964,7 +964,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c911d03476ac0e535c3c601ad98a725ce685e063032474abbf2a2fb9bf23f786"
+hash = "8bc018284b753276f8e3510101852809bcccdad31a7ae17847df210c71a2c512"
 metafile = true
 
 [[files]]
@@ -999,12 +999,12 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "a57064a0b2f76d1940893fe8e4d6b6a57554fd27d32da88dcf152acfef223383"
+hash = "2a4a77b86389c4319e38f1738162ead13b7b2646f3381948de06042a7429f5b9"
 metafile = true
 
 [[files]]
 file = "mods/lightspeedre.pw.toml"
-hash = "b309085bd7cd5298d248f80dc60185b2c0eb969320353947c84b8f6c4db44354"
+hash = "be5c2133b3e4190c4ef4f2898493510b9893f3ed481df9fd3a9acf095b3734d0"
 metafile = true
 
 [[files]]
@@ -1074,7 +1074,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "dda27add4d2cfc241d52a6825e016712d704c0b9925ab2ccbf779e8493f752ed"
+hash = "8a69517eb999eacd8842d42fb2f9cdfda43fe11e70d72eabc54969b4d9e38f5a"
 metafile = true
 
 [[files]]
@@ -1119,7 +1119,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
+hash = "d22d3dad65c22acb508823667ca42d751d919753922a18fae50ccf656fa07a43"
 metafile = true
 
 [[files]]
@@ -1134,7 +1134,7 @@ metafile = true
 
 [[files]]
 file = "mods/packupdater.pw.toml"
-hash = "8effb8b80b18d8e810ff2bdbfb38f3ea6354c85961dd1ae5f1f5d5df2727207b"
+hash = "74be5b097d7e71ef6c4a2d8238601cf5474e02dcbc351649627b8b886ea2729f"
 metafile = true
 
 [[files]]
@@ -1154,7 +1154,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "2577bc97ae2ef67f55e2a8be6f07e6dc733dbdd2410bb655dbddae60299617e3"
+hash = "e368c10e84373b10212795948a01b0b611aa4236e929f7ba377291bada3ea930"
 metafile = true
 
 [[files]]
@@ -1334,12 +1334,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "64670072fa3b4db4a721769dd3d66a2865daac01c9a2480b9561675b1e9e9737"
+hash = "e97cb865d7a8c8310905d9140899fa55ea23c3fff2e23a17255ce2c162322ad7"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "f8cc300d53ae8bf71d77124e6c46a5e85fe31654b39c5d73a1652a4d9c404af4"
+hash = "3a8e91aecdb602039ba1f7445bbf6b64cc5a46344339a3ffaf3b2e3eb2f5bcbc"
 metafile = true
 
 [[files]]
@@ -1358,7 +1358,7 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
-hash = "5a7d429db4838deb6311d1c5f521c5d51eca08a10eb389f3e5292d6699ff8fd0"
+hash = "9493065ad1a02833788b0cf22a10d769be0427bd306bba1f8c583aa239a2e04a"
 metafile = true
 
 [[files]]

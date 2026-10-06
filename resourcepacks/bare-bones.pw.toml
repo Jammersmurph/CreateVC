@@ -15,5 +15,5 @@ version = "jQBWn2Q3"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Alternative texture pack. Replaces the vanilla block and item textures; disable it to keep the default look."
