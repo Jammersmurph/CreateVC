@@ -3,12 +3,12 @@ filename = "packupdater.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Jammersmurph/PackUpdater/releases/download/v1.4.1/packupdater.jar"
+url = "https://github.com/Jammersmurph/PackUpdater/releases/download/v1.5.0/packupdater.jar"
 hash-format = "sha256"
-hash = "a6f654a8c554124ff69bd872cfaabdfe0bb8a3f1896fb4a91708bea16acd0408"
+hash = "1852ebea39519d7218a89b3a086320a3f5a61547ec103eabcbbd3b2b25c128b0"
 
 [update]
 [update.github]
 regex = "^packupdater\\.jar$"
 slug = "Jammersmurph/PackUpdater"
-tag = "v1.4.1"
+tag = "v1.5.0"
