@@ -366,7 +366,7 @@ hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "553b45eee2a1f12382141d2d3cb0845a36461c8c59d7ecf078445efb72b92758"
+hash = "9b0678e07d9375b5f50cbab5be962468112735f2875ab4fc9f8e2887c7aec62b"
 
 [[files]]
 file = "config/ponder-client.toml"
@@ -992,7 +992,7 @@ metafile = true
 
 [[files]]
 file = "mods/packupdater.pw.toml"
-hash = "8e0f2af194d94aa37c9aa3324881cd1edbd70166b6e67424129187d1fb8b4301"
+hash = "ba75dcf7c240ddd561f47f686547582e8e3d590285ce284eb659562835667ce3"
 metafile = true
 
 [[files]]
