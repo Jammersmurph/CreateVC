@@ -378,6 +378,10 @@ hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
 file = "config/packupdater.properties"
+hash = "f4266327e61435ecc980cbf6cdbc083f079f7d9aa8c974dec0e4ab9a7d5e300f"
+
+[[files]]
+file = "config/packupdater.properties.old"
 hash = "8d0989d0021c014bed7b6ea500c7fef336f1feeec1533f17a89e5be0ec6ec2d1"
 
 [[files]]
@@ -487,6 +491,10 @@ hash = "a6120128f865a9dd3a5d85c65707744547a4090be3bd3555ac25125580900fc2"
 [[files]]
 file = "dev-update-preview.md"
 hash = "ac61bbb5ac685a0a87d0c82dc0c009bb8a56dbd54451f6aaf6811c2bff6d2521"
+
+[[files]]
+file = "icon.png"
+hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
 
 [[files]]
 file = "kubejs/server_scripts/cosmonautics_no_ore_recipes.server.js"
@@ -1298,11 +1306,6 @@ hash = "e697bd3a78edee29ae0bdfbf3cd4261dcbe4517ffb5ef84851e4cc0abcbda7e1"
 metafile = true
 
 [[files]]
-file = "mods/travelersbackpack.pw.toml"
-hash = "f7ebc4c6a3887e13f28cd61e46c68289c4397f81d62b96377e32f7123d03bfad"
-metafile = true
-
-[[files]]
 file = "mods/tt20.pw.toml"
 hash = "86a078669a3fdb4d5fd9944e8eea1ba54bf7888719bba145d3177dcda066f233"
 metafile = true
@@ -1359,6 +1362,11 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
 hash = "5a7d429db4838deb6311d1c5f521c5d51eca08a10eb389f3e5292d6699ff8fd0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "f5701f9af8abef4eda113b6bd8b3c35cd455b5b5e451040f7147193d72767a4c"
 metafile = true
 
 [[files]]
