@@ -151,7 +151,7 @@ key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown:
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown:
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown:
 key_create_mobile_packages.keyinfo.open_portable_stock_ticker:key.keyboard.g:
-key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.h:
+key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.unknown:
 key_gui.xaero_open_map:key.keyboard.j:
 key_gui.xaero_open_settings:key.keyboard.right.bracket:
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown:

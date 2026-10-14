@@ -53,14 +53,6 @@ file = "config/create_submarine_client_state.json"
 hash = "08b6e82ddd47db0d09dbbd7bebd4c0bc2a013ea2a1dc80e85ae28a19827fa374"
 
 [[files]]
-file = "config/createbigcannons-client-1.toml.bak"
-hash = "664bd2d589a53331f5d395218f36db37951bda61a69432b8d7cdd1434f964d4f"
-
-[[files]]
-file = "config/createbigcannons-client.toml"
-hash = "664bd2d589a53331f5d395218f36db37951bda61a69432b8d7cdd1434f964d4f"
-
-[[files]]
 file = "config/createlazytick-client.toml"
 hash = "f9ff8abdc007d16f2331f9923f512d11fc0f6a7e9de9bbe7981d5d706a27c36c"
 
@@ -78,7 +70,7 @@ hash = "0e3ef7b062709f1fc4577bbf7381bd28eb9dd051d51fe95e5f48049ebc4a2c0c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "e5a566bef574218bbdf735913c0bba4cc24cb3f07c8cf2c8b2a0e80d74f6e3c4"
+hash = "088e6992bbe70f102edfb2750b9438013041e74f4139ae3e658b3a318a52c8bf"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -471,14 +463,6 @@ hash = "6e8d7177b4fbad19d578fed0ad3d4e89d2c6cff89562ffee7f38d681de027fc8"
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
 hash = "116f191f4b2fd4aaa2bc9607feb88a7a44791db121f5b7467360920d5eaafdf0"
-
-[[files]]
-file = "config/xaero/lib/client.cfg"
-hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
-
-[[files]]
-file = "config/xaero/minimap/profiles/default.cfg"
-hash = "43d7b01a8710687554de4935be83bb6f412a0e1b74638c945d5f2eb67dfb20c5"
 
 [[files]]
 file = "config/yacl.json5"
