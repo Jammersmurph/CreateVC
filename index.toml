@@ -1146,7 +1146,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "f3ec319c0faf3d657097429924513cb7cd5fa8200b8ad400d557645729ccdcc0"
+hash = "3fe9396fce153c63339c02e8f08d59f936ee049b694aef21ae38b7ed431b33d2"
 metafile = true
 
 [[files]]

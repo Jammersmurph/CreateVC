@@ -15,3 +15,4 @@ version = "pk9eILcr"
 [option]
 optional = true
 description = "First-person punch animations."
+default = false
