@@ -1,13 +1,13 @@
 name = "LightSpeedRe"
-filename = "lightspeed-1.21.1-2.0.2hotfix.jar"
+filename = "lightspeed-1.21.1-2.0.5+hotfix.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/niZHUKxZ/versions/PrCCtNSt/lightspeed-1.21.1-2.0.2hotfix.jar"
+url = "https://cdn.modrinth.com/data/niZHUKxZ/versions/3lDR3Cp2/lightspeed-1.21.1-2.0.5%2Bhotfix.jar"
 hash-format = "sha512"
-hash = "803f5f11d21a758db5a6cf1d8b991c9160b47380e0acc13ddff67c56ce261efb9d8d2160057ebeab19ab76b3ecc611f1e8672cabdc76e787e2a8b0a61cdbc80e"
+hash = "c14ca738d77f0199a3c0e5da65591f748881a8b664e694fe49fb7ab5d797e2c48daaf440025b3ea27dad359003296bdfb79d0ed9496eb98d712f8915beaf84a3"
 
 [update]
 [update.modrinth]
 mod-id = "niZHUKxZ"
-version = "PrCCtNSt"
+version = "3lDR3Cp2"

@@ -1,13 +1,13 @@
 name = "Open Parties and Claims"
-filename = "open-parties-and-claims-neoforge-1.21.1-0.32.7.jar"
+filename = "open-parties-and-claims-neoforge-1.21.1-0.33.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gF3BGWvG/versions/qMR7tHTs/open-parties-and-claims-neoforge-1.21.1-0.32.7.jar"
+url = "https://cdn.modrinth.com/data/gF3BGWvG/versions/yWmXD7GW/open-parties-and-claims-neoforge-1.21.1-0.33.0.jar"
 hash-format = "sha512"
-hash = "d4219891785daab5d1182d829b4821c3778392888fb1ef1c45fa8875e8a26cdd52f847b7604a8a15dc8d6b1a21f781e343c216868d4e63d919eb0ab92408f88e"
+hash = "646fd9796ef2dfd1132e22aacf1a417639233d90fb7eb862a718badfed955d54714c88327b7ddc651f98cd5b7d2a80e8c91233d2232680d4998fdd10ef392ffb"
 
 [update]
 [update.modrinth]
 mod-id = "gF3BGWvG"
-version = "qMR7tHTs"
+version = "yWmXD7GW"
