@@ -1,0 +1,13 @@
+name = "KubeJSable"
+filename = "kubejsable-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aH1sOU2k/versions/jxjUAAAq/kubejsable-1.1.0.jar"
+hash-format = "sha512"
+hash = "5c92e42887781f6d5db5520a6d74c63de44e496dc01079244419778fe1ff0edc34393357dcede85e852a51461cf2f92a1cc03789d871c4675aa0b86b58258c3d"
+
+[update]
+[update.modrinth]
+mod-id = "aH1sOU2k"
+version = "jxjUAAAq"

@@ -11,3 +11,8 @@ hash = "ab21b5e26d04b11f6c3a56e9b2134ba71c276ac0bad5b7d0d41dec1dea2cd20c4cebb62d
 [update.modrinth]
 mod-id = "n9pE8Wpa"
 version = "3rU8UJGj"
+
+[option]
+optional = true
+default = false
+description = "VR support (6/6): Sable VR fix. Requires a VR headset. Enable all six VR mods together."

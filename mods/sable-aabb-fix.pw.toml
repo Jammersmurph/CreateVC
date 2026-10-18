@@ -1,0 +1,13 @@
+name = "Sable AABB Fix"
+filename = "sablefix-2.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/RWDZX4wK/versions/nvo7N9tK/sablefix-2.1.0.jar"
+hash-format = "sha512"
+hash = "8ee366349b72a797c1c03e8fd7d9e6d0b6244bb2e84bcbc085d65e75c7d8e67e80ef3383dcdbe9e9b4d36d40ed913707b2d5c180df6937bb1be2a0ec91e9460e"
+
+[update]
+[update.modrinth]
+mod-id = "RWDZX4wK"
+version = "nvo7N9tK"

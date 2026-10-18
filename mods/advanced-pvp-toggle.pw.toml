@@ -1,0 +1,13 @@
+name = "Advanced PvP Toggle"
+filename = "pvptoggle-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HmdQM9Au/versions/EgHuVW8o/pvptoggle-1.0.2.jar"
+hash-format = "sha512"
+hash = "6d8b3f30cd6029b0d55b635dc6cab7634bb83342f67ea13d204c0ccfe2ed8768ee90d3480abfaaa5dee19a620f7b0958e9aaaee10246ea7cdd498febe567977a"
+
+[update]
+[update.modrinth]
+mod-id = "HmdQM9Au"
+version = "EgHuVW8o"

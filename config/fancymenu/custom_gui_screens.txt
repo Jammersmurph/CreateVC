@@ -4,13 +4,12 @@ overridden_screens {
 }
 
 custom_gui {
-  identifier = claimshop
-  title = Claim Shop
+  identifier = createvc_claim_shop
+  title = CreateVC Bonus Shop
   allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
   popup_mode = false
   popup_mode_background_overlay = true
 }
-

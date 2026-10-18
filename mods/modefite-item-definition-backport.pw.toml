@@ -1,0 +1,13 @@
+name = "Modefite - Item Definition Backport"
+filename = "modefite-neoforge-1.0.1+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qjlkcVfy/versions/cy8BkRZc/modefite-neoforge-1.0.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "2661fcf6bec97acabd6f513b41c41667d2ccc317002b8131ecb568db0c1bf0ffd6595d02790f4f82d1572c27f3e54e3d902fb87f4edf9cc70229b79c92e569b8"
+
+[update]
+[update.modrinth]
+mod-id = "qjlkcVfy"
+version = "cy8BkRZc"

@@ -11,3 +11,8 @@ hash = "cb0baacae6539e11b4c6f7eef85a39d273cd6347cedc6bcc12bd436503103450fd41f7c9
 [update.modrinth]
 mod-id = "eueUQC34"
 version = "fOARoDHI"
+
+[option]
+optional = true
+default = false
+description = "VR support (5/6): Aeronautics VR fix. Requires a VR headset. Enable all six VR mods together."

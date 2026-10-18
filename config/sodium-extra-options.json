@@ -60,7 +60,7 @@
     "system_toast": false,
     "tutorial_toast": false,
     "instant_sneak": false,
-    "prevent_shaders": false,
+    "prevent_shaders": true,
     "steady_debug_hud": true,
     "steady_debug_hud_refresh_interval": 1
   }

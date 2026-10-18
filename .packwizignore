@@ -2,7 +2,6 @@
 .anchored-summary.md
 .gitignore
 .packwizignore
-createvc-overwrite-allowlist.txt
 README.md
 push-release.sh
 *.zip
