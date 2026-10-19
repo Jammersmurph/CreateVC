@@ -66,7 +66,7 @@ hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "0e3ef7b062709f1fc4577bbf7381bd28eb9dd051d51fe95e5f48049ebc4a2c0c"
+hash = "f753ec66829dc7d1f862443767a4a145f42481ea51b6368148bfb72d1a96ebc7"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -1355,7 +1355,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "f5701f9af8abef4eda113b6bd8b3c35cd455b5b5e451040f7147193d72767a4c"
+hash = "45d3f6cf7bcc735ac0b8d72d293953d6e648b12abc9d8e973f495f5220ca64a1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-moves.pw.toml"
+hash = "820d42fe3a38b1e816a6d7c9b6b3c8631722ee6c8f700c85741b467843f4c703"
 metafile = true
 
 [[files]]
