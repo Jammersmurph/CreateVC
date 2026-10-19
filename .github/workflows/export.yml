@@ -102,10 +102,10 @@ jobs:
           git checkout config/simple-custom-early-loading.json
           git checkout config/simple-custom-early-loading/
 
-          # StarHUD is marked preserve = true, so the updater ships it on a fresh install
-          # but never overwrites it afterwards and players can rearrange their HUD. Ship it
-          # with the pack as well so a new install starts on the pack's layout instead of
-          # whatever StarHUD generates from its own defaults.
+          # StarHUD would otherwise generate a layout from its own defaults. Ship the
+          # pack's layout so every install starts identical. Deliberately NOT marked
+          # preserve = true: a preserved file that does not exist yet is marked invalid
+          # on every run but never written, which forces a full install pass each launch.
           git checkout config/starhud.json
 
       - name: Export to Modrinth
