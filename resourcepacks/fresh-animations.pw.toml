@@ -1,6 +1,7 @@
 name = "Fresh Animations"
 filename = "FreshAnimations_v1.10.4.zip"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/50dA9Sha/versions/xN57JJts/FreshAnimations_v1.10.4.zip"
@@ -15,4 +16,4 @@ version = "xN57JJts"
 [option]
 optional = true
 default = false
-description = "Some Fresh Animations"
+description = "Fresh Animations (2/2): animated mobs and bosses. Pairs with Fresh Moves; both are opt-in."
