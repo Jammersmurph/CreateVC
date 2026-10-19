@@ -430,6 +430,11 @@ file = "config/sophisticatedcore-client.toml"
 hash = "467c9ffc84322873121a2e109258245030ec4d0608b7181a739681ce685a63c9"
 
 [[files]]
+file = "config/starhud.json"
+hash = "d0de26564bc3871ca509a85e8bd49e8cb71f7e6bde02b5b62d48f1e360ed2399"
+preserve = true
+
+[[files]]
 file = "config/submarine_hull.json"
 hash = "1c37c54604352598f9a13c1fa34619707fd7c105b755e8f21a560ce26eda95c4"
 
