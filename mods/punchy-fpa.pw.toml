@@ -1,18 +1,17 @@
 name = "Punchy!"
-filename = "punchy-2.8g-neoforge-1.21.1.jar"
+filename = "punchy-3.1-neoforge-1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/8aoMKplv/versions/pk9eILcr/punchy-2.8g-neoforge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/8aoMKplv/versions/mXo8AhTM/punchy-3.1-neoforge-1.21.1.jar"
 hash-format = "sha512"
-hash = "ff7210486e973ee1696f3298237741c6ebaebc0cffa618a9ba3665a59d1bd6d083fad0cd19b17e09bcd7e75ba0423f4f48b1947e4ec7e418d7af0f21098f9b41"
+hash = "98a0fe2ab1d0a8520c75e151b4575835eecc3ed89f1f9db44292f94cea86eb616e3e1cd8d0c75f20a15425c7843d9d03851a6eee6b0c8210c833b64752f9455c"
 
 [update]
 [update.modrinth]
 mod-id = "8aoMKplv"
-version = "pk9eILcr"
+version = "mXo8AhTM"
 
 [option]
 optional = true
 description = "First-person punch animations."
-default = false
