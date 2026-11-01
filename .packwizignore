@@ -13,3 +13,6 @@ mods/createvc_updater-*.jar
 # mods/createvc_updater_dev-*.jar
 builds/*
 prism-light/
+
+# Legacy updater sources and bootstrap artifacts must not ship in the pack.
+updater/

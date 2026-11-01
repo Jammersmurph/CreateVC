@@ -371,6 +371,7 @@ hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 [[files]]
 file = "config/packupdater.properties"
 hash = "f4266327e61435ecc980cbf6cdbc083f079f7d9aa8c974dec0e4ab9a7d5e300f"
+preserve = true
 
 [[files]]
 file = "config/packupdater.properties.old"
