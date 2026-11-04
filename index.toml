@@ -50,7 +50,7 @@ hash = "6c82ae8a4c75d278f2331646067530324fb2377811f65860168a89e9e35a642f"
 
 [[files]]
 file = "config/create_submarine_client_state.json"
-hash = "08b6e82ddd47db0d09dbbd7bebd4c0bc2a013ea2a1dc80e85ae28a19827fa374"
+hash = "c03c356c17a0632b075457049e7ebc3117a0fa584eb486bb2e5d0069d5b555ba"
 
 [[files]]
 file = "config/createlazytick-client.toml"
