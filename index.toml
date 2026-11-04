@@ -374,10 +374,6 @@ hash = "f4266327e61435ecc980cbf6cdbc083f079f7d9aa8c974dec0e4ab9a7d5e300f"
 preserve = true
 
 [[files]]
-file = "config/packupdater.properties.old"
-hash = "8d0989d0021c014bed7b6ea500c7fef336f1feeec1533f17a89e5be0ec6ec2d1"
-
-[[files]]
 file = "config/ponder-client.toml"
 hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
 
