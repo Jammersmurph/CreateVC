@@ -1,13 +1,13 @@
 name = "Create - Xaero's map"
-filename = "sablexaeromaps-1.21.1-1.4.1.jar"
+filename = "sablexaeromaps-1.21.1-1.4.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/hqI03twF/versions/BwfxFcwh/sablexaeromaps-1.21.1-1.4.1.jar"
+url = "https://cdn.modrinth.com/data/hqI03twF/versions/x8eDZf7t/sablexaeromaps-1.21.1-1.4.2.jar"
 hash-format = "sha512"
-hash = "14d7d900b10d3e62953828de07e097c50fce815df3c93a1ad19b3505347e2391949b6d6844b1f3b05edf7523662fe7b07f2b885af1ad42b06962a6cf796ca0c1"
+hash = "98f9d99ec23c8ad7814a7bbf23984d371159ea26775e0cdc335d17f1822385776ac249aa9a1bed6d78b504c4918d775deecf41215b461ea7029d95e926593043"
 
 [update]
 [update.modrinth]
 mod-id = "hqI03twF"
-version = "BwfxFcwh"
+version = "x8eDZf7t"

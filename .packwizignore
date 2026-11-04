@@ -2,17 +2,17 @@
 .anchored-summary.md
 .gitignore
 .packwizignore
+createvc-overwrite-allowlist.txt
 README.md
 push-release.sh
 *.zip
 *.mrpack
 LICENSE*
 mods/createbigcannons-*.jar
+mods/createvc_updater-*.jar
+# mods/createvc_updater_dev-*.jar
 builds/*
+prism-light/
 
-# The legacy updater's source tree and embedded bootstrap jar. PackUpdater replaced
-# it, so nothing here belongs in an install. Ignoring the tree keeps the source in
-# the repo for reference while stopping `packwiz mr export` from shipping a stray
-# createvc-updater-bootstrap.jar into every instance under overrides/updater/,
-# where NeoForge never loads it.
+# Legacy updater sources and bootstrap artifacts must not ship in the pack.
 updater/

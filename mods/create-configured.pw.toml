@@ -1,13 +1,13 @@
 name = "Create Configured"
-filename = "create_configured-1.3.4.jar"
+filename = "create_configured-1.3.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TFEgPM26/versions/HaZGEnBD/create_configured-1.3.4.jar"
+url = "https://cdn.modrinth.com/data/TFEgPM26/versions/VtFm0eBO/create_configured-1.3.5.jar"
 hash-format = "sha512"
-hash = "3171f8c386dbedb4e70de01c3f96b56ab247428fff930c89a3ce4ef37e6df4b72367b576596121c26471a1c8c648bda368afdcb43bef931ad1bc801fd9cf38f1"
+hash = "9db8c040cf4542716e214a8e3b23cae7eff1c8247b9eb3b7f9c4a525e152d027e10ff8c5b52bd40030c9e26cdd2473bee1968d45432b3618b7b00e9e857400f5"
 
 [update]
 [update.modrinth]
 mod-id = "TFEgPM26"
-version = "HaZGEnBD"
+version = "VtFm0eBO"
