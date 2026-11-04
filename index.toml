@@ -852,7 +852,7 @@ metafile = true
 
 [[files]]
 file = "mods/discord-chat-connect.pw.toml"
-hash = "4a0c9d2fc47c2466ec49e1c2ef5afaf6f6ec7ff207f99380d0b44e2cf15c5e4b"
+hash = "11bcd6cc9b3daa5e7f0281b2d9c79211999986c57f618a6fa6cb2e3d194751c5"
 metafile = true
 
 [[files]]
