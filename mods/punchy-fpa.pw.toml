@@ -14,4 +14,5 @@ version = "Rbt26WBl"
 
 [option]
 optional = true
+default = false
 description = "First-person punch animations."
