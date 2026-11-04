@@ -1,6 +1,7 @@
 name = "CC: Tweaked"
 filename = "cc-tweaked-1.21.1-forge-1.120.2.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/1ewzHZYg/cc-tweaked-1.21.1-forge-1.120.2.jar"
