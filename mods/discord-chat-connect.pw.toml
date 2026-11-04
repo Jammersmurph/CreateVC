@@ -11,3 +11,8 @@ hash = "221130f959a8f78d406006a3d38dd1a23075c9bd05c7e60025aad8b48775cb7bf3cc74b5
 [update.modrinth]
 mod-id = "yIWYj2mo"
 version = "Vex9GS2V"
+
+[option]
+optional = true
+default = false
+description = "Display images from Discord and image links in chat."
