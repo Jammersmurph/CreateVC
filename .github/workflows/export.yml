@@ -101,8 +101,45 @@ jobs:
           git checkout config/simple-custom-early-loading.json
           git checkout config/simple-custom-early-loading/
 
+          # PackUpdater needs its URL before it can bootstrap a fresh install.
+          # index.toml marks this config preserve = true so updater runs retain
+          # player-local changes after the initial install.
+          git checkout config/packupdater.properties
+
       - name: Export to Modrinth
         run: packwiz mr export -o CreateVC.mrpack
+
+      - name: Sanity check - ship preserved PackUpdater config
+        run: |
+          python3 - <<'PY'
+          import subprocess
+          import tomllib
+          import zipfile
+
+          path = 'config/packupdater.properties'
+          expected = subprocess.check_output(['git', 'show', f'HEAD:{path}'])
+          index = tomllib.loads(subprocess.check_output(
+              ['git', 'show', 'HEAD:index.toml'], text=True))
+          entry = next(item for item in index['files'] if item['file'] == path)
+          if entry.get('preserve') is not True:
+              raise SystemExit('PackUpdater config must preserve user changes in index.toml')
+
+          properties = dict(
+              line.split('=', 1) for line in expected.decode().splitlines()
+              if line.strip() and not line.lstrip().startswith('#') and '=' in line
+          )
+          if properties.get('packupdater.url') != 'https://raw.githubusercontent.com/Jammersmurph/CreateVC/main/pack.toml':
+              raise SystemExit('PackUpdater config must point at the main pack')
+
+          with zipfile.ZipFile('CreateVC.mrpack') as archive:
+              override = 'overrides/' + path
+              if override not in archive.namelist():
+                  raise SystemExit('PackUpdater config is missing from the mrpack')
+              if archive.read(override) != expected:
+                  raise SystemExit('Shipped PackUpdater config differs from the committed defaults')
+
+          print('PackUpdater config ships with configured defaults and preserve = true.')
+          PY
 
       - name: Sanity check - options defaults are updater-only
         run: |
