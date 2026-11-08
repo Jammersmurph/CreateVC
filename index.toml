@@ -1130,6 +1130,11 @@ hash = "12745d13118f3cb73bbec905ae544586c27ea111ee26aa8276603fdcab0d1264"
 metafile = true
 
 [[files]]
+file = "mods/opac-essentials.pw.toml"
+hash = "d97b318c782b9a32990f9c6e3e8ba6e3e888eebadb61427c92d2a2604433cf08"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true
