@@ -1,6 +1,6 @@
 name = "Rinku"
 filename = "rinku_neoforge_3.0.4_MC_1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/bQhBuv7x/versions/JOrwMXrE/rinku_neoforge_3.0.4_MC_1.21.1.jar"
@@ -11,3 +11,8 @@ hash = "a8a1062caeb039a8bf31bf9cf5c4b05c4927b686eb96ed9a6fad9bc044b402af2d15fa61
 [update.modrinth]
 mod-id = "bQhBuv7x"
 version = "JOrwMXrE"
+
+[option]
+optional = true
+default = false
+description = "Render Websites in Game! | Voting, Tutorials, ETC."

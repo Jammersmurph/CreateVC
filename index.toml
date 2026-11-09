@@ -1236,7 +1236,7 @@ metafile = true
 
 [[files]]
 file = "mods/rinku.pw.toml"
-hash = "536827a5939a77defd5813b1b03aae7168e3adf3a5f2dc95712860a9d6356a5a"
+hash = "dca02d2e86d69b3d3a286052119fc814f35a8d5a118057ae9933170dbfdc92bb"
 metafile = true
 
 [[files]]
