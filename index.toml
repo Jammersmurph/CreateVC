@@ -22,7 +22,7 @@ hash = "6ffdc4ec91d36d7211b37b8b3a1d450a3108b3813ce5c7965706d2c72ef3a69f"
 
 [[files]]
 file = "config/copycats-client.toml"
-hash = "e315dbb97d8623bcb779383e2b58d22cf2c65b7ca239f73cb34660ee077fecfb"
+hash = "8c22006af985ad5f60aafa0f3a273c0a5c9cdc1e2735fabbf46658fbdc0e3b23"
 
 [[files]]
 file = "config/create-client.toml"
@@ -78,7 +78,7 @@ hash = "088e6992bbe70f102edfb2750b9438013041e74f4139ae3e658b3a318a52c8bf"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "a2a39fa71c67fd39799a5ce5920fc68259df259dd3f2bf73f6d105cdbe537613"
+hash = "f481863fd2150f45671818709f7898d557e1e4f33718e33c00f079a45928a29d"
 
 [[files]]
 file = "config/discord_chat_mod-client.toml"
@@ -326,7 +326,7 @@ hash = "b662e890f6c9042543eac4cb672a09a78164abfbf790f8d139cdc7de52c59111"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "137947e0aaaf165c0b33f520aa3fdab60f0c04b835dd8c11e5de6ffd539d6f3f"
+hash = "519a9c3d2d687d4d95c44f2449e5d91acb2cf1e68ba19d07ec967d77e55150e2"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -543,11 +543,6 @@ hash = "f643fec9c216f67cb31334832cda1ac3543a759b9e6b1bf26b7d5ea0ea592030"
 metafile = true
 
 [[files]]
-file = "mods/aeroengine.pw.toml"
-hash = "3637f8c7e237525c908ef902ab13765be9b7c885e22a5ec0532561a13af7ba48"
-metafile = true
-
-[[files]]
 file = "mods/aeronautics-claims.pw.toml"
 hash = "78137effbcf3f8d93f64aa10f365a225b8439c0a0f49ea61cd99d4d6836aaeb1"
 metafile = true
@@ -555,11 +550,6 @@ metafile = true
 [[files]]
 file = "mods/aerovive-fix.pw.toml"
 hash = "8732c153322e82888d68cdbeb52697469db517c07693677566fe200336118b7e"
-metafile = true
-
-[[files]]
-file = "mods/ai-improvements.pw.toml"
-hash = "66128dccd47b193d621ae703de7dac1f2ada0f84f8434ca8c7d356f4329afc94"
 metafile = true
 
 [[files]]
@@ -585,11 +575,6 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
-metafile = true
-
-[[files]]
-file = "mods/bridging-mod.pw.toml"
-hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
 
 [[files]]
@@ -670,11 +655,6 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked-forked.pw.toml"
 hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
-metafile = true
-
-[[files]]
-file = "mods/create-aeronautics-automated-logistics.pw.toml"
-hash = "39c088076ac598ef07bb287d525160504cb3f6aad61931a45beecd7cf4d9b7c2"
 metafile = true
 
 [[files]]
@@ -793,16 +773,6 @@ hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
 metafile = true
 
 [[files]]
-file = "mods/create-food.pw.toml"
-hash = "b453da2f0b7acfd75d9bfb12f9dcad50211a0b25040c894f00736b913c18a339"
-metafile = true
-
-[[files]]
-file = "mods/create-liquid-fuel.pw.toml"
-hash = "810e114e3f827cb7f78a0c2cdb9087d50bb1393ebb20682daf554747e141322e"
-metafile = true
-
-[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
 metafile = true
@@ -810,16 +780,6 @@ metafile = true
 [[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "b5c4217d430af59d3243e8717ad09398864b726272e1ded301f182604d704a45"
-metafile = true
-
-[[files]]
-file = "mods/create-ore-excavation-better-finder.pw.toml"
-hash = "6cc0c27d524cf582bedd12e5ecad520ce83db15a69a511fdfa8f2ec66105ef14"
-metafile = true
-
-[[files]]
-file = "mods/create-ore-excavation.pw.toml"
-hash = "10d3389f72e8e8f78518f5b6786ccec4e62dbad117491d2970e8e1f75e390251"
 metafile = true
 
 [[files]]
@@ -873,11 +833,6 @@ hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
 metafile = true
 
 [[files]]
-file = "mods/create-tweaked-controllers.pw.toml"
-hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
-metafile = true
-
-[[files]]
 file = "mods/create-xaeros-map.pw.toml"
 hash = "34fc08837336e7f5b3e97b43fc0f8df9dfe4456f764bcae2c9736413d2454205"
 metafile = true
@@ -894,7 +849,7 @@ metafile = true
 
 [[files]]
 file = "mods/createbetterfps.pw.toml"
-hash = "b6a535a801939a78f255203f7b28319773becca20cc88348f8764f4078816300"
+hash = "34d4117ea8ba9c0ac536835d567bea666226551ddeda1b4ec7e5821b18c19ec6"
 metafile = true
 
 [[files]]
@@ -945,11 +900,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "dfaf1d3599226ac3fb373ded97212426485cf955b5b26973d99e173e946ce1ec"
-metafile = true
-
-[[files]]
-file = "mods/elytra-slot.pw.toml"
-hash = "9e2b351f3cabb1252259f5383e6f2fec3e3d90534dbecddef4ed183eba42f35a"
 metafile = true
 
 [[files]]
@@ -1194,12 +1144,7 @@ metafile = true
 
 [[files]]
 file = "mods/observable.pw.toml"
-hash = "3e477c97729015ac6184c0b56cb148947b7c0dc5cca764336ee96719f05f05e6"
-metafile = true
-
-[[files]]
-file = "mods/opac-bonus-claims.pw.toml"
-hash = "12745d13118f3cb73bbec905ae544586c27ea111ee26aa8276603fdcab0d1264"
+hash = "ddc0c617b776cc70861e2003a44965507d4d62c15f0ef278ca419e5bc9d37f0c"
 metafile = true
 
 [[files]]
@@ -1263,11 +1208,6 @@ hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll-reactions.pw.toml"
-hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
-metafile = true
-
-[[files]]
 file = "mods/redirected.pw.toml"
 hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
 metafile = true
@@ -1310,11 +1250,6 @@ metafile = true
 [[files]]
 file = "mods/sable-physics-compat.pw.toml"
 hash = "6de50220a8be7e48ae96930df33ef8d5cc246171a3d1e8e03bca356a42962071"
-metafile = true
-
-[[files]]
-file = "mods/sable-ragdoll-dummies.pw.toml"
-hash = "d2df51eef79a8e7d414f96fba3c1fd1144f9feb44d631ffc8490bff69b5b1d6a"
 metafile = true
 
 [[files]]
@@ -1423,11 +1358,6 @@ hash = "41fa9ed41f4a2813ebc1dbd9567be1b6d6b89160b812e6366cb377ba2abcbec5"
 metafile = true
 
 [[files]]
-file = "mods/vr-swing-sprint.pw.toml"
-hash = "df3e5339184a43898a3d3f566329951034b8b8c810ea5521b66bf92b351dc591"
-metafile = true
-
-[[files]]
 file = "mods/vs-hose-connectors.pw.toml"
 hash = "52c86942f80b262807611743be5991c4dfe2df66041a6503a46266d9e7ed4b96"
 metafile = true
@@ -1468,7 +1398,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-moves.pw.toml"
-hash = "820d42fe3a38b1e816a6d7c9b6b3c8631722ee6c8f700c85741b467843f4c703"
+hash = "6644937b4b6f7970ad1205b41386027b19fbaa245e2a2b88cd2aaae3ba5f5283"
 metafile = true
 
 [[files]]

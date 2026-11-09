@@ -1,6 +1,6 @@
 #.
 #Use more complex copycat models to improve appearance with certain materials.
-useEnhancedModels = true
+useEnhancedModels = false
 #.
 #Disable warnings about graphics settings that may cause issues with the mod.
 disableGraphicsWarnings = false
