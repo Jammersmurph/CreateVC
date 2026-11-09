@@ -105,6 +105,14 @@ file = "config/fancymenu/assets/blank_blueprint.png"
 hash = "fa480747c900e6862ffbae706245a41ea01dc8a0756e54b7fbdbc134dcf3ebf3"
 
 [[files]]
+file = "config/fancymenu/assets/createmod.com-low.png"
+hash = "a0db591c27fe0a1f5a861f5b533ed43a35a2a134a890420d3265f877128cd6fb"
+
+[[files]]
+file = "config/fancymenu/assets/createmod.com.webp"
+hash = "0a5b06b472e5f26424185913c315e4e96fa7b7462e52923701283cc4f6e5dff8"
+
+[[files]]
 file = "config/fancymenu/assets/createvc-banner-text.png"
 hash = "c9ee90b1a19c4dacf7e99df15f63171cccb04428619a0170406cb23becfb1841"
 
@@ -145,6 +153,18 @@ file = "config/fancymenu/assets/cvc_animated.gif"
 hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
 
 [[files]]
+file = "config/fancymenu/assets/discord-icon.png"
+hash = "b7f32f78ea09dc3607a7228018aed73340b96e28dce42edbee71d6204755d6ad"
+
+[[files]]
+file = "config/fancymenu/assets/mcip-logo-low.png"
+hash = "645824b44d3a6710714ce9c1621b448a821809071bf21bb41b885c930d4b7ad5"
+
+[[files]]
+file = "config/fancymenu/assets/mcip-logo.svg"
+hash = "fe28b0a10f31b968832c11f6ffd0e394605ce7d26763d7caf988441072fb9cce"
+
+[[files]]
 file = "config/fancymenu/assets/minecraftjava.jpg"
 hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
 
@@ -155,6 +175,14 @@ hash = "1996ff7cd69fc9795536a11cc695474bbb8efd48b53a3389f9d2ea14a59b65c7"
 [[files]]
 file = "config/fancymenu/assets/new-logo.png"
 hash = "d291947cecf1c73918e43f3743792cfd065ed4862444a9006383dd0d83ba5b48"
+
+[[files]]
+file = "config/fancymenu/assets/planetminecraft_logo-low.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
+
+[[files]]
+file = "config/fancymenu/assets/planetminecraft_logo.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
 
 [[files]]
 file = "config/fancymenu/assets/server-icon.png"
@@ -170,15 +198,19 @@ hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "7c16f8ab6495639d242369302f814c8c2faa487ac5810d6af0c070b0f53b7ae8"
+hash = "98deab53227aacc34e7d88cc989332e54037f11e8bfd1c109308e23ae9f11b04"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "efae973cd2e5402bd9e99ecd2b311d098e3b45c270c4f0f32da8eda3e86c699d"
+hash = "81e9e606624f5c40796d61d754ff423d2c72fe07b5a498b86fb2da86b1971ac1"
 
 [[files]]
 file = "config/fancymenu/customization/createvc_claim_shop_layout.txt"
 hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
+
+[[files]]
+file = "config/fancymenu/customization/cvc_store_layout.txt"
+hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
@@ -186,11 +218,27 @@ hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "ab44029520eb209025e5f0caf6df08467a7e7917b6d31afdb55f9ef15317157d"
+hash = "5f959cee3c9edb39687005f98aa29012ed7859059c04cccc60c0dc01cd5b54be"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_cms_layout.txt"
+hash = "c888252e218470e9304dcd9b239b4e8721eb3aafb5b5716ada740e70ef5cb201"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_mcip_layout.txt"
+hash = "a3ed738e28eb0e20b55ea9e031bbe9d643821d6c431bf1efc123f66c1134f0e2"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_pmc_layout.txt"
+hash = "4b3a5eba395286c4143e9d1027a8dbef2a685514e67f34ebd8ede570792427c9"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "a78e21d564b422639fdd8b8a7a54fbd3358c17cae77cf6e3779fbe96c233f394"
+hash = "d5f85aa0f6b5ab1505e3549fe5356dfac5658c83e5a6f4b7e06e648bbf2f8c6e"
+
+[[files]]
+file = "config/fancymenu/customization/vote_layout.txt"
+hash = "ef701c165252f3971d4493958f325e4e267133f15078f330aaa46173c3c834ad"
 
 [[files]]
 file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
@@ -206,7 +254,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "d29976327d9afd33309b0f2ddf2569b9d50e8974d7f3f269f6db43fe5358dab5"
+hash = "e2d024d2611636c80cbc82e8638d99f50668a7ef93317a94bd40044912e03e8a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -540,18 +588,13 @@ hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
 
 [[files]]
-file = "mods/better-advanced-tooltips.pw.toml"
-hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
-metafile = true
-
-[[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
 
 [[files]]
 file = "mods/byte.pw.toml"
-hash = "582ab10e5342ea26b0b5761f8e8fcea227fc5025a28f4c62b38a90457aecf16b"
+hash = "4faf76c8ebe0d8a863576ea66f0efcd8a571f0cf6edc0faa763f6ad2f077dd3f"
 metafile = true
 
 [[files]]
@@ -581,7 +624,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "9fa4016745c872a194976e5c1551fde6ffd74f9082bd347fc5218d72e877eaab"
+hash = "594cf4ca23d3eca84b27092e170737cd6a51a99a3a83c864f68512b02e487efb"
 metafile = true
 
 [[files]]
@@ -605,8 +648,13 @@ hash = "4c0943468e816c02ad58398d600e6c5c413d3a3e0495d3245cd77c4066a14e77"
 metafile = true
 
 [[files]]
+file = "mods/copycats-plus-aeronautics-weight.pw.toml"
+hash = "a1e68ec75524eb10a4522c27e3429a43c22861ac3c081686bd948a06bc4cfc91"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
-hash = "4892513825f87217b6cc3f4d3ec4dcd3965b96dede8cc10d6578c4769102ae8e"
+hash = "b6b702e432d0a9089ab5ccbf0c83951f6afe1315822c668659b8b04e4f3b99f7"
 metafile = true
 
 [[files]]
@@ -625,8 +673,13 @@ hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-automated-logistics.pw.toml"
+hash = "39c088076ac598ef07bb287d525160504cb3f6aad61931a45beecd7cf4d9b7c2"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
-hash = "914f2efb2afa0113d5936b0e721fb5c291abb9c2e66944f33fc33be8e33c8a89"
+hash = "b9550555c9db41c89f4b8d5df03f315e33ebe3c397f314be4287a403e01b6b10"
 metafile = true
 
 [[files]]
@@ -642,11 +695,6 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-lift-patch.pw.toml"
 hash = "434d92388783bd89bfad57891f43b7bab9b9c3b16800fd1d8de5f76049a2f304"
-metafile = true
-
-[[files]]
-file = "mods/create-aeronautics-throwable-rope-connector.pw.toml"
-hash = "ede459754df771b7fed0268f983b67f9f98ccccd60df8958ffa49d28f0481106"
 metafile = true
 
 [[files]]
@@ -701,7 +749,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "3730e878f415e71379e4c25cc1b5c1279c92625200f360e4262bc02673879245"
+hash = "9e472e984abd4d3fff16908c4674a8ef20c0f70d026523cdcdc04915f2b4140e"
+metafile = true
+
+[[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
 metafile = true
 
 [[files]]
@@ -725,6 +778,11 @@ hash = "cf8533b0310f49fc8db0a22bb56f6de8684ac817cc42ac195997abe91d37c99b"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantable-machinery.pw.toml"
+hash = "ff95732644994b3b955de5b0c927b3caccce9d22c19e53b95da96b887cff2525"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
 metafile = true
@@ -732,6 +790,11 @@ metafile = true
 [[files]]
 file = "mods/create-factory-controller.pw.toml"
 hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
+metafile = true
+
+[[files]]
+file = "mods/create-food.pw.toml"
+hash = "b453da2f0b7acfd75d9bfb12f9dcad50211a0b25040c894f00736b913c18a339"
 metafile = true
 
 [[files]]
@@ -762,6 +825,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
+metafile = true
+
+[[files]]
+file = "mods/create-rail-grinding.pw.toml"
+hash = "96cb3a63a8cea76798153bfeeedab94d487210040a07b08c2df0e401ea85c137"
 metafile = true
 
 [[files]]
@@ -797,6 +865,11 @@ metafile = true
 [[files]]
 file = "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml"
 hash = "f14ab00e7678ba29914b0d1a45a9e200ced324886dc41f2a3f1001a7a80ae67d"
+metafile = true
+
+[[files]]
+file = "mods/create-trading-floor.pw.toml"
+hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
 metafile = true
 
 [[files]]
@@ -1011,7 +1084,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "b5b6587e134af00d356d4e7c8d16f189540d778e2e214063e1cc7a5baffd5481"
+hash = "3c703781ea00c9cf968e1051b57b9ee28380a0cd0f038d1087b91d884cc30fb7"
 metafile = true
 
 [[files]]
@@ -1086,7 +1159,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "792f2799c2ae697ab90e1bba05ca4736d06384cba26ed5f1d35442417ab0d9b5"
+hash = "b14b3d7f88512f23bccca8e2f133e52e84307679b6eba4e818ce13e8f87e503d"
 metafile = true
 
 [[files]]
@@ -1130,6 +1203,11 @@ hash = "12745d13118f3cb73bbec905ae544586c27ea111ee26aa8276603fdcab0d1264"
 metafile = true
 
 [[files]]
+file = "mods/opac-essentials.pw.toml"
+hash = "d97b318c782b9a32990f9c6e3e8ba6e3e888eebadb61427c92d2a2604433cf08"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true
@@ -1146,7 +1224,12 @@ metafile = true
 
 [[files]]
 file = "mods/packupdater.pw.toml"
-hash = "da6de3e980d64d1cc68eca57c236877e411722a1a2c76512078410078e5392f8"
+hash = "2cfde98167e4ca6cac68d71a51401ef3ceb235ba570f416c88c5b3d264ea184c"
+metafile = true
+
+[[files]]
+file = "mods/platform.pw.toml"
+hash = "a76b6068b10171b1fc244d5cb0a9dfbd0694b33e25c62eeeb5726c73d297cd3d"
 metafile = true
 
 [[files]]
@@ -1166,7 +1249,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "9ec220396acf843c893afb2a690091385ed7bafbfb9b9358cd3aeb380d5f6503"
+hash = "a6e37ed592faeab6f3f86f46b078ac2333c7039b832cd51b628970861f46e157"
 metafile = true
 
 [[files]]
@@ -1197,6 +1280,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+metafile = true
+
+[[files]]
+file = "mods/rinku.pw.toml"
+hash = "dca02d2e86d69b3d3a286052119fc814f35a8d5a118057ae9933170dbfdc92bb"
 metafile = true
 
 [[files]]
@@ -1306,7 +1394,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "f0a7b5302b5238964306a522238f623274aee1c639198c04dc543ac759132215"
+hash = "d98bc00b46a8d30f6787b06bbbdd5385e3f8b0f2ee6bcf9207fca1d1cfcd3099"
 metafile = true
 
 [[files]]
@@ -1317,6 +1405,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "0ea8ab3c8eebc336062f5e2da28c50f460fdc555913a9a66e4f27972c3a5e1ef"
 metafile = true
 
 [[files]]
