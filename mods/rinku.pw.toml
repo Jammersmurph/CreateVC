@@ -1,0 +1,13 @@
+name = "Rinku"
+filename = "rinku_neoforge_3.0.4_MC_1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bQhBuv7x/versions/JOrwMXrE/rinku_neoforge_3.0.4_MC_1.21.1.jar"
+hash-format = "sha512"
+hash = "a8a1062caeb039a8bf31bf9cf5c4b05c4927b686eb96ed9a6fad9bc044b402af2d15fa610b09ea08753397c48940435d72e4e41f659993a6233663e221a6af9e"
+
+[update]
+[update.modrinth]
+mod-id = "bQhBuv7x"
+version = "JOrwMXrE"
