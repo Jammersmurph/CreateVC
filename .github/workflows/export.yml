@@ -107,7 +107,57 @@ jobs:
           git checkout config/packupdater.properties
 
       - name: Export to Modrinth
-        run: packwiz mr export -o CreateVC.mrpack
+        run: |
+          # packwiz has to download URL-sourced mods to hash them for the Modrinth
+          # manifest, and it silently omits a file when that download fails. A retry
+          # usually fits a transient CDN error, but publishing a pack that is missing
+          # a required jar (including the updater itself) is never acceptable.
+          set -o pipefail
+          for attempt in 1 2 3 4 5; do
+            log="$RUNNER_TEMP/packwiz-export.log"
+            if packwiz mr export -o CreateVC.mrpack 2>&1 | tee "$log" \
+              && ! grep -qE 'Download of .* failed' "$log"; then
+              echo "Export clean on attempt ${attempt}."
+              exit 0
+            fi
+            echo "::warning::Export attempt ${attempt} dropped at least one file after a download failure; retrying."
+            sleep 15
+          done
+          echo "::error::packwiz could not download every URL-sourced mod; refusing to publish an incomplete pack."
+          exit 1
+
+      - name: Sanity check - no indexed file was dropped from the mrpack
+        run: |
+          python3 - <<'PY'
+          import glob, json, sys, tomllib, zipfile
+
+          with zipfile.ZipFile('CreateVC.mrpack') as archive:
+              manifest = json.loads(archive.read('modrinth.index.json'))
+              names = set(archive.namelist())
+
+          # Only the metafiles still present at this point are meant to be exported;
+          # the exclusion step has already moved updater-managed and CurseForge ones out.
+          expected = []
+          for pattern in ('mods/*.pw.toml', 'resourcepacks/*.pw.toml'):
+              for metafile in sorted(glob.glob(pattern)):
+                  with open(metafile, 'rb') as handle:
+                      data = tomllib.load(handle)
+                  expected.append((f'{pattern.split("/")[0]}/{data["filename"]}', metafile))
+
+          present = {entry['path'] for entry in manifest['files']}
+          missing = [
+              f'{path} (from {metafile})'
+              for path, metafile in expected
+              if path not in present
+              and not any(path.rsplit('/', 1)[-1] in name for name in names)
+          ]
+          if missing:
+              print('Export completeness FAILED - indexed files are missing from the mrpack:')
+              for item in missing:
+                  print(f'  {item}')
+              sys.exit(1)
+          print(f'Export completeness passed ({len(expected)} indexed files).')
+          PY
 
       - name: Sanity check - ship preserved PackUpdater config
         run: |
