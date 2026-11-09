@@ -9,7 +9,7 @@ B:play_vanilla_menu_music = 'true';
 
 B:modpack_mode = 'false';
 B:show_customization_overlay = 'false';
-B:advanced_customization_mode = 'false';
+B:advanced_customization_mode = 'true';
 
 
 ##[loading]
@@ -74,7 +74,7 @@ S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';
 S:global_background_panorama = '';
 I:global_slider_handle_nine_slice_border_left = '5';
-S:global_menu_background_texture = '[source:local]/config/fancymenu/assets/wrench_blueprint-high.png';
+S:global_menu_background_texture = '';
 
 
 ##[multiplayer_screen]

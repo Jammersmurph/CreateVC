@@ -105,6 +105,14 @@ file = "config/fancymenu/assets/blank_blueprint.png"
 hash = "fa480747c900e6862ffbae706245a41ea01dc8a0756e54b7fbdbc134dcf3ebf3"
 
 [[files]]
+file = "config/fancymenu/assets/createmod.com-low.png"
+hash = "a0db591c27fe0a1f5a861f5b533ed43a35a2a134a890420d3265f877128cd6fb"
+
+[[files]]
+file = "config/fancymenu/assets/createmod.com.webp"
+hash = "0a5b06b472e5f26424185913c315e4e96fa7b7462e52923701283cc4f6e5dff8"
+
+[[files]]
 file = "config/fancymenu/assets/createvc-banner-text.png"
 hash = "c9ee90b1a19c4dacf7e99df15f63171cccb04428619a0170406cb23becfb1841"
 
@@ -145,6 +153,18 @@ file = "config/fancymenu/assets/cvc_animated.gif"
 hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
 
 [[files]]
+file = "config/fancymenu/assets/discord-icon.png"
+hash = "b7f32f78ea09dc3607a7228018aed73340b96e28dce42edbee71d6204755d6ad"
+
+[[files]]
+file = "config/fancymenu/assets/mcip-logo-low.png"
+hash = "645824b44d3a6710714ce9c1621b448a821809071bf21bb41b885c930d4b7ad5"
+
+[[files]]
+file = "config/fancymenu/assets/mcip-logo.svg"
+hash = "fe28b0a10f31b968832c11f6ffd0e394605ce7d26763d7caf988441072fb9cce"
+
+[[files]]
 file = "config/fancymenu/assets/minecraftjava.jpg"
 hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
 
@@ -155,6 +175,14 @@ hash = "1996ff7cd69fc9795536a11cc695474bbb8efd48b53a3389f9d2ea14a59b65c7"
 [[files]]
 file = "config/fancymenu/assets/new-logo.png"
 hash = "d291947cecf1c73918e43f3743792cfd065ed4862444a9006383dd0d83ba5b48"
+
+[[files]]
+file = "config/fancymenu/assets/planetminecraft_logo-low.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
+
+[[files]]
+file = "config/fancymenu/assets/planetminecraft_logo.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
 
 [[files]]
 file = "config/fancymenu/assets/server-icon.png"
@@ -170,15 +198,19 @@ hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "7c16f8ab6495639d242369302f814c8c2faa487ac5810d6af0c070b0f53b7ae8"
+hash = "98deab53227aacc34e7d88cc989332e54037f11e8bfd1c109308e23ae9f11b04"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "efae973cd2e5402bd9e99ecd2b311d098e3b45c270c4f0f32da8eda3e86c699d"
+hash = "81e9e606624f5c40796d61d754ff423d2c72fe07b5a498b86fb2da86b1971ac1"
 
 [[files]]
 file = "config/fancymenu/customization/createvc_claim_shop_layout.txt"
 hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
+
+[[files]]
+file = "config/fancymenu/customization/cvc_store_layout.txt"
+hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
@@ -186,11 +218,27 @@ hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "ab44029520eb209025e5f0caf6df08467a7e7917b6d31afdb55f9ef15317157d"
+hash = "5f959cee3c9edb39687005f98aa29012ed7859059c04cccc60c0dc01cd5b54be"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_cms_layout.txt"
+hash = "c888252e218470e9304dcd9b239b4e8721eb3aafb5b5716ada740e70ef5cb201"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_mcip_layout.txt"
+hash = "a3ed738e28eb0e20b55ea9e031bbe9d643821d6c431bf1efc123f66c1134f0e2"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_pmc_layout.txt"
+hash = "4b3a5eba395286c4143e9d1027a8dbef2a685514e67f34ebd8ede570792427c9"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "a78e21d564b422639fdd8b8a7a54fbd3358c17cae77cf6e3779fbe96c233f394"
+hash = "d5f85aa0f6b5ab1505e3549fe5356dfac5658c83e5a6f4b7e06e648bbf2f8c6e"
+
+[[files]]
+file = "config/fancymenu/customization/vote_layout.txt"
+hash = "ef701c165252f3971d4493958f325e4e267133f15078f330aaa46173c3c834ad"
 
 [[files]]
 file = "config/fancymenu/customization/xaero.pac.client.gui.mainmenu_layout.txt"
@@ -206,7 +254,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "d29976327d9afd33309b0f2ddf2569b9d50e8974d7f3f269f6db43fe5358dab5"
+hash = "e2d024d2611636c80cbc82e8638d99f50668a7ef93317a94bd40044912e03e8a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
