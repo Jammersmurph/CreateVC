@@ -1208,11 +1208,6 @@ hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
 metafile = true
 
 [[files]]
-file = "mods/redirected.pw.toml"
-hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
-metafile = true
-
-[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "72b75c125aee339e96885264e722420b5741f5bedac10ca3fba210d71a3a3af4"
 metafile = true
@@ -1335,11 +1330,6 @@ metafile = true
 [[files]]
 file = "mods/tt20.pw.toml"
 hash = "86a078669a3fdb4d5fd9944e8eea1ba54bf7888719bba145d3177dcda066f233"
-metafile = true
-
-[[files]]
-file = "mods/txnilib.pw.toml"
-hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
