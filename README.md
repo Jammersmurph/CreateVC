@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="createvc-smp-logo" src="https://github.com/user-attachments/assets/c321cb1a-8f08-466e-b3ce-a23e1af95227" />
+<img width="1536" height="1024" alt="createvc-smp-logo" src="https://cdn.modrinth.com/data/cached_images/4ff9e3af9ad459b72aacb1adcde9ea80e26ca1ec_0.webp" />
 
 # CreateVC Official Modpacks here.
 **CreateVC [Discord Server](https://discord.gg/dQR6fJUxAM)** (Communication/Verification/Two-Way Live Chat/Like-minded Community/Staff Support)
