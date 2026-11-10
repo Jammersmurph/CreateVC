@@ -1268,11 +1268,6 @@ hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
 metafile = true
 
 [[files]]
-file = "mods/redirected.pw.toml"
-hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
-metafile = true
-
-[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "72b75c125aee339e96885264e722420b5741f5bedac10ca3fba210d71a3a3af4"
 metafile = true
@@ -1403,11 +1398,6 @@ hash = "86a078669a3fdb4d5fd9944e8eea1ba54bf7888719bba145d3177dcda066f233"
 metafile = true
 
 [[files]]
-file = "mods/txnilib.pw.toml"
-hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
-metafile = true
-
-[[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "0ea8ab3c8eebc336062f5e2da28c50f460fdc555913a9a66e4f27972c3a5e1ef"
 metafile = true
@@ -1455,6 +1445,10 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
+
+[[files]]
+file = "release-dev.sh"
+hash = "43ee50173928187c3e988e3fa74cd3cb3d4ca24f327505e2a013428ada8c6119"
 
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
