@@ -603,11 +603,6 @@ hash = "253a414e73f57c890ae5e03f49517191267b1bef0a89252ae1221748cd0de4f9"
 metafile = true
 
 [[files]]
-file = "mods/cc-synaxis-connector.pw.toml"
-hash = "a6e29d99522d7941b1992fc5c10a3f0ef369a609d1af5e832ca800d39ba5e8a1"
-metafile = true
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "594cf4ca23d3eca84b27092e170737cd6a51a99a3a83c864f68512b02e487efb"
 metafile = true
@@ -1315,11 +1310,6 @@ metafile = true
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
-metafile = true
-
-[[files]]
-file = "mods/synaxis.pw.toml"
-hash = "518312fc4d99d83fbaa82f8d14d6a54eee19cc45e0515cf7da279b6b74f878b1"
 metafile = true
 
 [[files]]
