@@ -1,0 +1,13 @@
+name = "KubeJS Create Automation"
+filename = "kjscauto-0.9.0-beta-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1p8fuwKb/versions/mhGEoswR/kjscauto-0.9.0-beta-neoforge.jar"
+hash-format = "sha512"
+hash = "9e323b3f15ff86b3c98156a4847ec24d78b0eaf74e4c3bd365b0de6ded8eaff7c679a058ebd1e890a41816d10ac2fa27e9dcf9ac6dcfbbbf1f1c233aaff5eed9"
+
+[update]
+[update.modrinth]
+mod-id = "1p8fuwKb"
+version = "mhGEoswR"
