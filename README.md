@@ -27,6 +27,17 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 
 ### [Download from Modrinth](https://modrinth.com/server/createvc-server)
 
+## Development builds
+
+Pushes to `dev` publish the following assets to the
+[Nightly-DevPacks prerelease](https://github.com/Jammersmurph/CreateVC/releases/tag/Nightly-DevPacks):
+
+- `CreateVC-dev.mrpack` (Modrinth-compatible)
+- `CreateVC-Light-dev.zip` (PrismLauncher)
+
+Generated development archives are release assets, not committed files in `builds/`.
+These testing packs are separate from the stable `Modpacks` release.
+
 ## Client performance
 
 - VR, shaders, and dynamic lights remain opt-in. Resource-pack auto-activation is preserved, and Entity Model Features and Entity Texture Features remain included for custom animations.

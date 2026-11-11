@@ -2,7 +2,7 @@
 set -euo pipefail
 
 repo_root=$(git rev-parse --show-toplevel)
-output=${1:-"$repo_root/builds/CreateVC-Light-dev.zip"}
+output=${1:-"$repo_root/CreateVC-Light-dev.zip"}
 if [[ "$output" != /* ]]; then
     output="$repo_root/$output"
 fi

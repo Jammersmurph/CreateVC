@@ -8,19 +8,19 @@ on:
 permissions:
   contents: write
 
-# Serialize builds per branch instead of letting them race. A duplicate push
-# event otherwise makes both runs try to commit builds/, and the loser fails
-# with a non-fast-forward rejection. Queued (rather than cancelled) so a
-# legitimate follow-up commit is never silently dropped.
+# Serialize updates to the rolling nightly release.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-dev
   cancel-in-progress: false
 
 jobs:
   export:
+    if: github.ref == 'refs/heads/dev'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: dev
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -345,47 +345,33 @@ jobs:
           fi
           echo "Override mods check passed."
 
-      - name: Copy builds into repo
-        run: |
-          mkdir -p builds
-          cp CreateVC.mrpack builds/CreateVC-dev.mrpack
-          cp CreateVC-Light-dev.zip builds/CreateVC-Light-dev.zip
+      - name: Name nightly export
+        run: mv CreateVC.mrpack CreateVC-dev.mrpack
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: CreateVC-Dev-Exports
           path: |
-            builds/CreateVC-dev.mrpack
-            builds/CreateVC-Light-dev.zip
+            CreateVC-dev.mrpack
+            CreateVC-Light-dev.zip
           compression-level: 0
 
-      - name: Push builds to dev branch
-        if: github.ref_type == 'branch'
+      - name: Publish nightly prerelease
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: Nightly-DevPacks
         run: |
-          # The branch can move under us: a duplicate push event, or another run
-          # committing its own build. Rebuilding directly on top of the current
-          # remote tip keeps the push a fast-forward without ever merging
-          # histories, and makes a duplicate run a no-op when the artifact is
-          # already committed.
-          scratch="${RUNNER_TEMP:-/tmp}/createvc-build-artifacts"
-          mkdir -p "$scratch"
-          cp builds/CreateVC-dev.mrpack "$scratch/"
-          cp builds/CreateVC-Light-dev.zip "$scratch/"
-
-          git config user.name "CreateVC Dev CI"
-          git config user.email "actions@github.com"
-
-          git fetch -q origin "$GITHUB_REF_NAME"
-          git reset --hard -q "origin/${GITHUB_REF_NAME}"
-          mkdir -p builds
-          cp "$scratch/CreateVC-dev.mrpack" builds/CreateVC-dev.mrpack
-          cp "$scratch/CreateVC-Light-dev.zip" builds/CreateVC-Light-dev.zip
-
-          git add -f builds/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --target dev \
+              --title "$TAG" \
+              --notes "Rolling development builds from the dev branch. These are prerelease testing packs." \
+              --prerelease \
+              --latest=false
           fi
-          git commit -q -m "update dev build [skip ci]"
-          git push
+          gh release edit "$TAG" --prerelease --latest=false
+          gh release upload "$TAG" \
+            CreateVC-dev.mrpack \
+            CreateVC-Light-dev.zip \
+            --clobber
