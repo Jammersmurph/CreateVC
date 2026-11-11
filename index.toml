@@ -422,7 +422,7 @@ hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "f4266327e61435ecc980cbf6cdbc083f079f7d9aa8c974dec0e4ab9a7d5e300f"
+hash = "21a5561ea7f079cb48c107df762df42dcff11f1364cb69ae43e31de7ad95021f"
 preserve = true
 
 [[files]]
