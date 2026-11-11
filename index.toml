@@ -1058,6 +1058,11 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create-automation.pw.toml"
+hash = "abcb3c23e474ccd0d627f3b4c28a8a9ea0fb08dc47ef751cb9ce01ebbe2493d5"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "0d5c575a46a4de0aec314690405317451c6235abd2d4e05a53963569a4b46841"
 metafile = true
