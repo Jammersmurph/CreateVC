@@ -893,11 +893,6 @@ hash = "11bcd6cc9b3daa5e7f0281b2d9c79211999986c57f618a6fa6cb2e3d194751c5"
 metafile = true
 
 [[files]]
-file = "mods/drive-by-wire-sable.pw.toml"
-hash = "dfcf0ef42d5dc33213781ebd3bc2c5e0debd9bb6540006d9941a02906fb33601"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "dfaf1d3599226ac3fb373ded97212426485cf955b5b26973d99e173e946ce1ec"
 metafile = true
