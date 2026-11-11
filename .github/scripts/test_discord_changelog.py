@@ -32,14 +32,18 @@ class ChangelogTests(unittest.TestCase):
         self.assertNotIn("embeds", payload)
         self.assertNotIn("content", payload)
         components = payload["components"][0]["components"]
-        self.assertEqual([c["type"] for c in components], [12, 10, 14, 10, 12])
-        for component in (components[0], components[-1]):
+        self.assertEqual([c["type"] for c in components], [10, 14, 10, 12])
+        for component in (components[-1],):
             url = component["items"][0]["media"]["url"]
             self.assertIn("/" + "b" * 40 + "/.github/assets/discord/", url)
             asset = Path(__file__).parents[1] / "assets/discord" / url.split("/")[-1]
             self.assertTrue(asset.is_file())
-        self.assertIn("**1 commit**", components[1]["content"])
-        self.assertIn("Update mods More details", components[1]["content"])
+        self.assertIn("**1 commit**", components[0]["content"])
+        self.assertIn("Update mods More details", components[0]["content"])
+        self.assertIn(
+            "[Modpack downloads](https://www.createvc.org/pack)",
+            components[2]["content"],
+        )
 
     def test_truncation_and_missing_author(self):
         event = self.event(6)
@@ -47,7 +51,7 @@ class ChangelogTests(unittest.TestCase):
             commit["author"] = None
             commit["message"] = "x" * 5000
         payload = changelog.build_payload(event, "revision")
-        text = payload["components"][0]["components"][1]["content"]
+        text = payload["components"][0]["components"][0]["content"]
         self.assertIn("**6 commits**", text)
         self.assertIn("+ 2 more commits", text)
         self.assertEqual(text.count("by **unknown**"), 4)
@@ -66,7 +70,7 @@ class ChangelogTests(unittest.TestCase):
         event = self.event()
         event["before"] = "0" * 40
         payload = changelog.build_payload(event, "revision")
-        links = payload["components"][0]["components"][3]["content"]
+        links = payload["components"][0]["components"][2]["content"]
         self.assertIn("[Full changelog](https://github.com/Jammersmurph/CreateVC)", links)
 
     def test_webhook_options_preserve_thread(self):

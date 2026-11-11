@@ -2,7 +2,7 @@
 
 Copied from `~/CreateVC-Assets/`:
 
-- `createvc-smp-logo.png`: `createvc-smp-logo.png` (top gallery).
+- `createvc-smp-logo.png`: `createvc-smp-logo.png` (unused; retained as artwork).
 - `createvc-banner.png`: `createvc_smp_v3-high.png` (bottom gallery).
 
 The changelog uses public raw GitHub image URLs pinned to the workflow commit.

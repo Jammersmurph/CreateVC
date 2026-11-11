@@ -70,14 +70,13 @@ def build_payload(event, revision):
             "type": 17,
             "accent_color": 0x7DBBE6,
             "components": [
-                gallery("createvc-smp-logo.png", "CreateVC SMP logo"),
                 {"type": 10, "content": summary + "\n".join(lines)},
                 {"type": 14, "divider": True, "spacing": 1},
                 {"type": 10, "content": (
                     "### ⚙️┃Keep up with CreateVC\n"
                     f"[Full changelog]({compare_url}) • "
                     "[Website](https://www.createvc.org/) • "
-                    f"[Modpack downloads]({repo_url}/releases)"
+                    "[Modpack downloads](https://www.createvc.org/pack)"
                 )},
                 gallery("createvc-banner.png", "CreateVC blue wrench banner"),
             ],
