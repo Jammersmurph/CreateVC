@@ -788,6 +788,11 @@ hash = "96cb3a63a8cea76798153bfeeedab94d487210040a07b08c2df0e401ea85c137"
 metafile = true
 
 [[files]]
+file = "mods/create-simurail.pw.toml"
+hash = "2643b523fa70bdf0429a6e5b04f9f22452e66230d17324cb323f9749a4cef4c1"
+metafile = true
+
+[[files]]
 file = "mods/create-smart-bounds.pw.toml"
 hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
 metafile = true

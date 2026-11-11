@@ -1,0 +1,13 @@
+name = "Create Simurail"
+filename = "simurail-0.1.0+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y1cfijof/versions/qSUkP0Zm/simurail-0.1.0%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "521913bb283473f9bcef41bcf2a5266110cc6fdd497449af23fd1ed4e4078c753245517fd598ff6ce9b2c9560f5603d7f4d755c2b0ed246b2a4dcaabfa0e8c03"
+
+[update]
+[update.modrinth]
+mod-id = "Y1cfijof"
+version = "qSUkP0Zm"
