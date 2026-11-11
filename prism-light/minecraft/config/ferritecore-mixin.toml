@@ -1,0 +1,14 @@
+# Trade a little block-state lookup speed for a smaller representation.
+compactFastMap = true
+# Keep the explicitly risky threading-detector replacement disabled.
+useSmallThreadingDetector = false
+cacheMultipartPredicates = true
+multipartDeduplication = true
+blockstateCacheDeduplication = true
+dataComponentPatch = true
+modelResourceLocations = true
+modelSides = true
+replaceNeighborLookup = true
+populateNeighborTable = false
+replacePropertyMap = true
+bakedQuadDeduplication = true

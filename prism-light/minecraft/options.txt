@@ -1,0 +1,17 @@
+ao:false
+biomeBlendRadius:0
+enableVsync:false
+entityDistanceScaling:0.5
+entityShadows:false
+graphicsMode:0
+maxFps:30
+mipmapLevels:0
+particles:2
+renderClouds:"false"
+renderDistance:4
+simulationDistance:4
+screenEffectScale:0.0
+fovEffectScale:0.0
+menuBackgroundBlurriness:0
+resourcePacks:["vanilla","mod_resources","fabric","moonlight:merged_pack"]
+incompatibleResourcePacks:[]

@@ -95,54 +95,7 @@ jobs:
         run: bash .github/scripts/build-light-pack.sh CreateVC-Light-dev.zip
 
       - name: Validate Prism Light pack
-        run: |
-          python3 -c "
-          import configparser, io, json, sys, zipfile
-          path = 'CreateVC-Light-dev.zip'
-          with zipfile.ZipFile(path) as archive:
-              names = set(archive.namelist())
-              required = {
-                  'instance.cfg',
-                  'mmc-pack.json',
-                  'minecraft/config/lambdynlights.toml',
-                  'minecraft/config/renderscale.json5',
-                  'minecraft/mods/packupdater.jar',
-                  'minecraft/mods/renderscale-1.4.0-alpha.6-neoforge+1.21.1.jar',
-                  'minecraft/config/packupdater.properties',
-              }
-              missing = required - names
-              if missing:
-                  sys.exit(f'Missing Light pack files: {sorted(missing)}')
-
-              instance_text = archive.read('instance.cfg').decode()
-              if '/home/' in instance_text or 'JavaPath=' in instance_text:
-                  sys.exit('Light instance contains a machine-specific Java path')
-              config = configparser.ConfigParser()
-              config.read_file(io.StringIO(instance_text))
-              general = config['General']
-              if general.getboolean('AutomaticJava') is not True:
-                  sys.exit('AutomaticJava must be enabled')
-              if general.getboolean('OverrideJavaLocation') is not False:
-                  sys.exit('OverrideJavaLocation must be disabled')
-              if general.getint('MaxMemAlloc') != 2048:
-                  sys.exit('Light pack must allocate at most 2048 MB')
-
-              components = json.loads(archive.read('mmc-pack.json'))['components']
-              versions = {component['uid']: component['version'] for component in components}
-              if versions.get('net.minecraft') != '1.21.1':
-                  sys.exit('Unexpected Minecraft version')
-              if versions.get('net.neoforged') != '21.1.250':
-                  sys.exit('Unexpected NeoForge version')
-
-              lights = archive.read('minecraft/config/lambdynlights.toml').decode()
-              if 'mode = \"off\"' not in lights:
-                  sys.exit('Dynamic lighting is not disabled by default')
-
-              render_scale = json.loads(archive.read('minecraft/config/renderscale.json5'))
-              if render_scale.get('scale') != 0.75:
-                  sys.exit('RenderScale is not configured to 0.75')
-          print('Prism Light pack validation passed.')
-          "
+        run: python3 .github/scripts/validate-light-pack.py CreateVC-Light-dev.zip
 
       - name: Exclude updater-managed files from export
         run: |

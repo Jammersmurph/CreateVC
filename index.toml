@@ -71,6 +71,7 @@ hash = "f1e31eed2ff11e1c6eda6517dc8b24dabd5b752ba1f8a3503c5ce750af1fc7b4"
 [[files]]
 file = "config/defaultoptions-common.toml"
 hash = "f753ec66829dc7d1f862443767a4a145f42481ea51b6368148bfb72d1a96ebc7"
+preserve = true
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -79,6 +80,7 @@ hash = "088e6992bbe70f102edfb2750b9438013041e74f4139ae3e658b3a318a52c8bf"
 [[files]]
 file = "config/defaultoptions/options.txt"
 hash = "f481863fd2150f45671818709f7898d557e1e4f33718e33c00f079a45928a29d"
+preserve = true
 
 [[files]]
 file = "config/discord_chat_mod-client.toml"
@@ -299,6 +301,7 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
+preserve = true
 
 [[files]]
 file = "config/flerovium.json"
@@ -383,6 +386,7 @@ hash = "290f4c6824e84077fd6877efeefdf351a6313d3059025e62140856553502e9e9"
 [[files]]
 file = "config/lambdynlights.toml"
 hash = "3347ada47496aa536c29089bdb19588aee793340327d018738d0122f380d5393"
+preserve = true
 
 [[files]]
 file = "config/lithium.properties"
@@ -399,6 +403,7 @@ hash = "4dd03ec5be94c8e56794c8fb0d0d1c907228d6881787d06e2743035e1dd4ca10"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "32bbaa6f573b612b92653fc2814365cd8aa423d39fcab4fa5dcfcb5f31121874"
+preserve = true
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -476,6 +481,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 [[files]]
 file = "config/sodium-options.json"
 hash = "def2777bca5f272b93219121d9605067d70cbefe61509f8fd3ec40ed5a67f00d"
+preserve = true
 
 [[files]]
 file = "config/sophisticatedcore-client.toml"
@@ -1380,6 +1386,7 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
+preserve = true
 
 [[files]]
 file = "resourcepacks/bare-bones.pw.toml"
