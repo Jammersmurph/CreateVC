@@ -1,0 +1,15 @@
+name = "Create-Loconautics"
+filename = "loconautics-0.1.4BETA.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Lyccoriis/Create-Loconautics/releases/download/indev-latest/loconautics-0.1.4BETA.jar"
+hash-format = "sha256"
+hash = "f51c291640bc99da1b9f26756c0f6fdceeedfc137273a970202ece72d285c13d"
+
+[update]
+[update.github]
+branch = "b081a9ed2c39c968f7221b3e36cbbb93f633d197"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "Lyccoriis/Create-Loconautics"
+tag = "indev-latest"

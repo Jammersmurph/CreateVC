@@ -778,6 +778,11 @@ hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
 metafile = true
 
 [[files]]
+file = "mods/create-loconautics.pw.toml"
+hash = "92a0919bee51edcc5739c2942584a0e6db65d6aa4d2524d24f6db8f0b1118f2c"
+metafile = true
+
+[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
 metafile = true
@@ -860,11 +865,6 @@ metafile = true
 [[files]]
 file = "mods/createlazytick.pw.toml"
 hash = "6d0f30b92932fbefb1ca87c2cde56c6065cc79fa7fe2e4deebf1b8fe3d2bac11"
-metafile = true
-
-[[files]]
-file = "mods/createloconautics.pw.toml"
-hash = "b070af4e94739f63b85f7f90127c30ae6ed972d2fda5dd3a89d6b591ec610e30"
 metafile = true
 
 [[files]]
