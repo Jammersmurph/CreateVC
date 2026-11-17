@@ -1,0 +1,15 @@
+name = "CVCPatches"
+filename = "cvcpatches-1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/SunriseCoding/CVCPatches/releases/download/Release/cvcpatches-1.0.jar"
+hash-format = "sha256"
+hash = "f16d6e83d889cb501e5355f454bcb18e50d1cee8e203846b567c127b001e9b41"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "SunriseCoding/CVCPatches"
+tag = "Release"
