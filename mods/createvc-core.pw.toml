@@ -1,8 +1,8 @@
-name = "CreateVC Core"
-filename = "createvc-core-managed.jar"
+name = "createvc-core"
+filename = "c46c71097f8d07b505f5ca2233779acf1cbea9fd6527c6a22f690aeef012455e.jar"
 side = "both"
 
 [download]
-url = "https://downloads.createvc.org/CreateVC-Core/f5209123f4064cde5fd30a53ef68233abbf0c70437b6eaa80e293cd6396e66be.jar"
+url = "https://downloads.createvc.org/CreateVC-Core/c46c71097f8d07b505f5ca2233779acf1cbea9fd6527c6a22f690aeef012455e.jar"
 hash-format = "sha256"
-hash = "f5209123f4064cde5fd30a53ef68233abbf0c70437b6eaa80e293cd6396e66be"
+hash = "c46c71097f8d07b505f5ca2233779acf1cbea9fd6527c6a22f690aeef012455e"

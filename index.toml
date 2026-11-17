@@ -903,7 +903,7 @@ metafile = true
 
 [[files]]
 file = "mods/createvc-core.pw.toml"
-hash = "b25ff9c505fd3d5a152b54b78c169ba42a746c6529469856b8fc220ae7b4b34a"
+hash = "bb06172ab89ade2ec3af7b35ee8bdf9e517bfcfc7171407be15809cd3c0d65a2"
 metafile = true
 
 [[files]]
@@ -914,11 +914,6 @@ metafile = true
 [[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
-metafile = true
-
-[[files]]
-file = "mods/cvcpatches.pw.toml"
-hash = "e9936fa3c22984654c53258741b9b1e2dac1b8742064c4c834151c288edbac74"
 metafile = true
 
 [[files]]
