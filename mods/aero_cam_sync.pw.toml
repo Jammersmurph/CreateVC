@@ -15,4 +15,4 @@ version = "UbgVQ0qd"
 [option]
 optional = true
 default = false
-description = "Syncs your camera to the physics object's orientation to make it easier to move around in"
+description = "Syncs the camera with the sub-level's orientation to make moving around sub-levels easier."

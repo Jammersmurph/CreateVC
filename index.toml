@@ -548,7 +548,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero_cam_sync.pw.toml"
-hash = "a56f1de1d072a7b50bb84609840eff5274550cd27169b024c752f45c9610e729"
+hash = "0e127d561066f02f0930e298f1d9bbdf80ef12505617f10229c70c000bafa140"
 metafile = true
 
 [[files]]
