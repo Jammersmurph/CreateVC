@@ -547,6 +547,11 @@ hash = "f643fec9c216f67cb31334832cda1ac3543a759b9e6b1bf26b7d5ea0ea592030"
 metafile = true
 
 [[files]]
+file = "mods/aero_cam_sync.pw.toml"
+hash = "05d7fc1975485e44ed23c67f33d4f691523da2bacef29464f04433154929e6f8"
+metafile = true
+
+[[files]]
 file = "mods/aeroengine.pw.toml"
 hash = "3637f8c7e237525c908ef902ab13765be9b7c885e22a5ec0532561a13af7ba48"
 metafile = true
