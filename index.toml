@@ -535,7 +535,7 @@ hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
 
 [[files]]
 file = "kubejs/client_scripts/continuous_ziplines.js"
-hash = "744c2c487c70c262805e693cae1f46699c7d8249bdb0d20e0104f10a9acfd15c"
+hash = "1869f4edf171c8a8af358310a91a505475fbb979a005d53a61edf3c343caa090"
 
 [[files]]
 file = "kubejs/server_scripts/cosmonautics_no_ore_recipes.server.js"
