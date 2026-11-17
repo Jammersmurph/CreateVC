@@ -779,7 +779,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-loconautics.pw.toml"
-hash = "92a0919bee51edcc5739c2942584a0e6db65d6aa4d2524d24f6db8f0b1118f2c"
+hash = "119a6c32ee12ad95b7621849c34d30595c8ff2aec61bdac2c5302039a50825b8"
 metafile = true
 
 [[files]]
