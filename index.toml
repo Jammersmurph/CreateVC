@@ -540,6 +540,10 @@ file = "icon.png"
 hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
 
 [[files]]
+file = "kubejs/client_scripts/continuous_ziplines.js"
+hash = "1f5c59577155ff02f47bc28b47f9935d0ae11e8b3f5f649ee76e2328e164a38f"
+
+[[files]]
 file = "kubejs/server_scripts/cosmonautics_no_ore_recipes.server.js"
 hash = "95b6e0fec2bad371a2c89c9058095a9b4096f4ec68db8852a04041864d8cdc61"
 
