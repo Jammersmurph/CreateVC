@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://downloads.createvc.org/CreateVC-Core.jar"
 hash-format = "sha256"
-hash = "c46c71097f8d07b505f5ca2233779acf1cbea9fd6527c6a22f690aeef012455e"
+hash = "653165f21df06efac82f849f3c9c9bc58a7434a6ca6293b355be7c4cc017dd03"
