@@ -907,11 +907,6 @@ hash = "9ea6938f1dd581f77a226496fa2350b15bc816c454b4e8ba24fc16f909461ec0"
 metafile = true
 
 [[files]]
-file = "mods/createvc-core.pw.toml"
-hash = "dceb07b131f6c9e5568b4263a53e109f3ff66a30f7b5e40c0882f215e773e978"
-metafile = true
-
-[[files]]
 file = "mods/curios.pw.toml"
 hash = "676df36a849cf3bd9771661ac6f4fdee8860cac6e63e4cc2dcebe9b25e7ddeae"
 metafile = true
