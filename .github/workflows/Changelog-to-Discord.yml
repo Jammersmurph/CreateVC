@@ -5,7 +5,8 @@ on: [push]
 permissions:
   contents: read
 
-# Queue rather than cancel: every push should be reported.
+# Queue rather than cancel: a push that arrives while a notification is being
+# sent must still be reported.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false

@@ -1,17 +1,21 @@
 # CreateVC Discord artwork
 
-Copied from `~/CreateVC-Assets/`:
+The changelog gallery uses this CreateVC-hosted logo URL at the top of each
+Components V2 container:
 
-- `createvc-smp-logo.png`: `createvc-smp-logo.png` (unused; retained as artwork).
-- `createvc-banner.png`: `createvc_smp_v3-high.png` (bottom gallery).
+- `createvc_smp_logo.png` (Discord-cached `CreateVC-Assets` image)
 
-The changelog uses public raw GitHub image URLs pinned to the workflow commit.
-These images must remain in the public repository so Discord can fetch them.
-Everything under `.github/` is excluded from packwiz exports.
+No image is placed at the bottom of the message.
 
 The existing `DISCORD_WEBHOOK` Actions secret is still required. The sender enables
 `with_components=true` for ordinary incoming webhooks and `wait=true` to confirm
-delivery. It posts Components V2 containers, not legacy embeds.
+delivery. It posts Components V2 containers, not legacy embeds. Each container has
+one action row of five link buttons: View commit, View branch, Full changelog,
+Website, and Downloads.
+
+Commit messages are never truncated. Because Discord limits each message to 40
+components and 4000 characters per text display, long commit messages and pushes
+with many commits are split across multiple webhook posts.
 
 Run offline tests with:
 
