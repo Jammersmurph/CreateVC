@@ -3,13 +3,13 @@ filename = "CreateVC-Core.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Jammersmurph/CreateVC-Core-Releases/releases/download/v1.2.0-build.25.1/CreateVC-Core.jar"
+url = "https://github.com/Jammersmurph/CreateVC-Core-Releases/releases/download/v1.2.1-build.26.1/CreateVC-Core.jar"
 hash-format = "sha256"
-hash = "e2aa90d2b8fc53454683a4a58a0c706a05f8d49c6aa91c35a54094bd316221bd"
+hash = "6350b540cc6751b626c60b66cbe31e50f17e5e0365102c61adb887b69743700a"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "Jammersmurph/CreateVC-Core-Releases"
-tag = "v1.2.0-build.25.1"
+tag = "v1.2.1-build.26.1"
