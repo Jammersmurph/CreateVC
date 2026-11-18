@@ -953,11 +953,6 @@ hash = "875d85990bd50cc8dd7bc3e1699b722e7aa1a78704a6ade47952e7e971daf951"
 metafile = true
 
 [[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "60baa78b0d76e76a726d459fd32cec5614141a43e1a470afc75bf7cbb14fec04"
-metafile = true
-
-[[files]]
 file = "mods/functional-storage-create-aero.pw.toml"
 hash = "a1a5c7a8d9c264dda2dd503bfc22c0f7a6d9804fb03a9327a14b22c35222a866"
 metafile = true
