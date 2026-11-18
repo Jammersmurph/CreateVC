@@ -1,0 +1,15 @@
+name = "CreateVC-Core-Releases"
+filename = "CreateVC-Core.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Jammersmurph/CreateVC-Core-Releases/releases/download/v1.3.0-build.28.1/CreateVC-Core.jar"
+hash-format = "sha256"
+hash = "91a6a39efbd62ac607f752b5dfd97a86825edb4326fff2afeaefb4a2d1c2961a"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "Jammersmurph/CreateVC-Core-Releases"
+tag = "v1.3.0-build.28.1"

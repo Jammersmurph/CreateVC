@@ -902,6 +902,11 @@ hash = "6d0f30b92932fbefb1ca87c2cde56c6065cc79fa7fe2e4deebf1b8fe3d2bac11"
 metafile = true
 
 [[files]]
+file = "mods/createvc-core-releases.pw.toml"
+hash = "9ea6938f1dd581f77a226496fa2350b15bc816c454b4e8ba24fc16f909461ec0"
+metafile = true
+
+[[files]]
 file = "mods/createvc-core.pw.toml"
 hash = "dceb07b131f6c9e5568b4263a53e109f3ff66a30f7b5e40c0882f215e773e978"
 metafile = true
@@ -999,11 +1004,6 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "981e52e1c4a97465921342f556cced335c6c75cdb050e9fc528d52cf4ff88b79"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "60baa78b0d76e76a726d459fd32cec5614141a43e1a470afc75bf7cbb14fec04"
 metafile = true
 
 [[files]]
