@@ -778,11 +778,6 @@ hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
 metafile = true
 
 [[files]]
-file = "mods/create-loconautics.pw.toml"
-hash = "9fdc27adfbd4b0e036629935260f87586cc8821d8023953d898eb739a9f1a96b"
-metafile = true
-
-[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
 metafile = true
