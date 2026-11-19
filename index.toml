@@ -1073,6 +1073,11 @@ hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
 
 [[files]]
+file = "mods/mapsyncer-for-xaeroworldmap.pw.toml"
+hash = "fc09ad6f603a6bc743c439fb154f0e3385ffa7566fdd5f8e8c12f6d34b66bb24"
+metafile = true
+
+[[files]]
 file = "mods/markdownmanual.pw.toml"
 hash = "f16f12f50147b493bc8b321ab26337b78cb892efdcf48cef6ddddefa1d4ea927"
 metafile = true
@@ -1125,6 +1130,11 @@ metafile = true
 [[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "748bdcbc7788a77881979189827f1baf3f6ef5fdaeb58b00e51e043c2c0abe39"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+hash = "b1a3df5322cdfab74403612fe1b8f3ce81b79fdacfee234d226899848e404948"
 metafile = true
 
 [[files]]
