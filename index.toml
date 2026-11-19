@@ -788,6 +788,11 @@ hash = "b5c4217d430af59d3243e8717ad09398864b726272e1ded301f182604d704a45"
 metafile = true
 
 [[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "10d3389f72e8e8f78518f5b6786ccec4e62dbad117491d2970e8e1f75e390251"
+metafile = true
+
+[[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
 metafile = true
@@ -950,6 +955,11 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "875d85990bd50cc8dd7bc3e1699b722e7aa1a78704a6ade47952e7e971daf951"
+metafile = true
+
+[[files]]
+file = "mods/flw-vanillin.pw.toml"
+hash = "e8518cc72e312fc3131c1bf51373327be2f3238d415f5d525ab2fddb38fb54a9"
 metafile = true
 
 [[files]]
