@@ -1,0 +1,18 @@
+name = "No Chat Restrictions"
+filename = "NoChatRestrictions-NeoForge-MC1.21.11-v1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/z440MEwJ/versions/8rgi2fn1/NoChatRestrictions-NeoForge-MC1.21.11-v1.1.0.jar"
+hash-format = "sha512"
+hash = "ac324936e887c04f838c42478767510c3d61e8213c52e0b656756f22d3944cb853beb3d26157733220d5512b6998b959496d1f70da8e7ebf82b1afb5b09590b0"
+
+[update]
+[update.modrinth]
+mod-id = "z440MEwJ"
+version = "8rgi2fn1"
+
+[option]
+optional = true
+default = false
+description = "Is microslop trying to supress you?\nAre they taking your very right to speak?\nWell look no further!"

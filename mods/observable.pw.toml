@@ -11,3 +11,8 @@ hash = "e594ed3a4a211158db1282202a48ded9b824d2f326e985d86116ad1709b6111cf41eba3f
 [update.modrinth]
 mod-id = "VYRu7qmG"
 version = "f8lSH3bs"
+
+[option]
+optional = true
+default = false
+description = "See what's lagging the server."
