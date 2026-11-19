@@ -25,6 +25,11 @@ LOGO_URL = (
 WEBSITE_URL = "https://www.createvc.org/"
 DOWNLOADS_URL = "https://www.createvc.org/pack"
 
+# The release announcement role is the only mention allowed through from commit
+# messages. Everything else stays escaped by plain_text().
+RELEASE_ROLE_ID = "1447355271830704170"
+RELEASE_ROLE_MENTION = f"<@&{RELEASE_ROLE_ID}>"
+
 
 def plain_text(value):
     """Escape untrusted GitHub metadata without altering its length semantics."""
@@ -87,10 +92,12 @@ def commit_pages(event, revision):
     commit_offset = 0
     page_commit_count = 0
     page_latest_commit_url = ""
+    page_roles = set()
 
     def flush_page():
         nonlocal page_children, page_text_chars, page_components
         nonlocal page_number, commit_offset, page_commit_count, page_latest_commit_url
+        nonlocal page_roles
         if not page_children:
             return
 
@@ -121,10 +128,14 @@ def commit_pages(event, revision):
             ]
         )
 
+        allowed_mentions = {"parse": []}
+        if page_roles:
+            allowed_mentions["roles"] = sorted(page_roles)
+
         yield {
             "username": "CreateVC Changelog",
             "flags": 32768,
-            "allowed_mentions": {"parse": []},
+            "allowed_mentions": allowed_mentions,
             "components": [{
                 "type": 17,
                 "accent_color": 0x7DBBE6,
@@ -139,6 +150,7 @@ def commit_pages(event, revision):
         page_components = 0
         page_commit_count = 0
         page_latest_commit_url = ""
+        page_roles = set()
 
     for index, commit in enumerate(commits, start=1):
         author = commit.get("author") or {}
@@ -149,9 +161,15 @@ def commit_pages(event, revision):
             f"**`{plain_text(sha[:6])}`** by **{inline_text(username)[:AUTHOR_LIMIT]}** • "
             f"commit {index} of {count}"
         )
-        # Preserve all lines and visible characters while escaping Markdown and mentions.
-        message = plain_text(commit.get("message", ""))
+        # Preserve all lines and visible characters while escaping Markdown and
+        # mentions. The release role ping is the sole exception: strip it from
+        # the escaped text and re-add it verbatim with an allowed_mentions entry.
+        raw_message = commit.get("message", "")
+        ping_release = RELEASE_ROLE_MENTION in raw_message
+        message = plain_text(raw_message.replace(RELEASE_ROLE_MENTION, ""))
         body_chunks = list(split_text(f"{heading}\n{message}\n"))
+        if ping_release:
+            body_chunks.append(RELEASE_ROLE_MENTION)
 
         # Close the current page if this commit would exceed Discord's limits.
         needed_chars = sum(len(chunk) for chunk in body_chunks)
@@ -174,6 +192,8 @@ def commit_pages(event, revision):
             page_components += 1
             page_latest_commit_url = url
 
+        if ping_release:
+            page_roles.add(RELEASE_ROLE_ID)
         page_commit_count += 1
 
     yield from flush_page()

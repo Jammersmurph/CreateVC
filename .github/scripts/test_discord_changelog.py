@@ -164,6 +164,27 @@ class ChangelogTests(unittest.TestCase):
             "thread_id": ["123"], "wait": ["true"], "with_components": ["true"],
         })
 
+    def test_release_role_ping_from_commit_message(self):
+        message = "Promote dev to main\n" + changelog.RELEASE_ROLE_MENTION
+        payload = next(changelog.commit_pages(self.event(message=message), "revision"))
+        self.assertEqual(payload["allowed_mentions"], {
+            "parse": [], "roles": [changelog.RELEASE_ROLE_ID],
+        })
+        texts = "".join(self.commit_texts(payload))
+        self.assertIn(changelog.RELEASE_ROLE_MENTION, texts)
+        self.assertNotIn("\\<", texts)
+
+    def test_other_mentions_stay_escaped_alongside_release_role(self):
+        message = changelog.RELEASE_ROLE_MENTION + " @everyone <@123>"
+        payload = next(changelog.commit_pages(self.event(message=message), "revision"))
+        self.assertEqual(payload["allowed_mentions"], {
+            "parse": [], "roles": [changelog.RELEASE_ROLE_ID],
+        })
+        texts = "".join(self.commit_texts(payload))
+        self.assertIn(changelog.RELEASE_ROLE_MENTION, texts)
+        self.assertNotIn("@everyone", texts)
+        self.assertNotIn("<@123>", texts)
+
 
 if __name__ == "__main__":
     unittest.main()
