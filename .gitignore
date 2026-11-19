@@ -9,3 +9,7 @@ saves/
 Resources/
 builds/*
 builds/
+
+.DS_Store
+*.bak
+servers.dat_old
