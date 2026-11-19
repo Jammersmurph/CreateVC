@@ -864,12 +864,12 @@ metafile = true
 
 [[files]]
 file = "mods/createvc-core-releases.pw.toml"
-hash = "9ea6938f1dd581f77a226496fa2350b15bc816c454b4e8ba24fc16f909461ec0"
+hash = "52affef2ca2f9b95e0ec0ffcf021c578eb98869c48ceaa0ca040e65d78f299e4"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "676df36a849cf3bd9771661ac6f4fdee8860cac6e63e4cc2dcebe9b25e7ddeae"
+hash = "c2a080ece36cc799b5bf5d47b7d042c284c1c4472f1bb1348589f49004133bd0"
 metafile = true
 
 [[files]]
