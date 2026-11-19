@@ -11,3 +11,8 @@ hash = "d98deec79eefb8e0c8ddda7def8a46f4c66402a213da5242f8ff029f43b844e68914fa31
 [update.modrinth]
 mod-id = "lMYIHZNH"
 version = "dxmPYimo"
+
+[option]
+optional = true
+default = false
+description = "Specifically targets Create rendering with shaders. Low priority without shaders."

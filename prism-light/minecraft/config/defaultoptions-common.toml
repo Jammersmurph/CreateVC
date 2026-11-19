@@ -1,0 +1,4 @@
+# Keep optional animation and texture packs opt-in on the Light profile.
+defaultDifficulty = "NORMAL"
+defaultResourcePacks = ["vanilla", "mod_resources", "fabric", "moonlight:merged_pack"]
+lockDifficulty = false

@@ -1,0 +1,2 @@
+# Dynamic lighting rebuilds chunks; keep it off on low-end hardware.
+mode = "off"
