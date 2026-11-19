@@ -1,19 +1,21 @@
 .github/
-.anchored-summary.md
 .gitignore
 .packwizignore
-createvc-overwrite-allowlist.txt
 README.md
-push-release.sh
 *.zip
 *.mrpack
 LICENSE*
 mods/createbigcannons-*.jar
-mods/createvc_updater-*.jar
-# mods/createvc_updater_dev-*.jar
 builds/*
 builds/
 prism-light/
 
 # Legacy updater sources and bootstrap artifacts must not ship in the pack.
 updater/
+
+# Local metadata and backup files are not pack content.
+.DS_Store
+**/.DS_Store
+*.bak
+**/*.bak
+servers.dat_old

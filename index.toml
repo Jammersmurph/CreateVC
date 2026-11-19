@@ -455,10 +455,6 @@ file = "config/simple-custom-early-loading/CreateVC_SMP.png"
 hash = "7ac8fcd8435a97defcb5a11c0b1eced776220778c45e980df2137ed40c5c7d15"
 
 [[files]]
-file = "config/simple-custom-early-loading/CreateVC_SMP.png.bak"
-hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
-
-[[files]]
 file = "config/simulated-client.toml"
 hash = "39e1269b6b3cec623ab69a170ee184c7504c302968c0213ccfbb0dcec71e3964"
 
@@ -1413,10 +1409,6 @@ hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 preserve = true
 
 [[files]]
-file = "release-dev.sh"
-hash = "43ee50173928187c3e988e3fa74cd3cb3d4ca24f327505e2a013428ada8c6119"
-
-[[files]]
 file = "resourcepacks/bare-bones.pw.toml"
 hash = "5a7d429db4838deb6311d1c5f521c5d51eca08a10eb389f3e5292d6699ff8fd0"
 metafile = true
@@ -1449,7 +1441,3 @@ metafile = true
 [[files]]
 file = "servers.dat"
 hash = "302ce7b444771f12340b009f5d55435c0c8885be62586105a9e7768226a6b3db"
-
-[[files]]
-file = "servers.dat_old"
-hash = "a42e94efb4c9c9b1d2d2f6333ee265d8be6519781cc6df6325285e75b6c1ec7d"
