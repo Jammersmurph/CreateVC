@@ -94,8 +94,8 @@ jobs:
           git checkout config/simple-custom-early-loading/
 
           # PackUpdater needs its URL before it can bootstrap a fresh install.
-          # index.toml marks this config preserve = true so updater runs retain
-          # player-local changes after the initial install.
+          # This config is pack-managed so existing clients receive installer changes.
+          # Instance-specific settings should use JVM overrides.
           git checkout config/packupdater.properties
 
       - name: Export to Modrinth
@@ -151,7 +151,7 @@ jobs:
           print(f'Export completeness passed ({len(expected)} indexed files).')
           PY
 
-      - name: Sanity check - ship preserved PackUpdater config
+      - name: Sanity check - ship pack-managed PackUpdater config
         run: |
           python3 - <<'PY'
           import subprocess
@@ -163,8 +163,8 @@ jobs:
           index = tomllib.loads(subprocess.check_output(
               ['git', 'show', 'HEAD:index.toml'], text=True))
           entry = next(item for item in index['files'] if item['file'] == path)
-          if entry.get('preserve') is not True:
-              raise SystemExit('PackUpdater config must preserve user changes in index.toml')
+          if entry.get('preserve', False) is not False:
+              raise SystemExit('PackUpdater config must remain pack-managed in index.toml')
 
           properties = dict(
               line.split('=', 1) for line in expected.decode().splitlines()
@@ -180,7 +180,7 @@ jobs:
               if archive.read(override) != expected:
                   raise SystemExit('Shipped PackUpdater config differs from the committed defaults')
 
-          print('PackUpdater config ships with configured defaults and preserve = true.')
+          print('PackUpdater config ships with configured defaults and is pack-managed.')
           PY
 
       - name: Sanity check - options defaults are updater-only
