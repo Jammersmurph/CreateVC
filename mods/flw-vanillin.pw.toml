@@ -11,3 +11,8 @@ hash = "b4c42bd310e66f20f679ff091192bb01739670f21162344bd177c812da20e873704ecb6e
 [update.modrinth]
 mod-id = "6qTrsXCy"
 version = "Qn76dRvj"
+
+[option]
+optional = true
+default = false
+description = "Optimization mod. Incompatible with shaders!"
