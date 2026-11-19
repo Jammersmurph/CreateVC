@@ -958,6 +958,11 @@ hash = "875d85990bd50cc8dd7bc3e1699b722e7aa1a78704a6ade47952e7e971daf951"
 metafile = true
 
 [[files]]
+file = "mods/flw-vanillin.pw.toml"
+hash = "cbcaf4a18e45757f17d4a4f36469f879ae024a9fe58b8129d8a42d0faaeada22"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "981e52e1c4a97465921342f556cced335c6c75cdb050e9fc528d52cf4ff88b79"
 metafile = true
