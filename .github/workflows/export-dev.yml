@@ -279,8 +279,10 @@ jobs:
 
       - name: Sanity check - no unexpected override mods
         run: |
+          # Flywheel is distributed through Create's Maven, so packwiz bundles it.
           ALLOWED_OVERRIDES="\
             overrides/mods/createsa_tank_fix-
+            overrides/mods/flywheel-neoforge-1.21.1-1.0.7.jar
             client-overrides/mods/\
           "
           FAILED=0
