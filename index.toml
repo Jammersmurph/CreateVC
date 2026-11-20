@@ -1093,6 +1093,11 @@ hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "f7198ef16f4eefbe80ffd1d8ac7c2d323da4e68faf916a8b4b9c3e40f0913b80"
 metafile = true
