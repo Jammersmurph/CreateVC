@@ -14,5 +14,5 @@ version = "Vex9GS2V"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Display images from Discord and image links in chat."

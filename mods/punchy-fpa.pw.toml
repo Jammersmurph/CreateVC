@@ -14,5 +14,5 @@ version = "aVZEe0j8"
 
 [option]
 optional = true
-default = false
+default = true
 description = "First-person punch animations."

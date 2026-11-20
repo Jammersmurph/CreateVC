@@ -894,7 +894,7 @@ metafile = true
 
 [[files]]
 file = "mods/discord-chat-connect.pw.toml"
-hash = "11bcd6cc9b3daa5e7f0281b2d9c79211999986c57f618a6fa6cb2e3d194751c5"
+hash = "1e3749b17bc51eb2873272019952934b4a82c6aa442c6c6930c3690e37132d39"
 metafile = true
 
 [[files]]
@@ -1139,7 +1139,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
-hash = "b1a3df5322cdfab74403612fe1b8f3ce81b79fdacfee234d226899848e404948"
+hash = "b777ae57b8a19840f7bf049bf5881f8072b844dbd9f0f15d1de035f654733bc3"
 metafile = true
 
 [[files]]
@@ -1194,7 +1194,7 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "fe9d96be2f1649e595f8fcc109293b2ee2df23ac5144891bc52a622bcbffb65f"
+hash = "df76cc5ba2e88de805ea6257df3a7ff10d09cc3d8fbd6e5940c4a9b891feda8b"
 metafile = true
 
 [[files]]
@@ -1209,7 +1209,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "9689dab0da412e94dc18e729f645dd1f9755c4a171fe9725b186526d6e51b2ec"
+hash = "a36f18ea434a1cfca58de1313644fe4ec8f66da24d586094ec1db48dd1394d96"
 metafile = true
 
 [[files]]
@@ -1234,7 +1234,7 @@ metafile = true
 
 [[files]]
 file = "mods/rinku.pw.toml"
-hash = "dca02d2e86d69b3d3a286052119fc814f35a8d5a118057ae9933170dbfdc92bb"
+hash = "72dd0b87faa37f4f25e2ea62a8690e98ab80580707bd07dbb3b1b2aeee86f32d"
 metafile = true
 
 [[files]]

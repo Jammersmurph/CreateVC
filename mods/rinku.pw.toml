@@ -14,5 +14,5 @@ version = "JOrwMXrE"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Render Websites in Game! | Voting, Tutorials, ETC."
