@@ -1089,7 +1089,7 @@ metafile = true
 
 [[files]]
 file = "mods/mapsyncer-for-xaeroworldmap.pw.toml"
-hash = "fc09ad6f603a6bc743c439fb154f0e3385ffa7566fdd5f8e8c12f6d34b66bb24"
+hash = "a71f6c3a0531530e85f00ca149ebf4b7072ecb52ea99fec13f234e5a0f971a06"
 metafile = true
 
 [[files]]
