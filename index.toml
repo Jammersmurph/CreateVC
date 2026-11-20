@@ -963,6 +963,11 @@ hash = "e8518cc72e312fc3131c1bf51373327be2f3238d415f5d525ab2fddb38fb54a9"
 metafile = true
 
 [[files]]
+file = "mods/flywheel.pw.toml"
+hash = "ac50470fb00d9beffc25f16f660b5390e3ca876db0260a46b583047f5e4d6757"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "981e52e1c4a97465921342f556cced335c6c75cdb050e9fc528d52cf4ff88b79"
 metafile = true
@@ -1100,6 +1105,11 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
 metafile = true
 
 [[files]]
