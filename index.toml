@@ -679,7 +679,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
+hash = "19005d189b90d95b5b981784480f1a39bf24022535f71b9afd7175e17216a038"
 metafile = true
 
 [[files]]
@@ -1004,7 +1004,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "1fc7e43e86df60ed1068c9bffda31ff88bcd4849cc2ab5a3be26bba1c8c7f62e"
+hash = "cfb60a9d4548bebc6c03c0e4050d3bc1d5360c27c77ec4bea0337fc943cff5f6"
 metafile = true
 
 [[files]]
@@ -1049,7 +1049,7 @@ metafile = true
 
 [[files]]
 file = "mods/lightspeedre.pw.toml"
-hash = "adf3e0a3b89386357ab7c6d466164aa5ad789c778bec083c55f4041182342054"
+hash = "6709c6615ad29378ec968d00cb09f5895eccf33f9e447d3c793ba9734d17c083"
 metafile = true
 
 [[files]]
