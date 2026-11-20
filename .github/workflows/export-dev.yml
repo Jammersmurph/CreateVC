@@ -55,41 +55,8 @@ jobs:
 
       - name: Validate optional mod metadata
         run: |
-          python3 -c "
-          import glob, sys, tomllib
-
-          problems = []
-          optional_names = []
-
-          metafiles = sorted(glob.glob('mods/*.pw.toml')) \
-              + sorted(glob.glob('resourcepacks/*.pw.toml'))
-          for path in metafiles:
-              with open(path, 'rb') as handle:
-                  data = tomllib.load(handle)
-              option = data.get('option')
-              if option is None:
-                  continue
-              name = data.get('name', path)
-              optional_names.append(name)
-              if option.get('optional') is not True:
-                  problems.append(f'{path}: option.optional must be true')
-              if option.get('default') is not False:
-                  problems.append(
-                      f'{path}: option.default must be false so the mod stays opt-in')
-              description = option.get('description')
-              if not isinstance(description, str) or not description.strip():
-                  problems.append(f'{path}: option.description must be a non-empty string')
-
-          if problems:
-              print('Optional mod validation FAILED')
-              for problem in problems:
-                  print(f'  {problem}')
-              sys.exit(1)
-
-          print(f'Validated {len(optional_names)} optional mods:')
-          for name in optional_names:
-              print(f'  - {name}')
-          "
+          python3 .github/scripts/test_optional_metadata.py
+          python3 .github/scripts/validate-optional-metadata.py
 
       - name: Build Prism Light pack
         run: bash .github/scripts/build-light-pack.sh CreateVC-Light-dev.zip

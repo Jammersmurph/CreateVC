@@ -67,6 +67,11 @@ jobs:
               print('Index validation passed.')
           "
 
+      - name: Validate optional mod metadata
+        run: |
+          python3 .github/scripts/test_optional_metadata.py
+          python3 .github/scripts/validate-optional-metadata.py
+
       - name: Exclude updater-managed files from Modrinth export
         run: |
           mkdir -p /tmp/createvc-export-excluded
