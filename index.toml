@@ -958,6 +958,11 @@ hash = "e8518cc72e312fc3131c1bf51373327be2f3238d415f5d525ab2fddb38fb54a9"
 metafile = true
 
 [[files]]
+file = "mods/flywheel.pw.toml"
+hash = "ac50470fb00d9beffc25f16f660b5390e3ca876db0260a46b583047f5e4d6757"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage-create-aero.pw.toml"
 hash = "a1a5c7a8d9c264dda2dd503bfc22c0f7a6d9804fb03a9327a14b22c35222a866"
 metafile = true
