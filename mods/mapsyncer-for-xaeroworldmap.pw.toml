@@ -11,3 +11,8 @@ hash = "e3a3b2a7e918f633443f6ca41f2c94803183cd3fec39ed88abb6e64b32bc7403180c6cd2
 [update.modrinth]
 mod-id = "AW5A8Q2T"
 version = "rTv2rIvC"
+
+[option]
+optional = true
+default = false
+description = "Makes xaero maps sync across servers (It is reported to be incredibly laggy)"
