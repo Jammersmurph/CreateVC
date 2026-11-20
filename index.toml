@@ -1393,6 +1393,10 @@ hash = "9190c2e26dcae4c5e4011a2dda0635382b76258504b98cfb5d865cf2cfea0f33"
 metafile = true
 
 [[files]]
+file = "optional-groups.toml"
+hash = "c485904b555968caae68f69fe9283aace7956380327818f4ad92fd4ef9d18844"
+
+[[files]]
 file = "options.txt"
 hash = "b0ce5b0110dc6c8d0e7d1214c336e54d765236074c8d5753bbe889d326ebb002"
 preserve = true
