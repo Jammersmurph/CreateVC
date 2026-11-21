@@ -4080,8 +4080,14 @@ function buildMessages(report, commits, context, config) {
     ...config.customLinks
   ];
   if (navigation.some((item) => item.url.length > 512)) throw new Error("A navigation URL exceeds Discord\u2019s 512-character button URL limit");
-  const fields = navigation.map((item) => ({ name: item.label, value: link("Open \u2197", item.url), inline: true }));
-  const pageLimit = Math.min(3500, 5800 - title.length - fields.reduce((sum, field) => sum + field.name.length + field.value.length, 0));
+  const mentionText = [
+    ...config.roles.map((id) => `<@&${id}>`),
+    ...config.users.map((id) => `<@${id}>`),
+    config.everyone ? "@everyone" : ""
+  ].filter(Boolean).join(" ");
+  if (mentionText.length > 2e3) throw new Error("Configured mentions exceed Discord\u2019s 2,000-character content limit");
+  const heading = (index) => `## ${escape(index === 0 ? title : truncate(`${title} (continued)`, 256))}`;
+  const pageLimit = Math.min(3500, 3800 - Math.max(heading(0).length, heading(1).length) - mentionText.length);
   const lines = [];
   if (config.description) lines.push(truncate(config.description, 1500), "");
   lines.push(`**${added.length} added \xB7 ${removed.length} removed \xB7 ${updated.length} updated**`);
@@ -4105,8 +4111,8 @@ function buildMessages(report, commits, context, config) {
   const pages = [];
   let page = "";
   for (const raw of lines) {
-    const line = truncate(raw, 1500);
-    if (page.length + line.length + 1 > pageLimit) {
+    const line = truncate(raw, Math.min(1500, pageLimit - 1));
+    if (page && page.length + line.length + 1 > pageLimit) {
       pages.push(page.trim());
       page = "";
     }
@@ -4117,29 +4123,25 @@ function buildMessages(report, commits, context, config) {
   const clipped = pages.length > config.maxMessages;
   const visible = pages.slice(0, config.maxMessages);
   if (clipped) visible[visible.length - 1] += "\n\n**Report truncated \u2014 view the changelog for all changes.**";
-  const mentionText = [
-    ...config.roles.map((id) => `<@&${id}>`),
-    ...config.users.map((id) => `<@${id}>`),
-    config.everyone ? "@everyone" : ""
-  ].filter(Boolean).join(" ");
-  if (mentionText.length > 2e3) throw new Error("Configured mentions exceed Discord\u2019s 2,000-character content limit");
   return visible.map((description, index) => ({
     ...config.username ? { username: config.username } : {},
     ...config.avatarUrl ? { avatar_url: config.avatarUrl } : {},
-    ...index === 0 && mentionText ? { content: mentionText } : {},
+    flags: 32768,
     allowed_mentions: index === 0 ? { parse: config.everyone ? ["everyone"] : [], roles: config.roles, users: config.users } : { parse: [], roles: [], users: [] },
-    ...config.buttons ? { components: [{
-      type: 1,
-      components: navigation.map((item) => ({ type: 2, style: 5, label: item.label, url: item.url }))
-    }] } : {},
-    embeds: [{
-      title: index === 0 ? title : truncate(`${title} (continued)`, 256),
-      url: context.compareUrl,
-      color: config.color,
-      description,
-      fields,
-      footer: { text: `Packwiz changelog \u2022 ${index + 1}/${visible.length}` },
-      timestamp: context.timestamp
+    components: [{
+      type: 17,
+      accent_color: config.color,
+      components: [
+        { type: 10, content: `${heading(index)}${index === 0 && mentionText ? `
+${mentionText}` : ""}` },
+        { type: 10, content: description },
+        { type: 14, divider: true, spacing: 1 },
+        { type: 10, content: `-# Packwiz changelog \u2022 ${index + 1}/${visible.length}` },
+        ...config.buttons ? [{
+          type: 1,
+          components: navigation.map((item) => ({ type: 2, style: 5, label: item.label, url: item.url }))
+        }] : []
+      ]
     }]
   }));
 }

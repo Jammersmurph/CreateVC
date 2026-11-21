@@ -30,6 +30,9 @@ const pack = 'name = "Example Pack"\nversion = "1.2.0"\n[index]\nfile = "index.t
 const manifest = (name, id, version = '1', extra = '') =>
   `name = "${name}"\nfilename = "${name}-${version}.jar"\nside = "both"\n${extra}\n[update.modrinth]\nmod-id = "${id}"\nversion = "${version}"\n`;
 const emptyReport = () => ({ pack: parseToml(pack, 'pack.toml'), added: [], removed: [], updated: [], files: [] });
+const children = payload => payload.components[0].components;
+const text = payload => children(payload).filter(component => component.type === 10).map(component => component.content).join('\n');
+const buttons = payload => children(payload).find(component => component.type === 1)?.components;
 
 async function repository(t) {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'packwiz-action-test-'));
@@ -161,14 +164,20 @@ test('renders authors, mod sources, buttons and tightly scoped explicit mentions
     ...config, roles: ['123456789012345678'], users: ['223456789012345678'],
     customLinks: [{ label: 'Download', url: 'https://example.com/download' }],
   });
-  assert.equal(payload.content, '<@&123456789012345678> <@223456789012345678>');
+  assert.match(children(payload)[0].content, /<@&123456789012345678> <@223456789012345678>/);
   assert.deepEqual(payload.allowed_mentions.parse, []);
-  assert.equal(payload.components[0].components.length, 4);
-  assert.equal(payload.components[0].components[0].style, 5);
-  assert.match(payload.embeds[0].description, /https:\/\/modrinth.com\/mod\/id/);
-  assert.match(payload.embeds[0].description, /Alice/);
-  assert.match(payload.embeds[0].description, /fabric 0\.16\.0/);
-  assert.equal(payload.components[0].components[2].url, `${context.repoUrl}/tree/feature%2Fmods`);
+  assert.equal(payload.flags, 32768);
+  assert.equal(payload.components.length, 1);
+  assert.equal(payload.components[0].type, 17);
+  assert.equal(payload.embeds, undefined);
+  assert.equal(payload.content, undefined);
+  assert.equal(buttons(payload).length, 4);
+  assert.equal(buttons(payload)[0].style, 5);
+  assert.match(text(payload), /https:\/\/modrinth.com\/mod\/id/);
+  assert.match(text(payload), /Alice/);
+  assert.match(text(payload), /fabric 0\.16\.0/);
+  assert.doesNotMatch(text(payload), /Open ↗|\[Changelog\]|\[Branch\]|\[Download\]/);
+  assert.equal(buttons(payload)[2].url, `${context.repoUrl}/tree/feature%2Fmods`);
 });
 
 test('large reports respect Discord limits, paginate and only ping once', () => {
@@ -179,17 +188,16 @@ test('large reports respect Discord limits, paginate and only ping once', () => 
     ...config, maxItems: 200, maxMessages: 2, roles: ['123456789012345678'],
   });
   assert.equal(messages.length, 2);
-  assert.match(messages.at(-1).embeds[0].description, /Report truncated/);
+  assert.match(text(messages.at(-1)), /Report truncated/);
   assert.equal(messages[1].content, undefined);
+  assert.doesNotMatch(text(messages[1]), /<@&123456789012345678>/);
   assert.deepEqual(messages[1].allowed_mentions, { parse: [], roles: [], users: [] });
   for (const message of messages) {
-    const embed = message.embeds[0];
-    assert.ok(embed.description.length <= 4096);
-    assert.ok(embed.title.length <= 256);
-    assert.ok(embed.fields.every(field => field.value.length <= 1024));
-    const total = embed.title.length + embed.description.length + embed.footer.text.length
-      + embed.fields.reduce((sum, field) => sum + field.name.length + field.value.length, 0);
-    assert.ok(total <= 6000, `embed contains ${total} characters`);
+    const displays = children(message).filter(component => component.type === 10);
+    assert.ok(displays.every(component => component.content.length <= 4000));
+    const total = displays.reduce((sum, component) => sum + component.content.length, 0);
+    assert.ok(total <= 4000, `message contains ${total} text characters`);
+    assert.ok(children(message).length + buttons(message).length + 1 <= 40);
   }
   assert.equal(truncate('abc😀def', 5), 'abc…');
 });
@@ -200,8 +208,8 @@ test('optional sections and buttons can be disabled', () => {
   const [message] = buildMessages(report, [], context, {
     ...config, includeFiles: false, includeCommits: false, includePackInfo: false, buttons: false,
   });
-  assert.equal(message.components, undefined);
-  assert.doesNotMatch(message.embeds[0].description, /Other pack changes|Minecraft|Commits/);
+  assert.equal(buttons(message), undefined);
+  assert.doesNotMatch(text(message), /Other pack changes|Minecraft|Commits/);
 });
 
 test('webhook URL validation disallows arbitrary hosts and preserves thread_id', () => {
@@ -292,7 +300,7 @@ for (const entrypoint of ['src/index.js', 'dist/index.js']) test(`${entrypoint} 
   const { stdout } = await exec(process.execPath, [path.join(root, entrypoint)], { env });
   assert.match(stdout, /Dry run/);
   const preview = JSON.parse(await fs.readFile(path.join(dir, 'discord-preview.json'), 'utf8'));
-  assert.match(preview[0].embeds[0].description, /Example/);
-  assert.equal(preview[0].components[0].components.length, 3);
+  assert.match(text(preview[0]), /Example/);
+  assert.equal(buttons(preview[0]).length, 3);
   assert.match(await fs.readFile(outputPath, 'utf8'), /added=1/);
 });

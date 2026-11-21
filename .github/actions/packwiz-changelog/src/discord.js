@@ -55,8 +55,16 @@ export function buildMessages(report, commits, context, config) {
     ...config.customLinks,
   ];
   if (navigation.some(item => item.url.length > 512)) throw new Error('A navigation URL exceeds Discord’s 512-character button URL limit');
-  const fields = navigation.map(item => ({ name: item.label, value: link('Open ↗', item.url), inline: true }));
-  const pageLimit = Math.min(3500, 5800 - title.length - fields.reduce((sum, field) => sum + field.name.length + field.value.length, 0));
+  const mentionText = [
+    ...config.roles.map(id => `<@&${id}>`),
+    ...config.users.map(id => `<@${id}>`),
+    config.everyone ? '@everyone' : '',
+  ].filter(Boolean).join(' ');
+  if (mentionText.length > 2000) throw new Error('Configured mentions exceed Discord’s 2,000-character content limit');
+  const heading = index => `## ${escape(index === 0 ? title : truncate(`${title} (continued)`, 256))}`;
+  // Components V2 allows 4,000 text characters across the message. Reserve
+  // space for the heading, configured mentions, footer, and truncation notice.
+  const pageLimit = Math.min(3500, 3800 - Math.max(heading(0).length, heading(1).length) - mentionText.length);
   const lines = [];
   if (config.description) lines.push(truncate(config.description, 1500), '');
   lines.push(`**${added.length} added · ${removed.length} removed · ${updated.length} updated**`);
@@ -79,43 +87,38 @@ export function buildMessages(report, commits, context, config) {
   if (!added.length && !removed.length && !updated.length && !files.length) {
     lines.push('No pack changes detected in the selected directory.');
   }
-  // One embed per message keeps each message below Discord's 6,000-character aggregate limit.
+  // One container per message, with the button row inside the container.
   const pages = [];
   let page = '';
   for (const raw of lines) {
-    const line = truncate(raw, 1500);
-    if (page.length + line.length + 1 > pageLimit) { pages.push(page.trim()); page = ''; }
+    const line = truncate(raw, Math.min(1500, pageLimit - 1));
+    if (page && page.length + line.length + 1 > pageLimit) { pages.push(page.trim()); page = ''; }
     page += `${line}\n`;
   }
   if (page.trim()) pages.push(page.trim());
   const clipped = pages.length > config.maxMessages;
   const visible = pages.slice(0, config.maxMessages);
   if (clipped) visible[visible.length - 1] += '\n\n**Report truncated — view the changelog for all changes.**';
-  const mentionText = [
-    ...config.roles.map(id => `<@&${id}>`),
-    ...config.users.map(id => `<@${id}>`),
-    config.everyone ? '@everyone' : '',
-  ].filter(Boolean).join(' ');
-  if (mentionText.length > 2000) throw new Error('Configured mentions exceed Discord’s 2,000-character content limit');
   return visible.map((description, index) => ({
     ...(config.username ? { username: config.username } : {}),
     ...(config.avatarUrl ? { avatar_url: config.avatarUrl } : {}),
-    ...(index === 0 && mentionText ? { content: mentionText } : {}),
+    flags: 32768,
     allowed_mentions: index === 0
       ? { parse: config.everyone ? ['everyone'] : [], roles: config.roles, users: config.users }
       : { parse: [], roles: [], users: [] },
-    ...(config.buttons ? { components: [{
-      type: 1,
-      components: navigation.map(item => ({ type: 2, style: 5, label: item.label, url: item.url })),
-    }] } : {}),
-    embeds: [{
-      title: index === 0 ? title : truncate(`${title} (continued)`, 256),
-      url: context.compareUrl,
-      color: config.color,
-      description,
-      fields,
-      footer: { text: `Packwiz changelog • ${index + 1}/${visible.length}` },
-      timestamp: context.timestamp,
+    components: [{
+      type: 17,
+      accent_color: config.color,
+      components: [
+        { type: 10, content: `${heading(index)}${index === 0 && mentionText ? `\n${mentionText}` : ''}` },
+        { type: 10, content: description },
+        { type: 14, divider: true, spacing: 1 },
+        { type: 10, content: `-# Packwiz changelog • ${index + 1}/${visible.length}` },
+        ...(config.buttons ? [{
+          type: 1,
+          components: navigation.map(item => ({ type: 2, style: 5, label: item.label, url: item.url })),
+        }] : []),
+      ],
     }],
   }));
 }

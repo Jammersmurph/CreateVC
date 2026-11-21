@@ -11,7 +11,7 @@ A reusable GitHub Action that turns packwiz repository pushes into Discord chang
 - Pack version, Minecraft and mod loader versions from `pack.toml`.
 - Config, script, quest, and other file changes, without generated `index.toml` hash noise.
 - Commit subjects, authors, pusher, branch, and force-push indicator.
-- **Commit, Changelog, and Branch link buttons**, plus up to two custom buttons.
+- **Commit, Changelog, and Branch buttons inside the container**, plus up to two custom buttons. No duplicate navigation hyperlinks.
 - Explicit role/user pings, configurable presentation, ignored paths, and dry-run previews.
 - Bounded pagination, rate-limit handling, secret masking, and no GitHub write permissions.
 
@@ -77,7 +77,7 @@ Commits (1)
 [Commit] [Changelog] [Branch]    ← URL-only buttons
 ```
 
-Discord supports non-interactive URL buttons on incoming webhooks using `with_components=true`. This action uses legacy action-row link buttons alongside embeds, **not** Components V2 (which disables embeds). Markdown navigation fields are also included. Set `buttons: "false"` to use only those links. Role and user mentions appear in message content, because embeds do not generate mention notifications.
+Discord supports non-interactive URL buttons on incoming webhooks using `with_components=true`. This action uses a **Components V2 container**, with the button row nested inside the container. It does not send legacy embeds, duplicate Markdown navigation links, or buttons outside the container. Mod source links and commit links remain in the changelog body. Set `buttons: "false"` to hide navigation entirely. Configured role/user mentions appear in the first container's text display and are restricted through `allowed_mentions`.
 
 ## Inputs
 
@@ -88,12 +88,12 @@ All inputs are optional except that real delivery requires `webhook-url`.
 | `webhook-url` | — | Discord webhook URL, supplied through a secret. |
 | `pack-directory` | `.` | Repository-relative pack root containing `pack.toml`. |
 | `changelog-url` | GitHub comparison | Override the Changelog link/button; also useful for a player-facing website. |
-| `title` | Pack name • branch | Embed title. |
+| `title` | Pack name • branch | Container heading. |
 | `description` | — | Intro text; Discord Markdown supported. |
-| `color` | `5865F2` | Six-digit hex color, with or without `#`. Quote it in YAML. |
+| `color` | `5865F2` | Container accent color in six-digit hex, with or without `#`. Quote it in YAML. |
 | `username` | Webhook default | Webhook display name, up to 80 characters. Discord's naming rules apply. |
 | `avatar-url` | Webhook default | Avatar image URL. |
-| `buttons` | `true` | Show URL-only navigation buttons below embeds. |
+| `buttons` | `true` | Show URL-only navigation buttons inside the container. |
 | `custom-links` | `[]` | JSON array of up to two `{ "label": "...", "url": "https://..." }` objects. |
 | `mention-roles` | — | Numeric role IDs separated by commas, spaces, or newlines. |
 | `mention-users` | — | Numeric user IDs separated by commas, spaces, or newlines. |

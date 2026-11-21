@@ -14,18 +14,18 @@ inputs:
   changelog-url:
     description: Optional changelog URL; defaults to the GitHub comparison.
   title:
-    description: Embed title. Defaults to the pack name and branch.
+    description: Container heading. Defaults to the pack name and branch.
   description:
     description: Optional text shown above the change summary.
   color:
-    description: Six-digit hexadecimal embed color.
+    description: Six-digit hexadecimal container accent color.
     default: "5865F2"
   username:
     description: Optional Discord webhook display name.
   avatar-url:
     description: Optional HTTPS webhook avatar URL.
   buttons:
-    description: Show URL-only navigation buttons beneath embeds.
+    description: Show URL-only navigation buttons inside the changelog container.
     default: "true"
   custom-links:
     description: JSON array of up to two extra buttons, e.g. [{"label":"Download","url":"https://example.com"}].
