@@ -38,6 +38,18 @@ export class Git {
     return (await this.run('ls-tree', '-r', '--name-only', '-z', sha)).split('\0').filter(Boolean);
   }
 
+  async diff(before, after, file) {
+    // Skip large blobs before generating a potentially enormous patch.
+    for (const sha of [before, after]) {
+      let size;
+      try { size = Number(await this.run('cat-file', '-s', `${sha}:${file}`)); }
+      catch { continue; } // Added/deleted files only exist on one side.
+      if (size > 256 * 1024) return null;
+    }
+    return this.run('diff', '--no-ext-diff', '--no-textconv', '--no-color',
+      '--no-renames', '--unified=1', before, after, '--', `:(literal)${file}`);
+  }
+
   async changes(before, after) {
     if (!before) return (await this.files(after)).map(file => ({ status: 'A', file }));
     const tokens = (await this.run('diff', '--no-renames', '--name-status', '-z', before, after, '--')).split('\0');

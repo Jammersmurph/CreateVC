@@ -39,3 +39,7 @@ jobs:
           max-commits: "20"
           max-items: "100"
           max-messages: "5"
+          # Short config/script previews; sensitive paths stay excluded.
+          include-diffs: "true"
+          max-diff-lines: "15"
+          max-diff-files: "3"

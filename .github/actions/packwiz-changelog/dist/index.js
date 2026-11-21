@@ -3658,9 +3658,9 @@ var require_picomatch = __commonJS({
     var utils = require_utils();
     var constants = require_constants();
     var isObject = (val) => val && typeof val === "object" && !Array.isArray(val);
-    var picomatch2 = (glob, options, returnState = false) => {
+    var picomatch3 = (glob, options, returnState = false) => {
       if (Array.isArray(glob)) {
-        const fns = glob.map((input2) => picomatch2(input2, options, returnState));
+        const fns = glob.map((input2) => picomatch3(input2, options, returnState));
         const arrayMatcher = (str) => {
           for (const isMatch of fns) {
             const state2 = isMatch(str);
@@ -3676,16 +3676,16 @@ var require_picomatch = __commonJS({
       }
       const opts = options || {};
       const posix = opts.windows;
-      const regex = isState ? picomatch2.compileRe(glob, options) : picomatch2.makeRe(glob, options, false, true);
+      const regex = isState ? picomatch3.compileRe(glob, options) : picomatch3.makeRe(glob, options, false, true);
       const state = regex.state;
       delete regex.state;
       let isIgnored = () => false;
       if (opts.ignore) {
         const ignoreOpts = { ...options, ignore: null, onMatch: null, onResult: null };
-        isIgnored = picomatch2(opts.ignore, ignoreOpts, returnState);
+        isIgnored = picomatch3(opts.ignore, ignoreOpts, returnState);
       }
       const matcher = (input2, returnObject = false) => {
-        const { isMatch, match, output: output2 } = picomatch2.test(input2, regex, options, { glob, posix });
+        const { isMatch, match, output: output2 } = picomatch3.test(input2, regex, options, { glob, posix });
         const result = { glob, state, regex, posix, input: input2, output: output2, match, isMatch };
         if (typeof opts.onResult === "function") {
           opts.onResult(result);
@@ -3711,7 +3711,7 @@ var require_picomatch = __commonJS({
       }
       return matcher;
     };
-    picomatch2.test = (input2, regex, options, { glob, posix } = {}) => {
+    picomatch3.test = (input2, regex, options, { glob, posix } = {}) => {
       if (typeof input2 !== "string") {
         throw new TypeError("Expected input to be a string");
       }
@@ -3728,24 +3728,24 @@ var require_picomatch = __commonJS({
       }
       if (match === false || opts.capture === true) {
         if (opts.matchBase === true || opts.basename === true) {
-          match = picomatch2.matchBase(input2, regex, options, posix);
+          match = picomatch3.matchBase(input2, regex, options, posix);
         } else {
           match = regex.exec(output2);
         }
       }
       return { isMatch: Boolean(match), match, output: output2 };
     };
-    picomatch2.matchBase = (input2, glob, options, posix = options && options.windows) => {
-      const regex = glob instanceof RegExp ? glob : picomatch2.makeRe(glob, options);
+    picomatch3.matchBase = (input2, glob, options, posix = options && options.windows) => {
+      const regex = glob instanceof RegExp ? glob : picomatch3.makeRe(glob, options);
       return regex.test(utils.basename(input2, { windows: posix }));
     };
-    picomatch2.isMatch = (str, patterns, options) => picomatch2(patterns, options)(str);
-    picomatch2.parse = (pattern, options) => {
-      if (Array.isArray(pattern)) return pattern.map((p) => picomatch2.parse(p, options));
+    picomatch3.isMatch = (str, patterns, options) => picomatch3(patterns, options)(str);
+    picomatch3.parse = (pattern, options) => {
+      if (Array.isArray(pattern)) return pattern.map((p) => picomatch3.parse(p, options));
       return parse(pattern, { ...options, fastpaths: false });
     };
-    picomatch2.scan = (input2, options) => scan(input2, options);
-    picomatch2.compileRe = (state, options, returnOutput = false, returnState = false) => {
+    picomatch3.scan = (input2, options) => scan(input2, options);
+    picomatch3.compileRe = (state, options, returnOutput = false, returnState = false) => {
       if (returnOutput === true) {
         return state.output;
       }
@@ -3756,13 +3756,13 @@ var require_picomatch = __commonJS({
       if (state && state.negated === true) {
         source = `^(?!${source}).*$`;
       }
-      const regex = picomatch2.toRegex(source, options);
+      const regex = picomatch3.toRegex(source, options);
       if (returnState === true) {
         regex.state = state;
       }
       return regex;
     };
-    picomatch2.makeRe = (input2, options = {}, returnOutput = false, returnState = false) => {
+    picomatch3.makeRe = (input2, options = {}, returnOutput = false, returnState = false) => {
       if (!input2 || typeof input2 !== "string") {
         throw new TypeError("Expected a non-empty string");
       }
@@ -3773,9 +3773,9 @@ var require_picomatch = __commonJS({
       if (!parsed.output) {
         parsed = parse(input2, options);
       }
-      return picomatch2.compileRe(parsed, options, returnOutput, returnState);
+      return picomatch3.compileRe(parsed, options, returnOutput, returnState);
     };
-    picomatch2.toRegex = (source, options) => {
+    picomatch3.toRegex = (source, options) => {
       try {
         const opts = options || {};
         return new RegExp(source, opts.flags || (opts.nocase ? "i" : ""));
@@ -3784,8 +3784,8 @@ var require_picomatch = __commonJS({
         return /$^/;
       }
     };
-    picomatch2.constants = constants;
-    module2.exports = picomatch2;
+    picomatch3.constants = constants;
+    module2.exports = picomatch3;
   }
 });
 
@@ -3795,14 +3795,14 @@ var require_picomatch2 = __commonJS({
     "use strict";
     var pico = require_picomatch();
     var utils = require_utils();
-    function picomatch2(glob, options, returnState = false) {
+    function picomatch3(glob, options, returnState = false) {
       if (options && (options.windows === null || options.windows === void 0)) {
         options = { ...options, windows: utils.isWindows() };
       }
       return pico(glob, options, returnState);
     }
-    Object.assign(picomatch2, pico);
-    module2.exports = picomatch2;
+    Object.assign(picomatch3, pico);
+    module2.exports = picomatch3;
   }
 });
 
@@ -3889,6 +3889,11 @@ function getConfig(workspace) {
     everyone: boolean("mention-everyone", false),
     includeCommits: boolean("include-commits", true),
     includeFiles: boolean("include-files", true),
+    includeDiffs: boolean("include-diffs", false),
+    maxDiffLines: integer("max-diff-lines", 15, 50),
+    maxDiffFiles: integer("max-diff-files", 3, 10),
+    diffPaths: input("diff-paths", "config/**\nkubejs/**\nscripts/**").split(/\r?\n/).map((x) => x.trim()).filter(Boolean),
+    diffExcludePaths: input("diff-exclude-paths", "**/*secret*\n**/*token*\n**/*credential*\n**/.env*\n**/*.pem\n**/*.key").split(/\r?\n/).map((x) => x.trim()).filter(Boolean),
     includePackInfo: boolean("include-pack-info", true),
     excludePaths: input("exclude-paths").split(/\r?\n/).map((x) => x.trim()).filter(Boolean),
     maxCommits: integer("max-commits", 10, 50),
@@ -3936,6 +3941,29 @@ var Git = class {
   async files(sha) {
     return (await this.run("ls-tree", "-r", "--name-only", "-z", sha)).split("\0").filter(Boolean);
   }
+  async diff(before, after, file) {
+    for (const sha of [before, after]) {
+      let size;
+      try {
+        size = Number(await this.run("cat-file", "-s", `${sha}:${file}`));
+      } catch {
+        continue;
+      }
+      if (size > 256 * 1024) return null;
+    }
+    return this.run(
+      "diff",
+      "--no-ext-diff",
+      "--no-textconv",
+      "--no-color",
+      "--no-renames",
+      "--unified=1",
+      before,
+      after,
+      "--",
+      `:(literal)${file}`
+    );
+  }
   async changes(before, after) {
     if (!before) return (await this.files(after)).map((file) => ({ status: "A", file }));
     const tokens = (await this.run("diff", "--no-renames", "--name-status", "-z", before, after, "--")).split("\0");
@@ -3957,7 +3985,39 @@ var Git = class {
 
 // src/packwiz.js
 var import_toml = __toESM(require_toml(), 1);
+var import_picomatch2 = __toESM(require_picomatch2(), 1);
+
+// src/diffs.js
 var import_picomatch = __toESM(require_picomatch2(), 1);
+async function collectDiffs(git, before, after, files, config) {
+  if (!before || !config.includeDiffs || !config.includeFiles) return [];
+  const included = (0, import_picomatch.default)(config.diffPaths, { dot: true });
+  const excluded = config.diffExcludePaths.length ? (0, import_picomatch.default)(config.diffExcludePaths, { dot: true, nocase: true }) : () => false;
+  const generated = /(?:^|\/)(?:pack\.toml|index\.toml|package-lock\.json|pnpm-lock\.yaml|yarn\.lock)$/;
+  const candidates = files.filter(({ file }) => included(file) && !excluded(file) && !generated.test(file)).slice(0, config.maxDiffFiles);
+  const previews = [];
+  for (const { file } of candidates) {
+    const patch = await git.diff(before, after, file);
+    if (!patch || patch.includes("\0") || /^(?:index .* 120000|(?:old|new|deleted file|new file) mode (?:120000|160000))$/m.test(patch)) continue;
+    const body = patch.split("\n");
+    const start = body.findIndex((line) => line.startsWith("@@"));
+    if (start < 0) continue;
+    const lines = body.slice(start).filter((line) => /^[@ +\-]/.test(line));
+    if (!lines.length) continue;
+    const selected = [];
+    let size = 0;
+    for (const line of lines) {
+      const safe = line.replaceAll("`", "`\u200B");
+      if (selected.length >= config.maxDiffLines || size + safe.length + 1 > 1100) break;
+      selected.push(safe);
+      size += safe.length + 1;
+    }
+    if (selected.length) previews.push({ file, lines: selected, truncated: selected.length < lines.length });
+  }
+  return previews;
+}
+
+// src/packwiz.js
 function parseToml(text, file) {
   try {
     return import_toml.default.parse(text);
@@ -4000,7 +4060,7 @@ async function analyze(git, before, after, config) {
     throw new Error(`Cannot read ${packPath} at the pushed commit. Is this a packwiz repository?`);
   }
   const pack = parseToml(packText, packPath);
-  const excluded = config.excludePaths.length ? (0, import_picomatch.default)(config.excludePaths, { dot: true }) : () => false;
+  const excluded = config.excludePaths.length ? (0, import_picomatch2.default)(config.excludePaths, { dot: true }) : () => false;
   const changes = (await git.changes(before, after)).filter(({ file }) => file.startsWith(prefix) && !excluded(file));
   const oldMods = [];
   const newMods = [];
@@ -4030,10 +4090,12 @@ async function analyze(git, before, after, config) {
     if (!used.has(index)) added.push(mod);
   });
   for (const list of [added, removed, updated]) list.sort((a, b) => a.name.localeCompare(b.name));
-  return { pack, added, removed, updated, files };
+  const diffs = await collectDiffs(git, before, after, files, config);
+  return { pack, added, removed, updated, files, diffs };
 }
 
 // src/discord.js
+import { createHash } from "node:crypto";
 function truncate(value, max) {
   const text = String(value);
   if (text.length <= max) return text;
@@ -4102,6 +4164,18 @@ function buildMessages(report, commits, context, config) {
   lines.push(...section("Removed mods", removed.map((mod) => modLine(mod, context, true)), config.maxItems));
   lines.push(...section("Updated mods", updated.map((mod) => modLine(mod, context)), config.maxItems));
   if (config.includeFiles) lines.push(...section("Other pack changes", files.map(({ file, status }) => `\u2022 ${status === "A" ? "Added" : status === "D" ? "Removed" : "Changed"} ${link(truncate(file, 200), blob(context, status === "D" ? context.before : context.after, file))}`), config.maxItems));
+  if (config.includeFiles && config.includeDiffs && report.diffs?.length) {
+    lines.push("**Config/script diff previews**", "");
+    for (const preview of report.diffs) {
+      const anchor = createHash("sha256").update(preview.file).digest("hex");
+      lines.push(`**${escape(truncate(preview.file, 200))}** \u2022 ${link("View full diff", `${context.compareUrl}#diff-${anchor}`)}`);
+      lines.push(`\`\`\`diff
+${preview.lines.join("\n")}
+\`\`\``);
+      if (preview.truncated) lines.push("\u2026preview truncated; see full diff.");
+      lines.push("");
+    }
+  }
   if (config.includeCommits) {
     lines.push(...section("Commits", commits.slice(0, config.maxCommits).map((commit) => `\u2022 ${link(commit.sha.slice(0, 7), `${context.repoUrl}/commit/${commit.sha}`)} ${escape(truncate(commit.subject, 250))} \u2014 ${escape(truncate(commit.author, 80))}`), config.maxCommits));
     if (commits.length > config.maxCommits) lines.push("More commits are available in the changelog.", "");
@@ -4112,7 +4186,10 @@ function buildMessages(report, commits, context, config) {
   const pages = [];
   let page = "";
   for (const raw of lines) {
-    const line = truncate(raw, Math.min(1500, pageLimit - 1));
+    const limit = Math.min(1500, pageLimit - 1);
+    const line = raw.startsWith("```diff\n") && raw.length > limit ? `\`\`\`diff
+${truncate(raw.slice(8, -4), limit - 12)}
+\`\`\`` : truncate(raw, limit);
     if (page && page.length + line.length + 1 > pageLimit) {
       pages.push(page.trim());
       page = "";

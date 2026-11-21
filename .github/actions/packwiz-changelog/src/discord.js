@@ -1,3 +1,5 @@
+import { createHash } from 'node:crypto';
+
 export function truncate(value, max) {
   const text = String(value);
   if (text.length <= max) return text;
@@ -79,6 +81,16 @@ export function buildMessages(report, commits, context, config) {
   lines.push(...section('Updated mods', updated.map(mod => modLine(mod, context)), config.maxItems));
   if (config.includeFiles) lines.push(...section('Other pack changes', files.map(({ file, status }) =>
     `• ${status === 'A' ? 'Added' : status === 'D' ? 'Removed' : 'Changed'} ${link(truncate(file, 200), blob(context, status === 'D' ? context.before : context.after, file))}`), config.maxItems));
+  if (config.includeFiles && config.includeDiffs && report.diffs?.length) {
+    lines.push('**Config/script diff previews**', '');
+    for (const preview of report.diffs) {
+      const anchor = createHash('sha256').update(preview.file).digest('hex');
+      lines.push(`**${escape(truncate(preview.file, 200))}** • ${link('View full diff', `${context.compareUrl}#diff-${anchor}`)}`);
+      lines.push(`\`\`\`diff\n${preview.lines.join('\n')}\n\`\`\``);
+      if (preview.truncated) lines.push('…preview truncated; see full diff.');
+      lines.push('');
+    }
+  }
   if (config.includeCommits) {
     lines.push(...section('Commits', commits.slice(0, config.maxCommits).map(commit =>
       `• ${link(commit.sha.slice(0, 7), `${context.repoUrl}/commit/${commit.sha}`)} ${escape(truncate(commit.subject, 250))} — ${escape(truncate(commit.author, 80))}`), config.maxCommits));
@@ -91,7 +103,10 @@ export function buildMessages(report, commits, context, config) {
   const pages = [];
   let page = '';
   for (const raw of lines) {
-    const line = truncate(raw, Math.min(1500, pageLimit - 1));
+    const limit = Math.min(1500, pageLimit - 1);
+    const line = raw.startsWith('```diff\n') && raw.length > limit
+      ? `\`\`\`diff\n${truncate(raw.slice(8, -4), limit - 12)}\n\`\`\``
+      : truncate(raw, limit);
     if (page && page.length + line.length + 1 > pageLimit) { pages.push(page.trim()); page = ''; }
     page += `${line}\n`;
   }

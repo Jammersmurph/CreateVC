@@ -102,6 +102,11 @@ All inputs are optional except that real delivery requires `webhook-url`.
 | `mention-everyone` | `false` | Explicit opt-in to send and allow `@everyone`. |
 | `include-commits` | `true` | Commit subjects and author names. |
 | `include-files` | `true` | Non-manifest file changes inside the pack directory. |
+| `include-diffs` | `false` | Bounded text diff previews; requires `include-files`. |
+| `diff-paths` | `config/**`, `kubejs/**`, `scripts/**` | Newline-separated repository-relative preview globs. |
+| `diff-exclude-paths` | Secret/token/credential names, `.env*`, `*.pem`, `*.key` | Newline-separated preview exclusions. |
+| `max-diff-lines` | `15` | Lines per preview including hunk headers and context, 1–50. |
+| `max-diff-files` | `3` | Maximum eligible files considered per push, 1–10. |
 | `include-pack-info` | `true` | Pack, game, and loader versions. |
 | `exclude-paths` | — | Newline-separated repository-relative glob patterns; case-sensitive, dotfiles included. |
 | `max-commits` | `10` | Commit display limit, 1–50. |
@@ -147,6 +152,26 @@ defaults.
 ### Role/user pings
 
 Enable Discord Developer Mode and use **Copy ID** on the role or user. Supply bare IDs, not `<@...>` syntax. The role must be mentionable or the webhook must have the corresponding permission, and recipients' Discord settings still apply. Only explicitly configured IDs are allowed; commit messages and pack metadata cannot enable arbitrary pings. Continuation messages never ping again.
+
+### Optional diff previews
+
+Enable `include-diffs: "true"` for small fenced `diff` blocks beneath the file
+summary. Each preview links to the full GitHub file diff. Defaults are 15 lines
+per file and 3 eligible files, with an additional character cap for readability.
+Previews use the same before/after snapshots as the changelog.
+
+Only paths matching `diff-paths` are considered. General `exclude-paths` and
+preview-only `diff-exclude-paths` are respected. Binary files, large files
+(over 256 KiB on either side), symlinks, mode-only changes, generated pack/index
+metadata, and common dependency lockfiles are skipped. New refs without a before
+snapshot show the inventory without diff previews.
+
+**Review your configs before enabling:** previews copy file contents into
+Discord. Filename exclusions are only a precaution, not secret detection or
+redaction. Add sensitive paths to `diff-exclude-paths`; values embedded in an
+otherwise ordinary config can still be exposed. Supplying this input replaces
+its default patterns, so retain those patterns if needed. For packs in a
+subdirectory, prefix preview globs with that directory.
 
 ### Multiple audiences / multiple packs
 

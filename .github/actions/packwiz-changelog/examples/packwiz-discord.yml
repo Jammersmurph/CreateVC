@@ -53,6 +53,14 @@ jobs:
           # include-files: "false"
           # include-pack-info: "true"
 
+          # Optional config/script diffs; exclude sensitive files before enabling.
+          # include-diffs: "true"
+          # max-diff-lines: "15"
+          # max-diff-files: "3"
+          # diff-paths: |
+          #   config/**
+          #   kubejs/**
+
           # Repository-relative ignore patterns.
           exclude-paths: |
             .github/**

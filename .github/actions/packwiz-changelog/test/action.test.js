@@ -10,6 +10,7 @@ import { Git } from '../src/git.js';
 import { analyze, modFromToml, parseToml } from '../src/packwiz.js';
 import { buildMessages, sendMessages, validateWebhook, truncate } from '../src/discord.js';
 import { getConfig, httpUrl } from '../src/config.js';
+import { collectDiffs } from '../src/diffs.js';
 
 const exec = promisify(execFile);
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -18,6 +19,11 @@ const config = {
   includeCommits: true, includeFiles: true, includePackInfo: true,
   title: '', description: '', color: 0x5865f2, changelogUrl: '', username: '', avatarUrl: '',
   roles: [], users: [], everyone: false, buttons: true, customLinks: [],
+};
+const diffConfig = {
+  ...config, includeDiffs: true, maxDiffLines: 15, maxDiffFiles: 3,
+  diffPaths: ['config/**', 'kubejs/**', 'scripts/**'],
+  diffExcludePaths: ['**/*secret*', '**/*token*', '**/*credential*', '**/.env*', '**/*.pem', '**/*.key'],
 };
 const context = {
   repoUrl: 'https://github.com/owner/pack', serverUrl: 'https://github.com',
@@ -130,6 +136,84 @@ test('TOML comment-only edits do not count as mod updates', async t => {
   await write('mods/mod.pw.toml', `# comment\n${manifest('Mod', 'mod')}`);
   const after = await commit('Comment');
   assert.equal((await analyze(git, before, after, config)).updated.length, 0);
+});
+
+test('diff previews show changed values, added/deleted configs and full-diff links', async t => {
+  const { dir, git, write, commit } = await repository(t);
+  await write('pack.toml', pack);
+  await write('config/example.toml', 'enabled = false\n');
+  await write('config/removed.cfg', 'old=true\n');
+  const before = await commit('Initial configs');
+  await write('config/example.toml', 'enabled = true\n');
+  await fs.unlink(path.join(dir, 'config/removed.cfg'));
+  await write('config/added.json', '{"enabled":true}\n');
+  const after = await commit('Tune configs');
+  const report = await analyze(git, before, after, diffConfig);
+  assert.equal(report.diffs.length, 3);
+  const changed = report.diffs.find(preview => preview.file === 'config/example.toml');
+  assert.ok(changed.lines.includes('-enabled = false'));
+  assert.ok(changed.lines.includes('+enabled = true'));
+  assert.ok(report.diffs.find(preview => preview.file === 'config/removed.cfg').lines.includes('-old=true'));
+  assert.ok(report.diffs.find(preview => preview.file === 'config/added.json').lines.includes('+{"enabled":true}'));
+  const messages = buildMessages(report, [], { ...context, before, after }, diffConfig);
+  assert.match(messages.map(text).join('\n'), /```diff\n/);
+  assert.match(messages.map(text).join('\n'), /View full diff.*#diff-[a-f0-9]{64}/);
+  assert.match(messages.map(text).join('\n'), /-enabled = false/);
+  assert.equal((await analyze(git, before, after, config)).diffs.length, 0);
+  assert.equal((await analyze(git, before, after, { ...diffConfig, includeFiles: false })).diffs.length, 0);
+  assert.equal((await analyze(git, null, after, diffConfig)).diffs.length, 0);
+});
+
+test('diff previews skip sensitive, binary, large, generated and symlink files', async t => {
+  const { dir, git, write, commit } = await repository(t);
+  await write('pack.toml', pack);
+  const before = await commit('Initial');
+  await write('config/secrets.toml', 'password="hidden"\n');
+  await write('config/token.properties', 'token=hidden\n');
+  await write('config/credentials.json', '{"secret":"hidden"}\n');
+  await write('config/.env', 'PASSWORD=hidden\n');
+  await write('config/private.key', 'hidden\n');
+  await write('config/binary.dat', Buffer.from([0, 1, 2, 3]));
+  await write('config/large.cfg', 'x'.repeat(300_000));
+  await write('config/package-lock.json', '{"generated":true}\n');
+  await fs.symlink('secrets.toml', path.join(dir, 'config/link.cfg'));
+  await write('config/safe.cfg', 'enabled=true\n');
+  await write('pack.toml', `${pack}# formatting\n`);
+  const after = await commit('Configs');
+  const report = await analyze(git, before, after, { ...diffConfig, diffPaths: ['**'], maxDiffFiles: 10 });
+  assert.deepEqual(report.diffs.map(preview => preview.file), ['config/safe.cfg']);
+  const excluded = await analyze(git, before, after, { ...diffConfig, excludePaths: ['config/**'] });
+  assert.deepEqual(excluded.diffs, []);
+});
+
+test('diff previews bound file/line counts and neutralize code fences in file contents', async t => {
+  const { git, write, commit } = await repository(t);
+  await write('pack.toml', pack);
+  await write('config/a.cfg', 'old=true\n');
+  const before = await commit('Initial');
+  await write('config/a.cfg', '``` @everyone\nnew=true\nanother=true\nlast=true\n');
+  await write('config/b.cfg', 'b=true\n');
+  const after = await commit('Configs');
+  const report = await analyze(git, before, after, { ...diffConfig, maxDiffFiles: 1, maxDiffLines: 3 });
+  assert.equal(report.diffs.length, 1);
+  assert.equal(report.diffs[0].lines.length, 3);
+  assert.equal(report.diffs[0].truncated, true);
+  assert.ok(report.diffs[0].lines.some(line => line.includes('`\u200b')));
+  assert.equal(report.diffs[0].lines.some(line => line.includes('```')), false);
+  const [message] = buildMessages(report, [], { ...context, before, after }, {
+    ...diffConfig, title: '*'.repeat(256),
+    roles: Array.from({ length: 75 }, (_, i) => String(123456789012345000n + BigInt(i))),
+  });
+  for (const display of children(message).filter(component => component.type === 10)) {
+    if (display.content.startsWith('```diff\n')) assert.ok(display.content.endsWith('\n```'));
+  }
+  assert.ok(text(message).length <= 4000);
+  assert.deepEqual(message.allowed_mentions.parse, []);
+});
+
+test('preview generation does not read files when disabled', async () => {
+  const git = { diff() { throw new Error('Must not read contents'); } };
+  assert.deepEqual(await collectDiffs(git, context.before, context.after, [{ file: 'config/a.cfg' }], config), []);
 });
 
 test('snapshot comparison works for non-ancestor force pushes', async t => {

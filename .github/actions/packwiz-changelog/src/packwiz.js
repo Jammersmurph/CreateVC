@@ -1,5 +1,6 @@
 import TOML from '@iarna/toml';
 import picomatch from 'picomatch';
+import { collectDiffs } from './diffs.js';
 
 export function parseToml(text, file) {
   try { return TOML.parse(text); }
@@ -69,5 +70,6 @@ export async function analyze(git, before, after, config) {
   }
   newMods.forEach((mod, index) => { if (!used.has(index)) added.push(mod); });
   for (const list of [added, removed, updated]) list.sort((a, b) => a.name.localeCompare(b.name));
-  return { pack, added, removed, updated, files };
+  const diffs = await collectDiffs(git, before, after, files, config);
+  return { pack, added, removed, updated, files, diffs };
 }

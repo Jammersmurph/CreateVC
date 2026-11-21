@@ -44,6 +44,30 @@ inputs:
   include-files:
     description: Include non-mod changes such as configs, scripts, and quests.
     default: "true"
+  include-diffs:
+    description: Include bounded text diff previews. Review path filters for sensitive content before enabling.
+    default: "false"
+  diff-paths:
+    description: Newline-separated repository-relative globs eligible for diff previews.
+    default: |
+      config/**
+      kubejs/**
+      scripts/**
+  diff-exclude-paths:
+    description: Newline-separated globs excluded from previews (not a substitute for reviewing sensitive files).
+    default: |
+      **/*secret*
+      **/*token*
+      **/*credential*
+      **/.env*
+      **/*.pem
+      **/*.key
+  max-diff-lines:
+    description: Maximum preview lines per file, including hunk headers and context (1–50).
+    default: "15"
+  max-diff-files:
+    description: Maximum eligible files considered for previews per push (1–10).
+    default: "3"
   include-pack-info:
     description: Include pack version, Minecraft version, and mod loader versions.
     default: "true"
