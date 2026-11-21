@@ -1,0 +1,50 @@
+name: Replay Packwiz Changelog
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: Full commit SHA to announce again
+        required: true
+        type: string
+      branch:
+        description: Branch name shown in the notification
+        required: true
+        default: dev
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      # Sends one commit against its first parent; no role/user pings.
+      - name: Replay commit notification
+        env:
+          REPLAY_SHA: ${{ inputs.commit }}
+          REPLAY_BRANCH: ${{ inputs.branch }}
+          INPUT_WEBHOOK-URL: ${{ secrets.DISCORD_WEBHOOK }}
+          INPUT_USERNAME: CreateVC Packwiz Preview
+          INPUT_AVATAR-URL: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
+          INPUT_IMAGE-URL: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
+          INPUT_COLOR: "7DBBE6"
+          INPUT_DESCRIPTION: "Replayed commit notification."
+          INPUT_CUSTOM-LINKS: '[{"label":"Website","url":"https://www.createvc.org/"},{"label":"Downloads","url":"https://www.createvc.org/pack"}]'
+          INPUT_EXCLUDE-PATHS: |
+            .github/**
+            builds/**
+            prism-light/**
+          INPUT_INCLUDE-DIFFS: "true"
+          INPUT_MAX-DIFF-LINES: "15"
+          INPUT_MAX-DIFF-FILES: "3"
+          INPUT_MAX-COMMITS: "20"
+          INPUT_MAX-ITEMS: "100"
+          INPUT_MAX-MESSAGES: "5"
+        run: node .github/scripts/replay-packwiz-changelog.mjs
