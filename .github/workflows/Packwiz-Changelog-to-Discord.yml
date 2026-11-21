@@ -23,6 +23,7 @@ jobs:
           webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
           username: CreateVC Packwiz Preview
           avatar-url: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
+          image-url: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
           color: "7DBBE6"
           description: "Packwiz changelog preview — running alongside the existing CreateVC changelog."
           # No additional pings during the parallel trial. The existing sender

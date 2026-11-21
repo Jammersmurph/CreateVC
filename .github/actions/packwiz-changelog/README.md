@@ -12,6 +12,7 @@ A reusable GitHub Action that turns packwiz repository pushes into Discord chang
 - Config, script, quest, and other file changes, without generated `index.toml` hash noise.
 - Commit subjects, authors, pusher, branch, and force-push indicator.
 - **Commit, Changelog, and Branch buttons inside the container**, plus up to two custom buttons. No duplicate navigation hyperlinks.
+- Optional image gallery at the top of every container, with an independently configurable webhook avatar.
 - Explicit role/user pings, configurable presentation, ignored paths, and dry-run previews.
 - Bounded pagination, rate-limit handling, secret masking, and no GitHub write permissions.
 
@@ -93,6 +94,7 @@ All inputs are optional except that real delivery requires `webhook-url`.
 | `color` | `5865F2` | Container accent color in six-digit hex, with or without `#`. Quote it in YAML. |
 | `username` | Webhook default | Webhook display name, up to 80 characters. Discord's naming rules apply. |
 | `avatar-url` | Webhook default | Avatar image URL. |
+| `image-url` | No gallery | Image shown at the top of every container, independently of the avatar. Must be a publicly accessible image URL. |
 | `buttons` | `true` | Show URL-only navigation buttons inside the container. |
 | `custom-links` | `[]` | JSON array of up to two `{ "label": "...", "url": "https://..." }` objects. |
 | `mention-roles` | — | Numeric role IDs separated by commas, spaces, or newlines. |
@@ -109,6 +111,17 @@ All inputs are optional except that real delivery requires `webhook-url`.
 | `fail-on-error` | `true` | Set `false` to warn instead of failing the job. |
 
 Use `"true"` / `"false"` for booleans. Custom link labels are limited to 80 characters, and configured URLs to 512 characters.
+
+### Gallery and avatar
+
+```yaml
+with:
+  webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+  image-url: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
+  avatar-url: https://example.com/avatar.png
+```
+
+`image-url` creates a Media Gallery as the first component **inside** the container. `avatar-url` sets the webhook sender's avatar; it can use a different image. Omit `image-url` to hide the gallery, or omit `avatar-url` to keep the webhook's default avatar.
 
 ### Role/user pings
 

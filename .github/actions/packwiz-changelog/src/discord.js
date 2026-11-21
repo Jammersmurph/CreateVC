@@ -110,6 +110,10 @@ export function buildMessages(report, commits, context, config) {
       type: 17,
       accent_color: config.color,
       components: [
+        ...(config.imageUrl ? [{
+          type: 12,
+          items: [{ media: { url: config.imageUrl }, description: 'Pack artwork' }],
+        }] : []),
         { type: 10, content: `${heading(index)}${index === 0 && mentionText ? `\n${mentionText}` : ''}` },
         { type: 10, content: description },
         { type: 14, divider: true, spacing: 1 },

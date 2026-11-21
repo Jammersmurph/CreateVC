@@ -64,6 +64,7 @@ export function getConfig(workspace) {
     webhookUrl: input('webhook-url'),
     changelogUrl: httpUrl(input('changelog-url'), 'changelog-url'),
     avatarUrl: httpUrl(input('avatar-url'), 'avatar-url'),
+    imageUrl: httpUrl(input('image-url'), 'image-url'),
     title: input('title'),
     description: input('description'),
     username: input('username').slice(0, 80),

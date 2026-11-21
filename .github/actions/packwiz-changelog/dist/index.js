@@ -3877,6 +3877,7 @@ function getConfig(workspace) {
     webhookUrl: input("webhook-url"),
     changelogUrl: httpUrl(input("changelog-url"), "changelog-url"),
     avatarUrl: httpUrl(input("avatar-url"), "avatar-url"),
+    imageUrl: httpUrl(input("image-url"), "image-url"),
     title: input("title"),
     description: input("description"),
     username: input("username").slice(0, 80),
@@ -4132,6 +4133,10 @@ function buildMessages(report, commits, context, config) {
       type: 17,
       accent_color: config.color,
       components: [
+        ...config.imageUrl ? [{
+          type: 12,
+          items: [{ media: { url: config.imageUrl }, description: "Pack artwork" }]
+        }] : [],
         { type: 10, content: `${heading(index)}${index === 0 && mentionText ? `
 ${mentionText}` : ""}` },
         { type: 10, content: description },

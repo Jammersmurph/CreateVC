@@ -24,6 +24,8 @@ inputs:
     description: Optional Discord webhook display name.
   avatar-url:
     description: Optional HTTPS webhook avatar URL.
+  image-url:
+    description: Optional image URL displayed in a gallery at the top of every changelog container. Independent of avatar-url.
   buttons:
     description: Show URL-only navigation buttons inside the changelog container.
     default: "true"

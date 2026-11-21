@@ -212,6 +212,29 @@ test('optional sections and buttons can be disabled', () => {
   assert.doesNotMatch(text(message), /Other pack changes|Minecraft|Commits/);
 });
 
+test('gallery is first inside every container and avatar is independently configurable', () => {
+  const report = emptyReport();
+  report.files = Array.from({ length: 100 }, (_, i) => ({ status: 'A', file: `config/${i}.toml` }));
+  const imageUrl = 'https://example.com/banner.png';
+  const avatarUrl = 'https://example.com/avatar.png';
+  const messages = buildMessages(report, [], context, { ...config, imageUrl, avatarUrl, maxItems: 100 });
+  assert.ok(messages.length > 1);
+  for (const message of messages) {
+    assert.equal(message.avatar_url, avatarUrl);
+    assert.deepEqual(children(message)[0], {
+      type: 12, items: [{ media: { url: imageUrl }, description: 'Pack artwork' }],
+    });
+    assert.equal(children(message).at(-1).type, 1);
+    assert.equal(message.components.length, 1);
+  }
+  const [withoutGallery] = buildMessages(emptyReport(), [], context, { ...config, avatarUrl });
+  assert.equal(withoutGallery.avatar_url, avatarUrl);
+  assert.equal(children(withoutGallery).some(component => component.type === 12), false);
+  const [withoutAvatar] = buildMessages(emptyReport(), [], context, { ...config, imageUrl });
+  assert.equal(withoutAvatar.avatar_url, undefined);
+  assert.equal(children(withoutAvatar)[0].type, 12);
+});
+
 test('webhook URL validation disallows arbitrary hosts and preserves thread_id', () => {
   for (const bad of ['https://evil.com/api/webhooks/123/token', 'http://discord.com/api/webhooks/123/token',
     'https://discord.com.evil.com/api/webhooks/123/token', 'https://discord.com/api/webhooks/123/token/slack']) {
@@ -263,6 +286,15 @@ test('config validates paths, booleans, IDs, limits and custom links', () => {
   const original = { ...process.env };
   try {
     assert.equal(getConfig('/repository').packDirectory, '');
+    process.env['INPUT_IMAGE-URL'] = 'https://example.com/banner.png';
+    process.env['INPUT_AVATAR-URL'] = 'https://example.com/avatar.png';
+    const appearance = getConfig('/repository');
+    assert.equal(appearance.imageUrl, 'https://example.com/banner.png');
+    assert.equal(appearance.avatarUrl, 'https://example.com/avatar.png');
+    process.env['INPUT_IMAGE-URL'] = 'javascript:alert(1)';
+    assert.throws(() => getConfig('/repository'), /image-url must be an HTTP/);
+    delete process.env['INPUT_IMAGE-URL'];
+    delete process.env['INPUT_AVATAR-URL'];
     process.env['INPUT_PACK-DIRECTORY'] = '../outside';
     assert.throws(() => getConfig('/repository'), /inside the repository/);
     delete process.env['INPUT_PACK-DIRECTORY'];
