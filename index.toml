@@ -313,7 +313,7 @@ hash = "e10963bf43711e1d326e076a5b5baa5654b73d1a3878da6aa11c373b47c9e3ac"
 
 [[files]]
 file = "config/fml.toml"
-hash = "415eaa408ddfdeb1bfa0d825f9a148934b39c9b64fd8e166ad92fa51b43d60fd"
+hash = "7120df9c1c640afe09774787c3eae3592c984763ef8bb777595de7b6de7995f0"
 
 [[files]]
 file = "config/fps_overlay/config.json"
