@@ -1,0 +1,89 @@
+# Copy into your PACK repository at .github/workflows/discord-changelog.yml.
+# Replace YOUR-OWNER/packwiz-changelog-ci with the repository hosting this action.
+# Optional settings can be removed to use their defaults. Never paste a webhook
+# URL directly into this file: create an Actions secret instead.
+name: Pack changelog
+on:
+  push:
+    # Every branch. Use ["main"] to announce only your release branch.
+    # Add tags: ["**"] here as well if tag pushes should notify.
+    branches: ["**"]
+permissions:
+  contents: read
+jobs:
+  discord:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Required to compare the entire push and read deleted mod manifests.
+          fetch-depth: 0
+      - name: Notify developers and players
+        uses: YOUR-OWNER/packwiz-changelog-ci@v1
+        with:
+          # Repository Settings → Secrets and variables → Actions.
+          # Change the secret name below if yours has a different name.
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+          # Folder containing pack.toml, relative to the repository root.
+          # Omit this for a pack at the root.
+          # pack-directory: modpack
+
+          # Sender name and container accent color (quote six-digit hex colors).
+          # Omit username to keep the webhook's own display name.
+          username: Pack Updates
+          color: "A855F7"
+
+          # Gallery at the TOP of the container and sender avatar are independent.
+          # Use publicly accessible image URLs. Both are optional.
+          # image-url: https://example.com/pack-banner.png
+          # avatar-url: https://example.com/avatar.png
+
+          # Intro text supports Discord Markdown. Title defaults to pack + branch.
+          # title: My pack updates
+          description: "Fresh pack changes — check the changelog before updating!"
+
+          # Defaults to the GitHub comparison for this push.
+          # changelog-url: https://example.com/changelog
+
+          # PINGS: enable Discord Developer Mode, then right-click → Copy ID.
+          # Use bare numeric IDs, NOT role names or <@&...>/<@...> syntax.
+          # Multiple IDs may be comma-separated, space-separated, or multiline.
+          # Configured IDs ping on EVERY matching push, first message only.
+          # Roles must be mentionable / permitted by Discord; user settings apply.
+          # No pings are sent by default, even if commit text contains mentions.
+          # mention-roles: "123456789012345678"
+          # mention-users: "234567890123456789"
+          # Explicit opt-in only; leave false to avoid pinging the whole server.
+          # mention-everyone: "false"
+
+          # Commit/Changelog/Branch buttons are automatic and inside the container.
+          # Set buttons: "false" to hide all navigation buttons.
+          # Up to TWO additional buttons; choose your own labels and URLs.
+          # This is JSON, so use double quotes and no trailing commas.
+          # custom-links: |
+          #   [{"label":"Download pack","url":"https://example.com/download"},
+          #    {"label":"Report a bug","url":"https://github.com/OWNER/PACK/issues"}]
+
+          # Optional report sections. Useful for a less technical player channel.
+          # include-commits: "false"
+          # include-files: "false"
+          # include-pack-info: "true"
+
+          # Ignore repository-relative globs, one per line (not pack-relative).
+          # Generated index.toml hash changes are already hidden automatically.
+          exclude-paths: |
+            .github/**
+            README.md
+
+          # Display limits. Larger reports link to the comparison for full details.
+          # Counts still include every detected mod change, including hidden items.
+          max-commits: "10"
+          max-items: "50"
+          max-messages: "5"
+
+          # Dry run writes discord-preview.json without contacting Discord.
+          # Set fail-on-error false to warn rather than fail the GitHub job.
+          # dry-run: "true"
+          # fail-on-error: "false"
