@@ -5,8 +5,7 @@ on: [push]
 permissions:
   contents: read
 
-# Run alongside Changelog-to-Discord.yml until the new sender is approved.
-# Avoid concurrency groups: pending push notifications must not be replaced.
+# No concurrency group: keep every push notification.
 jobs:
   notify:
     if: ${{ !github.event.deleted }}
@@ -26,12 +25,7 @@ jobs:
           image-url: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
           color: "7DBBE6"
           description: "Packwiz changelog preview — running alongside the existing CreateVC changelog."
-          # Pings are opt-in. The original sender is disabled; this sender does
-          # not ping anyone unless mention inputs below are explicitly enabled.
-          # To enable pings: turn on Discord Developer Mode, then Copy ID on a
-          # role/user. Supply bare numeric IDs, separated by commas or spaces.
-          # Uncommenting these pings on EVERY push, first message only.
-          # Roles must be mentionable/permitted. No pings are enabled currently.
+          # Optional pings on every push: numeric IDs, comma-separated.
           # mention-roles: "1447355271830704170"
           # mention-users: "YOUR_NUMERIC_USER_ID"
           # mention-everyone: "false"
