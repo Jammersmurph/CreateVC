@@ -1,0 +1,39 @@
+name: Packwiz Discord Changelog (Preview)
+
+on: [push]
+
+permissions:
+  contents: read
+
+# Run alongside Changelog-to-Discord.yml until the new sender is approved.
+# Avoid concurrency groups: pending push notifications must not be replaced.
+jobs:
+  notify:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Send parallel packwiz preview
+        uses: ./.github/actions/packwiz-changelog
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+          username: CreateVC Packwiz Preview
+          avatar-url: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
+          color: "7DBBE6"
+          description: "Packwiz changelog preview — running alongside the existing CreateVC changelog."
+          # No additional pings during the parallel trial. The existing sender
+          # keeps its release-role mention behavior unchanged.
+          custom-links: |
+            [{"label":"Website","url":"https://www.createvc.org/"},
+             {"label":"Downloads","url":"https://www.createvc.org/pack"}]
+          exclude-paths: |
+            .github/**
+            builds/**
+            prism-light/**
+          max-commits: "20"
+          max-items: "100"
+          max-messages: "5"

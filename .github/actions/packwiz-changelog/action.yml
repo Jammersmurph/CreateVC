@@ -1,0 +1,78 @@
+name: Packwiz Discord Changelog
+description: Notify Discord of packwiz mod additions, removals, updates, and other changes on every push.
+author: Packwiz Changelog CI contributors
+branding:
+  icon: package
+  color: purple
+inputs:
+  webhook-url:
+    description: Discord webhook URL. Pass a GitHub Actions secret.
+    required: false
+  pack-directory:
+    description: Repository-relative directory containing pack.toml.
+    default: "."
+  changelog-url:
+    description: Optional changelog URL; defaults to the GitHub comparison.
+  title:
+    description: Embed title. Defaults to the pack name and branch.
+  description:
+    description: Optional text shown above the change summary.
+  color:
+    description: Six-digit hexadecimal embed color.
+    default: "5865F2"
+  username:
+    description: Optional Discord webhook display name.
+  avatar-url:
+    description: Optional HTTPS webhook avatar URL.
+  buttons:
+    description: Show URL-only navigation buttons beneath embeds.
+    default: "true"
+  custom-links:
+    description: JSON array of up to two extra buttons, e.g. [{"label":"Download","url":"https://example.com"}].
+  mention-roles:
+    description: Role IDs to ping, separated by commas, spaces, or newlines.
+  mention-users:
+    description: User IDs to ping, separated by commas, spaces, or newlines.
+  mention-everyone:
+    description: Explicitly allow and send an @everyone ping.
+    default: "false"
+  include-commits:
+    description: Include commit subjects and authors.
+    default: "true"
+  include-files:
+    description: Include non-mod changes such as configs, scripts, and quests.
+    default: "true"
+  include-pack-info:
+    description: Include pack version, Minecraft version, and mod loader versions.
+    default: "true"
+  exclude-paths:
+    description: Newline-separated repository-relative glob patterns to ignore.
+  max-commits:
+    description: Maximum commits displayed (1–50).
+    default: "10"
+  max-items:
+    description: Maximum entries displayed per change category (1–200).
+    default: "50"
+  max-messages:
+    description: Maximum Discord messages per push (1–10). Large reports are truncated with a comparison link.
+    default: "5"
+  dry-run:
+    description: Write discord-preview.json without calling Discord or requiring a webhook.
+    default: "false"
+  fail-on-error:
+    description: Fail the action if notification generation or delivery fails.
+    default: "true"
+outputs:
+  added:
+    description: Number of added mods.
+  removed:
+    description: Number of removed mods.
+  updated:
+    description: Number of updated or reconfigured mods.
+  messages:
+    description: Number of messages sent (or generated in dry-run mode).
+  preview-path:
+    description: Absolute path to the payload preview, in dry-run mode.
+runs:
+  using: node24
+  main: dist/index.js

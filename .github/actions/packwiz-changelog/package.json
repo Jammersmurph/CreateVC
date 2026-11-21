@@ -1,0 +1,20 @@
+{
+  "name": "packwiz-changelog-ci",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Packwiz-aware Discord changelogs for GitHub Actions",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test",
+    "check": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "picomatch": "^4.0.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
