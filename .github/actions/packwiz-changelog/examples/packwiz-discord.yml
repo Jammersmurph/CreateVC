@@ -1,0 +1,76 @@
+# Copy to .github/workflows/discord-changelog.yml; replace YOUR-OWNER below.
+# See the action README for all options.
+name: Pack changelog
+on:
+  push:
+    # Use ["main"] for release-only notifications.
+    branches: ["**"]
+permissions:
+  contents: read
+jobs:
+  discord:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history for push comparisons.
+          fetch-depth: 0
+      - name: Notify developers and players
+        uses: YOUR-OWNER/packwiz-changelog-ci@v1
+        with:
+          # Store the webhook URL in an Actions secret.
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+          # Pack root; defaults to ".".
+          # pack-directory: modpack
+
+          # Appearance (images are optional and independent).
+          username: Pack Updates
+          color: "A855F7"
+
+          # image-url: https://example.com/pack-banner.png
+          # avatar-url: https://example.com/avatar.png
+
+          # title: My pack updates
+          description: "Fresh pack changes — check the changelog before updating!"
+
+          # Defaults to the push comparison.
+          # changelog-url: https://example.com/changelog
+
+          # Optional pings on every push: numeric IDs, comma-separated.
+          # mention-roles: "123456789012345678"
+          # mention-users: "234567890123456789"
+          # mention-everyone: "false"
+
+          # Up to two extra buttons (JSON); omit for default navigation only.
+          # custom-links: |
+          #   [{"label":"Download pack","url":"https://example.com/download"},
+          #    {"label":"Report a bug","url":"https://github.com/OWNER/PACK/issues"}]
+
+          # Optional report sections.
+          # include-commits: "false"
+          # include-files: "false"
+          # include-pack-info: "true"
+
+          # Optional config/script diffs; exclude sensitive files before enabling.
+          # include-diffs: "true"
+          # max-diff-lines: "15"
+          # max-diff-files: "3"
+          # diff-paths: |
+          #   config/**
+          #   kubejs/**
+
+          # Repository-relative ignore patterns.
+          exclude-paths: |
+            .github/**
+            README.md
+
+          # Report size limits.
+          max-commits: "10"
+          max-items: "50"
+          max-messages: "5"
+
+          # Preview without sending; optionally warn instead of failing.
+          # dry-run: "true"
+          # fail-on-error: "false"

@@ -1,0 +1,104 @@
+name: Packwiz Discord Changelog
+description: Notify Discord of packwiz mod additions, removals, updates, and other changes on every push.
+author: Packwiz Changelog CI contributors
+branding:
+  icon: package
+  color: purple
+inputs:
+  webhook-url:
+    description: Discord webhook URL. Pass a GitHub Actions secret.
+    required: false
+  pack-directory:
+    description: Repository-relative directory containing pack.toml.
+    default: "."
+  changelog-url:
+    description: Optional changelog URL; defaults to the GitHub comparison.
+  title:
+    description: Container heading. Defaults to the pack name and branch.
+  description:
+    description: Optional text shown above the change summary.
+  color:
+    description: Six-digit hexadecimal container accent color.
+    default: "5865F2"
+  username:
+    description: Optional Discord webhook display name.
+  avatar-url:
+    description: Optional HTTPS webhook avatar URL.
+  image-url:
+    description: Optional image URL displayed in a gallery at the top of every changelog container. Independent of avatar-url.
+  buttons:
+    description: Show URL-only navigation buttons inside the changelog container.
+    default: "true"
+  custom-links:
+    description: JSON array of up to two extra buttons, e.g. [{"label":"Download","url":"https://example.com"}].
+  mention-roles:
+    description: Role IDs to ping, separated by commas, spaces, or newlines.
+  mention-users:
+    description: User IDs to ping, separated by commas, spaces, or newlines.
+  mention-everyone:
+    description: Explicitly allow and send an @everyone ping.
+    default: "false"
+  include-commits:
+    description: Include commit subjects and authors.
+    default: "true"
+  include-files:
+    description: Include non-mod changes such as configs, scripts, and quests.
+    default: "true"
+  include-diffs:
+    description: Include bounded text diff previews. Review path filters for sensitive content before enabling.
+    default: "false"
+  diff-paths:
+    description: Newline-separated repository-relative globs eligible for diff previews.
+    default: |
+      config/**
+      kubejs/**
+      scripts/**
+  diff-exclude-paths:
+    description: Newline-separated globs excluded from previews (not a substitute for reviewing sensitive files).
+    default: |
+      **/*secret*
+      **/*token*
+      **/*credential*
+      **/.env*
+      **/*.pem
+      **/*.key
+  max-diff-lines:
+    description: Maximum preview lines per file, including hunk headers and context (1–50).
+    default: "15"
+  max-diff-files:
+    description: Maximum eligible files considered for previews per push (1–10).
+    default: "3"
+  include-pack-info:
+    description: Include pack version, Minecraft version, and mod loader versions.
+    default: "true"
+  exclude-paths:
+    description: Newline-separated repository-relative glob patterns to ignore.
+  max-commits:
+    description: Maximum commits displayed (1–50).
+    default: "10"
+  max-items:
+    description: Maximum entries displayed per change category (1–200).
+    default: "50"
+  max-messages:
+    description: Maximum Discord messages per push (1–10). Large reports are truncated with a comparison link.
+    default: "5"
+  dry-run:
+    description: Write discord-preview.json without calling Discord or requiring a webhook.
+    default: "false"
+  fail-on-error:
+    description: Fail the action if notification generation or delivery fails.
+    default: "true"
+outputs:
+  added:
+    description: Number of added mods.
+  removed:
+    description: Number of removed mods.
+  updated:
+    description: Number of updated or reconfigured mods.
+  messages:
+    description: Number of messages sent (or generated in dry-run mode).
+  preview-path:
+    description: Absolute path to the payload preview, in dry-run mode.
+runs:
+  using: node24
+  main: dist/index.js
