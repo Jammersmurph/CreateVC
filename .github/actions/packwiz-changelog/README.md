@@ -116,12 +116,33 @@ Use `"true"` / `"false"` for booleans. Custom link labels are limited to 80 char
 
 ```yaml
 with:
-  webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
-  image-url: https://raw.githubusercontent.com/Jammersmurph/CreateVC-Assets/main/createvc_smp_logo.png
+  webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+  image-url: https://example.com/pack-banner.png
   avatar-url: https://example.com/avatar.png
 ```
 
 `image-url` creates a Media Gallery as the first component **inside** the container. `avatar-url` sets the webhook sender's avatar; it can use a different image. Omit `image-url` to hide the gallery, or omit `avatar-url` to keep the webhook's default avatar.
+
+### Custom buttons and project branding
+
+The distributable action has no project-specific website, download URL, artwork,
+avatar, or ping IDs. By default, it shows only Commit, Changelog, and Branch/Tag
+buttons derived from the repository and push event. Additional buttons are
+entirely opt-in through the consuming repository's workflow:
+
+```yaml
+with:
+  webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+  custom-links: |
+    [{"label":"Community","url":"https://example.com/community"},
+     {"label":"Get the pack","url":"https://example.com/pack"}]
+```
+
+Choose your own labels and URLs, configure just one link, or omit `custom-links`
+for no extra buttons. Branding and notification settings belong in the consuming
+workflow, not in the shared action source. `username`, `color`, `image-url`,
+`avatar-url`, and mention inputs are independent options with no project-specific
+defaults.
 
 ### Role/user pings
 

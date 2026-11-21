@@ -212,6 +212,23 @@ test('optional sections and buttons can be disabled', () => {
   assert.doesNotMatch(text(message), /Other pack changes|Minecraft|Commits/);
 });
 
+test('default output has no project branding or extra links; custom links are opt-in', () => {
+  const [message] = buildMessages(emptyReport(), [], context, config);
+  assert.deepEqual(buttons(message).map(button => button.label), ['Commit', 'Changelog', 'Branch']);
+  assert.ok(buttons(message).every(button => button.url.startsWith(`${context.repoUrl}/`)));
+  assert.equal(message.username, undefined);
+  assert.equal(message.avatar_url, undefined);
+  assert.equal(message.components[0].components.some(component => component.type === 12), false);
+  assert.deepEqual(message.allowed_mentions, { parse: [], roles: [], users: [] });
+  const [customized] = buildMessages(emptyReport(), [], context, {
+    ...config, customLinks: [{ label: 'Community hub', url: 'https://example.net/community' }],
+  });
+  assert.deepEqual(buttons(customized).at(-1), {
+    type: 2, style: 5, label: 'Community hub', url: 'https://example.net/community',
+  });
+  assert.equal(buttons(customized).length, 4);
+});
+
 test('gallery is first inside every container and avatar is independently configurable', () => {
   const report = emptyReport();
   report.files = Array.from({ length: 100 }, (_, i) => ({ status: 'A', file: `config/${i}.toml` }));

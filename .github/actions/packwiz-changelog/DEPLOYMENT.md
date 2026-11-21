@@ -11,6 +11,9 @@ the original Python sender remains enabled and unchanged.
 - The preview does not ping users or roles. Existing release-role behavior stays
   in the original sender.
 - Website and Downloads buttons point to the existing CreateVC player pages.
+  They are supplied through `custom-links` in CreateVC's consuming workflow,
+  not hardcoded in the shared action. Other repositories choose their own links
+  or omit them entirely.
 - Pack files and `index.toml` are never modified by the action.
 
 The preview is a real Discord notification, not `dry-run` mode. Each push can
