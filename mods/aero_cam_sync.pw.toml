@@ -14,5 +14,5 @@ version = "UbgVQ0qd"
 
 [option]
 optional = true
-default = false
-description = "Syncs the camera with the sub-level's orientation to make moving around sub-levels easier."
+default = true
+description = "Rotates your camera to the tilt of Sub-Levels for a more immersive experience."

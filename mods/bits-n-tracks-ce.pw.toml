@@ -1,0 +1,13 @@
+name = "Create: Bits 'n' Tracks Community Edition"
+filename = "bits_n_tracks-3.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/g9koB07q/versions/8PAIGbq2/bits_n_tracks-3.0.4.jar"
+hash-format = "sha512"
+hash = "a09f2a94d522b043536e8241266fd6d937fb30df7fc7f3d43bca65596ac023b14462e4a989ae7aa5154c484c41c4a1cbfac6b7fd98dcc26e5a53805454b63ee2"
+
+[update]
+[update.modrinth]
+mod-id = "g9koB07q"
+version = "8PAIGbq2"

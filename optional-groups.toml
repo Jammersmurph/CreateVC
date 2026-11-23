@@ -1,0 +1,65 @@
+# EXAMPLE: replace the paths below with optional mods from your own pack.
+# Put this file beside the hosted pack.toml, not in the client's config folder.
+# No PackWiz tool changes or index registration are needed for this file.
+# Paths are relative to pack.toml and point to .pw.toml metadata, not JAR files.
+# Version is the configuration format; version 1 is assumed if omitted.
+version = 1
+
+[[groups]]
+id = "vr"
+name = "VR Support"
+description = "VR support and compatibility fixes. Enable together when using a VR headset."
+mods = [
+    "mods/vivecraft.pw.toml",
+    "mods/vivecraft-compat.pw.toml",
+    "mods/aerovive-fix.pw.toml",
+    "mods/sable-vivecraft-fix.pw.toml",
+]
+
+[[groups]]
+id = "visuals"
+name = "Visuals"
+description = "Shaders, rendering compatibility, and dynamic lighting. Do not enable alongside Vanillin."
+mods = [
+    "mods/iris.pw.toml",
+    "mods/iris-veil-compat.pw.toml",
+    "mods/createbetterfps.pw.toml",
+    "mods/lambdynamiclights.pw.toml",
+    "mods/aero_cam_sync.pw.toml",
+    "mods/aero-player-tilt.pw.toml",
+]
+
+[[groups]]
+id = "animations"
+name = "Animations"
+description = "Player animation support and first-person punch animations."
+mods = [
+    "mods/playeranimator.pw.toml",
+    "mods/punchy-fpa.pw.toml",
+]
+
+[[groups]]
+id = "chat-content"
+name = "Chat & In-game Content"
+description = "Chat images, unrestricted chat, and in-game web content."
+mods = [
+    "mods/discord-chat-connect.pw.toml",
+    "mods/no-chat-restrictions.pw.toml",
+    "mods/rinku.pw.toml",
+]
+
+[[groups]]
+id = "performance"
+name = "Performance — Without Shaders"
+description = "Vanillin rendering optimizations. Do not enable alongside the Visuals group."
+mods = [
+    "mods/flw-vanillin.pw.toml",
+]
+
+[[groups]]
+id = "diagnostics"
+name = "Diagnostics"
+description = "Tools for investigating performance problems."
+mods = [
+    "mods/observable.pw.toml",
+]

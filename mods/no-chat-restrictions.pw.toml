@@ -14,5 +14,5 @@ version = "8rgi2fn1"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Is microslop trying to supress you?\nAre they taking your very right to speak?\nWell look no further!"

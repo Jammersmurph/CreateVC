@@ -15,4 +15,4 @@ version = "rTv2rIvC"
 [option]
 optional = true
 default = false
-description = "Makes xaero maps sync across servers (It is reported to be incredibly laggy)"
+description = "MapSyncer for XaeroWorldmap"

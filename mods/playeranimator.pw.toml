@@ -14,5 +14,5 @@ version = "HJZB6bmA"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Smooth player animations."

@@ -2,11 +2,11 @@
 set -euo pipefail
 
 repo_root=$(git rev-parse --show-toplevel)
-output=${1:-"$repo_root/builds/CreateVC-Light-dev.zip"}
+output=${1:-"$repo_root/CreateVC-Light-dev.zip"}
 if [[ "$output" != /* ]]; then
     output="$repo_root/$output"
 fi
-stage=$(mktemp -d)
+stage=$(mktemp -d "${TMPDIR:-/tmp}/createvc-light.XXXXXXXX")
 trap 'rm -rf "$stage"' EXIT
 
 mkdir -p "$stage/minecraft/mods"
@@ -20,12 +20,29 @@ cp "$repo_root/config/fancymenu/assets/createvc_logo_v2.png" "$stage/icon.png"
 cp "$repo_root/prism-light/instance.cfg" "$stage/instance.cfg"
 cp "$repo_root/prism-light/mmc-pack.json" "$stage/mmc-pack.json"
 cp -a "$repo_root/prism-light/minecraft/." "$stage/minecraft/"
+python3 "$repo_root/.github/scripts/prepare-light-pack.py" "$stage"
 
 # The Light pack ships no mods, so the updater itself has to be present for it
 # to bootstrap the download of everything else.
-packupdater_file="packupdater.jar"
-packupdater_url="https://github.com/Jammersmurph/PackUpdater/releases/download/v1.0.3/packupdater.jar"
-packupdater_sha256="ec27dcf0c1418d4fbbc61fcbb1ed56285f6605002c358ec0aea0c84f128f402d"
+mapfile -t packupdater_metadata < <(python3 - "$repo_root/mods/packupdater.pw.toml" <<'PY'
+import sys
+import tomllib
+
+with open(sys.argv[1], "rb") as handle:
+    metadata = tomllib.load(handle)
+assert metadata["download"]["hash-format"] == "sha256", "Expected a SHA-256 updater hash"
+print(metadata["filename"])
+print(metadata["download"]["url"])
+print(metadata["download"]["hash"])
+PY
+)
+if [[ ${#packupdater_metadata[@]} != 3 ]]; then
+    echo "Unable to read PackUpdater metadata" >&2
+    exit 1
+fi
+packupdater_file=${packupdater_metadata[0]}
+packupdater_url=${packupdater_metadata[1]}
+packupdater_sha256=${packupdater_metadata[2]}
 curl --fail --location --silent --show-error \
     "$packupdater_url" \
     --output "$stage/minecraft/mods/$packupdater_file"
