@@ -593,6 +593,11 @@ hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
 
 [[files]]
+file = "mods/bits-n-tracks-ce.pw.toml"
+hash = "7e0d875058e27536ffb0928f4c6b93fc569febf5f270290b625bc8cb64d95bfb"
+metafile = true
+
+[[files]]
 file = "mods/byte.pw.toml"
 hash = "919deaa10fc414f61ffe85af18100cbd169e1535b6a822eddb18ed19b5cbacf2"
 metafile = true
