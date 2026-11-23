@@ -1073,6 +1073,11 @@ hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
 metafile = true
 
 [[files]]
+file = "mods/loconautics.pw.toml"
+hash = "b7527fe9fc9a17bd0026b38de03cf959afcd4c619694f8cfe35103e3e265ddb4"
+metafile = true
+
+[[files]]
 file = "mods/log-begone.pw.toml"
 hash = "48bd525ac1cd8811759a7842548a49e51bd25455b8044f99a423d464987dfdc0"
 metafile = true
