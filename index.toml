@@ -549,12 +549,12 @@ metafile = true
 
 [[files]]
 file = "mods/aero-player-tilt.pw.toml"
-hash = "9be4cf0dc8116bf8831aa36444a691db9f7a64755cccad1a8b1b391c966f6dc5"
+hash = "8ae6e03ca3c99f4c8f6037d65355dcbc0ffe5a27246815e9f9816dab2b6e6486"
 metafile = true
 
 [[files]]
 file = "mods/aero_cam_sync.pw.toml"
-hash = "e01afa122b303df982c161a43f4f281679aad17d280c05b1f15bc47f212a4bec"
+hash = "38893f4cc94a8275e6bb6209f6ae9ce7b4f6ba3582490677d3f5911c8ae85283"
 metafile = true
 
 [[files]]
@@ -1424,7 +1424,7 @@ metafile = true
 
 [[files]]
 file = "optional-groups.toml"
-hash = "835afd2994060d9d2da54c60369dd41944800dfaf6d6ee27164d9a64f692555e"
+hash = "c485904b555968caae68f69fe9283aace7956380327818f4ad92fd4ef9d18844"
 
 [[files]]
 file = "options.txt"

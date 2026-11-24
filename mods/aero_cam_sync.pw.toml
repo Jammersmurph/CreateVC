@@ -12,7 +12,7 @@ hash = "0af37dcf2d90c262858d07861243c0800a2aa72254a18eacf093de9a07cdaa5a51f9cfd9
 mod-id = "ZGxtWu73"
 version = "UbgVQ0qd"
 
-[option]
-optional = true
-default = true
-description = "Rotates your camera to the tilt of Sub-Levels for a more immersive experience."
+#[option]
+#optional = true
+#default = true
+#description = "Rotates your camera to the tilt of Sub-Levels for a more immersive experience."
