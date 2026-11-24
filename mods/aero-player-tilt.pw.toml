@@ -12,7 +12,7 @@ hash = "3f7b8cad70e25b381371bc44a02dd8b3487b57d90e0fc43c023dfc1a3b1f084a8bc2f76e
 mod-id = "R8r1wiW4"
 version = "8Os4kH9H"
 
-[option]
-optional = true
-default = true
-description = "Addon for Aeronautics Camera Sync that tilts your player with the camera."
+#[option]
+#optional = true
+#default = true
+#description = "Addon for Aeronautics Camera Sync that tilts your player with the camera."

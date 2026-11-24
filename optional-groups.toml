@@ -25,8 +25,6 @@ mods = [
     "mods/iris-veil-compat.pw.toml",
     "mods/createbetterfps.pw.toml",
     "mods/lambdynamiclights.pw.toml",
-    "mods/aero_cam_sync.pw.toml",
-    "mods/aero-player-tilt.pw.toml",
 ]
 
 [[groups]]
