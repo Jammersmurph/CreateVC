@@ -1697,11 +1697,6 @@ hash = "5e6090ced6289a87b9672f669d99941d55774da1a5c545a8c5afdd391b9caf0d"
 metafile = true
 
 [[files]]
-file = "mods/sable-aabb-fix.pw.toml"
-hash = "a8ad7b48a29c70861d99e9be8c6511768815c4bc503cb64daad8f780548e77c8"
-metafile = true
-
-[[files]]
 file = "mods/sable-cleanup.pw.toml"
 hash = "4af6d85f4b2030e6e5edec34d65cf490a8c82f9d46631546bd5cb18c4ea16b6a"
 metafile = true
