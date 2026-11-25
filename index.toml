@@ -187,6 +187,10 @@ file = "config/fancymenu/assets/planetminecraft_logo.png"
 hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
 
 [[files]]
+file = "config/fancymenu/assets/relaxing-minecraft-christmas-music.wav"
+hash = "55a4e01c41e2e1c4cb490694deda94f3dd5e9f2e6b0d8cdfe335ed1e7424a923"
+
+[[files]]
 file = "config/fancymenu/assets/server-icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
@@ -213,6 +217,10 @@ hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
 [[files]]
 file = "config/fancymenu/customization/cvc_store_layout.txt"
 hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
+
+[[files]]
+file = "config/fancymenu/customization/holiday/winter.txt"
+hash = "15fae819b0c8f91e6a728ede41c783d98eacf135149bb20353b0bb7db3d3d628"
 
 [[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
@@ -260,11 +268,11 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "ad5a3d53a5b3c06d333fe3a20d940677a168f9f3dc9dadf7f0fce1e5c71f7181"
+hash = "fd26c9fdb319f52ee2940169bc16d34365ba1608776404216317db4a5cd9f713"
 
 [[files]]
 file = "config/fancymenu/profile.json"
-hash = "305d0f7410afdb104e34a8845109630ec07a78f801f86eff8c8805f727b36dff"
+hash = "5d668838d8c1575bcee3e14a80f6b5231245b3707298cb24cc71bc75dd6a8172"
 
 [[files]]
 file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/blank_blueprint.png"
