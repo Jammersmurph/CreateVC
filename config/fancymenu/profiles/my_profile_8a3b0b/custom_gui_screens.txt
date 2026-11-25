@@ -1,0 +1,71 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = createvc_claim_shop
+  title = CreateVC Bonus Shop
+  allow_esc = true
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = cvc_store
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = true
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = rinku_createvc.org
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = true
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = vote
+  title = Vote for CreateVC!
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = rinku_cms
+  title = CreateModServers Rinku Pop-Up
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = true
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = rinku_mcip
+  title = PlanetMineCraft Rinku Pop-Up
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = true
+  popup_mode_background_overlay = true
+}
+

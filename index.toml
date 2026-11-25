@@ -187,6 +187,10 @@ file = "config/fancymenu/assets/planetminecraft_logo.png"
 hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
 
 [[files]]
+file = "config/fancymenu/assets/relaxing-minecraft-christmas-music.wav"
+hash = "55a4e01c41e2e1c4cb490694deda94f3dd5e9f2e6b0d8cdfe335ed1e7424a923"
+
+[[files]]
 file = "config/fancymenu/assets/server-icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
@@ -200,7 +204,7 @@ hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "98deab53227aacc34e7d88cc989332e54037f11e8bfd1c109308e23ae9f11b04"
+hash = "e50de72d4344f4238c76e160b022d809ee89592fd0509a946f8ac15445027c58"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -215,16 +219,24 @@ file = "config/fancymenu/customization/cvc_store_layout.txt"
 hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
 
 [[files]]
+file = "config/fancymenu/customization/holiday/winter.txt"
+hash = "15fae819b0c8f91e6a728ede41c783d98eacf135149bb20353b0bb7db3d3d628"
+
+[[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
 hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "5f959cee3c9edb39687005f98aa29012ed7859059c04cccc60c0dc01cd5b54be"
+hash = "60217d0e1f8702d7bb88260647f4a49e7433092cc295a34b5afe46728587cfc9"
 
 [[files]]
 file = "config/fancymenu/customization/rinku_cms_layout.txt"
 hash = "c888252e218470e9304dcd9b239b4e8721eb3aafb5b5716ada740e70ef5cb201"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_createvc.org_layout.txt"
+hash = "ef702339965de5a18bc54e39ada08bbff444e0c9f8f19f1d2418a999a1176d29"
 
 [[files]]
 file = "config/fancymenu/customization/rinku_mcip_layout.txt"
@@ -236,7 +248,7 @@ hash = "4b3a5eba395286c4143e9d1027a8dbef2a685514e67f34ebd8ede570792427c9"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "d5f85aa0f6b5ab1505e3549fe5356dfac5658c83e5a6f4b7e06e648bbf2f8c6e"
+hash = "c0416a8141b62002c7e84633d0d8fe6f949579c2ec21864336d11ac3abe4f0f5"
 
 [[files]]
 file = "config/fancymenu/customization/vote_layout.txt"
@@ -248,7 +260,7 @@ hash = "fef3758cda7dc5750140b4cd50b3c9ca5438d3286dc478c02a70174bff2c4682"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "111750fed68081a4952d79a28d419edfad1b92e6e16f2bd8a49b29e82afe58db"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -256,7 +268,427 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "e2d024d2611636c80cbc82e8638d99f50668a7ef93317a94bd40044912e03e8a"
+hash = "a72d801c7f68c3009709e9e231efacf520dc5251e3b7011f23597418e2524a8d"
+
+[[files]]
+file = "config/fancymenu/profile.json"
+hash = "5d668838d8c1575bcee3e14a80f6b5231245b3707298cb24cc71bc75dd6a8172"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/blank_blueprint.png"
+hash = "fa480747c900e6862ffbae706245a41ea01dc8a0756e54b7fbdbc134dcf3ebf3"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createmod.com-low.png"
+hash = "a0db591c27fe0a1f5a861f5b533ed43a35a2a134a890420d3265f877128cd6fb"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createmod.com.webp"
+hash = "0a5b06b472e5f26424185913c315e4e96fa7b7462e52923701283cc4f6e5dff8"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc-banner-text.png"
+hash = "c9ee90b1a19c4dacf7e99df15f63171cccb04428619a0170406cb23becfb1841"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc-smp-logo.png"
+hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_logo.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_logo_v2.png"
+hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_smp.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_smp_logo_v3.png"
+hash = "3a17b58121cbbfcd77759731adf713a4d209b17b007066bf9de04a550ae7f9d9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_smp_v2.png"
+hash = "336a4b5dd515bbd5bed942e62176c26c6cc96d64d81439ace86333d5331fbb60"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_smp_v3-high.png"
+hash = "7ac8fcd8435a97defcb5a11c0b1eced776220778c45e980df2137ed40c5c7d15"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/createvc_smp_v3.png"
+hash = "467cff7d611caf9f715558f34aa041ed7a4f0904f0337de1f8c7bf0fbeac3988"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/cvc_animated.gif"
+hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/discord-icon.png"
+hash = "b7f32f78ea09dc3607a7228018aed73340b96e28dce42edbee71d6204755d6ad"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/mcip-logo-low.png"
+hash = "645824b44d3a6710714ce9c1621b448a821809071bf21bb41b885c930d4b7ad5"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/mcip-logo.svg"
+hash = "fe28b0a10f31b968832c11f6ffd0e394605ce7d26763d7caf988441072fb9cce"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/minecraftjava.jpg"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/new-createvc-banner-text.png"
+hash = "1996ff7cd69fc9795536a11cc695474bbb8efd48b53a3389f9d2ea14a59b65c7"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/new-logo.png"
+hash = "d291947cecf1c73918e43f3743792cfd065ed4862444a9006383dd0d83ba5b48"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/planetminecraft_logo-low.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/planetminecraft_logo.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/server-icon.png"
+hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/wrench_blueprint-high.png"
+hash = "87ee0b98ce2246fdb985c20eb51cc43dc480639bdf60f30788524fbf48a3869d"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/assets/wrench_blueprint.png"
+hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/custom_gui_screens.txt"
+hash = "e50de72d4344f4238c76e160b022d809ee89592fd0509a946f8ac15445027c58"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customizablemenus.txt"
+hash = "81e9e606624f5c40796d61d754ff423d2c72fe07b5a498b86fb2da86b1971ac1"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/createvc_claim_shop_layout.txt"
+hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/cvc_store_layout.txt"
+hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/join_multiplayer_screen_layout.txt"
+hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/pause_screen_layout.txt"
+hash = "60217d0e1f8702d7bb88260647f4a49e7433092cc295a34b5afe46728587cfc9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/rinku_cms_layout.txt"
+hash = "c888252e218470e9304dcd9b239b4e8721eb3aafb5b5716ada740e70ef5cb201"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/rinku_createvc.org_layout.txt"
+hash = "ef702339965de5a18bc54e39ada08bbff444e0c9f8f19f1d2418a999a1176d29"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/rinku_mcip_layout.txt"
+hash = "a3ed738e28eb0e20b55ea9e031bbe9d643821d6c431bf1efc123f66c1134f0e2"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/rinku_pmc_layout.txt"
+hash = "4b3a5eba395286c4143e9d1027a8dbef2a685514e67f34ebd8ede570792427c9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/title_screen_layout.txt"
+hash = "c0416a8141b62002c7e84633d0d8fe6f949579c2ec21864336d11ac3abe4f0f5"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/vote_layout.txt"
+hash = "ef701c165252f3971d4493958f325e4e267133f15078f330aaa46173c3c834ad"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/customization/xaero.pac.client.gui.mainmenu_layout.txt"
+hash = "fef3758cda7dc5750140b4cd50b3c9ca5438d3286dc478c02a70174bff2c4682"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/layout_editor/widgets/element_layer_control.lewidget"
+hash = "111750fed68081a4952d79a28d419edfad1b92e6e16f2bd8a49b29e82afe58db"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/options.txt"
+hash = "d1b083238ba3797f1f2fef6244a06e3ad8af377d86e9536c1b0d51f8c06b27ff"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/profile.json"
+hash = "305d0f7410afdb104e34a8845109630ec07a78f801f86eff8c8805f727b36dff"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/dark.json"
+hash = "ca080a805352af88f9cb67dd3e1714a0492d225bc3d69bab09be2285c8d84fe3"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_8a3b0b/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/blank_blueprint.png"
+hash = "fa480747c900e6862ffbae706245a41ea01dc8a0756e54b7fbdbc134dcf3ebf3"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createmod.com-low.png"
+hash = "a0db591c27fe0a1f5a861f5b533ed43a35a2a134a890420d3265f877128cd6fb"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createmod.com.webp"
+hash = "0a5b06b472e5f26424185913c315e4e96fa7b7462e52923701283cc4f6e5dff8"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc-banner-text.png"
+hash = "c9ee90b1a19c4dacf7e99df15f63171cccb04428619a0170406cb23becfb1841"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc-smp-logo.png"
+hash = "29bd43538614162ccb57d83ef21567334f933fc687ab6564c0d592d249cac5c1"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_logo.png"
+hash = "c76a49ab27584564eb4e830cab36429b59394b4897edbe3b344e1f221de9ffb9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_logo_v2.png"
+hash = "21a8059d1b618d44cade36a2e0e12b3a9b2f1675bc004b079967cff8530cad14"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_smp.png"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_smp_logo_v3.png"
+hash = "3a17b58121cbbfcd77759731adf713a4d209b17b007066bf9de04a550ae7f9d9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_smp_v2.png"
+hash = "336a4b5dd515bbd5bed942e62176c26c6cc96d64d81439ace86333d5331fbb60"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_smp_v3-high.png"
+hash = "7ac8fcd8435a97defcb5a11c0b1eced776220778c45e980df2137ed40c5c7d15"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/createvc_smp_v3.png"
+hash = "467cff7d611caf9f715558f34aa041ed7a4f0904f0337de1f8c7bf0fbeac3988"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/cvc_animated.gif"
+hash = "9c9dfa425f2f2b5685551151da5f03791a836499710e610cba98b1de6802445b"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/discord-icon.png"
+hash = "b7f32f78ea09dc3607a7228018aed73340b96e28dce42edbee71d6204755d6ad"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/mcip-logo-low.png"
+hash = "645824b44d3a6710714ce9c1621b448a821809071bf21bb41b885c930d4b7ad5"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/mcip-logo.svg"
+hash = "fe28b0a10f31b968832c11f6ffd0e394605ce7d26763d7caf988441072fb9cce"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/minecraftjava.jpg"
+hash = "6fffb639f5468ca20b257c80435b41aeb7731f7d8a7c199b35cc33cf759f3a28"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/new-createvc-banner-text.png"
+hash = "1996ff7cd69fc9795536a11cc695474bbb8efd48b53a3389f9d2ea14a59b65c7"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/new-logo.png"
+hash = "d291947cecf1c73918e43f3743792cfd065ed4862444a9006383dd0d83ba5b48"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/planetminecraft_logo-low.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/planetminecraft_logo.png"
+hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/relaxing-minecraft-christmas-music.wav"
+hash = "55a4e01c41e2e1c4cb490694deda94f3dd5e9f2e6b0d8cdfe335ed1e7424a923"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/server-icon.png"
+hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/wrench_blueprint-high.png"
+hash = "87ee0b98ce2246fdb985c20eb51cc43dc480639bdf60f30788524fbf48a3869d"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/assets/wrench_blueprint.png"
+hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/custom_gui_screens.txt"
+hash = "e50de72d4344f4238c76e160b022d809ee89592fd0509a946f8ac15445027c58"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customizablemenus.txt"
+hash = "81e9e606624f5c40796d61d754ff423d2c72fe07b5a498b86fb2da86b1971ac1"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/createvc_claim_shop_layout.txt"
+hash = "f5dcc0d0580bb85d3a2a44164ad2b5ccbd117b3615e91eb66618db9543e46655"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/cvc_store_layout.txt"
+hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/holiday/winter.txt"
+hash = "15fae819b0c8f91e6a728ede41c783d98eacf135149bb20353b0bb7db3d3d628"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/join_multiplayer_screen_layout.txt"
+hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/pause_screen_layout.txt"
+hash = "60217d0e1f8702d7bb88260647f4a49e7433092cc295a34b5afe46728587cfc9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/rinku_cms_layout.txt"
+hash = "c888252e218470e9304dcd9b239b4e8721eb3aafb5b5716ada740e70ef5cb201"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/rinku_createvc.org_layout.txt"
+hash = "ef702339965de5a18bc54e39ada08bbff444e0c9f8f19f1d2418a999a1176d29"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/rinku_mcip_layout.txt"
+hash = "a3ed738e28eb0e20b55ea9e031bbe9d643821d6c431bf1efc123f66c1134f0e2"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/rinku_pmc_layout.txt"
+hash = "4b3a5eba395286c4143e9d1027a8dbef2a685514e67f34ebd8ede570792427c9"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/title_screen_layout.txt"
+hash = "c0416a8141b62002c7e84633d0d8fe6f949579c2ec21864336d11ac3abe4f0f5"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/vote_layout.txt"
+hash = "ef701c165252f3971d4493958f325e4e267133f15078f330aaa46173c3c834ad"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/customization/xaero.pac.client.gui.mainmenu_layout.txt"
+hash = "fef3758cda7dc5750140b4cd50b3c9ca5438d3286dc478c02a70174bff2c4682"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/layout_editor/widgets/element_layer_control.lewidget"
+hash = "111750fed68081a4952d79a28d419edfad1b92e6e16f2bd8a49b29e82afe58db"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/options.txt"
+hash = "a72d801c7f68c3009709e9e231efacf520dc5251e3b7011f23597418e2524a8d"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/profile.json"
+hash = "5d668838d8c1575bcee3e14a80f6b5231245b3707298cb24cc71bc75dd6a8172"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/dark.json"
+hash = "ca080a805352af88f9cb67dd3e1714a0492d225bc3d69bab09be2285c8d84fe3"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/profiles/my_profile_copy_0c078f/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -268,7 +700,7 @@ hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+hash = "ca080a805352af88f9cb67dd3e1714a0492d225bc3d69bab09be2285c8d84fe3"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark_high_contrast.json"
