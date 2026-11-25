@@ -187,6 +187,10 @@ file = "config/fancymenu/assets/planetminecraft_logo.png"
 hash = "208c2c61a4ba1f09e1277ffbda2f404436d6d927473d88372a880d0d38fa6744"
 
 [[files]]
+file = "config/fancymenu/assets/relaxing-minecraft-christmas-music.wav"
+hash = "55a4e01c41e2e1c4cb490694deda94f3dd5e9f2e6b0d8cdfe335ed1e7424a923"
+
+[[files]]
 file = "config/fancymenu/assets/server-icon.png"
 hash = "49319633b594c9f5a497b6c4124f823888b07143bab6ee3cbef92a4738f8ec72"
 
@@ -200,7 +204,7 @@ hash = "d5e3bc951b2e69c45315f46dcde8647b46b5e556fba9a7aa06ce9c90addc6241"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "98deab53227aacc34e7d88cc989332e54037f11e8bfd1c109308e23ae9f11b04"
+hash = "e50de72d4344f4238c76e160b022d809ee89592fd0509a946f8ac15445027c58"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -215,16 +219,24 @@ file = "config/fancymenu/customization/cvc_store_layout.txt"
 hash = "1fa0848f4b4bf17efa7acc2014554aa2ca257ac1aad6e009137db82d027e94af"
 
 [[files]]
+file = "config/fancymenu/customization/holiday/winter.txt"
+hash = "15fae819b0c8f91e6a728ede41c783d98eacf135149bb20353b0bb7db3d3d628"
+
+[[files]]
 file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
 hash = "0780da9d4f39aa190e1b00ae37c6c55eff139ec1d3d30a0b496df5f417477ab8"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "5f959cee3c9edb39687005f98aa29012ed7859059c04cccc60c0dc01cd5b54be"
+hash = "60217d0e1f8702d7bb88260647f4a49e7433092cc295a34b5afe46728587cfc9"
 
 [[files]]
 file = "config/fancymenu/customization/rinku_cms_layout.txt"
 hash = "c888252e218470e9304dcd9b239b4e8721eb3aafb5b5716ada740e70ef5cb201"
+
+[[files]]
+file = "config/fancymenu/customization/rinku_createvc.org_layout.txt"
+hash = "ef702339965de5a18bc54e39ada08bbff444e0c9f8f19f1d2418a999a1176d29"
 
 [[files]]
 file = "config/fancymenu/customization/rinku_mcip_layout.txt"
@@ -236,7 +248,7 @@ hash = "4b3a5eba395286c4143e9d1027a8dbef2a685514e67f34ebd8ede570792427c9"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "d5f85aa0f6b5ab1505e3549fe5356dfac5658c83e5a6f4b7e06e648bbf2f8c6e"
+hash = "c0416a8141b62002c7e84633d0d8fe6f949579c2ec21864336d11ac3abe4f0f5"
 
 [[files]]
 file = "config/fancymenu/customization/vote_layout.txt"
@@ -248,7 +260,7 @@ hash = "fef3758cda7dc5750140b4cd50b3c9ca5438d3286dc478c02a70174bff2c4682"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "111750fed68081a4952d79a28d419edfad1b92e6e16f2bd8a49b29e82afe58db"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -256,7 +268,11 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "e2d024d2611636c80cbc82e8638d99f50668a7ef93317a94bd40044912e03e8a"
+hash = "fd26c9fdb319f52ee2940169bc16d34365ba1608776404216317db4a5cd9f713"
+
+[[files]]
+file = "config/fancymenu/profile.json"
+hash = "5d668838d8c1575bcee3e14a80f6b5231245b3707298cb24cc71bc75dd6a8172"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -268,7 +284,7 @@ hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+hash = "ca080a805352af88f9cb67dd3e1714a0492d225bc3d69bab09be2285c8d84fe3"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark_high_contrast.json"
