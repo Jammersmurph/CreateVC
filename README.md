@@ -25,7 +25,7 @@ curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/Cr
 > curl -L -O "https://github.com/Jammersmurph/CreateVC/releases/latest/download/CreateVC-Light.zip"
 > ```
 
-### [Download from Modrinth](https://modrinth.com/server/createvc-server)
+### [Download from Modrinth](https://modrinth.com/modpack/create-vc)
 
 ## Development builds
 
