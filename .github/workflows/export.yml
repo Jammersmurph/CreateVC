@@ -65,6 +65,9 @@ jobs:
           python3 .github/scripts/test_optional_metadata.py
           python3 .github/scripts/validate-optional-metadata.py
 
+      - name: Test Modrinth server linking
+        run: python3 .github/scripts/test_modrinth_server.py
+
       - name: Exclude updater-managed files from Modrinth export
         run: |
           mkdir -p /tmp/createvc-export-excluded
@@ -229,24 +232,25 @@ jobs:
           fi
           echo "Override mods check passed."
 
-      - name: Upload to Modrinth & set server pack version
-        continue-on-error: true
+      - name: Upload to Modrinth
+        id: modrinth
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           VERSION: ${{ steps.version.outputs.version }}
         run: |
-          RESPONSE=$(curl -s -X POST https://api.modrinth.com/v2/version \
+          RESPONSE=$(curl --fail-with-body --silent --show-error -X POST https://api.modrinth.com/v2/version \
             -H "Authorization: $MODRINTH_TOKEN" \
             -F "data={\"name\":\"$VERSION\",\"version_number\":\"$VERSION\",\"dependencies\":[],\"game_versions\":[\"1.21.1\"],\"version_type\":\"release\",\"loaders\":[\"neoforge\"],\"featured\":true,\"status\":\"listed\",\"project_id\":\"kGXXdcTa\",\"file_parts\":[\"file\"]};type=application/json" \
             -F "file=@CreateVC.mrpack")
           echo "Upload response: $RESPONSE"
-          VERSION_ID=$(echo "$RESPONSE" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['id'])" 2>/dev/null || true)
-          if [ -n "$VERSION_ID" ]; then
-            curl -s -X PATCH "https://api.modrinth.com/v3/project/kGXXdcTa" \
-              -H "Authorization: $MODRINTH_TOKEN" \
-              -H "Content-Type: application/json" \
-              -d "{\"minecraft_java_server\":{\"content\":{\"kind\":\"modpack\",\"version_id\":\"$VERSION_ID\"}}}"
-          fi
+          VERSION_ID=$(echo "$RESPONSE" | jq -er '.id | strings | select(length > 0)')
+          echo "version_id=$VERSION_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Update server listing to published modpack
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          VERSION_ID: ${{ steps.modrinth.outputs.version_id }}
+        run: python3 .github/scripts/update-modrinth-server.py
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
