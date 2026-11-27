@@ -1002,6 +1002,11 @@ hash = "21347d7f9c96cebacb7238dbef2670e2906a11572606016c8184e9485947dacc"
 metafile = true
 
 [[files]]
+file = "mods/astronautics.pw.toml"
+hash = "5d641d2a3c1ceed4550870c602c3de96d1f60c81b8f239f4c54be6b7d43d0da5"
+metafile = true
+
+[[files]]
 file = "mods/azimuth-api.pw.toml"
 hash = "a14aa30b199bcc4fb3b382327be7cabb22ce03d8e780f68c3b8307136f0589d7"
 metafile = true
@@ -1154,11 +1159,6 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "6ac362d60bc8b13e03a5b6b9cdf9c7676f65d3e89e87c66f18514e7ee164cdb0"
-metafile = true
-
-[[files]]
-file = "mods/create-cosmonautics.pw.toml"
-hash = "ba0a503a65bc2a938f639d49debd09e1dd0fcdcb33795b6c6558e55527e529b5"
 metafile = true
 
 [[files]]

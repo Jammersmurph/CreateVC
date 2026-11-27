@@ -1,0 +1,13 @@
+name = "Astronautics"
+filename = "astronautics-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TD1MS21Z/versions/zRMIlGwx/astronautics-0.2.2.jar"
+hash-format = "sha512"
+hash = "77b3feadb613f516c2b64fd6d956ac7482128600e304b2a3ed2e5b72efa59e3603a8100fdc4f060559d51ae8b9de5a01235d0c88e3016f09d43c750db3ffedd5"
+
+[update]
+[update.modrinth]
+mod-id = "TD1MS21Z"
+version = "zRMIlGwx"
